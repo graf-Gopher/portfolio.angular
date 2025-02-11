@@ -1,0 +1,72 @@
+/* To learn more about Typescript configuration file: https://www.typescriptlang.org/docs/handbook/tsconfig-json.html. */
+/* To learn more about Angular compiler options: https://angular.dev/reference/configs/angular-compiler-options. */
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "outDir": "./dist/out-tsc",
+    "strict": true,
+    "noImplicitOverride": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "skipLibCheck": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "bundler",
+    "importHelpers": true,
+    "target": "ES2022",
+    "module": "ES2022",
+    "baseUrl": "./",
+    "paths": {
+      "@root/*": [
+        "*"
+      ],
+      "@app/*": [
+        "src/app/*"
+      ],
+      "@interfaces/*": [
+        "src/interfaces/*"
+      ],
+      "@services/*": [
+        "src/services/*"
+      ],
+      "@images/*": [
+        "src/assets/images/*"
+      ],
+      "@fonts/*": [
+        "src/assets/fonts/*"
+      ],
+      "@models/*": [
+        "src/interfaces/models/*"
+      ],
+      "@shared/*": [
+        "src/app/shared/*"
+      ],
+      "@pages/*": [
+        "src/app/pages/*"
+      ],
+      "@constantes/*": [
+        "src/constantes/*"
+      ],
+      "@admin/*": [
+        "src/app/pages/admin/*"
+      ],
+      "@site/*": [
+        "src/app/pages/site/*"
+      ],
+      "@cabinet/*": [
+        "src/app/pages/cabinet/*"
+      ],
+      "@environments/*": [
+        "src/environments/*"
+      ],
+    },
+  },
+  "angularCompilerOptions": {
+    "enableI18nLegacyMessageIdFormat": false,
+    "strictInjectionParameters": true,
+    "strictInputAccessModifiers": true,
+    "strictTemplates": true
+  }
+}

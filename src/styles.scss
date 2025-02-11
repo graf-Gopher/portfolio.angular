@@ -1,0 +1,81 @@
+@use "@angular/material" as mat;
+@import "./styles/_constants.scss";
+
+@import "node_modules/ngx-ute-core/assets/resize.scss";
+/* Place for changed variables*/
+// $body-font-mob: 16px; // width < 800px portrait
+// $body-font-pas: 10px; // width < 1100px landscape OR width < 900px portrait
+// $body-font-pad: 12px; // width < 1100px portrait
+// $body-font-hd: 12px; // width < 1400px landscape
+// $body-font-hdp: 14px; // width < 1700px landscape OR height < 900px width < 2500px
+// $body-font-fhd: 16px; // width < 2000px landscape OR height < 1100px width < 3000px
+// $body-font-two: 16px; // width < 2600px landscape OR height < 1500px width < 3500px
+// $body-font-four: 18px; // width < 4000px landscape OR height < 2200px width < 5200px
+// $body-font-else: 20px; // width > 4000px landscape
+@include resize-styles;
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    color-scheme: light dark;
+    @include mat.theme(
+        (
+            color: mat.$violet-palette,
+            // typography: Roboto,
+            density: 0,
+        )
+    );
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-black);
+}
+
+body,
+html,
+input,
+textarea,
+select,
+button,
+label,
+ul,
+li,
+div,
+h1,
+h2,
+h3,
+h4,
+span {
+    font-family: Calibri, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--color-black);
+}
+
+// ScrollBar //
+::-webkit-scrollbar {
+    width: 16px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--icon-brown);
+    border-radius: 8px;
+    border: 5px solid transparent;
+    background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--icon-gray);
+    border-radius: 8px;
+    border: 5px solid transparent;
+    background-clip: content-box;
+}
+
+// ===== //

@@ -1,0 +1,27 @@
+header {
+    .header-container {
+        display: flex;
+        width: 100%;
+        min-height: 4.5rem;
+        padding: 0 5rem;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid black;
+        .menu {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            a {
+                .item {
+                }
+            }
+        }
+
+        .control {
+            a {
+                .item {
+                }
+            }
+        }
+    }
+}
