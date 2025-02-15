@@ -1,1 +1,27 @@
-<footer id="footer" class="footer">footer</footer>
+<footer id="footer" class="footer">
+    <div class="footer-container">
+        <img class="logo" src="https://cdn.prod.website-files.com/624380709031623bfe4aee60/668b2b16e18e604c50a1362c_Logo-wide.svg" alt="" loading="lazy" />
+        <div class="menu">
+            <a routerLink="/">
+                <div class="item">{{ 'home' | lang }}</div>
+            </a>
+            <a routerLink="/projects">
+                <div class="item">{{ 'projects' | lang }}</div>
+            </a>
+            <a routerLink="/skills">
+                <div class="item">{{ 'skills' | lang }}</div>
+            </a>
+            <a routerLink="/contacts">
+                <div class="item">{{ 'contacts' | lang }}</div>
+            </a>
+        </div>
+        <div class="info">
+            <div class="copy-block">© 2024 Your Company. All rights reserved.</div>
+            <div class="links-block">
+                <a>Privacy Policy</a>
+                <a>Terms of Service</a>
+                <a>Cookie Policy</a>
+            </div>
+        </div>
+    </div>
+</footer>

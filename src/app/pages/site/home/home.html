@@ -1,1 +1,79 @@
 <app-site-header></app-site-header>
+
+<section class="home-title-section">
+    <div class="padding-block">
+        <div class="content-block">
+            <div class="content">
+                <h1 class="title">Showcase Your Web Development Skills Effortlessly</h1>
+                <p class="text">
+                    Create a stunning portfolio website that highlights your web development projects and skills. With a clean design and smooth navigation, impress potential clients and employers
+                    with your professional presence online.
+                </p>
+                <div class="buttons-block">
+                    <a class="button">Get Started</a>
+                    <a class="button">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <div class="images-block">
+            @for(image of images; track image){
+            <img class="{{$index % 2 === 0 ? 'small' : 'big'}} {{$index < 2 ? 'left' : 'right'}}" loading="lazy" alt="" src="{{image}}" />
+            }
+        </div>
+    </div>
+</section>
+
+<section class="home-skills-section">
+    <div class="padding-block">
+        <div class="content-block">
+            <div class="content">
+                <h2 class="title">Medium length section heading goes here</h2>
+                <p class="text">Discover the innovative web development projects I've created. Click below to see more!</p>
+                <div class="buttons-block">
+                    <a class="button">View</a>
+                    <a class="button">Contact<mat-icon>chevron_right</mat-icon></a>
+                </div>
+            </div>
+        </div>
+        <div class="skills-block">
+            @for(skill of skills; track skill){
+            <div class="skill-item">
+                <img src="{{skill.image}}" alt="" loading="lazy" />
+                <p class="skill-name">{{skill.name}}</p>
+            </div>
+            }
+        </div>
+    </div>
+</section>
+
+<section class="home-projects-section">
+    <div class="padding-block">
+        <div class="content-block">
+            <div class="content">
+                <h2 class="title">Empowering Your Digital Presence with Expertise</h2>
+                <p class="text">I specialize in creating dynamic and responsive web applications. My skills span across various technologies to bring your ideas to life.</p>
+                <div class="buttons-block">
+                    <a class="button">Learn More</a>
+                    <a class="button">Contact<mat-icon>chevron_right</mat-icon></a>
+                </div>
+            </div>
+        </div>
+        <div class="timeline-block">
+            @for(project of projects; track project){
+            <a class="timeline-item">
+                <img src="{{project.image}}" alt="" loading="lazy" />
+                <div class="timeline">
+                    <div class="circle"></div>
+                    <div class="line"></div>
+                </div>
+                <div class="text-block">
+                    <h3>{{project.name}}</h3>
+                    <p>{{project.description}}</p>
+                </div>
+            </a>
+            }
+        </div>
+    </div>
+</section>
+
+<app-site-footer></app-site-footer>

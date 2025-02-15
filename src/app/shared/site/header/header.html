@@ -1,20 +1,22 @@
-<header>
+<header id="header" class="header">
     <div class="header-container">
         <div class="menu">
-            <a mat-button routerLink="/">
+            <a routerLink="/">
                 <div class="item">{{ 'home' | lang }}</div>
             </a>
-            <a mat-button routerLink="/projects">
+            <a routerLink="/projects">
                 <div class="item">{{ 'projects' | lang }}</div>
             </a>
-            <a mat-button routerLink="/skills">
+            <a routerLink="/skills">
                 <div class="item">{{ 'skills' | lang }}</div>
+            </a>
+            <a routerLink="/contacts">
+                <div class="item">{{ 'contacts' | lang }}</div>
             </a>
         </div>
         <div class="control">
-            <a mat-flat-button routerLink="/contacts">
-                <div class="item">{{ 'contacts' | lang }}</div>
-            </a>
+            <div class="lang-block"></div>
+            <div class="theme-block"></div>
         </div>
     </div>
 </header>

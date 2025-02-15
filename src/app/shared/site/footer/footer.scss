@@ -1,0 +1,48 @@
+.footer {
+    max-width: 81.25rem;
+    margin: 0 auto;
+    background-color: var(--color-back);
+    .footer-container {
+        padding: 5rem;
+        height: 100%;
+        position: relative;
+        box-sizing: border-box;
+        overflow: hidden;
+        .logo {
+            margin: 0 auto;
+            display: block;
+            margin-bottom: 2rem;
+            height: 2rem;
+        }
+        .menu {
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+            margin-bottom: 5rem;
+            a {
+                .item {
+                    font-size: var(--font-text);
+                    font-weight: bold;
+                    color: var(--color-white);
+                }
+            }
+        }
+        .info {
+            display: flex;
+            justify-content: space-between;
+            * {
+                font-size: var(--font-mini);
+                color: var(--color-white);
+            }
+            .links-block {
+                display: flex;
+                gap: 1rem;
+                a {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
