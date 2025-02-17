@@ -1,10 +1,17 @@
 @mixin constants() {
     :host,
     :root {
-        --color-white: #f5f5f5;
+        // --color-white: #f5f5f5;
+        --color-white: #ffffff;
         --color-black: #333333;
         --color-target: #365d82;
         --color-back: #728da7;
+
+        --color-gray: color-mix(in srgb, #060603, transparent 95%);
+        --color-dark: color-mix(in srgb, #060603, transparent 90%);
+
+        --color-target-light: #365d82;
+        --color-target-dark: #2b4a68;
 
         // // --color-white: #ffffff;
         // --color-white: #fafafa;
