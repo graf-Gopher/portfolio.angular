@@ -10,4 +10,6 @@ import { LangPipe } from "ngx-ute-core";
     standalone: true,
     imports: [LangPipe, MatIconModule, RouterModule],
 })
-export class SiteFooter {}
+export class SiteFooter {
+    public year: string = new Date().getFullYear().toString();
+}

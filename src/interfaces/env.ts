@@ -1,3 +1,9 @@
 import { UteEnvironment } from "ngx-ute-core";
 
-export interface EnvironmentData extends UteEnvironment {}
+export interface EnvironmentData extends UteEnvironment {
+    session: SessionData;
+}
+
+interface SessionData {
+    locale: string;
+}

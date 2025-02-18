@@ -15,8 +15,21 @@
             </a>
         </div>
         <div class="control">
-            <div class="lang-block"></div>
-            <div class="theme-block"></div>
+            <div class="theme-block">
+                <input type="checkbox" class="checkbox" id="checkbox" (change)="changeTheme()" />
+                <label for="checkbox" class="checkbox-label">
+                    <mat-icon class="fas fa-sun">light_mode</mat-icon>
+                    <mat-icon class="fas fa-moon">dark_mode</mat-icon>
+                    <span class="ball"></span>
+                </label>
+            </div>
+            <div class="lang-block">
+                <button class="lang-list" [ngClass]="{open: menuOpen}" (click)="menuOpen = !menuOpen">
+                    @for(lang of langsList; track lang){
+                    <button class="lang" [ngClass]="{hide: lang.code !== currentLang}" (click)="changeLang(lang.code)">{{lang.name}}</button>
+                    }
+                </button>
+            </div>
         </div>
     </div>
 </header>

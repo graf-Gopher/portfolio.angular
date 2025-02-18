@@ -12,13 +12,21 @@
 // $body-font-four: 18px; // width < 4000px landscape OR height < 2200px width < 5200px
 // $body-font-else: 20px; // width > 4000px landscape
 @include resize-styles;
-@include constants.constants();
+
+body {
+    &.dark {
+        @include constants.constants(true);
+    }
+    &:not(.dark) {
+        @include constants.constants(false);
+    }
+}
 
 html,
 body {
     width: 100%;
     height: 100%;
-    background-color: var(--color-gray-white);
+    background-color: var(--color-back-invert);
 }
 
 a {
