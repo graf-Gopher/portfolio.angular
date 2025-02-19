@@ -2,11 +2,13 @@ import { Component } from "@angular/core";
 import { SiteHeader } from "../../../shared/site/header/header";
 import { MatIconModule } from "@angular/material/icon";
 import { SiteFooter } from "@root/src/app/shared/site/footer/footer";
+import { CoreService } from "ngx-ute-core";
+import { AsyncPipe } from "@angular/common";
 
 @Component({
     selector: "app-home",
     standalone: true,
-    imports: [SiteHeader, SiteFooter, MatIconModule],
+    imports: [SiteHeader, SiteFooter, MatIconModule, AsyncPipe],
     templateUrl: "./home.html",
     styleUrl: "./home.scss",
 })
@@ -54,4 +56,6 @@ export class HomePage {
             description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
         },
     ];
+
+    constructor(public readonly coreService: CoreService) {}
 }

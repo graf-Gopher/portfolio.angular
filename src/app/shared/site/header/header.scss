@@ -1,185 +1,390 @@
-header {
-    .header-container {
-        display: flex;
-        width: 100%;
-        min-height: 4.5rem;
-        padding: 0 5rem;
-        justify-content: space-between;
-        align-items: center;
-        max-width: 81.25rem;
-        margin: 0 auto;
-        position: relative;
-        background-color: var(--color-back-invert);
-        z-index: 100;
-        &:before {
-            content: "";
-            background-color: var(--color-back-blue-1);
-            width: 100%;
-            height: 1rem;
-            top: 0;
-            left: 0;
-            position: absolute;
-            border-radius: 0px 0px 16px 16px;
-            z-index: 3;
-        }
-        .menu {
+@media screen and (min-width: 800px) {
+    header {
+        .header-container {
             display: flex;
+            width: 100%;
+            min-height: 4.5rem;
+            padding: 0 5rem;
+            justify-content: space-between;
             align-items: center;
-            a {
-                &:nth-child(1) {
-                    transform: translate(0, -2rem);
-                }
-                &:nth-child(2) {
-                    transform: translate(-1rem, -0.5rem);
-                }
-                &:nth-child(3) {
-                    transform: translate(-2rem, -1.5rem);
-                }
-                &:nth-child(4) {
-                    transform: translate(-3rem, -2.5rem);
-                }
-                &:nth-child(even) {
-                    z-index: 1;
-                    .item {
-                        background-color: var(--color-button-gray-1);
-                    }
-                }
-                &:nth-child(odd) {
-                    z-index: 2;
-                    .item {
-                        background-color: var(--color-button-gray-2);
-                    }
-                }
-                transition: all 0.2s ease-in-out;
-                .item {
-                    padding: 2rem 2rem 1rem;
-                    padding-top: 4rem;
-                    border-radius: 0px 0px 8px 8px;
+            max-width: 81.25rem;
+            margin: 0 auto;
+            position: relative;
+            background-color: var(--color-back-invert);
+            z-index: 100;
+            &:before {
+                content: "";
+                background-color: var(--color-back-blue-1);
+                width: 100%;
+                height: 1rem;
+                top: 0;
+                left: 0;
+                position: absolute;
+                border-radius: 0px 0px 16px 16px;
+                z-index: 3;
+            }
+            .menu {
+                display: flex;
+                align-items: center;
+                a {
                     transition: all 0.2s ease-in-out;
-                    color: var(--color-font-invert);
-                    font-weight: bold;
-                }
-                &:hover {
                     &:nth-child(1) {
-                        transform: translate(0, 0);
+                        transform: translate(0, -2rem);
                     }
                     &:nth-child(2) {
-                        transform: translate(-1rem, 0);
+                        transform: translate(-1rem, -0.5rem);
                     }
                     &:nth-child(3) {
-                        transform: translate(-2rem, 0);
+                        transform: translate(-2rem, -1.5rem);
                     }
                     &:nth-child(4) {
-                        transform: translate(-3rem, 0);
+                        transform: translate(-3rem, -2.5rem);
+                    }
+                    &:nth-child(even) {
+                        z-index: 1;
+                        .item {
+                            background-color: var(--color-button-gray-1);
+                        }
+                    }
+                    &:nth-child(odd) {
+                        z-index: 2;
+                        .item {
+                            background-color: var(--color-button-gray-2);
+                        }
                     }
                     .item {
-                        background-color: var(--color-back-blue-2);
-                        color: var(--color-font-white);
+                        padding: 2rem 2rem 1rem;
+                        padding-top: 4rem;
+                        border-radius: 0px 0px 8px 8px;
+                        transition: all 0.2s ease-in-out;
+                        color: var(--color-font-invert);
+                        font-weight: bold;
+                    }
+                    &:hover {
+                        &:nth-child(1) {
+                            transform: translate(0, 0);
+                        }
+                        &:nth-child(2) {
+                            transform: translate(-1rem, 0);
+                        }
+                        &:nth-child(3) {
+                            transform: translate(-2rem, 0);
+                        }
+                        &:nth-child(4) {
+                            transform: translate(-3rem, 0);
+                        }
+                        .item {
+                            background-color: var(--color-back-blue-2);
+                            color: var(--color-font-white);
+                        }
+                    }
+                }
+            }
+
+            .control {
+                display: flex;
+                align-items: center;
+                gap: 3rem;
+                .lang-block {
+                    position: relative;
+                    width: 2rem;
+                    height: 1.5rem;
+                    .lang-list {
+                        overflow: hidden;
+                        border: none;
+                        background-color: transparent;
+                        height: fit-content;
+                        transition: all 0.2s ease-in-out;
+                        display: grid;
+                        grid-auto-columns: 1fr;
+                        grid-template-columns: 1fr;
+                        grid-template-rows: 0fr;
+                        &.open {
+                            grid-template-rows: 1fr;
+                            .lang.hide {
+                                max-height: 1.5rem;
+                            }
+                        }
+                        .lang {
+                            font-size: var(--font-label);
+                            font-weight: bold;
+                            transition: all 0.2s ease-in-out;
+                            background: none;
+                            border: none;
+                            overflow: hidden;
+                            display: block;
+                            color: var(--color-font-gray);
+                            &.hide {
+                                max-height: 0;
+                            }
+                            &:not(.hide) {
+                                min-height: 1.5rem;
+                                line-height: 1.5rem;
+                            }
+                            &:hover {
+                                cursor: pointer;
+                                color: var(--color-font-blue-2);
+                            }
+                        }
+                    }
+                }
+                .theme-block {
+                    &:hover {
+                        .checkbox-label {
+                            .fas {
+                                &.fa-moon {
+                                    color: var(--color-font-blue-1);
+                                }
+                                &.fa-sun {
+                                    color: var(--color-font-gold);
+                                }
+                            }
+                        }
+                    }
+                    .checkbox {
+                        opacity: 0;
+                        position: absolute;
+                        &:checked + .checkbox-label .ball {
+                            transform: translateX(1.75rem);
+                        }
+                    }
+                    .checkbox-label {
+                        background-color: var(--color-back-blue-3);
+                        height: 2rem;
+                        border-radius: 50px;
+                        position: relative;
+                        padding: 0.25rem;
+                        cursor: pointer;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        gap: 0.25rem;
+                        .fas {
+                            height: 1.5rem;
+                            aspect-ratio: 1;
+                            position: relative;
+                            transition: all 0.2s ease-in-out;
+                            color: var(--color-back-gray);
+                            &:first-of-type {
+                                left: -2rem;
+                            }
+                            &:last-of-type {
+                                right: -2rem;
+                            }
+                        }
+                        .ball {
+                            background-color: var(--color-back-white);
+                            width: 1.75rem;
+                            height: 1.75rem;
+                            position: absolute;
+                            left: 2px;
+                            top: 2px;
+                            border-radius: 50%;
+                            transition: transform 0.2s linear;
+                        }
                     }
                 }
             }
         }
+    }
+}
 
-        .control {
+@media screen and (max-width: 800px) {
+    .header {
+        .header-container {
             display: flex;
+            width: 100%;
+            min-height: 4.5rem;
+            padding: 0 2.5rem;
+            justify-content: space-between;
             align-items: center;
-            gap: 3rem;
-            .lang-block {
+            max-width: 81.25rem;
+            margin: 0 auto;
+            position: relative;
+            z-index: 100;
+            &:before {
+                content: "";
+                background-color: var(--color-back-blue-1);
+                width: 100%;
+                height: 100%;
+                top: 0;
+                left: 0;
+                position: absolute;
+                z-index: 1;
+            }
+            .burger {
+                width: 3rem;
+                aspect-ratio: 1;
+                color: var(--color-font-white);
                 position: relative;
-                width: 2rem;
-                height: 1.5rem;
-                .lang-list {
-                    overflow: hidden;
-                    border: none;
-                    background-color: transparent;
-                    height: fit-content;
+                background: none;
+                border: none;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                z-index: 2;
+                mat-icon {
+                    font-size: 3rem;
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .menu {
+                position: fixed;
+                top: 0;
+                left: -100dvw;
+                width: 60dvw;
+                height: 100dvh;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                transition: all 0.2s ease-in-out;
+                z-index: 0;
+                &.open {
+                    left: 0;
+                    &:before {
+                        opacity: 1;
+                    }
+                }
+                a {
                     transition: all 0.2s ease-in-out;
-                    display: grid;
-                    grid-auto-columns: 1fr;
-                    grid-template-columns: 1fr;
-                    grid-template-rows: 0fr;
-                    &.open {
-                        grid-template-rows: 1fr;
-                        .lang.hide {
-                            max-height: 1.5rem;
+                    position: relative;
+                    &:nth-child(1) {
+                        transform: translate(0, 0rem);
+                    }
+                    &:nth-child(2) {
+                        transform: translate(0rem, -0.5rem);
+                    }
+                    &:nth-child(3) {
+                        transform: translate(0rem, -1rem);
+                    }
+                    &:nth-child(4) {
+                        transform: translate(0rem, -1.5rem);
+                    }
+                    &:nth-child(even) {
+                        z-index: 1;
+                        .item {
+                            background-color: var(--color-button-gray-1);
+                            box-shadow: 0px 6px 0 0 color-mix(in srgb, var(--color-font-invert) 50%, transparent);
                         }
                     }
-                    .lang {
-                        font-size: var(--font-label);
-                        font-weight: bold;
+                    &:nth-child(odd) {
+                        z-index: 2;
+                        .item {
+                            background-color: var(--color-button-gray-2);
+                            box-shadow: 0px 6px 0 0 color-mix(in srgb, var(--color-font-invert) 50%, transparent);
+                        }
+                    }
+                    .item {
+                        padding: 2rem;
+                        border-radius: 0px 8px 8px 0px;
                         transition: all 0.2s ease-in-out;
-                        background: none;
-                        border: none;
-                        overflow: hidden;
-                        display: block;
-                        color: var(--color-font-gray);
-                        &.hide {
-                            max-height: 0;
-                        }
-                        &:not(.hide) {
-                            min-height: 1.5rem;
-                            line-height: 1.5rem;
-                        }
-                        &:hover {
-                            cursor: pointer;
-                            color: var(--color-font-blue-2);
-                        }
+                        font-weight: bold;
+                        font-size: var(--font-huge);
+                        color: var(--color-font-invert);
+                        width: fit-content;
                     }
                 }
             }
-            .theme-block {
-                &:hover {
+            .control {
+                display: flex;
+                align-items: center;
+                gap: 3rem;
+                position: relative;
+                z-index: 3;
+                .lang-block {
+                    position: relative;
+                    width: 3rem;
+                    height: 2.5rem;
+                    .lang-list {
+                        overflow: hidden;
+                        border: none;
+                        background-color: transparent;
+                        height: fit-content;
+                        transition: all 0.2s ease-in-out;
+                        display: grid;
+                        grid-auto-columns: 1fr;
+                        grid-template-columns: 1fr;
+                        grid-template-rows: 0fr;
+                        grid-row-gap: 0.5rem;
+                        padding: 0 0.5rem;
+                        &.open {
+                            grid-template-rows: 1fr;
+                            background-color: var(--color-back-blue-1);
+                            border-radius: 8px;
+                            .lang {
+                                &.hide {
+                                    padding: 0.5rem 0;
+                                    max-height: 2.5rem;
+                                }
+                            }
+                        }
+                        .lang {
+                            font-size: var(--font-label);
+                            font-weight: bold;
+                            transition: all 0.2s ease-in-out;
+                            background: none;
+                            border: none;
+                            overflow: hidden;
+                            display: block;
+                            color: var(--color-font-white);
+                            &.hide {
+                                max-height: 0;
+                            }
+                            &:not(.hide) {
+                                min-height: 2.5rem;
+                                line-height: 2.5rem;
+                            }
+                        }
+                    }
+                }
+                .theme-block {
+                    .checkbox {
+                        opacity: 0;
+                        position: absolute;
+                        &:checked + .checkbox-label .ball {
+                            transform: translateX(1.75rem);
+                        }
+                    }
                     .checkbox-label {
+                        background-color: var(--color-back-blue-3);
+                        height: 2rem;
+                        border-radius: 50px;
+                        position: relative;
+                        padding: 0.25rem;
+                        cursor: pointer;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        gap: 0.25rem;
                         .fas {
+                            height: 1.5rem;
+                            aspect-ratio: 1;
+                            position: relative;
+                            transition: all 0.2s ease-in-out;
+                            &:first-of-type {
+                                left: -2rem;
+                            }
+                            &:last-of-type {
+                                right: -2rem;
+                            }
                             &.fa-moon {
-                                color: var(--color-font-blue-1);
+                                color: var(--color-font-white);
                             }
                             &.fa-sun {
                                 color: var(--color-font-gold);
                             }
                         }
-                    }
-                }
-                .checkbox {
-                    opacity: 0;
-                    position: absolute;
-                    &:checked + .checkbox-label .ball {
-                        transform: translateX(1.75rem);
-                    }
-                }
-                .checkbox-label {
-                    background-color: var(--color-back-blue-3);
-                    height: 2rem;
-                    border-radius: 50px;
-                    position: relative;
-                    padding: 0.25rem;
-                    cursor: pointer;
-                    display: flex;
-                    justify-content: space-between;
-                    align-items: center;
-                    gap: 0.25rem;
-                    .fas {
-                        height: 1.5rem;
-                        aspect-ratio: 1;
-                        position: relative;
-                        transition: all 0.2s ease-in-out;
-                        color: var(--color-back-gray);
-                        &:first-of-type {
-                            left: -2rem;
+                        .ball {
+                            background-color: var(--color-back-white);
+                            width: 1.75rem;
+                            height: 1.75rem;
+                            position: absolute;
+                            left: 2px;
+                            top: 2px;
+                            border-radius: 50%;
+                            transition: transform 0.2s linear;
                         }
-                        &:last-of-type {
-                            right: -2rem;
-                        }
-                    }
-                    .ball {
-                        background-color: var(--color-back-white);
-                        width: 1.75rem;
-                        height: 1.75rem;
-                        position: absolute;
-                        left: 2px;
-                        top: 2px;
-                        border-radius: 50%;
-                        transition: transform 0.2s linear;
                     }
                 }
             }

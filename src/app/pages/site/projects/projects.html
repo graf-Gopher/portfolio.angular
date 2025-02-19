@@ -1,0 +1,63 @@
+<app-site-header></app-site-header>
+
+<section class="projects-title-section">
+    <div class="padding-block">
+        <div class="sub-title">Projects</div>
+        <h1 class="title">Explore Our Latest Insights</h1>
+    </div>
+</section>
+
+<section class="projects-main-section">
+    <div class="padding-block">
+        <div class="project">
+            <a>
+                <img class="image" loading="lazy" alt="" src="https://www.relume.io/__assets/624380709031623bfe4aee60/6243807090316203124aee66_placeholder-image.svg" />
+            </a>
+            <div class="content-block">
+                <div class="tags">
+                    <a class="category">Tech</a>
+                    <div class="time">2024</div>
+                </div>
+                <a class="title">Understanding Modern Web Development Trends</a>
+                <div class="text">Dive into the latest trends shaping the web development landscape.</div>
+                <a class="button">Read more<mat-icon>chevron_right</mat-icon></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="projects-tag-section">
+    <div class="padding-block">
+        <div class="tags-list">
+            <a class="tag" [ngClass]="{active: !activeTag}">View all</a>
+            @for(tag of tags; track tag){
+            <a class="tag" [ngClass]="{active: activeTag === tag.code}">{{tag.name}}</a>
+            }
+        </div>
+    </div>
+</section>
+
+<section class="projects-list-section">
+    <div class="padding-block">
+        <div class="project-list">
+            @for(project of projects; track project){
+            <div class="project">
+                <a>
+                    <img class="image" loading="lazy" alt="" src="{{project.image}}" />
+                </a>
+                <div class="content-block">
+                    <div class="tags">
+                        <a class="category">Tech</a>
+                        <div class="time">2024</div>
+                    </div>
+                    <a class="title">Understanding Modern Web Development Trends</a>
+                    <div class="text">Dive into the latest trends shaping the web development landscape.</div>
+                    <a class="button">Read more<mat-icon>chevron_right</mat-icon></a>
+                </div>
+            </div>
+            }
+        </div>
+    </div>
+</section>
+
+<app-site-footer></app-site-footer>

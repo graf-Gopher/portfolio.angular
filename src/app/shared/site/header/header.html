@@ -1,6 +1,9 @@
 <header id="header" class="header">
     <div class="header-container">
-        <div class="menu">
+        @if(coreService.isMobile() | async){
+        <button class="burger" (click)="menuOpen = !menuOpen"><mat-icon>menu</mat-icon></button>
+        }
+        <div class="menu" [ngClass]="{open: menuOpen}">
             <a routerLink="/">
                 <div class="item">{{ 'home' | lang }}</div>
             </a>
@@ -24,7 +27,7 @@
                 </label>
             </div>
             <div class="lang-block">
-                <button class="lang-list" [ngClass]="{open: menuOpen}" (click)="menuOpen = !menuOpen">
+                <button class="lang-list" [ngClass]="{open: langOpen}" (click)="langOpen = !langOpen">
                     @for(lang of langsList; track lang){
                     <button class="lang" [ngClass]="{hide: lang.code !== currentLang}" (click)="changeLang(lang.code)">{{lang.name}}</button>
                     }

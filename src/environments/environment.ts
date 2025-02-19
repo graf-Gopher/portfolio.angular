@@ -3,7 +3,7 @@ import { EnvironmentData } from "@interfaces/env";
 export const environment: EnvironmentData = {
     production: false,
 
-    localeList: ["en-EN", "uk-UA", "uk-IK", "uk-DF", "uk-VF"],
+    localeList: ["en-EN", "uk-UA"],
     defLocale: "en-EN",
 
     session: {} as any,
