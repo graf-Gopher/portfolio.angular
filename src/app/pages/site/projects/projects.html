@@ -2,25 +2,27 @@
 
 <section class="projects-title-section">
     <div class="padding-block">
-        <div class="sub-title">Projects</div>
-        <h1 class="title">Explore Our Latest Insights</h1>
+        <div class="sub-title">{{ page.ts.subtitle | datalang }}</div>
+        <h1 class="title">{{ page.ts.title | datalang }}</h1>
     </div>
 </section>
 
 <section class="projects-main-section">
     <div class="padding-block">
         <div class="project">
-            <a>
-                <img class="image" loading="lazy" alt="" src="https://www.relume.io/__assets/624380709031623bfe4aee60/6243807090316203124aee66_placeholder-image.svg" />
+            <a href="/projects/{{mainProject.code}}">
+                <img class="image" loading="lazy" alt="" src="{{mainProject.image}}" />
             </a>
             <div class="content-block">
                 <div class="tags">
-                    <a class="category">Tech</a>
-                    <div class="time">2024</div>
+                    @for(tag of mainProject.tags; track tag){
+                    <a class="category" href="/projects/#{{tag.code}}">{{tag.name | datalang}}</a>
+                    }
+                    <div class="time">{{mainProject.date}}</div>
                 </div>
-                <a class="title">Understanding Modern Web Development Trends</a>
-                <div class="text">Dive into the latest trends shaping the web development landscape.</div>
-                <a class="button">Read more<mat-icon>chevron_right</mat-icon></a>
+                <a class="title" href="/projects/{{mainProject.code}}">{{mainProject.title | datalang}}</a>
+                <div class="text">{{mainProject.text | datalang}}</div>
+                <a class="button" href="/projects/{{mainProject.code}}">{{'read_more' | lang}}<mat-icon>chevron_right</mat-icon></a>
             </div>
         </div>
     </div>
@@ -29,9 +31,9 @@
 <section class="projects-tag-section">
     <div class="padding-block">
         <div class="tags-list">
-            <a class="tag" [ngClass]="{active: !activeTag}">View all</a>
+            <a href="/projects" class="tag" [ngClass]="{active: !activeTag}">{{'view_all'|lang}}</a>
             @for(tag of tags; track tag){
-            <a class="tag" [ngClass]="{active: activeTag === tag.code}">{{tag.name}}</a>
+            <a href="/projects/#{{tag.code}}" class="tag" [ngClass]="{active: activeTag === tag.code}">{{tag.name | datalang}}</a>
             }
         </div>
     </div>
@@ -40,19 +42,21 @@
 <section class="projects-list-section">
     <div class="padding-block">
         <div class="project-list">
-            @for(project of projects; track project){
+            @for(project of listProjects; track project){
             <div class="project">
-                <a>
+                <a href="/projects/{{project.code}}">
                     <img class="image" loading="lazy" alt="" src="{{project.image}}" />
                 </a>
                 <div class="content-block">
                     <div class="tags">
-                        <a class="category">Tech</a>
-                        <div class="time">2024</div>
+                        @for(tag of project.tags; track tag){
+                        <a class="category" href="/projects/#{{tag.code}}">{{tag.name | datalang}}</a>
+                        }
+                        <div class="time">{{project.date}}</div>
                     </div>
-                    <a class="title">Understanding Modern Web Development Trends</a>
-                    <div class="text">Dive into the latest trends shaping the web development landscape.</div>
-                    <a class="button">Read more<mat-icon>chevron_right</mat-icon></a>
+                    <a class="title" href="/projects/{{project.code}}">{{project.title | datalang}}</a>
+                    <div class="text">{{project.text | datalang}}</div>
+                    <a class="button" href="/projects/{{project.code}}">{{'read_more' | lang}}<mat-icon>chevron_right</mat-icon></a>
                 </div>
             </div>
             }

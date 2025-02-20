@@ -359,15 +359,9 @@
                         position: relative;
                         .circle {
                             z-index: 2;
-                            width: 0.9375rem;
-                            height: 0.9375rem;
-                            flex-grow: 0;
-                            flex-shrink: 0;
-                            flex-basis: auto;
-                            border-top-left-radius: 100%;
-                            border-top-right-radius: 100%;
-                            border-bottom-left-radius: 100%;
-                            border-bottom-right-radius: 100%;
+                            width: 1rem;
+                            height: 1rem;
+                            border-radius: 100%;
                             background-color: var(--color-button-blue-2);
                             box-shadow: 0px 0px 0px 0.5rem var(--color-back-invert);
                         }

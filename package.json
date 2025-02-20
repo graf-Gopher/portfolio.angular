@@ -1,7 +1,7 @@
 {
   "name": "portfolio.angular",
   "title": "Developer Portfolio",
-  "version": "0.0.1-dev.3",
+  "version": "0.0.1-dev.4",
   "description": "Portfolio for developers",
   "author": {
     "name": "Under Tree Entertainment",
@@ -90,6 +90,7 @@
     "googleapis": "^144.0.0",
     "hbs": "^4.2.0",
     "image-thumbnail": "^1.0.17",
+    "keen-slider": "^6.8.6",
     "mysql2": "^3.12.0",
     "ngx-ute-core": "file:../../addons/ute-core.ngx/dist/ngx-ute-core",
     "nodemailer": "^6.10.0",

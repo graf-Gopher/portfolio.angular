@@ -1,5 +1,117 @@
 <app-site-header></app-site-header>
 
-<section class="section"></section>
+<section class="skills-main-section">
+    <div class="padding-block">
+        <h1 class="title">{{ page.ms.title | datalang }}</h1>
+        <p class="text">{{ page.ms.text | datalang }}</p>
+        <div class="content-block">
+            <div class="title">
+                <div class="item">
+                    <div class="label">{{'tech_overview' | lang }}</div>
+                </div>
+                <div class="item">
+                    <mat-icon>map</mat-icon>
+                    <div class="label">{{'junior_stage' | lang }}</div>
+                    <div class="text">{{'junior_text' | lang }}</div>
+                </div>
+                <div class="item">
+                    <mat-icon>map</mat-icon>
+                    <div class="label">{{'middle_stage' | lang }}</div>
+                    <div class="text">{{'middle_text' | lang }}</div>
+                </div>
+                <div class="item">
+                    <mat-icon>map</mat-icon>
+                    <div class="label">{{'senior_stage' | lang }}</div>
+                    <div class="text">{{'senior_text' | lang }}</div>
+                </div>
+            </div>
+            <div class="content">
+                @for(content of page.ms.contents; track content){
+                <div class="item">
+                    <div class="feature">{{content.feature | datalang}}</div>
+                    <div class="value">{{content.junior ?? ''}}</div>
+                    <div class="value">{{content.middle ?? ''}}</div>
+                    <div class="value">{{content.senior ?? ''}}</div>
+                </div>
+                }
+            </div>
+        </div>
+        <div class="buttons-block">
+            <a class="button">{{ 'projects' | lang }}</a>
+            <a class="button">
+                {{ 'contacts' | lang }}@if(!(coreService.isMobile() | async)){
+                <mat-icon>chevron_right</mat-icon>
+                }
+            </a>
+        </div>
+    </div>
+</section>
+
+<section class="skills-sub-section">
+    <div class="padding-block">
+        <h2 class="title">{{ 'XXX' | lang }}</h2>
+        <div class="content-block">
+            @for(skill of page.ss.skills; track skill){
+            <div class="item">
+                <mat-icon>map</mat-icon>
+                <div class="label">{{skill.title | datalang}}</div>
+                <div class="text">{{skill.text | datalang}}</div>
+                <a class="button" href="{{skill.link | datalang}}">
+                    {{ 'contacts' | lang }}@if(!(coreService.isMobile() | async)){
+                    <mat-icon>chevron_right</mat-icon>
+                    }
+                </a>
+            </div>
+            }
+        </div>
+    </div>
+</section>
+
+<section class="skills-else-section">
+    <div class="padding-block">
+        <h1 class="title">{{ page.es.title | datalang }}</h1>
+        <p class="text">{{ page.es.text | datalang }}</p>
+        <div class="content-block">
+            <div class="title">
+                <div class="item">
+                    <div class="label">{{'tech_overview' | lang }}</div>
+                </div>
+                <div class="item">
+                    <mat-icon>map</mat-icon>
+                    <div class="label">{{'junior_stage' | lang }}</div>
+                    <div class="text">{{'junior_text' | lang }}</div>
+                </div>
+                <div class="item">
+                    <mat-icon>map</mat-icon>
+                    <div class="label">{{'middle_stage' | lang }}</div>
+                    <div class="text">{{'middle_text' | lang }}</div>
+                </div>
+                <div class="item">
+                    <mat-icon>map</mat-icon>
+                    <div class="label">{{'senior_stage' | lang }}</div>
+                    <div class="text">{{'senior_text' | lang }}</div>
+                </div>
+            </div>
+            <div class="content">
+                @for(content of page.es.contents; track content){
+                <div class="item">
+                    <div class="feature">{{content.feature | datalang}}</div>
+                    <div class="value">{{content.junior ?? ''}}</div>
+                    <div class="value">{{content.middle ?? ''}}</div>
+                    <div class="value">{{content.senior ?? ''}}</div>
+                </div>
+                }
+            </div>
+        </div>
+        <div class="buttons-block">
+            <a class="button">{{ 'projects' | lang }}</a>
+            <a class="button">
+                {{ 'contacts' | lang }}@if(!(coreService.isMobile() | async)){
+                <mat-icon>chevron_right</mat-icon>
+                }
+            </a>
+        </div>
+    </div>
+</section>
 
 <app-site-footer></app-site-footer>

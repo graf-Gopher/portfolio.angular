@@ -65,7 +65,7 @@
         "ssr": {
           "builder": "@angular-devkit/build-angular:server",
           "options": {
-            "outputPath": "dist/under_tree.angular/server",
+            "outputPath": "dist/portfolio.angular/server",
             "main": "src/main.server.ts",
             "tsConfig": "tsconfig.app.json"
           }
@@ -108,5 +108,11 @@
         }
       }
     }
+  },
+  "cli": {
+    "cache": {
+      "enabled": false
+    },
+    "analytics": false
   }
 }

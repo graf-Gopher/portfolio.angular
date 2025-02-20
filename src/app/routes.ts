@@ -1,4 +1,5 @@
-import { Routes } from "@angular/router";
+import { ActivatedRouteSnapshot, Routes } from "@angular/router";
+import { AdminProjectsContent } from "../constantes/admin";
 
 export const AppRoutes: Routes = [
     {
@@ -19,6 +20,12 @@ export const AppRoutes: Routes = [
     },
     {
         path: "projects/:id",
+        resolve: {
+            data: (route: ActivatedRouteSnapshot) => {
+                const id = route.paramMap.get("id");
+                return AdminProjectsContent.find((project) => project.code === id);
+            },
+        },
         loadComponent: () => import("./pages/site/projects/item/item").then((m) => m.ProjectsItemPage),
     },
     {

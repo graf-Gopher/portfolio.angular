@@ -1,165 +1,29 @@
 import { Component } from "@angular/core";
-import { SiteHeader } from "../../../shared/site/header/header";
+import { SiteHeader } from "@shared/site/header/header";
 import { MatIconModule } from "@angular/material/icon";
-import { SiteFooter } from "@root/src/app/shared/site/footer/footer";
-import { CoreService } from "ngx-ute-core";
+import { SiteFooter } from "@shared/site/footer/footer";
+import { CoreService, DataLangPipe, LangPipe } from "ngx-ute-core";
 import { AsyncPipe, NgClass } from "@angular/common";
-
-interface ProjectTagData {
-    name: string;
-    code: string;
-}
-
-interface ProjectData {
-    code: string;
-    title: string;
-    text: string;
-    image: string;
-    tags: ProjectTagData[];
-    date: string;
-}
+import { AdminPagesContent, AdminProjectsContent } from "@constantes/admin";
+import { ProjectData, ProjectTagData } from "@interfaces/projects";
 
 @Component({
     selector: "app-projects",
     standalone: true,
-    imports: [SiteHeader, SiteFooter, MatIconModule, AsyncPipe, NgClass],
+    imports: [SiteHeader, SiteFooter, MatIconModule, AsyncPipe, NgClass, LangPipe, DataLangPipe],
     templateUrl: "./projects.html",
     styleUrl: "./projects.scss",
 })
 export class ProjectsPage {
     public activeTag: string = "";
+    public page: any = AdminPagesContent.projects;
+    public mainProject: ProjectData = AdminProjectsContent[AdminProjectsContent.length - 1];
+    public listProjects: ProjectData[] = AdminProjectsContent.slice(0, -1).reverse();
     public tags: ProjectTagData[] = [];
-    public projects: ProjectData[] = [
-        {
-            code: "1",
-            title: "Understanding Modern Web Development Trends",
-            text: "Dive into the latest trends shaping the web development landscape.",
-            image: "https://www.relume.io/__assets/624380709031623bfe4aee60/6243807090316203124aee66_placeholder-image.svg",
-            tags: [
-                {
-                    name: "Tech",
-                    code: "tech",
-                },
-            ],
-            date: "2024",
-        },
-        {
-            code: "1",
-            title: "Understanding Modern Web Development Trends",
-            text: "Dive into the latest trends shaping the web development landscape.",
-            image: "https://www.relume.io/__assets/624380709031623bfe4aee60/6243807090316203124aee66_placeholder-image.svg",
-            tags: [
-                {
-                    name: "Tech",
-                    code: "tech",
-                },
-            ],
-            date: "2024",
-        },
-        {
-            code: "1",
-            title: "Understanding Modern Web Development Trends",
-            text: "Dive into the latest trends shaping the web development landscape.",
-            image: "https://www.relume.io/__assets/624380709031623bfe4aee60/6243807090316203124aee66_placeholder-image.svg",
-            tags: [
-                {
-                    name: "Tech",
-                    code: "tech",
-                },
-            ],
-            date: "2024",
-        },
-        {
-            code: "1",
-            title: "Understanding Modern Web Development Trends",
-            text: "Dive into the latest trends shaping the web development landscape.",
-            image: "https://www.relume.io/__assets/624380709031623bfe4aee60/6243807090316203124aee66_placeholder-image.svg",
-            tags: [
-                {
-                    name: "Tech",
-                    code: "tech",
-                },
-            ],
-            date: "2024",
-        },
-        {
-            code: "1",
-            title: "Understanding Modern Web Development Trends",
-            text: "Dive into the latest trends shaping the web development landscape.",
-            image: "https://www.relume.io/__assets/624380709031623bfe4aee60/6243807090316203124aee66_placeholder-image.svg",
-            tags: [
-                {
-                    name: "Tech",
-                    code: "tech",
-                },
-            ],
-            date: "2024",
-        },
-        {
-            code: "1",
-            title: "Understanding Modern Web Development Trends",
-            text: "Dive into the latest trends shaping the web development landscape.",
-            image: "https://www.relume.io/__assets/624380709031623bfe4aee60/6243807090316203124aee66_placeholder-image.svg",
-            tags: [
-                {
-                    name: "Tech",
-                    code: "tech",
-                },
-            ],
-            date: "2024",
-        },
-        {
-            code: "1",
-            title: "Understanding Modern Web Development Trends",
-            text: "Dive into the latest trends shaping the web development landscape.",
-            image: "https://www.relume.io/__assets/624380709031623bfe4aee60/6243807090316203124aee66_placeholder-image.svg",
-            tags: [
-                {
-                    name: "Tech",
-                    code: "tech",
-                },
-            ],
-            date: "2024",
-        },
-        {
-            code: "1",
-            title: "Understanding Modern Web Development Trends",
-            text: "Dive into the latest trends shaping the web development landscape.",
-            image: "https://www.relume.io/__assets/624380709031623bfe4aee60/6243807090316203124aee66_placeholder-image.svg",
-            tags: [
-                {
-                    name: "Tech",
-                    code: "tech",
-                },
-            ],
-            date: "2024",
-        },
-        {
-            code: "1",
-            title: "Understanding Modern Web Development Trends",
-            text: "Dive into the latest trends shaping the web development landscape.",
-            image: "https://www.relume.io/__assets/624380709031623bfe4aee60/6243807090316203124aee66_placeholder-image.svg",
-            tags: [
-                {
-                    name: "Tech",
-                    code: "tech",
-                },
-            ],
-            date: "2024",
-        },
-        {
-            code: "1",
-            title: "Understanding Modern Web Development Trends",
-            text: "Dive into the latest trends shaping the web development landscape.",
-            image: "https://www.relume.io/__assets/624380709031623bfe4aee60/6243807090316203124aee66_placeholder-image.svg",
-            tags: [
-                {
-                    name: "Tech",
-                    code: "tech",
-                },
-            ],
-            date: "2024",
-        },
-    ];
-    constructor(public readonly coreService: CoreService) {}
+
+    constructor(public readonly coreService: CoreService) {
+        this.tags = Array.from(new Set(AdminProjectsContent.flatMap((project) => project.tags.map((tag) => tag.code)))).map(
+            (code) => AdminProjectsContent.flatMap((project) => project.tags).find((tag) => tag.code === code) as ProjectTagData
+        );
+    }
 }

@@ -4,15 +4,12 @@
     <div class="padding-block">
         <div class="content-block">
             <div class="content">
-                <h1 class="title">Showcase Your Web Development Skills Effortlessly</h1>
-                <p class="text">
-                    Create a stunning portfolio website that highlights your web development projects and skills. With a clean design and smooth navigation, impress potential clients and employers
-                    with your professional presence online.
-                </p>
+                <h1 class="title">{{ page.ts.title | datalang }}</h1>
+                <p class="text">{{ page.ts.text | datalang }}</p>
                 <div class="buttons-block">
-                    <a class="button">About Me</a>
-                    <a class="button"
-                        >Contacts @if(!(coreService.isMobile() | async)){
+                    <a class="button">{{ 'about_me' | lang }}</a>
+                    <a class="button">
+                        {{ 'contacts' | lang }}@if(!(coreService.isMobile() | async)){
                         <mat-icon>chevron_right</mat-icon>
                         }
                     </a>
@@ -20,7 +17,7 @@
             </div>
         </div>
         <div class="images-block">
-            @for(image of images; track image){
+            @for(image of page.ts.images; track image){
             <img class="{{$index % 2 === 0 ? 'small' : 'big'}} {{$index < 2 ? 'left' : 'right'}}" loading="lazy" alt="" src="{{image}}" />
             }
         </div>
@@ -31,15 +28,15 @@
     <div class="padding-block">
         <div class="content-block">
             <div class="content">
-                <h2 class="title">Medium length section heading goes here</h2>
-                <p class="text">Discover the innovative web development projects I've created. Click below to see more!</p>
+                <h2 class="title">{{ page.ss.title | datalang }}</h2>
+                <p class="text">{{ page.ss.text | datalang }}</p>
                 <div class="buttons-block">
-                    <a class="button">View</a>
-                    <a class="button"
-                        >Contacts @if(!(coreService.isMobile() | async)){
+                    <a class="button">{{ 'view' | lang }}</a>
+                    <a class="button">
+                        {{ 'contacts' | lang }} @if(!(coreService.isMobile() | async)){
                         <mat-icon>chevron_right</mat-icon>
-                        }</a
-                    >
+                        }
+                    </a>
                 </div>
             </div>
         </div>
@@ -58,20 +55,20 @@
     <div class="padding-block">
         <div class="content-block">
             <div class="content">
-                <h2 class="title">Empowering Your Digital Presence with Expertise</h2>
-                <p class="text">I specialize in creating dynamic and responsive web applications. My skills span across various technologies to bring your ideas to life.</p>
+                <h2 class="title">{{ page.ps.title | datalang }}</h2>
+                <p class="text">{{ page.ps.text | datalang }}</p>
                 <div class="buttons-block">
-                    <a class="button">Learn More</a>
-                    <a class="button"
-                        >Contacts @if(!(coreService.isMobile() | async)){
+                    <a class="button">{{ 'learn_more' | lang }}</a>
+                    <a class="button">
+                        {{ 'contacts' | lang }} @if(!(coreService.isMobile() | async)){
                         <mat-icon>chevron_right</mat-icon>
-                        }</a
-                    >
+                        }
+                    </a>
                 </div>
             </div>
         </div>
         <div class="timeline-block">
-            @for(project of projects; track project){
+            @for(project of page.ps.projects; track project){
             <a class="timeline-item">
                 <img src="{{project.image}}" alt="" loading="lazy" />
                 <div class="timeline">
@@ -80,8 +77,8 @@
                     <div class="line"></div>
                 </div>
                 <div class="text-block">
-                    <h3>{{project.name}}</h3>
-                    <p>{{project.description}}</p>
+                    <h3>{{project.name | datalang}}</h3>
+                    <p>{{project.description | datalang}}</p>
                 </div>
             </a>
             }

@@ -1,5 +1,91 @@
 <app-site-header></app-site-header>
 
-<section class="section"></section>
+<section class="project-title-section">
+    <div class="padding-block">
+        <h1 class="title">{{ itemData.title | datalang }}</h1>
+        <p class="text">{{ itemData.text | datalang }}</p>
+    </div>
+</section>
+
+<section class="project-main-section">
+    <div class="padding-block">
+        <div class="content-block">
+            <div class="left-content">
+                <div class="item">
+                    <mat-icon>today</mat-icon>
+                    <h2 class="title">{{ 'project_time' | lang }}</h2>
+                    <p class="text">{{ itemData.time | datalang }}</p>
+                </div>
+                <div class="item">
+                    <mat-icon>local_offer</mat-icon>
+                    <h2 class="title">{{ 'project_tags' | lang }}</h2>
+                    <p class="text">{{ tags }}</p>
+                </div>
+            </div>
+            <div class="slider-block" uteSlider>
+                <div class="sliders">
+                    @for(image of itemData.images; track image){
+                    <div class="slider">
+                        <img loading="lazy" alt="" class="image" src="{{image}}" />
+                    </div>
+                    }
+                </div>
+            </div>
+            <div class="right-content">
+                <div class="item">
+                    <mat-icon>support_agent</mat-icon>
+                    <h2 class="title">{{ 'project_client' | lang }}</h2>
+                    <p class="text">{{ itemData.client | datalang }}</p>
+                </div>
+                <div class="item">
+                    <mat-icon>engineering</mat-icon>
+                    <h2 class="title">{{ 'project_pose' | lang }}</h2>
+                    <p class="text">{{ itemData.role | datalang }}</p>
+                </div>
+            </div>
+        </div>
+        <div class="buttons-block">
+            <a class="button">{{ 'view' | lang }}</a>
+            <a class="button">
+                {{ 'contacts' | lang }}@if(!(coreService.isMobile() | async)){
+                <mat-icon>chevron_right</mat-icon>
+                }
+            </a>
+        </div>
+    </div>
+</section>
+
+<section class="project-tech-section">
+    <div class="padding-block">
+        <h2 class="title">{{ page.ts.title | datalang }}</h2>
+        <div class="tech-list">
+            @for(tech of teches; track tech){
+            <div class="tech">
+                <img loading="lazy" alt="" class="image" src="{{tech.image}}" />
+                <div class="text">{{tech.name}}</div>
+            </div>
+            }
+        </div>
+    </div>
+</section>
+
+<section class="project-devs-section">
+    <div class="padding-block">
+        <h2 class="title">{{ page.ds.title | datalang }}</h2>
+        <p class="text">{{ page.ds.text | datalang }}</p>
+        <div class="devs-block">
+            @for(dev of itemData.devs; track dev){
+            <div class="dev">
+                <h3 class="title">{{ dev.title | datalang }}</h3>
+                <p class="text">{{ dev.text | datalang }}</p>
+                <div class="diviner">
+                    <div class="circle"></div>
+                    <div class="line"></div>
+                </div>
+            </div>
+            }
+        </div>
+    </div>
+</section>
 
 <app-site-footer></app-site-footer>
