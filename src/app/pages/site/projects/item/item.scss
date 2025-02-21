@@ -69,12 +69,13 @@
                 }
                 .slider-block {
                     .sliders {
+                        border-radius: var(--border-16);
+                        overflow: hidden;
                         margin-bottom: 1rem;
                         .slider {
                             .image {
                                 width: 100%;
                                 aspect-ratio: 1;
-                                border-radius: var(--border-16);
                             }
                         }
                     }
