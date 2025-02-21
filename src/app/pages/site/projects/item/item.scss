@@ -1,15 +1,16 @@
+@use "../../../../../styles/button/button.scss";
+
 @media screen and (min-width: 800px) {
     .project-title-section {
         max-width: 81.25rem;
         margin: 0 auto;
-        background-color: var(--color-back-invert);
         .padding-block {
             padding: 5rem;
             height: 100%;
             position: relative;
             box-sizing: border-box;
             .title {
-                font-size: 3rem;
+                font-size: var(--font-56);
                 line-height: 1.25;
                 color: var(--color-font-invert);
                 max-width: 30rem;
@@ -17,7 +18,7 @@
                 text-align: center;
             }
             .text {
-                font-size: var(--font-input);
+                font-size: var(--font-18);
                 color: var(--color-font-invert);
                 text-align: center;
             }
@@ -27,7 +28,6 @@
     .project-main-section {
         max-width: 81.25rem;
         margin: 0 auto;
-        background-color: var(--color-back-invert);
         .padding-block {
             padding: 0 5rem;
             height: 100%;
@@ -47,16 +47,18 @@
                         width: 2rem;
                         height: 2rem;
                         font-size: 2rem;
+                        color: var(--color-font-invert);
                     }
                     .title {
-                        font-size: 1.5rem;
+                        font-size: var(--font-24);
                         font-weight: bold;
                         color: var(--color-font-invert);
                         text-align: center;
                     }
                     .text {
-                        font-size: 1rem;
+                        font-size: var(--font-16);
                         text-align: center;
+                        color: var(--color-font-invert);
                     }
                 }
                 .left-content,
@@ -72,6 +74,7 @@
                             .image {
                                 width: 100%;
                                 aspect-ratio: 1;
+                                border-radius: var(--border-16);
                             }
                         }
                     }
@@ -83,9 +86,9 @@
                         .dot {
                             width: 0.75rem;
                             aspect-ratio: 1;
-                            border-radius: 100%;
+                            border-radius: var(--border-100);
                             background-color: var(--color-button-gray-2);
-                            transition: all 0.2s ease-in-out;
+                            transition: var(--anim-2);
                             border: none;
                             &:hover {
                                 cursor: pointer;
@@ -103,36 +106,11 @@
                 gap: 1rem;
                 justify-content: center;
                 .button {
-                    padding: 0.75rem 1.5rem;
-                    color: var(--color-font-invert);
-                    border-radius: var(--border-low);
-                    font-size: var(--font-text);
-                    transition: var(--anim-mid);
-                    min-width: 6rem;
-                    display: flex;
-                    align-items: center;
-                    gap: 0.5rem;
-                    justify-content: center;
-                    &:hover {
-                        cursor: pointer;
-                    }
                     &:first-of-type {
-                        color: var(--color-font-white);
-                        background-color: var(--color-button-blue-2);
-                        box-shadow: 0 5px 0 0 var(--color-button-blue-3);
-                        backdrop-filter: blur(10px);
-                        border-radius: 12px;
-                        &:hover {
-                            box-shadow: 0 2px 0 0 var(--color-button-blue-3);
-                            transform: translate(0px, 3px);
-                        }
+                        @include button.button($solid: true);
                     }
                     &:last-of-type {
-                        &:hover {
-                            mat-icon {
-                                animation: arrow 1s ease-in-out infinite;
-                            }
-                        }
+                        @include button.button($arrow: true);
                     }
                 }
             }
@@ -143,14 +121,14 @@
         max-width: 81.25rem;
         margin: 5rem auto 0;
         background-color: var(--color-back-blue-1);
-        border-radius: var(--border-high);
+        border-radius: var(--border-16);
         .padding-block {
             padding: 5rem;
             height: 100%;
             position: relative;
             box-sizing: border-box;
             > .title {
-                font-size: 1.25rem;
+                font-size: var(--font-20);
                 margin-bottom: 2rem;
                 text-align: center;
                 color: var(--color-font-white);
@@ -167,13 +145,24 @@
                     overflow: hidden;
                     justify-content: center;
                     align-items: center;
+                    flex-wrap: wrap;
                     gap: 1rem;
+                    background-color: var(--color-button-blue-2);
+                    border-radius: var(--border-8);
+                    transition: var(--anim-2);
+                    padding: 0.875rem;
+                    cursor: default;
+                    min-width: 12.5rem;
+                    &:hover {
+                        transform: scale(1.05) translateY(0.25rem);
+                        box-shadow: 0 -5px 0 0 var(--color-button-gray-2);
+                    }
                     .image {
                         width: 2.5rem;
                         aspect-ratio: 1;
                     }
                     .text {
-                        font-size: var(--font-label);
+                        font-size: var(--font-20);
                         font-weight: bold;
                         color: var(--color-font-white);
                     }
@@ -185,24 +174,24 @@
     .project-devs-section {
         max-width: 81.25rem;
         margin: 0 auto;
-        background-color: var(--color-back-invert);
         .padding-block {
             padding: 5rem;
             height: 100%;
             position: relative;
             box-sizing: border-box;
             > .title {
-                font-size: 3rem;
+                font-size: var(--font-48);
                 line-height: 1.25;
                 color: var(--color-font-invert);
                 margin-bottom: 1.5rem;
                 text-align: center;
             }
             > .text {
-                font-size: 1.125rem;
+                font-size: var(--font-18);
                 text-align: center;
                 max-width: 30rem;
                 margin: 0 auto;
+                color: var(--color-font-invert);
             }
             .devs-block {
                 margin-top: 5rem;
@@ -222,13 +211,33 @@
                             transform: translateX(-100%);
                         }
                     }
+                    &:hover {
+                        .diviner {
+                            .line {
+                                background: linear-gradient(0deg, var(--color-back-blue-2) 25%, var(--color-back-invert) 50%, var(--color-back-blue-2) 75%);
+                                background-size: 300% 300%;
+                                animation: gradient 1s ease infinite;
+                                @keyframes gradient {
+                                    0% {
+                                        background-position: 50% 100%;
+                                    }
+                                    100% {
+                                        background-position: 50% 0%;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
                     .title {
-                        font-size: 1.5rem;
+                        font-size: var(--font-24);
                         font-weight: bold;
                         margin-bottom: 1rem;
+                        color: var(--color-font-invert);
                     }
                     .text {
-                        font-size: 1rem;
+                        font-size: var(--font-16);
+                        color: var(--color-font-invert);
                     }
                     .diviner {
                         right: 0;
@@ -244,7 +253,7 @@
                             z-index: 2;
                             width: 1rem;
                             height: 1rem;
-                            border-radius: 100%;
+                            border-radius: var(--border-100);
                             background-color: var(--color-button-blue-2);
                             box-shadow: 0px 0px 0px 0.5rem var(--color-back-invert);
                         }
@@ -260,4 +269,119 @@
     }
 }
 @media screen and (max-width: 800px) {
+    .project-title-section {
+        max-width: 81.25rem;
+        margin: 0 auto;
+        .padding-block {
+            padding: 2.5rem;
+            height: 100%;
+            position: relative;
+            box-sizing: border-box;
+            .title {
+                font-size: var(--font-48);
+                line-height: 1.25;
+                color: var(--color-font-invert);
+                max-width: 30rem;
+                margin: 0 auto 1.5rem;
+                text-align: center;
+            }
+            .text {
+                font-size: var(--font-16);
+                color: var(--color-font-invert);
+                text-align: center;
+            }
+        }
+    }
+
+    .project-main-section {
+        max-width: 81.25rem;
+        margin: 0 auto;
+        .padding-block {
+            padding: 0 2.5rem;
+            height: 100%;
+            position: relative;
+            box-sizing: border-box;
+            .content-block {
+                display: grid;
+                grid-template-columns: 1fr 1.5fr 1fr;
+                gap: 4rem;
+                align-items: center;
+                .item {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 1.5rem;
+                    mat-icon {
+                        width: 2rem;
+                        height: 2rem;
+                        font-size: 2rem;
+                        color: var(--color-font-invert);
+                    }
+                    .title {
+                        font-size: var(--font-24);
+                        font-weight: bold;
+                        color: var(--color-font-invert);
+                        text-align: center;
+                    }
+                    .text {
+                        font-size: var(--font-16);
+                        text-align: center;
+                        color: var(--color-font-invert);
+                    }
+                }
+                .left-content,
+                .right-content {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 4rem;
+                }
+                .slider-block {
+                    .sliders {
+                        margin-bottom: 1rem;
+                        .slider {
+                            .image {
+                                width: 100%;
+                                aspect-ratio: 1;
+                                border-radius: var(--border-16);
+                            }
+                        }
+                    }
+                    ::ng-deep .dots {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        gap: 0.5rem;
+                        .dot {
+                            width: 0.75rem;
+                            aspect-ratio: 1;
+                            border-radius: var(--border-100);
+                            background-color: var(--color-button-gray-2);
+                            transition: var(--anim-2);
+                            border: none;
+                            &:hover {
+                                cursor: pointer;
+                            }
+                            &.active {
+                                background-color: var(--color-button-blue-2);
+                            }
+                        }
+                    }
+                }
+            }
+            .buttons-block {
+                margin-top: 2rem;
+                display: flex;
+                gap: 1rem;
+                justify-content: center;
+                .button {
+                    &:first-of-type {
+                        @include button.button($solid: true);
+                    }
+                    &:last-of-type {
+                        @include button.button($arrow: true);
+                    }
+                }
+            }
+        }
+    }
 }

@@ -1,0 +1,48 @@
+@mixin button($solid, $arrow, $color) {
+    padding: 0.75rem 1.5rem;
+    font-size: var(--font-16);
+    transition: var(--anim-2);
+    // width: fit-content;
+    @if $solid {
+        @if $color != false {
+            color: $color;
+        } @else {
+            color: var(--color-font-white);
+            &.active {
+                color: var(--color-font-invert);
+            }
+        }
+        &:not(.active) {
+            background-color: var(--color-button-blue-2);
+            box-shadow: 0 5px 0 0 var(--color-button-blue-3);
+            &:active {
+                box-shadow: 0 2px 0 0 var(--color-button-blue-3);
+                transform: translate(0px, 3px);
+            }
+        }
+        &.active {
+            background-color: var(--color-button-gray-2);
+            box-shadow: 0 5px 0 0 color-mix(in srgb, var(--color-back-black) 50%, transparent);
+            pointer-events: none;
+        }
+        border-radius: var(--border-12);
+    }
+    @if $arrow {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        justify-content: center;
+        @if $color != false {
+            color: $color;
+        } @else {
+            color: var(--color-font-invert);
+        }
+        background-color: var(--color-button-gray-1);
+        box-shadow: 0 5px 0 0 var(--color-button-gray-2);
+        border-radius: var(--border-12);
+        &:active {
+            box-shadow: 0 2px 0 0 var(--color-button-gray-2);
+            transform: translate(0px, 3px);
+        }
+    }
+}

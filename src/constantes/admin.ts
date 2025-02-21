@@ -20,39 +20,14 @@ export const AdminPagesContent = {
         ps: {
             title: "[en-EN]Empowering Your Digital Presence with Expertise",
             text: "[en-EN]I specialize in creating dynamic and responsive web applications. My skills span across various technologies to bring your ideas to life.",
-            projects: [
-                {
-                    image: "https://www.relume.io/__assets/624380709031623bfe4aee60/6243807090316203124aee66_placeholder-image.svg",
-                    name: "[en-EN]Date",
-                    description: "[en-EN]Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
-                },
-                {
-                    image: "https://www.relume.io/__assets/624380709031623bfe4aee60/6243807090316203124aee66_placeholder-image.svg",
-                    name: "[en-EN]Date",
-                    description: "[en-EN]Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
-                },
-                {
-                    image: "https://www.relume.io/__assets/624380709031623bfe4aee60/6243807090316203124aee66_placeholder-image.svg",
-                    name: "[en-EN]Date",
-                    description: "[en-EN]Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
-                },
-                {
-                    image: "https://www.relume.io/__assets/624380709031623bfe4aee60/6243807090316203124aee66_placeholder-image.svg",
-                    name: "[en-EN]Date",
-                    description: "[en-EN]Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
-                },
-                {
-                    image: "https://www.relume.io/__assets/624380709031623bfe4aee60/6243807090316203124aee66_placeholder-image.svg",
-                    name: "[en-EN]Date",
-                    description: "[en-EN]Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
-                },
-            ],
+            projects: ["1", "2", "3", "4", "5"],
         },
     },
     projects: {
         ts: {
             subtitle: "[en-EN]Projects",
             title: "[en-EN]Explore Our Latest Insights",
+            text: "Stay updated with our latest blog posts.",
         },
     },
     project: {
@@ -101,7 +76,7 @@ export const AdminPagesContent = {
             contents: [
                 {
                     feature: "Seamless Performance",
-                    junior: "1 year",
+                    middle: "1 year",
                 },
                 {
                     feature: "Seamless Performance",
@@ -109,7 +84,7 @@ export const AdminPagesContent = {
                 },
                 {
                     feature: "Seamless Performance",
-                    junior: "1 year",
+                    senior: "1 year",
                 },
             ],
         },
@@ -139,7 +114,7 @@ export const AdminPagesContent = {
             contents: [
                 {
                     feature: "Seamless Performance",
-                    junior: "1 year",
+                    middle: "1 year",
                 },
                 {
                     feature: "Seamless Performance",
@@ -147,7 +122,130 @@ export const AdminPagesContent = {
                 },
                 {
                     feature: "Seamless Performance",
-                    junior: "1 year",
+                    senior: "1 year",
+                },
+            ],
+            else: [
+                {
+                    image: "https://www.relume.io/__assets/624380709031623bfe4aee60/6243807090316203124aee66_placeholder-image.svg",
+                    title: "Jane Smith",
+                    subtitle: "UI Designer",
+                    text: "Expert in crafting visually stunning and user-friendly interfaces.",
+                },
+                {
+                    image: "https://www.relume.io/__assets/624380709031623bfe4aee60/6243807090316203124aee66_placeholder-image.svg",
+                    title: "Jane Smith",
+                    subtitle: "UI Designer",
+                    text: "Expert in crafting visually stunning and user-friendly interfaces.",
+                },
+                {
+                    image: "https://www.relume.io/__assets/624380709031623bfe4aee60/6243807090316203124aee66_placeholder-image.svg",
+                    title: "Jane Smith",
+                    subtitle: "UI Designer",
+                    text: "Expert in crafting visually stunning and user-friendly interfaces.",
+                },
+                {
+                    image: "https://www.relume.io/__assets/624380709031623bfe4aee60/6243807090316203124aee66_placeholder-image.svg",
+                    title: "Jane Smith",
+                    subtitle: "UI Designer",
+                    text: "Expert in crafting visually stunning and user-friendly interfaces.",
+                },
+                {
+                    image: "https://www.relume.io/__assets/624380709031623bfe4aee60/6243807090316203124aee66_placeholder-image.svg",
+                    title: "Jane Smith",
+                    subtitle: "UI Designer",
+                    text: "Expert in crafting visually stunning and user-friendly interfaces.",
+                },
+                {
+                    image: "https://www.relume.io/__assets/624380709031623bfe4aee60/6243807090316203124aee66_placeholder-image.svg",
+                    title: "Jane Smith",
+                    subtitle: "UI Designer",
+                    text: "Expert in crafting visually stunning and user-friendly interfaces.",
+                },
+                {
+                    image: "https://www.relume.io/__assets/624380709031623bfe4aee60/6243807090316203124aee66_placeholder-image.svg",
+                    title: "Jane Smith",
+                    subtitle: "UI Designer",
+                    text: "Expert in crafting visually stunning and user-friendly interfaces.",
+                },
+                {
+                    image: "https://www.relume.io/__assets/624380709031623bfe4aee60/6243807090316203124aee66_placeholder-image.svg",
+                    title: "Jane Smith",
+                    subtitle: "UI Designer",
+                    text: "Expert in crafting visually stunning and user-friendly interfaces.",
+                },
+            ],
+        },
+    },
+    about: {
+        ts: {
+            title: "Showcase Your Skills with a Stunning Portfolio Website",
+            text: "Elevate your online presence with a modern portfolio that highlights your web development expertise. Engage potential clients and employers with a visually appealing display of your projects and skills.",
+            image: "https://www.relume.io/__assets/624380709031623bfe4aee60/6243807090316203124aee66_placeholder-image.svg",
+            infos: [
+                {
+                    title: "Project Showcase",
+                    text: "Present your work with detailed project descriptions and live demos for easy access.",
+                },
+                {
+                    title: "Project Showcase",
+                    text: "Present your work with detailed project descriptions and live demos for easy access.",
+                },
+            ],
+        },
+        es: {
+            title: "Our Team",
+            text: "Meet the talented individuals driving our success.",
+            else: [
+                {
+                    image: "https://www.relume.io/__assets/624380709031623bfe4aee60/6243807090316203124aee66_placeholder-image.svg",
+                    title: "Jane Smith",
+                    subtitle: "UI Designer",
+                    text: "Expert in crafting visually stunning and user-friendly interfaces.",
+                },
+                {
+                    image: "https://www.relume.io/__assets/624380709031623bfe4aee60/6243807090316203124aee66_placeholder-image.svg",
+                    title: "Jane Smith",
+                    subtitle: "UI Designer",
+                    text: "Expert in crafting visually stunning and user-friendly interfaces.",
+                },
+                {
+                    image: "https://www.relume.io/__assets/624380709031623bfe4aee60/6243807090316203124aee66_placeholder-image.svg",
+                    title: "Jane Smith",
+                    subtitle: "UI Designer",
+                    text: "Expert in crafting visually stunning and user-friendly interfaces.",
+                },
+                {
+                    image: "https://www.relume.io/__assets/624380709031623bfe4aee60/6243807090316203124aee66_placeholder-image.svg",
+                    title: "Jane Smith",
+                    subtitle: "UI Designer",
+                    text: "Expert in crafting visually stunning and user-friendly interfaces.",
+                },
+            ],
+        },
+        hs: {
+            title: "Key Milestones in My Career Journey",
+            text: "Explore the significant milestones that have shaped my professional path. Each step reflects my growth and dedication.",
+            histories: [
+                {
+                    title: "Latest Project Launch",
+                    text: "I recently completed a cutting-edge web application that enhances user engagement. This project showcases my skills in modern frameworks.",
+                    date: "2023",
+                },
+                {
+                    title: "Latest Project Launch",
+                    text: "I recently completed a cutting-edge web application that enhances user engagement. This project showcases my skills in modern frameworks.",
+                    date: "2023",
+                },
+                {
+                    title: "Latest Project Launch",
+                    text: "I recently completed a cutting-edge web application that enhances user engagement. This project showcases my skills in modern frameworks.",
+                    date: "2023",
+                },
+                {
+                    title: "Latest Project Launch",
+                    text: "I recently completed a cutting-edge web application that enhances user engagement. This project showcases my skills in modern frameworks.",
+                    date: "2023",
                 },
             ],
         },
@@ -234,8 +332,8 @@ export const AdminProjectsContent: ProjectData[] = [
         image: "https://www.relume.io/__assets/624380709031623bfe4aee60/6243807090316203124aee66_placeholder-image.svg",
         tags: [
             {
-                name: "[en-EN]Tech",
-                code: "tech",
+                name: "[en-EN]Test",
+                code: "test",
             },
         ],
         date: "2024",

@@ -23,6 +23,8 @@ export const AppRoutes: Routes = [
         resolve: {
             data: (route: ActivatedRouteSnapshot) => {
                 const id = route.paramMap.get("id");
+                console.log(id);
+
                 return AdminProjectsContent.find((project) => project.code === id);
             },
         },

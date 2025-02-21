@@ -1,0 +1,66 @@
+@mixin button($solid, $arrow, $color) {
+    padding: 0.75rem 1.5rem;
+    font-size: var(--font-16);
+    transition: var(--anim-2);
+    line-height: 1.5;
+    width: fit-content;
+    &:hover {
+        cursor: pointer;
+    }
+    @if $solid {
+        @if $color != false {
+            color: $color;
+        } @else {
+            color: var(--color-font-white);
+            &.active {
+                color: var(--color-font-invert);
+            }
+        }
+        &:not(.active) {
+            background-color: var(--color-button-blue-2);
+            box-shadow: 0 5px 0 0 var(--color-button-blue-3);
+            &:hover {
+                box-shadow: 0 2px 0 0 var(--color-button-blue-3);
+                transform: translate(0px, 3px);
+            }
+        }
+        &.active {
+            background-color: var(--color-button-gray-2);
+            box-shadow: 0 5px 0 0 color-mix(in srgb, var(--color-back-black) 50%, transparent);
+            pointer-events: none;
+        }
+        border-radius: var(--border-12);
+        text-align: center;
+    }
+    @if $arrow {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        justify-content: center;
+        text-align: center;
+        @if $color != false {
+            color: $color;
+        } @else {
+            color: var(--color-font-invert);
+        }
+        &.solo {
+            padding-left: 0;
+        }
+        &:hover {
+            mat-icon {
+                animation: arrow 1s ease-in-out infinite;
+            }
+        }
+        @keyframes arrow {
+            0% {
+                transform: translate(0px, 0px);
+            }
+            50% {
+                transform: translate(6px, 0px);
+            }
+            100% {
+                transform: translate(0px, 0px);
+            }
+        }
+    }
+}

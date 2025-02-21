@@ -29,7 +29,7 @@
                 width: fit-content;
                 margin: 0 auto;
                 border-radius: 16px 16px 0 0;
-                transition: all 0.2s ease-in-out;
+                transition: var(--anim-2);
                 padding: 5rem;
                 padding-bottom: 2rem;
                 background-color: var(--color-back-blue-2);
@@ -39,7 +39,6 @@
                     align-items: center;
                     justify-content: center;
                     gap: 2rem;
-
                     .menu {
                         margin: 0 auto;
                         display: flex;
@@ -58,10 +57,10 @@
                                 }
                             }
                             .item {
-                                font-size: var(--font-text);
+                                font-size: var(--font-16);
                                 font-weight: bold;
                                 color: var(--color-font-white);
-                                transition: all 0.2s ease-in-out;
+                                transition: var(--anim-2);
                                 padding: 0.5rem 1rem 0.5rem 1rem;
                                 border-bottom: 3px solid var(--color-back-blue-1);
                                 position: relative;
@@ -76,7 +75,7 @@
                                 width: 0.75rem;
                                 aspect-ratio: 1;
                                 background-color: var(--color-back-blue-1);
-                                border-radius: 100%;
+                                border-radius: var(--border-100);
                                 transform: translate(50%, 40%);
                             }
                         }
@@ -94,8 +93,9 @@
                             justify-content: center;
                             background-color: var(--color-button-blue-1);
                             border-radius: 8px;
-                            font-size: var(--font-mini);
+                            font-size: var(--font-14);
                             color: var(--color-font-white);
+                            transition: var(--anim-2);
                             &:hover {
                                 transform: scale(1.1);
                             }
@@ -103,7 +103,7 @@
                     }
                 }
                 .copy-block {
-                    font-size: var(--font-mini);
+                    font-size: var(--font-14);
                     color: var(--color-font-white);
                     margin-top: 3rem;
                 }
@@ -140,7 +140,7 @@
                 gap: 2rem;
                 margin: 0 auto;
                 border-radius: 16px 16px 0 0;
-                transition: all 0.2s ease-in-out;
+                transition: var(--anim-2);
                 padding: 2.5rem;
                 background-color: var(--color-back-blue-2);
                 width: 80%;
@@ -158,10 +158,10 @@
                         a {
                             position: relative;
                             .item {
-                                font-size: var(--font-text);
+                                font-size: var(--font-16);
                                 font-weight: bold;
                                 color: var(--color-font-white);
-                                transition: all 0.2s ease-in-out;
+                                transition: var(--anim-2);
                                 position: relative;
                                 &:before {
                                     content: "";
@@ -172,7 +172,7 @@
                                     height: 150%;
                                     aspect-ratio: 1;
                                     background-color: var(--color-back-blue-1);
-                                    border-radius: 100%;
+                                    border-radius: var(--border-100);
                                     transform: translate(50%, 25%);
                                 }
                             }
@@ -184,7 +184,7 @@
                                 width: 0.75rem;
                                 aspect-ratio: 1;
                                 background-color: var(--color-back-blue-1);
-                                border-radius: 100%;
+                                border-radius: var(--border-100);
                                 transform: translate(150%, -75%);
                             }
                             &:last-of-type {
@@ -199,7 +199,7 @@
                         flex-direction: column;
                         gap: 2rem;
                         a {
-                            font-size: var(--font-mini);
+                            font-size: var(--font-14);
                             color: var(--color-font-white);
                             text-decoration: underline;
                         }
@@ -207,7 +207,7 @@
                 }
                 .copy-block {
                     text-align: center;
-                    font-size: var(--font-small);
+                    font-size: var(--font-12);
                     color: var(--color-font-white);
                 }
             }

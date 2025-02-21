@@ -4,25 +4,26 @@
     <div class="padding-block">
         <div class="sub-title">{{ page.ts.subtitle | datalang }}</div>
         <h1 class="title">{{ page.ts.title | datalang }}</h1>
+        <p class="text">{{ page.ts.text | datalang }}</p>
     </div>
 </section>
 
 <section class="projects-main-section">
     <div class="padding-block">
         <div class="project">
-            <a href="/projects/{{mainProject.code}}">
+            <a routerLink="{{mainProject.code}}">
                 <img class="image" loading="lazy" alt="" src="{{mainProject.image}}" />
             </a>
             <div class="content-block">
                 <div class="tags">
                     @for(tag of mainProject.tags; track tag){
-                    <a class="category" href="/projects/#{{tag.code}}">{{tag.name | datalang}}</a>
+                    <a class="category" routerLink="/projects" [queryParams]="{tag:tag.code}">{{tag.name | datalang}}</a>
                     }
                     <div class="time">{{mainProject.date}}</div>
                 </div>
-                <a class="title" href="/projects/{{mainProject.code}}">{{mainProject.title | datalang}}</a>
-                <div class="text">{{mainProject.text | datalang}}</div>
-                <a class="button" href="/projects/{{mainProject.code}}">{{'read_more' | lang}}<mat-icon>chevron_right</mat-icon></a>
+                <h2 class="title">{{mainProject.title | datalang}}</h2>
+                <p class="text">{{mainProject.text | datalang}}</p>
+                <a routerLink="{{mainProject.code}}" class="button solo">{{'read_more' | lang}}<mat-icon>chevron_right</mat-icon></a>
             </div>
         </div>
     </div>
@@ -31,9 +32,9 @@
 <section class="projects-tag-section">
     <div class="padding-block">
         <div class="tags-list">
-            <a href="/projects" class="tag" [ngClass]="{active: !activeTag}">{{'view_all'|lang}}</a>
+            <a routerLink="/projects" class="tag" [ngClass]="{active: !activeTag}">{{'view_all'|lang}}</a>
             @for(tag of tags; track tag){
-            <a href="/projects/#{{tag.code}}" class="tag" [ngClass]="{active: activeTag === tag.code}">{{tag.name | datalang}}</a>
+            <a routerLink="/projects" [queryParams]="{tag:tag.code}" class="tag" [ngClass]="{active: activeTag === tag.code}">{{tag.name | datalang}}</a>
             }
         </div>
     </div>
@@ -44,21 +45,22 @@
         <div class="project-list">
             @for(project of listProjects; track project){
             <div class="project">
-                <a href="/projects/{{project.code}}">
+                <a routerLink="{{project.code}}">
                     <img class="image" loading="lazy" alt="" src="{{project.image}}" />
                 </a>
                 <div class="content-block">
                     <div class="tags">
                         @for(tag of project.tags; track tag){
-                        <a class="category" href="/projects/#{{tag.code}}">{{tag.name | datalang}}</a>
+                        <a class="category" routerLink="/projects" [queryParams]="{tag:tag.code}">{{tag.name | datalang}}</a>
                         }
                         <div class="time">{{project.date}}</div>
                     </div>
-                    <a class="title" href="/projects/{{project.code}}">{{project.title | datalang}}</a>
-                    <div class="text">{{project.text | datalang}}</div>
-                    <a class="button" href="/projects/{{project.code}}">{{'read_more' | lang}}<mat-icon>chevron_right</mat-icon></a>
+                    <h3 class="title">{{project.title | datalang}}</h3>
+                    <p class="text">{{project.text | datalang}}</p>
+                    <a routerLink="{{project.code}}" class="button solo">{{'read_more' | lang}}<mat-icon>chevron_right</mat-icon></a>
                 </div>
             </div>
+
             }
         </div>
     </div>

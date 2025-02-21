@@ -29,9 +29,9 @@
                 @for(content of page.ms.contents; track content){
                 <div class="item">
                     <div class="feature">{{content.feature | datalang}}</div>
-                    <div class="value">{{content.junior ?? ''}}</div>
-                    <div class="value">{{content.middle ?? ''}}</div>
-                    <div class="value">{{content.senior ?? ''}}</div>
+                    <div class="value">{{content.junior ?? '-'}}</div>
+                    <div class="value">{{content.middle ?? '-'}}</div>
+                    <div class="value">{{content.senior ?? '-'}}</div>
                 </div>
                 }
             </div>
@@ -56,11 +56,14 @@
                 <mat-icon>map</mat-icon>
                 <div class="label">{{skill.title | datalang}}</div>
                 <div class="text">{{skill.text | datalang}}</div>
-                <a class="button" href="{{skill.link | datalang}}">
-                    {{ 'contacts' | lang }}@if(!(coreService.isMobile() | async)){
-                    <mat-icon>chevron_right</mat-icon>
-                    }
-                </a>
+                <!-- <div class="buttons-block">
+                    <a class="button">{{ 'projects' | lang }}</a>
+                    <a class="button">
+                        {{ 'contacts' | lang }}@if(!(coreService.isMobile() | async)){
+                        <mat-icon>chevron_right</mat-icon>
+                        }
+                    </a>
+                </div> -->
             </div>
             }
         </div>
@@ -72,36 +75,14 @@
         <h1 class="title">{{ page.es.title | datalang }}</h1>
         <p class="text">{{ page.es.text | datalang }}</p>
         <div class="content-block">
-            <div class="title">
-                <div class="item">
-                    <div class="label">{{'tech_overview' | lang }}</div>
-                </div>
-                <div class="item">
-                    <mat-icon>map</mat-icon>
-                    <div class="label">{{'junior_stage' | lang }}</div>
-                    <div class="text">{{'junior_text' | lang }}</div>
-                </div>
-                <div class="item">
-                    <mat-icon>map</mat-icon>
-                    <div class="label">{{'middle_stage' | lang }}</div>
-                    <div class="text">{{'middle_text' | lang }}</div>
-                </div>
-                <div class="item">
-                    <mat-icon>map</mat-icon>
-                    <div class="label">{{'senior_stage' | lang }}</div>
-                    <div class="text">{{'senior_text' | lang }}</div>
-                </div>
+            @for(content of page.es.else; track content){
+            <div class="item">
+                <img src="{{content.image}}" loading="lazy" alt="" />
+                <h3 class="title">{{ content.title | datalang }}</h3>
+                <div class="sub-title">{{ content.subtitle | datalang }}</div>
+                <p class="text">{{ content.text | datalang }}</p>
             </div>
-            <div class="content">
-                @for(content of page.es.contents; track content){
-                <div class="item">
-                    <div class="feature">{{content.feature | datalang}}</div>
-                    <div class="value">{{content.junior ?? ''}}</div>
-                    <div class="value">{{content.middle ?? ''}}</div>
-                    <div class="value">{{content.senior ?? ''}}</div>
-                </div>
-                }
-            </div>
+            }
         </div>
         <div class="buttons-block">
             <a class="button">{{ 'projects' | lang }}</a>

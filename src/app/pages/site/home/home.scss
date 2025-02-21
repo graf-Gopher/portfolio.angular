@@ -1,10 +1,11 @@
+@use "../../../../styles/button/button.scss";
+
 @media screen and (min-width: 800px) {
     .home-title-section {
         height: calc(100dvh - 4.5rem);
         max-height: 54rem;
         max-width: 81.25rem;
         margin: 0 auto;
-        background-color: var(--color-back-invert);
         .padding-block {
             padding: 0 5rem;
             height: 100%;
@@ -22,13 +23,13 @@
                     max-width: 48rem;
                     text-align: center;
                     .title {
-                        font-size: 3.5rem;
+                        font-size: var(--font-56);
                         margin-bottom: 1.5rem;
                         line-height: 1.25;
                         color: var(--color-font-invert);
                     }
                     .text {
-                        font-size: var(--font-input);
+                        font-size: var(--font-18);
                         color: var(--color-font-invert);
                         line-height: 1.5;
                     }
@@ -38,36 +39,11 @@
                         gap: 1rem;
                         justify-content: center;
                         .button {
-                            padding: 0.75rem 1.5rem;
-                            color: var(--color-font-invert);
-                            border-radius: var(--border-low);
-                            font-size: var(--font-text);
-                            transition: var(--anim-mid);
-                            min-width: 6rem;
-                            display: flex;
-                            align-items: center;
-                            gap: 0.5rem;
-                            justify-content: center;
-                            &:hover {
-                                cursor: pointer;
-                            }
                             &:first-of-type {
-                                color: var(--color-font-white);
-                                background-color: var(--color-button-blue-2);
-                                box-shadow: 0 5px 0 0 var(--color-button-blue-3);
-                                backdrop-filter: blur(10px);
-                                border-radius: 12px;
-                                &:hover {
-                                    box-shadow: 0 2px 0 0 var(--color-button-blue-3);
-                                    transform: translate(0px, 3px);
-                                }
+                                @include button.button($solid: true);
                             }
                             &:last-of-type {
-                                &:hover {
-                                    mat-icon {
-                                        animation: arrow 1s ease-in-out infinite;
-                                    }
-                                }
+                                @include button.button($arrow: true);
                             }
                         }
                     }
@@ -80,7 +56,7 @@
                     aspect-ratio: 1/1.2;
                     position: absolute;
                     object-fit: cover;
-                    border-radius: var(--border-high);
+                    border-radius: var(--border-16);
                     &.big {
                         bottom: -6rem;
                     }
@@ -116,7 +92,7 @@
         max-width: 81.25rem;
         margin: 0 auto;
         background-color: var(--color-back-blue-1);
-        border-radius: var(--border-high);
+        border-radius: var(--border-16);
         .padding-block {
             padding: 5rem;
             height: 100%;
@@ -139,13 +115,13 @@
                 .content {
                     max-width: 48rem;
                     .title {
-                        font-size: 3rem;
+                        font-size: var(--font-48);
                         margin-bottom: 1.5rem;
                         line-height: 1.25;
                         color: var(--color-font-white);
                     }
                     .text {
-                        font-size: var(--font-input);
+                        font-size: var(--font-18);
                         color: var(--color-font-white);
                         line-height: 1.5;
                     }
@@ -154,35 +130,11 @@
                         display: flex;
                         gap: 1rem;
                         .button {
-                            padding: 0.75rem 1.5rem;
-                            color: var(--color-font-white);
-                            border-radius: var(--border-low);
-                            font-size: var(--font-text);
-                            transition: var(--anim-mid);
-                            border: 1px solid transparent;
-                            display: flex;
-                            align-items: center;
-                            gap: 0.5rem;
-                            &:hover {
-                                cursor: pointer;
-                            }
                             &:first-of-type {
-                                color: var(--color-font-white);
-                                background-color: var(--color-button-blue-2);
-                                box-shadow: 0 5px 0 0 var(--color-button-blue-3);
-                                backdrop-filter: blur(10px);
-                                border-radius: 12px;
-                                &:hover {
-                                    box-shadow: 0 2px 0 0 var(--color-button-blue-3);
-                                    transform: translate(0px, 3px);
-                                }
+                                @include button.button($solid: true);
                             }
                             &:last-of-type {
-                                &:hover {
-                                    mat-icon {
-                                        animation: arrow 1s ease-in-out infinite;
-                                    }
-                                }
+                                @include button.button($arrow: true, $color: var(--color-font-white));
                             }
                         }
                     }
@@ -204,8 +156,8 @@
                     align-items: center;
                     gap: 1rem;
                     background-color: var(--color-button-blue-2);
-                    border-radius: var(--border-mid);
-                    transition: all 0.2s ease-in-out;
+                    border-radius: var(--border-8);
+                    transition: var(--anim-2);
                     cursor: default;
                     &:hover {
                         transform: scale(1.05) translateY(0.25rem);
@@ -216,7 +168,7 @@
                         aspect-ratio: 1;
                     }
                     .skill-name {
-                        font-size: var(--font-label);
+                        font-size: var(--font-20);
                         font-weight: bold;
                         color: var(--color-font-white);
                     }
@@ -243,13 +195,13 @@
                 .content {
                     max-width: 48rem;
                     .title {
-                        font-size: 3rem;
+                        font-size: var(--font-48);
                         margin-bottom: 1.5rem;
                         line-height: 1.25;
                         color: var(--color-font-invert);
                     }
                     .text {
-                        font-size: var(--font-input);
+                        font-size: var(--font-18);
                         color: var(--color-font-invert);
                         line-height: 1.5;
                     }
@@ -258,35 +210,11 @@
                         display: flex;
                         gap: 1rem;
                         .button {
-                            padding: 0.75rem 1.5rem;
-                            color: var(--color-font-invert);
-                            border-radius: var(--border-low);
-                            font-size: var(--font-text);
-                            transition: var(--anim-mid);
-                            border: 1px solid transparent;
-                            display: flex;
-                            align-items: center;
-                            gap: 0.5rem;
-                            &:hover {
-                                cursor: pointer;
-                            }
                             &:first-of-type {
-                                color: var(--color-font-white);
-                                background-color: var(--color-button-blue-2);
-                                box-shadow: 0 5px 0 0 var(--color-button-blue-3);
-                                backdrop-filter: blur(10px);
-                                border-radius: 12px;
-                                &:hover {
-                                    box-shadow: 0 2px 0 0 var(--color-button-blue-3);
-                                    transform: translate(0px, 3px);
-                                }
+                                @include button.button($solid: true);
                             }
                             &:last-of-type {
-                                &:hover {
-                                    mat-icon {
-                                        animation: arrow 1s ease-in-out infinite;
-                                    }
-                                }
+                                @include button.button($arrow: true);
                             }
                         }
                     }
@@ -349,7 +277,7 @@
                         aspect-ratio: 1 / 1;
                         object-fit: cover;
                         box-sizing: border-box;
-                        border-radius: var(--border-mid);
+                        border-radius: var(--border-12);
                     }
                     .timeline {
                         display: flex;
@@ -361,7 +289,7 @@
                             z-index: 2;
                             width: 1rem;
                             height: 1rem;
-                            border-radius: 100%;
+                            border-radius: var(--border-100);
                             background-color: var(--color-button-blue-2);
                             box-shadow: 0px 0px 0px 0.5rem var(--color-back-invert);
                         }
@@ -388,11 +316,11 @@
                             align-self: start;
                             padding-right: 1rem;
                             margin-bottom: 0.5rem;
-                            font-size: var(--font-title);
+                            font-size: var(--font-24);
                             color: var(--color-font-invert);
                         }
                         p {
-                            font-size: var(--font-text);
+                            font-size: var(--font-16);
                             color: var(--color-font-invert);
                         }
                     }
@@ -407,7 +335,6 @@
         max-height: 54rem;
         max-width: 81.25rem;
         margin: 0 auto;
-        background-color: var(--color-back-invert);
         .padding-block {
             padding: 0 2.5rem;
             height: 100%;
@@ -427,13 +354,13 @@
                     max-width: 48rem;
                     text-align: center;
                     .title {
-                        font-size: 2.5rem;
+                        font-size: var(--font-40);
                         margin-bottom: 1.5rem;
                         line-height: 1.25;
                         color: var(--color-font-invert);
                     }
                     .text {
-                        font-size: var(--font-text);
+                        font-size: var(--font-16);
                         color: var(--color-font-invert);
                         line-height: 1.5;
                     }
@@ -443,29 +370,11 @@
                         gap: 1rem;
                         justify-content: center;
                         .button {
-                            padding: 0.75rem 1.5rem;
-                            color: var(--color-font-invert);
-                            border-radius: var(--border-low);
-                            font-size: var(--font-text);
-                            transition: var(--anim-mid);
-                            min-width: 6rem;
-                            display: flex;
-                            align-items: center;
-                            gap: 0.5rem;
-                            justify-content: center;
                             &:first-of-type {
-                                color: var(--color-font-white);
-                                background-color: var(--color-button-blue-2);
-                                box-shadow: 0 5px 0 0 var(--color-button-blue-3);
-                                backdrop-filter: blur(10px);
-                                border-radius: 12px;
+                                @include button.button($solid: true);
                             }
                             &:last-of-type {
-                                color: var(--color-font-invert);
-                                background-color: var(--color-button-gray-1);
-                                box-shadow: 0 5px 0 0 var(--color-button-gray-2);
-                                backdrop-filter: blur(10px);
-                                border-radius: 12px;
+                                @include button.button($arrow: true);
                             }
                         }
                     }
@@ -479,7 +388,7 @@
                     aspect-ratio: 1/1.2;
                     position: absolute;
                     object-fit: cover;
-                    border-radius: var(--border-high);
+                    border-radius: var(--border-16);
                     left: 50%;
                 }
                 .left {
@@ -537,13 +446,13 @@
                 .content {
                     max-width: 48rem;
                     .title {
-                        font-size: 2.25rem;
+                        font-size: var(--font-36);
                         margin-bottom: 1.5rem;
                         line-height: 1.25;
                         color: var(--color-font-white);
                     }
                     .text {
-                        font-size: var(--font-text);
+                        font-size: var(--font-16);
                         color: var(--color-font-white);
                         line-height: 1.5;
                     }
@@ -552,28 +461,11 @@
                         display: flex;
                         gap: 1rem;
                         .button {
-                            padding: 0.75rem 1.5rem;
-                            color: var(--color-font-white);
-                            border-radius: var(--border-low);
-                            font-size: var(--font-text);
-                            transition: var(--anim-mid);
-                            border: 1px solid transparent;
-                            display: flex;
-                            align-items: center;
-                            gap: 0.5rem;
                             &:first-of-type {
-                                color: var(--color-font-white);
-                                background-color: var(--color-button-blue-2);
-                                box-shadow: 0 5px 0 0 var(--color-button-blue-3);
-                                backdrop-filter: blur(10px);
-                                border-radius: 12px;
+                                @include button.button($solid: true);
                             }
                             &:last-of-type {
-                                color: var(--color-font-invert);
-                                background-color: var(--color-button-gray-1);
-                                box-shadow: 0 5px 0 0 var(--color-button-gray-2);
-                                backdrop-filter: blur(10px);
-                                border-radius: 12px;
+                                @include button.button($arrow: true);
                             }
                         }
                     }
@@ -595,14 +487,14 @@
                     align-items: center;
                     gap: 1rem;
                     background-color: var(--color-button-blue-2);
-                    border-radius: var(--border-mid);
-                    transition: all 0.2s ease-in-out;
+                    border-radius: var(--border-8);
+                    transition: var(--anim-2);
                     img {
                         width: 2rem;
                         aspect-ratio: 1;
                     }
                     .skill-name {
-                        font-size: var(--font-input);
+                        font-size: var(--font-18);
                         font-weight: bold;
                         color: var(--color-font-white);
                     }
@@ -629,13 +521,13 @@
                 .content {
                     max-width: 48rem;
                     .title {
-                        font-size: 2.25rem;
+                        font-size: var(--font-36);
                         margin-bottom: 1.5rem;
                         line-height: 1.25;
                         color: var(--color-font-invert);
                     }
                     .text {
-                        font-size: var(--font-text);
+                        font-size: var(--font-16);
                         color: var(--color-font-invert);
                         line-height: 1.5;
                     }
@@ -644,28 +536,11 @@
                         display: flex;
                         gap: 1rem;
                         .button {
-                            padding: 0.75rem 1.5rem;
-                            color: var(--color-font-invert);
-                            border-radius: var(--border-low);
-                            font-size: var(--font-text);
-                            transition: var(--anim-mid);
-                            border: 1px solid transparent;
-                            display: flex;
-                            align-items: center;
-                            gap: 0.5rem;
                             &:first-of-type {
-                                color: var(--color-font-white);
-                                background-color: var(--color-button-blue-2);
-                                box-shadow: 0 5px 0 0 var(--color-button-blue-3);
-                                backdrop-filter: blur(10px);
-                                border-radius: 12px;
+                                @include button.button($solid: true);
                             }
                             &:last-of-type {
-                                color: var(--color-font-invert);
-                                background-color: var(--color-button-gray-1);
-                                box-shadow: 0 5px 0 0 var(--color-button-gray-2);
-                                backdrop-filter: blur(10px);
-                                border-radius: 12px;
+                                @include button.button($arrow: true);
                             }
                         }
                     }
@@ -689,7 +564,7 @@
                         aspect-ratio: 1 / 1;
                         object-fit: cover;
                         box-sizing: border-box;
-                        border-radius: var(--border-mid);
+                        border-radius: var(--border-8);
                     }
                     .timeline {
                         display: flex;
@@ -701,15 +576,9 @@
                         position: relative;
                         .circle {
                             z-index: 2;
-                            width: 0.9375rem;
-                            height: 0.9375rem;
-                            flex-grow: 0;
-                            flex-shrink: 0;
-                            flex-basis: auto;
-                            border-top-left-radius: 100%;
-                            border-top-right-radius: 100%;
-                            border-bottom-left-radius: 100%;
-                            border-bottom-right-radius: 100%;
+                            width: 1rem;
+                            aspect-ratio: 1;
+                            border-radius: var(--border-100);
                             background-color: var(--color-button-blue-2);
                             box-shadow: 0px 0px 0px 0.5rem var(--color-back-invert);
                         }
@@ -734,27 +603,16 @@
                         margin-bottom: 1rem;
                         h3 {
                             margin-bottom: 0.5rem;
-                            font-size: var(--font-title);
+                            font-size: var(--font-20);
                             color: var(--color-font-invert);
                         }
                         p {
-                            font-size: var(--font-text);
+                            font-size: var(--font-16);
                             color: var(--color-font-invert);
                         }
                     }
                 }
             }
         }
-    }
-}
-@keyframes arrow {
-    0% {
-        transform: translate(0px, 0px);
-    }
-    50% {
-        transform: translate(6px, 0px);
-    }
-    100% {
-        transform: translate(0px, 0px);
     }
 }

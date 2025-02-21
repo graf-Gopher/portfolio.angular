@@ -1,0 +1,11 @@
+@use "./button-des";
+@use "./button-mob";
+
+@mixin button($solid: false, $arrow: false, $color: false) {
+    @media screen and (min-width: 860px) {
+        @include button-des.button($solid, $arrow, $color);
+    }
+    @media screen and (max-width: 860px) {
+        @include button-mob.button($solid, $arrow, $color);
+    }
+}

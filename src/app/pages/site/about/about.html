@@ -1,5 +1,67 @@
 <app-site-header></app-site-header>
 
-<section class="section"></section>
+<section class="about-title-section">
+    <div class="padding-block">
+        <div class="content-block">
+            <h1 class="title">{{page.ts.title | datalang}}</h1>
+            <p class="text">{{page.ts.text | datalang}}</p>
+            <div class="data-block">
+                @for(info of page.ts.infos; track info){
+                <div class="item">
+                    <mat-icon>map</mat-icon>
+                    <h3 class="title">{{info.title | datalang}}</h3>
+                    <p class="text">{{info.text | datalang}}</p>
+                </div>
+                }
+            </div>
+        </div>
+        <img loading="lazy" alt="" class="image" src="{{page.ts.image}}" />
+    </div>
+</section>
+
+<section class="about-else-section">
+    <div class="padding-block">
+        <h1 class="title">{{ page.es.title | datalang }}</h1>
+        <p class="text">{{ page.es.text | datalang }}</p>
+        <div class="content-block">
+            @for(content of page.es.else; track content){
+            <div class="item">
+                <img src="{{content.image}}" loading="lazy" alt="" />
+                <h3 class="title">{{ content.title | datalang }}</h3>
+                <div class="sub-title">{{ content.subtitle | datalang }}</div>
+                <p class="text">{{ content.text | datalang }}</p>
+            </div>
+            }
+        </div>
+        <div class="buttons-block">
+            <a class="button">{{ 'projects' | lang }}</a>
+            <a class="button">
+                {{ 'contacts' | lang }}@if(!(coreService.isMobile() | async)){
+                <mat-icon>chevron_right</mat-icon>
+                }
+            </a>
+        </div>
+    </div>
+</section>
+
+<section class="about-history-section">
+    <div class="padding-block">
+        <h2 class="title">{{ page.hs.title | datalang }}</h2>
+        <p class="text">{{ page.hs.text | datalang }}</p>
+        <div class="devs-block">
+            @for(history of page.hs.histories; track history){
+            <div class="dev">
+                <div class="date">{{ history.date | datalang }}</div>
+                <h3 class="title">{{ history.title | datalang }}</h3>
+                <p class="text">{{ history.text | datalang }}</p>
+                <div class="diviner">
+                    <div class="circle"></div>
+                    <div class="line"></div>
+                </div>
+            </div>
+            }
+        </div>
+    </div>
+</section>
 
 <app-site-footer></app-site-footer>

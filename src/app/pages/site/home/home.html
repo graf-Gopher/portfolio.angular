@@ -7,8 +7,8 @@
                 <h1 class="title">{{ page.ts.title | datalang }}</h1>
                 <p class="text">{{ page.ts.text | datalang }}</p>
                 <div class="buttons-block">
-                    <a class="button">{{ 'about_me' | lang }}</a>
-                    <a class="button">
+                    <a routerLink="/about" class="button">{{ 'about_me' | lang }}</a>
+                    <a routerLink="/contacts" class="button">
                         {{ 'contacts' | lang }}@if(!(coreService.isMobile() | async)){
                         <mat-icon>chevron_right</mat-icon>
                         }
@@ -31,8 +31,8 @@
                 <h2 class="title">{{ page.ss.title | datalang }}</h2>
                 <p class="text">{{ page.ss.text | datalang }}</p>
                 <div class="buttons-block">
-                    <a class="button">{{ 'view' | lang }}</a>
-                    <a class="button">
+                    <a routerLink="/skills" class="button">{{ 'view' | lang }}</a>
+                    <a routerLink="/contacts" class="button">
                         {{ 'contacts' | lang }} @if(!(coreService.isMobile() | async)){
                         <mat-icon>chevron_right</mat-icon>
                         }
@@ -58,8 +58,8 @@
                 <h2 class="title">{{ page.ps.title | datalang }}</h2>
                 <p class="text">{{ page.ps.text | datalang }}</p>
                 <div class="buttons-block">
-                    <a class="button">{{ 'learn_more' | lang }}</a>
-                    <a class="button">
+                    <a routerLink="/projects" class="button">{{ 'learn_more' | lang }}</a>
+                    <a routerLink="/contacts" class="button">
                         {{ 'contacts' | lang }} @if(!(coreService.isMobile() | async)){
                         <mat-icon>chevron_right</mat-icon>
                         }
@@ -68,17 +68,17 @@
             </div>
         </div>
         <div class="timeline-block">
-            @for(project of page.ps.projects; track project){
-            <a class="timeline-item">
+            @for(project of projects; track project){
+            <a routerLink="/projects/{{project.code}}" class="timeline-item">
                 <img src="{{project.image}}" alt="" loading="lazy" />
                 <div class="timeline">
                     <div class="circle"></div>
-                    <div class="date">2023</div>
+                    <div class="date">{{project.date}}</div>
                     <div class="line"></div>
                 </div>
                 <div class="text-block">
-                    <h3>{{project.name | datalang}}</h3>
-                    <p>{{project.description | datalang}}</p>
+                    <h3>{{project.title | datalang}}</h3>
+                    <p>{{project.text | datalang}}</p>
                 </div>
             </a>
             }
