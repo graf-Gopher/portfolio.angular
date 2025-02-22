@@ -7,22 +7,22 @@
         <div class="content-block">
             <div class="title">
                 <div class="item">
-                    <div class="label">{{'tech_overview' | lang }}</div>
+                    <h4 class="label">{{'tech_overview' | lang }}</h4>
                 </div>
                 <div class="item">
                     <mat-icon>map</mat-icon>
-                    <div class="label">{{'junior_stage' | lang }}</div>
-                    <div class="text">{{'junior_text' | lang }}</div>
+                    <h4 class="label">{{'junior_stage' | lang }}</h4>
+                    <p class="text">{{'junior_text' | lang }}</p>
                 </div>
                 <div class="item">
                     <mat-icon>map</mat-icon>
-                    <div class="label">{{'middle_stage' | lang }}</div>
-                    <div class="text">{{'middle_text' | lang }}</div>
+                    <h4 class="label">{{'middle_stage' | lang }}</h4>
+                    <p class="text">{{'middle_text' | lang }}</p>
                 </div>
                 <div class="item">
                     <mat-icon>map</mat-icon>
-                    <div class="label">{{'senior_stage' | lang }}</div>
-                    <div class="text">{{'senior_text' | lang }}</div>
+                    <h4 class="label">{{'senior_stage' | lang }}</h4>
+                    <p class="text">{{'senior_text' | lang }}</p>
                 </div>
             </div>
             <div class="content">
@@ -37,8 +37,8 @@
             </div>
         </div>
         <div class="buttons-block">
-            <a class="button">{{ 'projects' | lang }}</a>
-            <a class="button">
+            <a routerLink="/projects" class="button">{{ 'projects' | lang }}</a>
+            <a routerLink="/contacts" class="button">
                 {{ 'contacts' | lang }}@if(!(coreService.isMobile() | async)){
                 <mat-icon>chevron_right</mat-icon>
                 }
@@ -54,8 +54,8 @@
             @for(skill of page.ss.skills; track skill){
             <div class="item">
                 <mat-icon>map</mat-icon>
-                <div class="label">{{skill.title | datalang}}</div>
-                <div class="text">{{skill.text | datalang}}</div>
+                <h3 class="label">{{skill.title | datalang}}</h3>
+                <p class="text">{{skill.text | datalang}}</p>
                 <!-- <div class="buttons-block">
                     <a class="button">{{ 'projects' | lang }}</a>
                     <a class="button">
@@ -72,21 +72,21 @@
 
 <section class="skills-else-section">
     <div class="padding-block">
-        <h1 class="title">{{ page.es.title | datalang }}</h1>
+        <h2 class="title">{{ page.es.title | datalang }}</h2>
         <p class="text">{{ page.es.text | datalang }}</p>
         <div class="content-block">
             @for(content of page.es.else; track content){
             <div class="item">
                 <img src="{{content.image}}" loading="lazy" alt="" />
-                <h3 class="title">{{ content.title | datalang }}</h3>
+                <h4 class="title">{{ content.title | datalang }}</h4>
                 <div class="sub-title">{{ content.subtitle | datalang }}</div>
                 <p class="text">{{ content.text | datalang }}</p>
             </div>
             }
         </div>
         <div class="buttons-block">
-            <a class="button">{{ 'projects' | lang }}</a>
-            <a class="button">
+            <a routerLink="/projects" class="button">{{ 'projects' | lang }}</a>
+            <a routerLink="/contacts" class="button">
                 {{ 'contacts' | lang }}@if(!(coreService.isMobile() | async)){
                 <mat-icon>chevron_right</mat-icon>
                 }

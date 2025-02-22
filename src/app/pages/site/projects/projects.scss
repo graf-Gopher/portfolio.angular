@@ -4,7 +4,7 @@
     .projects-title-section {
         max-width: 81.25rem;
         margin: 0 auto;
-        background-color: var(--color-back-invert);
+        color: var(--color-font-invert);
         .padding-block {
             padding: 5rem;
             height: 100%;
@@ -13,18 +13,15 @@
             .sub-title {
                 font-size: var(--font-16);
                 margin-bottom: 1rem;
-                color: var(--color-font-invert);
                 font-weight: bold;
             }
             .title {
                 font-size: var(--font-56);
                 line-height: 1.25;
-                color: var(--color-font-invert);
                 margin-bottom: 1rem;
             }
             .text {
                 font-size: var(--font-18);
-                color: var(--color-font-invert);
                 line-height: 1.5;
             }
         }
@@ -33,7 +30,7 @@
     .projects-main-section {
         max-width: 81.25rem;
         margin: 0 auto;
-        background-color: var(--color-back-invert);
+        color: var(--color-font-invert);
         .padding-block {
             padding: 0 5rem;
             height: 100%;
@@ -66,7 +63,6 @@
                         .category {
                             border-radius: var(--border-8);
                             font-size: var(--font-14);
-                            color: var(--color-font-invert);
                             padding: 0.25rem 0.75rem;
                             background-color: var(--color-button-gray-2);
                             font-weight: bold;
@@ -76,18 +72,15 @@
                         }
                         .time {
                             font-size: var(--font-14);
-                            color: var(--color-font-invert);
                             font-weight: bold;
                         }
                     }
                     .title {
                         font-size: var(--font-32);
-                        color: var(--color-font-invert);
                         font-weight: bold;
                     }
                     .text {
                         font-size: var(--font-16);
-                        color: var(--color-font-invert);
                     }
                     .button {
                         @include button.button($arrow: true);
@@ -100,7 +93,6 @@
     .projects-tag-section {
         max-width: 81.25rem;
         margin: 0 auto;
-        background-color: var(--color-back-invert);
         .padding-block {
             padding: 5rem;
             height: 100%;
@@ -121,7 +113,7 @@
     .projects-list-section {
         max-width: 81.25rem;
         margin: 0 auto;
-        background-color: var(--color-back-invert);
+        color: var(--color-font-invert);
         .padding-block {
             padding: 0 5rem 5rem;
             height: 100%;
@@ -156,7 +148,6 @@
                             align-items: center;
                             .category {
                                 font-size: var(--font-14);
-                                color: var(--color-font-invert);
                                 padding: 0.25rem 0.75rem;
                                 background-color: var(--color-button-gray-2);
                                 font-weight: bold;
@@ -167,19 +158,16 @@
                             }
                             .time {
                                 font-size: var(--font-14);
-                                color: var(--color-font-invert);
                                 font-weight: bold;
                             }
                         }
                         .title {
                             font-size: var(--font-24);
-                            color: var(--color-font-invert);
                             font-weight: bold;
                             display: block;
                         }
                         .text {
                             font-size: var(--font-16);
-                            color: var(--color-font-invert);
                         }
                         .button {
                             @include button.button($arrow: true);
@@ -194,7 +182,7 @@
     .projects-title-section {
         max-width: 81.25rem;
         margin: 0 auto;
-        background-color: var(--color-back-invert);
+        color: var(--color-font-invert);
         .padding-block {
             padding: 2.5rem;
             height: 100%;
@@ -203,18 +191,15 @@
             .sub-title {
                 font-size: var(--font-16);
                 margin-bottom: 1rem;
-                color: var(--color-font-invert);
                 font-weight: bold;
             }
             .title {
                 font-size: var(--font-40);
                 line-height: 1.25;
-                color: var(--color-font-invert);
                 margin-bottom: 1rem;
             }
             .text {
                 font-size: var(--font-16);
-                color: var(--color-font-invert);
                 line-height: 1.5;
             }
         }
@@ -223,7 +208,7 @@
     .projects-main-section {
         max-width: 81.25rem;
         margin: 0 auto;
-        background-color: var(--color-back-invert);
+        color: var(--color-font-invert);
         .padding-block {
             padding: 0 2.5rem;
             height: 100%;
@@ -256,7 +241,6 @@
                         .category {
                             border-radius: var(--border-8);
                             font-size: var(--font-14);
-                            color: var(--color-font-invert);
                             padding: 0.25rem 0.75rem;
                             background-color: var(--color-button-gray-2);
                             font-weight: bold;
@@ -266,18 +250,15 @@
                         }
                         .time {
                             font-size: var(--font-14);
-                            color: var(--color-font-invert);
                             font-weight: bold;
                         }
                     }
                     .title {
                         font-size: var(--font-24);
-                        color: var(--color-font-invert);
                         font-weight: bold;
                     }
                     .text {
                         font-size: var(--font-16);
-                        color: var(--color-font-invert);
                     }
                     .button {
                         @include button.button($arrow: true);
@@ -290,7 +271,6 @@
     .projects-tag-section {
         max-width: 81.25rem;
         margin: 0 auto;
-        background-color: var(--color-back-invert);
         .padding-block {
             padding: 2.5rem;
             height: 100%;
@@ -311,7 +291,7 @@
     .projects-list-section {
         max-width: 81.25rem;
         margin: 0 auto;
-        background-color: var(--color-back-invert);
+        color: var(--color-font-invert);
         .padding-block {
             padding: 0 2.5rem 2.5rem;
             height: 100%;
@@ -345,7 +325,6 @@
                             align-items: center;
                             .category {
                                 font-size: var(--font-14);
-                                color: var(--color-font-invert);
                                 padding: 0.25rem 0.75rem;
                                 background-color: var(--color-button-gray-2);
                                 font-weight: bold;
@@ -356,19 +335,16 @@
                             }
                             .time {
                                 font-size: var(--font-14);
-                                color: var(--color-font-invert);
                                 font-weight: bold;
                             }
                         }
                         .title {
                             font-size: var(--font-20);
-                            color: var(--color-font-invert);
                             font-weight: bold;
                             display: block;
                         }
                         .text {
                             font-size: var(--font-16);
-                            color: var(--color-font-invert);
                         }
                         .button {
                             @include button.button($arrow: true);

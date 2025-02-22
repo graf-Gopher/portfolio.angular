@@ -1,20 +1,44 @@
+// Module imports
 import { Component } from "@angular/core";
-import { SiteHeader } from "../../../shared/site/header/header";
 import { MatIconModule } from "@angular/material/icon";
-import { SiteFooter } from "@root/src/app/shared/site/footer/footer";
-import { CoreService, DataLangPipe, LangPipe, SliderDirective } from "ngx-ute-core";
 import { AsyncPipe } from "@angular/common";
-import { AdminPagesContent } from "@root/src/constantes/admin";
+import { ActivatedRoute, RouterModule } from "@angular/router";
+import { CoreService, DataLangPipe, HttpService, LangPipe } from "ngx-ute-core";
+
+// Project imports
+import { SiteHeader } from "@shared/site/header/header";
+import { SiteFooter } from "@shared/site/footer/footer";
 
 @Component({
     selector: "app-skills",
     standalone: true,
-    imports: [SiteHeader, SiteFooter, MatIconModule, AsyncPipe, LangPipe, DataLangPipe, SliderDirective],
+    imports: [SiteHeader, SiteFooter, MatIconModule, AsyncPipe, LangPipe, DataLangPipe, RouterModule],
     templateUrl: "./skills.html",
     styleUrl: "./skills.scss",
 })
 export class SkillsPage {
-    public page: any = AdminPagesContent.skills;
+    public page: any = {};
 
-    constructor(public readonly coreService: CoreService) {}
+    /**
+     * Constructs the SkillsPage class.
+     * Initializes the component by invoking the init() method.
+     *
+     * @param coreService The core service providing application-wide functionalities.
+     * @param activatedRoute The activated route, used to get the data from the route resolver.
+     */
+    constructor(public readonly coreService: CoreService, private activatedRoute: ActivatedRoute) {
+        this.init();
+    }
+
+    /**
+     * Initialize the component with the skills page data.
+     * The page data is loaded from the assets/data/pages.json file
+     * and assigned to the page property.
+     */
+    private async init() {
+        const resolve = this.activatedRoute.snapshot.data["data"];
+        const { pages } = resolve.data;
+
+        this.page = pages.skills;
+    }
 }

@@ -58,6 +58,26 @@ p {
     color: var(--color-black);
 }
 
+h1 {
+    // line-height: 1.5;
+}
+
+h2 {
+    // line-height: 1.5;
+}
+
+h3 {
+    // line-height: 1.5;
+}
+
+h4 {
+    // line-height: 1.5;
+}
+
+p {
+    // line-height: 1.5;
+}
+
 // ScrollBar //
 ::-webkit-scrollbar {
     width: 16px;
@@ -68,14 +88,14 @@ p {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: var(--icon-brown);
+    background: var(--color-back-blue-1);
     border-radius: 8px;
     border: 5px solid transparent;
     background-clip: content-box;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: var(--icon-gray);
+    background: var(--color-back-blue-2);
     border-radius: 8px;
     border: 5px solid transparent;
     background-clip: content-box;

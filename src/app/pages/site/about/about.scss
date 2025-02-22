@@ -1,8 +1,10 @@
+@use "../../../../styles/button/button.scss";
+
 @media screen and (min-width: 800px) {
     .about-title-section {
         max-width: 81.25rem;
         margin: 0 auto;
-        background-color: var(--color-back-invert);
+        color: var(--color-font-invert);
         .padding-block {
             padding: 5rem;
             height: 100%;
@@ -14,12 +16,11 @@
             align-items: center;
             .content-block {
                 .title {
-                    font-size: var(--font-40);
+                    font-size: var(--font-48);
                     margin-bottom: 1.5rem;
                 }
                 .text {
                     font-size: var(--font-18);
-                    color: var(--color-font-invert);
                     margin-bottom: 2rem;
                 }
                 .data-block {
@@ -55,16 +56,17 @@
     .about-else-section {
         max-width: 81.25rem;
         margin: 0 auto;
-        background-color: var(--color-back-invert);
+        background-color: var(--color-back-blue-1);
+        color: var(--color-font-white);
+        border-radius: var(--border-16);
         .padding-block {
-            padding: 0 5rem;
+            padding: 5rem;
             height: 100%;
             position: relative;
             box-sizing: border-box;
             > .title {
                 font-size: var(--font-48);
                 line-height: 1.25;
-                color: var(--color-font-invert);
                 margin-bottom: 1.5rem;
                 text-align: center;
             }
@@ -108,36 +110,11 @@
                 gap: 1rem;
                 justify-content: center;
                 .button {
-                    padding: 0.75rem 1.5rem;
-                    color: var(--color-font-invert);
-                    border-radius: var(--border-low);
-                    font-size: var(--font-16);
-                    transition: var(--anim-mid);
-                    min-width: 6rem;
-                    display: flex;
-                    align-items: center;
-                    gap: 0.5rem;
-                    justify-content: center;
-                    &:hover {
-                        cursor: pointer;
-                    }
                     &:first-of-type {
-                        color: var(--color-font-white);
-                        background-color: var(--color-button-blue-2);
-                        box-shadow: 0 5px 0 0 var(--color-button-blue-3);
-                        backdrop-filter: blur(10px);
-                        border-radius: 12px;
-                        &:hover {
-                            box-shadow: 0 2px 0 0 var(--color-button-blue-3);
-                            transform: translate(0px, 3px);
-                        }
+                        @include button.button($solid: true);
                     }
                     &:last-of-type {
-                        &:hover {
-                            mat-icon {
-                                animation: arrow 1s ease-in-out infinite;
-                            }
-                        }
+                        @include button.button($arrow: true, $color: var(--color-font-white));
                     }
                 }
             }
@@ -147,7 +124,7 @@
     .about-history-section {
         max-width: 81.25rem;
         margin: 0 auto;
-        background-color: var(--color-back-invert);
+        color: var(--color-font-invert);
         .padding-block {
             padding: 5rem;
             height: 100%;
@@ -156,7 +133,6 @@
             > .title {
                 font-size: var(--font-48);
                 line-height: 1.25;
-                color: var(--color-font-invert);
                 margin-bottom: 1.5rem;
                 text-align: center;
             }
@@ -192,6 +168,11 @@
                     .text {
                         font-size: var(--font-16);
                     }
+                    .date {
+                        font-size: var(--font-32);
+                        font-weight: bold;
+                        margin-bottom: 1rem;
+                    }
                     .diviner {
                         right: 0;
                         transform: translateX(100%);
@@ -222,4 +203,199 @@
     }
 }
 @media screen and (max-width: 800px) {
+    .about-title-section {
+        max-width: 81.25rem;
+        margin: 0 auto;
+        color: var(--color-font-invert);
+        .padding-block {
+            padding: 2.5rem;
+            height: 100%;
+            position: relative;
+            box-sizing: border-box;
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 4rem;
+            align-items: center;
+            .content-block {
+                .title {
+                    font-size: var(--font-40);
+                    margin-bottom: 1.5rem;
+                }
+                .text {
+                    font-size: var(--font-18);
+                    margin-bottom: 2rem;
+                }
+                .data-block {
+                    display: grid;
+                    grid-template-columns: 1fr;
+                    gap: 1.5rem;
+                    .item {
+                        mat-icon {
+                            width: 2rem;
+                            height: 2rem;
+                            font-size: 2rem;
+                            margin-bottom: 1rem;
+                        }
+                        .title {
+                            font-size: var(--font-20);
+                            margin-bottom: 1rem;
+                            font-weight: bold;
+                        }
+                        .text {
+                            font-size: var(--font-16);
+                        }
+                    }
+                }
+            }
+            .image {
+                width: 100%;
+                aspect-ratio: 1;
+                object-fit: cover;
+            }
+        }
+    }
+
+    .about-else-section {
+        max-width: 81.25rem;
+        margin: 0 auto;
+        background-color: var(--color-back-blue-1);
+        color: var(--color-font-white);
+        .padding-block {
+            padding: 2.5rem;
+            height: 100%;
+            position: relative;
+            box-sizing: border-box;
+            > .title {
+                font-size: var(--font-40);
+                line-height: 1.25;
+                margin-bottom: 1.5rem;
+                text-align: center;
+            }
+            > .text {
+                font-size: var(--font-18);
+                text-align: center;
+                max-width: 30rem;
+                margin: 0 auto;
+            }
+            .content-block {
+                margin-top: 2.5rem;
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-column-gap: 2rem;
+                grid-row-gap: 4rem;
+                .item {
+                    text-align: center;
+                    img {
+                        margin-bottom: 1.5rem;
+                        width: 2.75rem;
+                        aspect-ratio: 1;
+                        border-radius: var(--border-100);
+                    }
+                    .title {
+                        text-align: center;
+                        font-size: var(--font-20);
+                        font-weight: bold;
+                    }
+                    .sub-title {
+                        font-size: var(--font-18);
+                        margin-bottom: 1rem;
+                    }
+                    .text {
+                        font-size: var(--font-16);
+                    }
+                }
+            }
+            .buttons-block {
+                margin-top: 2.5rem;
+                display: flex;
+                gap: 1rem;
+                justify-content: center;
+                .button {
+                    &:first-of-type {
+                        @include button.button($solid: true);
+                    }
+                    &:last-of-type {
+                        @include button.button($arrow: true);
+                    }
+                }
+            }
+        }
+    }
+
+    .about-history-section {
+        max-width: 81.25rem;
+        margin: 0 auto;
+        color: var(--color-font-invert);
+        .padding-block {
+            padding: 2.5rem;
+            height: 100%;
+            position: relative;
+            box-sizing: border-box;
+            > .title {
+                font-size: var(--font-40);
+                line-height: 1.25;
+                margin-bottom: 1.5rem;
+                text-align: center;
+            }
+            > .text {
+                font-size: var(--font-18);
+                text-align: center;
+                max-width: 30rem;
+                margin: 0 auto;
+            }
+            .devs-block {
+                margin-top: 2.5rem;
+                display: grid;
+                grid-template-columns: 1fr;
+                margin-left: 2.5rem;
+                .dev {
+                    position: relative;
+                    height: fit-content;
+                    text-align: left;
+                    padding-bottom: 2.5rem;
+                    &:last-of-type {
+                        padding-bottom: 0;
+                    }
+                    .title {
+                        font-size: var(--font-20);
+                        font-weight: bold;
+                        margin-bottom: 1rem;
+                    }
+                    .text {
+                        font-size: var(--font-16);
+                    }
+                    .date {
+                        font-size: var(--font-24);
+                        font-weight: bold;
+                        margin-bottom: 1rem;
+                    }
+
+                    .diviner {
+                        left: 0;
+                        transform: translateX(-100%);
+                        position: absolute;
+                        width: 3rem;
+                        height: 100%;
+                        top: 0.5rem;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        .circle {
+                            z-index: 2;
+                            width: 1rem;
+                            height: 1rem;
+                            border-radius: var(--border-100);
+                            background-color: var(--color-button-blue-2);
+                            box-shadow: 0px 0px 0px 0.5rem var(--color-back-invert);
+                        }
+                        .line {
+                            height: 90%;
+                            width: 3px;
+                            background-color: var(--color-button-blue-2);
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

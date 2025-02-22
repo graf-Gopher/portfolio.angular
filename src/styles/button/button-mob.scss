@@ -2,7 +2,6 @@
     padding: 0.75rem 1.5rem;
     font-size: var(--font-16);
     transition: var(--anim-2);
-    // width: fit-content;
     @if $solid {
         @if $color != false {
             color: $color;

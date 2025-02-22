@@ -1,4 +1,3 @@
-import { AsyncPipe } from "@angular/common";
 import { Component } from "@angular/core";
 import { MatIconModule } from "@angular/material/icon";
 import { RouterModule } from "@angular/router";
@@ -9,7 +8,7 @@ import { CoreService, LangPipe } from "ngx-ute-core";
     templateUrl: "footer.html",
     styleUrls: ["footer.scss"],
     standalone: true,
-    imports: [LangPipe, MatIconModule, RouterModule, AsyncPipe],
+    imports: [LangPipe, MatIconModule, RouterModule],
 })
 export class SiteFooter {
     public year: string = new Date().getFullYear().toString();

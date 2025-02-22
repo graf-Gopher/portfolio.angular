@@ -6,4 +6,5 @@ export interface EnvironmentData extends UteEnvironment {
 
 interface SessionData {
     locale: string;
+    theme: boolean;
 }

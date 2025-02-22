@@ -1,7 +1,7 @@
 // Module imports
 import { Component } from "@angular/core";
 import { MatIconModule } from "@angular/material/icon";
-import { AsyncPipe, NgClass } from "@angular/common";
+import { NgClass } from "@angular/common";
 import { CoreService, DataLangPipe, LangPipe } from "ngx-ute-core";
 import { ActivatedRoute, RouterModule } from "@angular/router";
 import { Subscription } from "rxjs";
@@ -9,47 +9,44 @@ import { Subscription } from "rxjs";
 // Project imports
 import { SiteHeader } from "@shared/site/header/header";
 import { SiteFooter } from "@shared/site/footer/footer";
-import { AdminPagesContent, AdminProjectsContent } from "@constantes/admin";
 import { ProjectData, ProjectTagData } from "@interfaces/projects";
 
 @Component({
     selector: "app-projects",
     standalone: true,
-    imports: [SiteHeader, SiteFooter, MatIconModule, AsyncPipe, NgClass, LangPipe, DataLangPipe, RouterModule],
+    imports: [SiteHeader, SiteFooter, MatIconModule, NgClass, LangPipe, DataLangPipe, RouterModule],
     templateUrl: "./projects.html",
     styleUrl: "./projects.scss",
 })
 export class ProjectsPage {
     public activeTag: string = "";
-    public page: any = AdminPagesContent.projects;
+    public page: any = {};
     public mainProject: ProjectData = {} as ProjectData;
     public listProjects: ProjectData[] = [];
     public tags: ProjectTagData[] = [];
 
+    private projects: ProjectData[] = [];
+
     private readonly subscriptions = new Subscription();
 
     /**
-     * @param coreService The core service, used to get the language and other useful informations
-     * @param activatedRoute The activated route, used to get the query parameters (tags)
+     * Constructeur de la classe ProjectsPage.
+     * Appelle la méthode init() pour initialiser les données de la page.
+     * Abonne le composant aux changements de l'URL pour charger les projets correspondants au tag.
      *
-     * Initialize the component with the last project as main project and the other projects as list projects.
-     * If query parameters are present, filter the projects by the given tag and update the main project and the list projects.
+     * @param coreService Le service de base qui fournit des informations sur l'application.
+     * @param activatedRoute Le route actif, utilis pour abonner au changement de l'URL.
      */
     constructor(public readonly coreService: CoreService, private readonly activatedRoute: ActivatedRoute) {
         this.init();
-        this.tags = Array.from(new Set(AdminProjectsContent.flatMap((project) => project.tags.map((tag) => tag.code)))).map(
-            (code) => AdminProjectsContent.flatMap((project) => project.tags).find((tag) => tag.code === code) as ProjectTagData
-        );
 
         this.subscriptions.add(
             this.activatedRoute.queryParams.subscribe((p: any) => {
                 if (Object.keys(p).length) {
-                    const projects: ProjectData[] = AdminProjectsContent.filter((pr: ProjectData) => pr.tags.some((tag: ProjectTagData) => tag.code === p.tag));
-                    this.mainProject = projects[projects.length - 1];
-                    this.listProjects = projects.slice(0, -1).reverse();
+                    this.loadProjects(p.tag);
                     this.activeTag = p.tag;
                 } else {
-                    this.init();
+                    this.loadProjects();
                     this.activeTag = "";
                 }
             })
@@ -57,13 +54,44 @@ export class ProjectsPage {
     }
 
     /**
-     * Initialize the main project and the list projects.
-     * The main project is the last project in the AdminProjectsContent array and the list projects are all the other projects.
-     * The list projects are reversed to have the most recent projects first.
+     * Initializes the ProjectsPage component with project data.
+     * Loads the page data from the assets/data/pages.json file and assigns it to the page property.
+     * Loads the projects data from the assets/data/projects.json file and assigns it to the projects property.
+     * Extracts unique tags from the projects data and assigns them to the tags property.
+     * Calls the loadProjects method to load the projects.
      */
-    private init() {
-        this.mainProject = AdminProjectsContent[AdminProjectsContent.length - 1];
-        this.listProjects = AdminProjectsContent.slice(0, -1).reverse();
+    private async init() {
+        const resolve = this.activatedRoute.snapshot.data["data"];
+        const { pages, projects } = resolve.data;
+
+        this.page = pages.projects;
+
+        this.projects = projects;
+        this.tags = Array.from(new Set(this.projects.flatMap((project) => project.tags.map((tag) => tag.code)))).map(
+            (code) => this.projects.flatMap((project) => project.tags).find((tag) => tag.code === code) as ProjectTagData
+        );
+
+        this.loadProjects();
+    }
+
+    /**
+     * Loads projects based on the provided tag value.
+     * If a tag value is provided, it filters the projects that contain the specified tag
+     * and assigns the last project as the main project and the rest as a reversed list of projects.
+     * If no tag value is provided, it assigns the last project in the list of all projects
+     * as the main project and the rest as a reversed list of projects.
+     *
+     * @param tagValue Optional tag code to filter projects by.
+     */
+    private loadProjects(tagValue?: string) {
+        if (tagValue) {
+            const projects: ProjectData[] = this.projects.filter((pr: ProjectData) => pr.tags.some((tag: ProjectTagData) => tag.code === tagValue));
+            this.mainProject = projects[projects.length - 1];
+            this.listProjects = projects.slice(0, -1).reverse();
+        } else {
+            this.mainProject = this.projects[this.projects.length - 1];
+            this.listProjects = this.projects.slice(0, -1).reverse();
+        }
     }
 
     /**
