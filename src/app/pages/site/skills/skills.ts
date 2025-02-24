@@ -1,23 +1,27 @@
 // Module imports
 import { Component } from "@angular/core";
 import { MatIconModule } from "@angular/material/icon";
-import { AsyncPipe } from "@angular/common";
+import { AsyncPipe, NgClass } from "@angular/common";
 import { ActivatedRoute, RouterModule } from "@angular/router";
-import { CoreService, DataLangPipe, HttpService, LangPipe } from "ngx-ute-core";
+import { CoreService, DataLangPipe, LangPipe } from "ngx-ute-core";
+import { MatTabGroup, MatTabsModule } from "@angular/material/tabs";
 
 // Project imports
 import { SiteHeader } from "@shared/site/header/header";
 import { SiteFooter } from "@shared/site/footer/footer";
+import { ProjectTechData } from "@interfaces/projects";
 
 @Component({
     selector: "app-skills",
     standalone: true,
-    imports: [SiteHeader, SiteFooter, MatIconModule, AsyncPipe, LangPipe, DataLangPipe, RouterModule],
+    imports: [SiteHeader, SiteFooter, MatIconModule, AsyncPipe, LangPipe, DataLangPipe, RouterModule, MatTabsModule, NgClass],
     templateUrl: "./skills.html",
     styleUrl: "./skills.scss",
 })
 export class SkillsPage {
     public page: any = {};
+    public skills: any[] = [];
+    public tags: string[] = ["main_dev", "dev_languages", "frameworks", "databases", "cloud_dev", "devops"];
 
     /**
      * Constructs the SkillsPage class.
@@ -31,14 +35,30 @@ export class SkillsPage {
     }
 
     /**
-     * Initialize the component with the skills page data.
-     * The page data is loaded from the assets/data/pages.json file
-     * and assigned to the page property.
+     * Initializes the component with skills data.
+     * Loads the page data from the assets/data/pages.json file and assigns it to the page property.
+     * Loads the skills data from the assets/data/teches.json file and assigns it to the skills property.
+     * Maps the skills data to the page data and assigns it to the skills property.
      */
     private async init() {
         const resolve = this.activatedRoute.snapshot.data["data"];
-        const { pages } = resolve.data;
+        const { pages, teches } = resolve.data;
 
         this.page = pages.skills;
+
+        this.skills = this.page.ms.contents.map((tab: any[]) => {
+            return tab.map((ct: any) => {
+                const tech: ProjectTechData = teches.find((td: ProjectTechData) => td.code === ct.feature);
+
+                return { ...ct, ...tech };
+            });
+        });
+
+        console.log(this.skills);
+    }
+
+    public changeTab(event: MatTabGroup, index: number) {
+        console.log(event);
+        event.selectedIndex = index;
     }
 }

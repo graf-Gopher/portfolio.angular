@@ -1,8 +1,13 @@
 {
     "home": {
+        "seo": {
+            "title": "[en-EN]Full-Stack Software Engineer - Development of websites, applications, server solutions[uk-UA]Full-Stack Software Engineer - Розробка сайтів, додатків, серверних рішень",
+            "desc": "[en-EN]Full-Stack Software Engineer. I create websites, mobile and desktop applications, integrate CRM, manage servers. I will help implement any digital solution![uk-UA]Full-Stack Software Engineer. Створюю веб-сайти, мобільні та десктопні додатки, інтегрую CRM, керую серверами. Допоможу реалізувати будь-яке цифрове рішення!",
+            "keywords": "[en-EN]Full-Stack Software Engineer, website development, web applications, mobile applications, server management, CRM integration, business automation[uk-UA]Full-Stack Software Engineer, розробка сайтів, веб-додатки, мобільні додатки, управління серверами, CRM інтеграція, автоматизація бізнесу"
+        },
         "ts": {
-            "title": "[en-EN]Showcase Your Web Development Skills Effortlessly[uk-UA]Веб-розробник | Портфоліо сучасних рішень",
-            "text": "[en-EN]Create a stunning portfolio website that highlights your web development projects and skills. With a clean design and smooth navigation, impress potential clients and employers with your professional presence online.",
+            "title": "[en-EN]Developing modern digital solutions[uk-UA]Розробка сучасних цифрових рішень",
+            "text": "[en-EN]I am a Full-Stack Software Engineer, building scalable, fast, and reliable digital solutions. I combine a deep understanding of software architecture, modern technologies, and an engineering approach to create efficient, secure, and scalable solutions.[uk-UA]Я – Full-Stack Software Engineer, що створює масштабовані, швидкі та надійні цифрові рішення. Я поєдную глибоке розуміння архітектури ПЗ, сучасні технології та інженерний підхід, щоб створювати ефективні, безпечні та масштабовані рішення.",
             "images": [
                 "https://www.relume.io/__assets/624380709031623bfe4aee60/6243807090316203124aee66_placeholder-image.svg",
                 "https://www.relume.io/__assets/624380709031623bfe4aee60/6243807090316203124aee66_placeholder-image.svg",
@@ -11,22 +16,22 @@
             ]
         },
         "ss": {
-            "title": "[en-EN]Medium length section heading goes here",
-            "text": "[en-EN]Discover the innovative web development projects I've created. Click below to see more!",
+            "title": "[en-EN]Advanced technology for you[uk-UA]Технології, з якими я працюю",
+            "text": "[en-EN]Only safe and proven technology stacks to create productive, secure and scalable solutions. Frontend, backend, mobile and desktop applications, server infrastructure - I offer the best tools for each project.[uk-UA]Лише безпечні та перевірені стеки технологій для створення продуктивних, безпечних і масштабованих рішень. Frontend, backend, мобільний і настільний додаток, серверна інфраструктура — я пропоную найкращі інструменти для кожного проекту.",
             "skills": [
-                "angular",
-                "angular",
-                "angular",
-                "angular",
-                "angular",
-                "angular",
-                "angular",
+                "aws",
+                "azure",
+                "digital_ocean",
+                "node_js",
+                "docker",
+                "kubernetes",
+                "php",
                 "angular"
             ]
         },
         "ps": {
-            "title": "[en-EN]Empowering Your Digital Presence with Expertise",
-            "text": "[en-EN]I specialize in creating dynamic and responsive web applications. My skills span across various technologies to bring your ideas to life.",
+            "title": "[en-EN]Implemented projects and successful cases[uk-UA]Реалізовані проєкти та успішні кейси",
+            "text": "[en-EN]Web applications, mobile solutions, CRM integrations, and business process automation are just some of the projects I have implemented for well-known brands and companies. In my work, I combine innovative technologies, engineering approach, and productivity to create effective and scalable digital solutions.[uk-UA]Веб-додатки, мобільні рішення, CRM-інтеграції та автоматизація бізнес-процесів – ось лише частина проєктів, які я реалізував для відомих брендів та компаній. У своїй роботі поєдную інноваційні технології, інженерний підхід та продуктивність, щоб створювати ефективні та масштабовані цифрові рішення.",
             "projects": [
                 "1",
                 "2",
@@ -37,22 +42,37 @@
         }
     },
     "projects": {
+        "seo": {
+            "title": "[en-EN]XXX[uk-UA]XXX",
+            "desc": "[en-EN]XXX[uk-UA]XXX",
+            "keywords": "[en-EN]XXX[uk-UA]XXX"
+        },
         "ts": {
-            "subtitle": "[en-EN]Projects",
-            "title": "[en-EN]Explore Our Latest Insights",
-            "text": "Stay updated with our latest blog posts."
+            "subtitle": "[en-EN]Projects[uk-UA]Проeкти",
+            "title": "[en-EN]All implemented projects[uk-UA]Усі реалізовані проeкти",
+            "text": "[en-EN]Browse the portfolio and find ideas for your project![uk-UA]Перегляньте портфоліо та знайдіть ідеї для вашого проєкту!"
         }
     },
     "project": {
+        "seo": {
+            "title": "[en-EN]XXX[uk-UA]XXX",
+            "desc": "[en-EN]XXX[uk-UA]XXX",
+            "keywords": "[en-EN]XXX[uk-UA]XXX"
+        },
         "ts": {
-            "title": "Trusted by industry-leading companies worldwide"
+            "title": "[en-EN]Technologies used in the project[uk-UA]Використані технології у проєкті"
         },
         "ds": {
-            "title": "Your Path to Success: A Timeline",
-            "text": "Explore the milestones that have shaped my career. Each step reflects my growth and dedication."
+            "title": "[en-EN]Project goals and implemented solutions[uk-UA]Цілі проєкту та реалізовані рішення",
+            "text": "[en-EN]This section presents the main tasks that had to be solved within the project and the key solutions that were implemented. A detailed description will help to understand the scope of the work, the approaches used, and the results achieved.[uk-UA]У цьому блоці представлені основні завдання, які потрібно було вирішити в межах проєкту, та ключові рішення, що були реалізовані. Детальний опис допоможе зрозуміти масштаб роботи, використані підходи та досягнуті результати."
         }
     },
     "contacts": {
+        "seo": {
+            "title": "[en-EN]XXX[uk-UA]XXX",
+            "desc": "[en-EN]XXX[uk-UA]XXX",
+            "keywords": "[en-EN]XXX[uk-UA]XXX"
+        },
         "ts": {
             "image": "https://www.relume.io/__assets/624380709031623bfe4aee60/6243807090316203124aee66_placeholder-image.svg",
             "title": "John Doe",
@@ -83,95 +103,287 @@
         }
     },
     "skills": {
+        "seo": {
+            "title": "[en-EN]Skills, Technologies, and Certifications - Full-Stack Software Engineer[uk-UA]Навички, технології та сертифікати - Full-Stack Software Engineer",
+            "desc": "[en-EN]List of technologies, skills, and certifications of a Full-Stack Software Engineer. Experience in web development, mobile solutions, CRM integrations, and DevOps.[uk-UA]Перелік технологій, навичок та сертифікатів Full-Stack Software Engineer. Досвід у веб-розробці, мобільних рішеннях, CRM-інтеграціях та DevOps.",
+            "keywords": "[en-EN]developer skills, web development technologies, programmer certifications, Full-Stack developer experience, DevOps, CRM, mobile applications[uk-UA]навички розробника, технології веб-розробки, сертифікати програміста, досвід Full-Stack розробника, DevOps, CRM, мобільні додатки"
+        },
         "ms": {
-            "title": "Crafting Digital Experiences",
-            "text": "Your gateway to innovative web solutions.",
+            "title": "[en-EN]Technologies, skills and achievements[uk-UA]Технології, навички та досягнення",
+            "text": "[en-EN]This page summarizes my professional background: technology expertise, key skills, achievements, and certifications. Through a holistic approach to development, I create effective digital solutions that combine productivity, security, and innovation.[uk-UA]На цій сторінці зібрано мій професійний досвід: володіння технологіями, ключові навички, здобутки та сертифікати. Завдяки комплексному підходу до розробки я створюю ефективні цифрові рішення, що поєднують продуктивність, безпеку та інноваційність.",
             "contents": [
-                {
-                    "feature": "Seamless Performance",
-                    "middle": "1 year"
-                },
-                {
-                    "feature": "Seamless Performance",
-                    "junior": "1 year"
-                },
-                {
-                    "feature": "Seamless Performance",
-                    "senior": "1 year"
-                }
+                [
+                    {
+                        "feature": "angular",
+                        "senior": "[en-EN]5 years[uk-UA]5 років"
+                    },
+                    {
+                        "feature": "node_js",
+                        "senior": "[en-EN]5 years[uk-UA]5 років"
+                    },
+                    {
+                        "feature": "typescript",
+                        "senior": "[en-EN]5 years[uk-UA]5 років"
+                    },
+                    {
+                        "feature": "mysql",
+                        "senior": "[en-EN]10 years[uk-UA]10 років"
+                    },
+                    {
+                        "feature": "docker",
+                        "senior": "[en-EN]4 years[uk-UA]4 роки"
+                    },
+                    {
+                        "feature": "nginx",
+                        "senior": "[en-EN]8 years[uk-UA]8 років"
+                    },
+                    {
+                        "feature": "wordpress",
+                        "senior": "[en-EN]10 years[uk-UA]10 років"
+                    },
+                    {
+                        "feature": "ionic",
+                        "middle": "[en-EN]3 years[uk-UA]3 роки"
+                    },
+                    {
+                        "feature": "electron",
+                        "middle": "[en-EN]3 years[uk-UA]3 роки"
+                    }
+                ],
+                [
+                    {
+                        "feature": "typescript",
+                        "senior": "[en-EN]5 years[uk-UA]5 років"
+                    },
+                    {
+                        "feature": "js",
+                        "senior": "[en-EN]14 years[uk-UA]14 років"
+                    },
+                    {
+                        "feature": "php",
+                        "senior": "[en-EN]10 years[uk-UA]10 років"
+                    },
+                    {
+                        "feature": "html5",
+                        "senior": "[en-EN]14 years[uk-UA]14 років"
+                    },
+                    {
+                        "feature": "sass",
+                        "senior": "[en-EN]10 years[uk-UA]10 років"
+                    },
+                    {
+                        "feature": "csharp",
+                        "middle": "[en-EN]6 years[uk-UA]6 років"
+                    },
+                    {
+                        "feature": "c_plus_plus",
+                        "middle": "[en-EN]4 years[uk-UA]4 років"
+                    },
+                    {
+                        "feature": "python",
+                        "junior": "[en-EN]1 year[uk-UA]1 рік"
+                    }
+                ],
+                [
+                    {
+                        "feature": "angular",
+                        "senior": "[en-EN]5 years[uk-UA]5 років"
+                    },
+                    {
+                        "feature": "node_js",
+                        "senior": "[en-EN]5 years[uk-UA]5 років"
+                    },
+                    {
+                        "feature": "wordpress",
+                        "senior": "[en-EN]10 years[uk-UA]10 років"
+                    },
+                    {
+                        "feature": "bootstrap",
+                        "senior": "[en-EN]10 years[uk-UA]10 років"
+                    },
+                    {
+                        "feature": "ionic",
+                        "middle": "[en-EN]3 years[uk-UA]3 роки"
+                    },
+                    {
+                        "feature": "electron",
+                        "middle": "[en-EN]3 years[uk-UA]3 роки"
+                    },
+                    {
+                        "feature": "ue",
+                        "middle": "[en-EN]4 years[uk-UA]4 років"
+                    },
+                    {
+                        "feature": "odoo",
+                        "junior": "[en-EN]1 year[uk-UA]1 рік"
+                    },
+                    {
+                        "feature": "dot_net",
+                        "middle": "[en-EN]2 years[uk-UA]2 роки"
+                    },
+                    {
+                        "feature": "unity",
+                        "junior": "[en-EN]1 year[uk-UA]1 рік"
+                    },
+                    {
+                        "feature": "opencart",
+                        "junior": "[en-EN]6 months[uk-UA]6 місяців"
+                    }
+                ],
+                [
+                    {
+                        "feature": "mysql",
+                        "senior": "[en-EN]10 years[uk-UA]10 років"
+                    },
+                    {
+                        "feature": "mssql",
+                        "senior": "[en-EN]6 years[uk-UA]6 років"
+                    },
+                    {
+                        "feature": "postgresql",
+                        "senior": "[en-EN]6 years[uk-UA]6 років"
+                    },
+                    {
+                        "feature": "mongodb",
+                        "middle": "[en-EN]1 year[uk-UA]1 рік"
+                    },
+                    {
+                        "feature": "elasticsearch",
+                        "junior": "[en-EN]3 months[uk-UA]3 місяців"
+                    }
+                ],
+                [
+                    {
+                        "feature": "cloudflare",
+                        "middle": "[en-EN]3 years[uk-UA]3 роки"
+                    },
+                    {
+                        "feature": "aws",
+                        "middle": "[en-EN]1 year[uk-UA]1 рік"
+                    },
+                    {
+                        "feature": "azure",
+                        "junior": "[en-EN]6 months[uk-UA]6 місяців"
+                    },
+                    {
+                        "feature": "aws_rds",
+                        "junior": "[en-EN]3 months[uk-UA]3 місяці"
+                    },
+                    {
+                        "feature": "digital_ocean",
+                        "junior": "[en-EN]2 months[uk-UA]2 місяці"
+                    },
+                    {
+                        "feature": "google_cloud",
+                        "junior": "[en-EN]6 months[uk-UA]6 місяців"
+                    },
+                    {
+                        "feature": "hetzner",
+                        "middle": "[en-EN]6 months[uk-UA]6 місяців"
+                    }
+                ],
+                [
+                    {
+                        "feature": "nginx",
+                        "senior": "[en-EN]8 years[uk-UA]8 років"
+                    },
+                    {
+                        "feature": "github",
+                        "senior": "[en-EN]7 years[uk-UA]7 років"
+                    },
+                    {
+                        "feature": "docker",
+                        "senior": "[en-EN]4 years[uk-UA]4 роки"
+                    },
+                    {
+                        "feature": "sonarqube",
+                        "senior": "[en-EN]5 years[uk-UA]5 років"
+                    },
+                    {
+                        "feature": "kubernetes",
+                        "middle": "[en-EN]6 months[uk-UA]6 місяців"
+                    },
+                    {
+                        "feature": "jenkins",
+                        "middle": "[en-EN]1 year[uk-UA]1 рік"
+                    },
+                    {
+                        "feature": "traefik",
+                        "middle": "[en-EN]1 year[uk-UA]1 рік"
+                    },
+                    {
+                        "feature": "grafana",
+                        "junior": "[en-EN]6 months[uk-UA]6 місяців"
+                    },
+                    {
+                        "feature": "proxmox",
+                        "junior": "[en-EN]6 months[uk-UA]6 місяців"
+                    },
+                    {
+                        "feature": "terraform",
+                        "junior": "[en-EN]6 months[uk-UA]6 місяців"
+                    },
+                    {
+                        "feature": "wireguard",
+                        "middle": "[en-EN]6 months[uk-UA]6 місяців"
+                    }
+                ]
             ]
         },
         "ss": {
-            "title": "Long heading is what you see here in this feature section",
+            "title": "[en-EN]Achievements and Certifications[uk-UA]Досягнення та сертифікації",
             "skills": [
                 {
-                    "title": "Long heading is what you see here in this feature section",
-                    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.",
-                    "link": "#"
+                    "image": "angular.svg",
+                    "title": "Angular Developer",
+                    "text": "[en-EN]The certificate confirms proficiency in Angular, a popular framework for building dynamic web applications. Experience covers working with components, services, routing, RxJS, state management, and performance optimization.[uk-UA]Сертифікат підтверджує володіння Angular – популярним фреймворком для створення динамічних веб-додатків. Досвід охоплює роботу з компонентами, сервісами, маршрутизацією, RxJS, управлінням станом та оптимізацією продуктивності.",
+                    "file": "TP77077799D.pdf"
                 },
                 {
-                    "title": "Long heading is what you see here in this feature section",
+                    "image": "github.svg",
+                    "title": "Github Essentials",
                     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.",
-                    "link": "#"
-                },
-                {
-                    "title": "Long heading is what you see here in this feature section",
-                    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.",
-                    "link": "#"
+                    "file": "#"
                 }
             ]
         },
         "es": {
-            "title": "Crafting Digital Experiences",
-            "text": "Your gateway to innovative web solutions.",
-            "contents": [
-                {
-                    "feature": "Seamless Performance",
-                    "middle": "1 year"
-                },
-                {
-                    "feature": "Seamless Performance",
-                    "junior": "1 year"
-                },
-                {
-                    "feature": "Seamless Performance",
-                    "senior": "1 year"
-                }
-            ],
+            "title": "[en-EN]Digital Experiences[uk-UA]Цифровий досвід",
+            "text": "[en-EN]An additional information of technologies and services that I have worked with in the process of creating IT solutions.[uk-UA]Додаткова інформація про технології та сервісів з якими мені доводилося працювати в процесі створення ІТ рішень.",
             "else": [
                 {
-                    "image": "https://www.relume.io/__assets/624380709031623bfe4aee60/6243807090316203124aee66_placeholder-image.svg",
-                    "title": "Jane Smith",
+                    "image": "aws.svg",
+                    "title": "Amazon AWS",
                     "subtitle": "UI Designer",
                     "text": "Expert in crafting visually stunning and user-friendly interfaces."
                 },
                 {
-                    "image": "https://www.relume.io/__assets/624380709031623bfe4aee60/6243807090316203124aee66_placeholder-image.svg",
-                    "title": "Jane Smith",
+                    "image": "odoo.svg",
+                    "title": "Odoo ERP",
                     "subtitle": "UI Designer",
                     "text": "Expert in crafting visually stunning and user-friendly interfaces."
                 },
                 {
-                    "image": "https://www.relume.io/__assets/624380709031623bfe4aee60/6243807090316203124aee66_placeholder-image.svg",
-                    "title": "Jane Smith",
+                    "image": "azure.svg",
+                    "title": "Microsoft Azure",
                     "subtitle": "UI Designer",
                     "text": "Expert in crafting visually stunning and user-friendly interfaces."
                 },
                 {
-                    "image": "https://www.relume.io/__assets/624380709031623bfe4aee60/6243807090316203124aee66_placeholder-image.svg",
-                    "title": "Jane Smith",
+                    "image": "digital_ocean.svg",
+                    "title": "Digital Ocean",
                     "subtitle": "UI Designer",
                     "text": "Expert in crafting visually stunning and user-friendly interfaces."
                 },
                 {
-                    "image": "https://www.relume.io/__assets/624380709031623bfe4aee60/6243807090316203124aee66_placeholder-image.svg",
-                    "title": "Jane Smith",
+                    "image": "google_cloud.svg",
+                    "title": "Google Cloud",
                     "subtitle": "UI Designer",
                     "text": "Expert in crafting visually stunning and user-friendly interfaces."
                 },
                 {
-                    "image": "https://www.relume.io/__assets/624380709031623bfe4aee60/6243807090316203124aee66_placeholder-image.svg",
-                    "title": "Jane Smith",
+                    "image": "linux.svg",
+                    "title": "Linux",
                     "subtitle": "UI Designer",
                     "text": "Expert in crafting visually stunning and user-friendly interfaces."
                 },
@@ -191,6 +403,11 @@
         }
     },
     "about": {
+        "seo": {
+            "title": "[en-EN]XXX[uk-UA]XXX",
+            "desc": "[en-EN]XXX[uk-UA]XXX",
+            "keywords": "[en-EN]XXX[uk-UA]XXX"
+        },
         "ts": {
             "title": "Showcase Your Skills with a Stunning Portfolio Website",
             "text": "Elevate your online presence with a modern portfolio that highlights your web development expertise. Engage potential clients and employers with a visually appealing display of your projects and skills.",

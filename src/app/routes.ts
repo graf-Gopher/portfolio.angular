@@ -19,7 +19,7 @@ export const AppRoutes: Routes = [
     },
     {
         path: "skills",
-        data: { jsons: ["pages"], animationState: "skills" },
+        data: { jsons: ["pages", "teches"], animationState: "skills" },
         resolve: { data: ResolveService },
         loadComponent: () => import("./pages/site/skills/skills").then((m) => m.SkillsPage),
     },

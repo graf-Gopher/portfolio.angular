@@ -19,8 +19,19 @@
             > .text {
                 font-size: var(--font-18);
                 text-align: center;
-                max-width: 30rem;
+                max-width: 50rem;
                 margin: 0 auto;
+            }
+            .tag-block {
+                display: flex;
+                gap: 1rem;
+                margin-top: 5rem;
+                // justify-content: center;
+                .tag {
+                    width: 100%;
+                    border: none;
+                    @include button.button($solid: true);
+                }
             }
             .content-block {
                 margin-top: 5rem;
@@ -40,6 +51,7 @@
                             height: 2rem;
                             font-size: 2rem;
                             margin-bottom: 0.5rem;
+                            color: var(--color-font-gray);
                         }
                         .label {
                             margin-bottom: 0.5rem;
@@ -52,6 +64,9 @@
                     }
                 }
                 .content {
+                    ::ng-deep .mat-mdc-tab-header {
+                        display: none;
+                    }
                     .item {
                         display: grid;
                         grid-template-columns: 1.5fr 1fr 1fr 1fr;
@@ -63,6 +78,15 @@
                         .feature {
                             font-size: var(--font-16);
                             padding: 0.75rem 1rem;
+                            display: flex;
+                            align-items: center;
+                            gap: 1rem;
+                            font-weight: bold;
+                            img {
+                                width: 1.5rem;
+                                aspect-ratio: 1;
+                                margin: -0.25rem 0;
+                            }
                         }
                         .value {
                             font-size: var(--font-16);
@@ -70,6 +94,13 @@
                             text-align: center;
                             padding: 0.75rem 1rem;
                         }
+                    }
+                    .diviner {
+                        font-size: var(--font-20);
+                        font-weight: bold;
+                        margin: 1rem 0;
+                        text-align: center;
+                        width: 100%;
                     }
                 }
             }
@@ -112,10 +143,9 @@
                 gap: 4rem;
                 .item {
                     text-align: center;
-                    mat-icon {
-                        width: 2rem;
-                        height: 2rem;
-                        font-size: 2rem;
+                    img {
+                        width: 4rem;
+                        height: 4rem;
                         margin-bottom: 1.5rem;
                     }
                     .label {
@@ -126,20 +156,20 @@
                     .text {
                         font-size: var(--font-16);
                     }
-                    // .buttons-block {
-                    //     margin-top: 2rem;
-                    //     display: flex;
-                    //     gap: 1rem;
-                    //     justify-content: center;
-                    //     .button {
-                    //         &:first-of-type {
+                    .buttons-block {
+                        margin-top: 2rem;
+                        display: flex;
+                        gap: 1rem;
+                        justify-content: center;
+                        .button {
+                            &:first-of-type {
+                                @include button.button($solid: true);
+                            }
+                            // &:last-of-type {
 
-                    //         }
-                    //         &:last-of-type {
-
-                    //         }
-                    //     }
-                    // }
+                            // }
+                        }
+                    }
                 }
             }
         }
@@ -176,7 +206,7 @@
                     text-align: center;
                     img {
                         margin-bottom: 1.5rem;
-                        width: 2.75rem;
+                        width: 3rem;
                         aspect-ratio: 1;
                         border-radius: var(--border-100);
                     }

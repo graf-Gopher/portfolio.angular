@@ -1,32 +1,217 @@
 [
     {
-        "image": "https://www.relume.io/__assets/624380709031623bfe4aee60/6243807090316203124aee66_placeholder-image.svg",
+        "image": "aws.svg",
+        "name": "Amazon AWS",
+        "code": "aws"
+    },
+    {
+        "image": "typescript.svg",
+        "name": "TypeScript",
+        "code": "typescript"
+    },
+    {
+        "image": "aws_rds.svg",
+        "name": "AWS RDS",
+        "code": "aws_rds"
+    },
+    {
+        "image": "azure.svg",
+        "name": "Microsoft Azure",
+        "code": "azure"
+    },
+    {
+        "image": "digital_ocean.svg",
+        "name": "Digital Ocean",
+        "code": "digital_ocean"
+    },
+    {
+        "image": "docker.svg",
+        "name": "Docker",
+        "code": "docker"
+    },
+    {
+        "image": "dot_net.svg",
+        "name": ".NET",
+        "code": "dot_net"
+    },
+    {
+        "image": "elasticsearch.svg",
+        "name": "ElasticSearch",
+        "code": "elasticsearch"
+    },
+    {
+        "image": "google_cloud.svg",
+        "name": "Google Cloud",
+        "code": "google_cloud"
+    },
+    {
+        "image": "hetzner.svg",
+        "name": "Hetzner",
+        "code": "hetzner"
+    },
+    {
+        "image": "kubernetes.svg",
+        "name": "Kubernetes",
+        "code": "kubernetes"
+    },
+    {
+        "image": "mongodb.svg",
+        "name": "MongoDB",
+        "code": "mongodb"
+    },
+    {
+        "image": "mysql.svg",
+        "name": "MySQL",
+        "code": "mysql"
+    },
+    {
+        "image": "nginx.svg",
+        "name": "Nginx",
+        "code": "nginx"
+    },
+    {
+        "image": "node_js.svg",
+        "name": "Node.JS",
+        "code": "node_js"
+    },
+    {
+        "image": "php.svg",
+        "name": "PHP",
+        "code": "php"
+    },
+    {
+        "image": "postgresql.svg",
+        "name": "PostgreSQL",
+        "code": "postgresql"
+    },
+    {
+        "image": "angular.svg",
         "name": "Angular",
         "code": "angular"
     },
     {
-        "image": "https://www.relume.io/__assets/624380709031623bfe4aee60/6243807090316203124aee66_placeholder-image.svg",
-        "name": "Angular",
-        "code": "angular"
+        "image": "wordpress.svg",
+        "name": "Wordpress",
+        "code": "wordpress"
     },
     {
-        "image": "https://www.relume.io/__assets/624380709031623bfe4aee60/6243807090316203124aee66_placeholder-image.svg",
-        "name": "Angular",
-        "code": "angular"
+        "image": "ionic.svg",
+        "name": "Ionic",
+        "code": "ionic"
     },
     {
-        "image": "https://www.relume.io/__assets/624380709031623bfe4aee60/6243807090316203124aee66_placeholder-image.svg",
-        "name": "Angular",
-        "code": "angular"
+        "image": "electron.svg",
+        "name": "Electron",
+        "code": "electron"
     },
     {
-        "image": "https://www.relume.io/__assets/624380709031623bfe4aee60/6243807090316203124aee66_placeholder-image.svg",
-        "name": "Angular",
-        "code": "angular"
+        "image": "unity.svg",
+        "name": "Unity",
+        "code": "unity"
     },
     {
-        "image": "https://www.relume.io/__assets/624380709031623bfe4aee60/6243807090316203124aee66_placeholder-image.svg",
-        "name": "Angular",
-        "code": "angular"
+        "image": "ue.svg",
+        "name": "Unreal Engine",
+        "code": "ue"
+    },
+    {
+        "image": "jenkins.svg",
+        "name": "Jenkins",
+        "code": "jenkins"
+    },
+    {
+        "image": "sonarqube.svg",
+        "name": "Sonarqube",
+        "code": "sonarqube"
+    },
+    {
+        "image": "bootstrap.svg",
+        "name": "Bootstrap",
+        "code": "bootstrap"
+    },
+    {
+        "image": "grafana.svg",
+        "name": "Grafana",
+        "code": "grafana"
+    },
+    {
+        "image": "html5.svg",
+        "name": "HTML5",
+        "code": "html5"
+    },
+    {
+        "image": "js.svg",
+        "name": "JavaScript",
+        "code": "js"
+    },
+    {
+        "image": "sass.svg",
+        "name": "Sass",
+        "code": "sass"
+    },
+    {
+        "image": "traefik.svg",
+        "name": "Traefik",
+        "code": "traefik"
+    },
+    {
+        "image": "opencart.svg",
+        "name": "OpenCart",
+        "code": "opencart"
+    },
+    {
+        "image": "odoo.svg",
+        "name": "Odoo",
+        "code": "odoo"
+    },
+    {
+        "image": "python.svg",
+        "name": "Python",
+        "code": "python"
+    },
+    {
+        "image": "csharp.svg",
+        "name": "CSharp",
+        "code": "csharp"
+    },
+    {
+        "image": "proxmox.svg",
+        "name": "Proxmox",
+        "code": "proxmox"
+    },
+    {
+        "image": "terraform.svg",
+        "name": "Terraform",
+        "code": "terraform"
+    },
+    {
+        "image": "wireguard.svg",
+        "name": "WireGuard",
+        "code": "wireguard"
+    },
+    {
+        "image": "c_plus_plus.svg",
+        "name": "C++",
+        "code": "c_plus_plus"
+    },
+    {
+        "image": "mssql.svg",
+        "name": "MsSql",
+        "code": "mssql"
+    },
+    {
+        "image": "github.svg",
+        "name": "Github",
+        "code": "github"
+    },
+    {
+        "image": "cloudflare.svg",
+        "name": "Cloudflare",
+        "code": "cloudflare"
+    },
+    {
+        "image": "XXX",
+        "name": "XXX",
+        "code": "XXX"
     }
 ]
