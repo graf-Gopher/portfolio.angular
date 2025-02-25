@@ -53,12 +53,9 @@ export class SkillsPage {
                 return { ...ct, ...tech };
             });
         });
-
-        console.log(this.skills);
     }
 
     public changeTab(event: MatTabGroup, index: number) {
-        console.log(event);
         event.selectedIndex = index;
     }
 }

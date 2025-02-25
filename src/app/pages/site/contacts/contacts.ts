@@ -17,6 +17,7 @@ import { SiteFooter } from "@shared/site/footer/footer";
 })
 export class ContactsPage {
     public page: any = {};
+    public links: any[] = [];
 
     /**
      * Constructeur de la classe HomePage.
@@ -38,5 +39,6 @@ export class ContactsPage {
         const { pages } = resolve.data;
 
         this.page = pages.contacts;
+        this.links = this.page.ls.links.filter((link: any) => link.title);
     }
 }

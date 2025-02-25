@@ -15,7 +15,7 @@
             text-align: center;
             img {
                 margin-bottom: 1.5rem;
-                width: 3.5rem;
+                width: 5rem;
                 aspect-ratio: 1;
                 border-radius: var(--border-100);
             }
@@ -75,18 +75,26 @@
                     &:hover {
                         background-color: var(--color-button-blue-2);
                         color: var(--color-font-white);
+                        .title {
+                            .image {
+                                --color-1: var(--color-font-white);
+                            }
+                        }
                     }
                     transition: var(--anim-2);
-                    mat-icon {
-                        width: 1.25rem;
-                        height: 1.25rem;
-                        font-size: var(--font-20);
-                        margin-bottom: 1rem;
-                    }
                     .title {
                         margin-bottom: 0.25rem;
                         font-size: var(--font-18);
                         font-weight: bold;
+                        display: flex;
+                        gap: 1rem;
+                        align-items: center;
+                        .image {
+                            min-width: 2.5rem;
+                            width: 2.5rem;
+                            height: 2.5rem;
+                            --color-1: var(--color-font-invert);
+                        }
                     }
                     .text {
                         font-size: var(--font-16);
@@ -150,8 +158,14 @@
                 align-items: center;
                 .link {
                     .image {
-                        width: 1.25rem;
+                        width: 3rem;
                         aspect-ratio: 1;
+                        --color-1: var(--color-font-gray);
+                    }
+                    &:hover {
+                        .image {
+                            --color-1: var(--color-font-invert);
+                        }
                     }
                 }
             }

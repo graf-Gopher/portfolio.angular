@@ -43,7 +43,9 @@
         <div class="skills-block">
             @for(skill of skills; track skill){
             <div class="skill-item">
-                <img src="/assets/images/teches/{{skill.image}}" alt="" loading="lazy" />
+                <svg class="image">
+                    <use [attr.xlink:href]="'/assets/images/teches/' + skill.image + '.svg#icon'" />
+                </svg>
                 <p class="skill-name">{{skill.name}}</p>
             </div>
             }

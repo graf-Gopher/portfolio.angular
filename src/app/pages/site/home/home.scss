@@ -149,8 +149,8 @@
                     display: flex;
                     overflow: hidden;
                     width: 100%;
-                    padding: 0.875rem;
-                    justify-content: center;
+                    padding: 0.875rem 2rem;
+                    // justify-content: center;
                     align-items: center;
                     gap: 1rem;
                     background-color: var(--color-button-blue-2);
@@ -161,14 +161,14 @@
                         transform: scale(1.05) translateY(0.25rem);
                         box-shadow: 0 -5px 0 0 var(--color-button-gray-2);
                     }
-                    img {
+                    .image {
                         width: 2.5rem;
                         aspect-ratio: 1;
+                        --color-1: var(--color-font-white);
                     }
                     .skill-name {
                         font-size: var(--font-20);
                         font-weight: bold;
-                        // min-width: 35%;
                     }
                 }
             }

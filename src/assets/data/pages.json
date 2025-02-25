@@ -1,10 +1,5 @@
 {
     "home": {
-        "seo": {
-            "title": "[en-EN]Full-Stack Software Engineer - Development of websites, applications, server solutions[uk-UA]Full-Stack Software Engineer - Розробка сайтів, додатків, серверних рішень",
-            "desc": "[en-EN]Full-Stack Software Engineer. I create websites, mobile and desktop applications, integrate CRM, manage servers. I will help implement any digital solution![uk-UA]Full-Stack Software Engineer. Створюю веб-сайти, мобільні та десктопні додатки, інтегрую CRM, керую серверами. Допоможу реалізувати будь-яке цифрове рішення!",
-            "keywords": "[en-EN]Full-Stack Software Engineer, website development, web applications, mobile applications, server management, CRM integration, business automation[uk-UA]Full-Stack Software Engineer, розробка сайтів, веб-додатки, мобільні додатки, управління серверами, CRM інтеграція, автоматизація бізнесу"
-        },
         "ts": {
             "title": "[en-EN]Developing modern digital solutions[uk-UA]Розробка сучасних цифрових рішень",
             "text": "[en-EN]I am a Full-Stack Software Engineer, building scalable, fast, and reliable digital solutions. I combine a deep understanding of software architecture, modern technologies, and an engineering approach to create efficient, secure, and scalable solutions.[uk-UA]Я – Full-Stack Software Engineer, що створює масштабовані, швидкі та надійні цифрові рішення. Я поєдную глибоке розуміння архітектури ПЗ, сучасні технології та інженерний підхід, щоб створювати ефективні, безпечні та масштабовані рішення.",
@@ -19,19 +14,19 @@
             "title": "[en-EN]Advanced technology for you[uk-UA]Технології, з якими я працюю",
             "text": "[en-EN]Only safe and proven technology stacks to create productive, secure and scalable solutions. Frontend, backend, mobile and desktop applications, server infrastructure - I offer the best tools for each project.[uk-UA]Лише безпечні та перевірені стеки технологій для створення продуктивних, безпечних і масштабованих рішень. Frontend, backend, мобільний і настільний додаток, серверна інфраструктура — я пропоную найкращі інструменти для кожного проекту.",
             "skills": [
+                "angular",
                 "aws",
-                "azure",
-                "digital_ocean",
-                "node_js",
                 "docker",
-                "kubernetes",
+                "node_js",
                 "php",
-                "angular"
+                "github",
+                "kubernetes",
+                "nginx"
             ]
         },
         "ps": {
-            "title": "[en-EN]Implemented projects and successful cases[uk-UA]Реалізовані проєкти та успішні кейси",
-            "text": "[en-EN]Web applications, mobile solutions, CRM integrations, and business process automation are just some of the projects I have implemented for well-known brands and companies. In my work, I combine innovative technologies, engineering approach, and productivity to create effective and scalable digital solutions.[uk-UA]Веб-додатки, мобільні рішення, CRM-інтеграції та автоматизація бізнес-процесів – ось лише частина проєктів, які я реалізував для відомих брендів та компаній. У своїй роботі поєдную інноваційні технології, інженерний підхід та продуктивність, щоб створювати ефективні та масштабовані цифрові рішення.",
+            "title": "[en-EN]Implemented projects and successful cases[uk-UA]Реалізовані проекти та успішні кейси",
+            "text": "[en-EN]Web applications, mobile solutions, CRM integrations, and business process automation are just some of the projects I have implemented for well-known brands and companies. In my work, I combine innovative technologies, engineering approach, and productivity to create effective and scalable digital solutions.[uk-UA]Веб-додатки, мобільні рішення, CRM-інтеграції та автоматизація бізнес-процесів – ось лише частина проектів, які я реалізував для відомих брендів та компаній. У своїй роботі поєдную інноваційні технології, інженерний підхід та продуктивність, щоб створювати ефективні та масштабовані цифрові рішення.",
             "projects": [
                 "1",
                 "2",
@@ -42,72 +37,66 @@
         }
     },
     "projects": {
-        "seo": {
-            "title": "[en-EN]XXX[uk-UA]XXX",
-            "desc": "[en-EN]XXX[uk-UA]XXX",
-            "keywords": "[en-EN]XXX[uk-UA]XXX"
-        },
         "ts": {
             "subtitle": "[en-EN]Projects[uk-UA]Проeкти",
             "title": "[en-EN]All implemented projects[uk-UA]Усі реалізовані проeкти",
-            "text": "[en-EN]Browse the portfolio and find ideas for your project![uk-UA]Перегляньте портфоліо та знайдіть ідеї для вашого проєкту!"
+            "text": "[en-EN]Browse the portfolio and find ideas for your project![uk-UA]Перегляньте портфоліо та знайдіть ідеї для вашого проекту!"
         }
     },
     "project": {
-        "seo": {
-            "title": "[en-EN]XXX[uk-UA]XXX",
-            "desc": "[en-EN]XXX[uk-UA]XXX",
-            "keywords": "[en-EN]XXX[uk-UA]XXX"
-        },
         "ts": {
-            "title": "[en-EN]Technologies used in the project[uk-UA]Використані технології у проєкті"
+            "title": "[en-EN]Technologies used in the project[uk-UA]Використані технології у проекті"
         },
         "ds": {
-            "title": "[en-EN]Project goals and implemented solutions[uk-UA]Цілі проєкту та реалізовані рішення",
-            "text": "[en-EN]This section presents the main tasks that had to be solved within the project and the key solutions that were implemented. A detailed description will help to understand the scope of the work, the approaches used, and the results achieved.[uk-UA]У цьому блоці представлені основні завдання, які потрібно було вирішити в межах проєкту, та ключові рішення, що були реалізовані. Детальний опис допоможе зрозуміти масштаб роботи, використані підходи та досягнуті результати."
+            "title": "[en-EN]Project goals and implemented solutions[uk-UA]Цілі проекту та реалізовані рішення",
+            "text": "[en-EN]This section presents the main tasks that had to be solved within the project and the key solutions that were implemented. A detailed description will help to understand the scope of the work, the approaches used, and the results achieved.[uk-UA]У цьому блоці представлені основні завдання, які потрібно було вирішити в межах проекту, та ключові рішення, що були реалізовані. Детальний опис допоможе зрозуміти масштаб роботи, використані підходи та досягнуті результати."
         }
     },
     "contacts": {
-        "seo": {
-            "title": "[en-EN]XXX[uk-UA]XXX",
-            "desc": "[en-EN]XXX[uk-UA]XXX",
-            "keywords": "[en-EN]XXX[uk-UA]XXX"
-        },
         "ts": {
-            "image": "https://www.relume.io/__assets/624380709031623bfe4aee60/6243807090316203124aee66_placeholder-image.svg",
-            "title": "John Doe",
-            "text": "Welcome to my portfolio website!",
-            "location": "USA"
+            "image": "/assets/images/avatar.png",
+            "title": "[en-EN]Kostiantyn Sikora[uk-UA]Сікора Костянтин",
+            "text": "[en-EN]Write to me and I will help you bring your idea to life. We will discuss the details, find optimal solutions, and launch an effective product.[uk-UA]Напишіть мені, і я допоможу втілити ваші ідеї в життя. Обговоримо деталі, знайдемо оптимальні рішення та запустимо ефективний продукт.",
+            "location": "[en-EN]Ukraine[uk-UA]Україна"
         },
         "ls": {
-            "github": "",
-            "linkedin": "",
+            "github": {
+                "image": "github",
+                "link": "https://github.com/graf-Gopher"
+            },
+            "linkedin": {
+                "image": "linkedin",
+                "link": "https://www.linkedin.com/in/kostiantyn-sikora-b309a7161/"
+            },
             "links": [
                 {
-                    "title": "Twitter Profile",
-                    "link": "#",
-                    "image": "https://www.relume.io/__assets/624380709031623bfe4aee60/6243807090316203124aee66_placeholder-image.svg"
+                    "title": "[en-EN]Facebook Profile[uk-UA]Профіль Facebook",
+                    "link": "https://www.facebook.com/ganzimaro/",
+                    "image": "facebook"
                 },
                 {
-                    "title": "Twitter Profile",
-                    "link": "#",
-                    "image": "https://www.relume.io/__assets/624380709031623bfe4aee60/6243807090316203124aee66_placeholder-image.svg"
+                    "title": "[en-EN]WhatsUp Profile[uk-UA]Профіль WhatsUp",
+                    "link": "https://wa.me/qr/2RJVU3X3PZ7PI1",
+                    "image": "whatsapp"
                 },
                 {
-                    "title": "Twitter Profile",
-                    "link": "#",
-                    "image": "https://www.relume.io/__assets/624380709031623bfe4aee60/6243807090316203124aee66_placeholder-image.svg"
+                    "title": "[en-EN]Telegram Profile[uk-UA]Профіль Telegram",
+                    "link": "https://t.me/kostiantyn_s_dev",
+                    "image": "telegram"
+                },
+                {
+                    "link": "https://discordapp.com/users/305972017130110976",
+                    "image": "discord"
+                },
+                {
+                    "link": "https://join.skype.com/invite/zWE5GxihVjBT",
+                    "image": "skype"
                 }
             ],
-            "email": "#"
+            "email": "sikora_kv@ukr.net"
         }
     },
     "skills": {
-        "seo": {
-            "title": "[en-EN]Skills, Technologies, and Certifications - Full-Stack Software Engineer[uk-UA]Навички, технології та сертифікати - Full-Stack Software Engineer",
-            "desc": "[en-EN]List of technologies, skills, and certifications of a Full-Stack Software Engineer. Experience in web development, mobile solutions, CRM integrations, and DevOps.[uk-UA]Перелік технологій, навичок та сертифікатів Full-Stack Software Engineer. Досвід у веб-розробці, мобільних рішеннях, CRM-інтеграціях та DevOps.",
-            "keywords": "[en-EN]developer skills, web development technologies, programmer certifications, Full-Stack developer experience, DevOps, CRM, mobile applications[uk-UA]навички розробника, технології веб-розробки, сертифікати програміста, досвід Full-Stack розробника, DevOps, CRM, мобільні додатки"
-        },
         "ms": {
             "title": "[en-EN]Technologies, skills and achievements[uk-UA]Технології, навички та досягнення",
             "text": "[en-EN]This page summarizes my professional background: technology expertise, key skills, achievements, and certifications. Through a holistic approach to development, I create effective digital solutions that combine productivity, security, and innovation.[uk-UA]На цій сторінці зібрано мій професійний досвід: володіння технологіями, ключові навички, здобутки та сертифікати. Завдяки комплексному підходу до розробки я створюю ефективні цифрові рішення, що поєднують продуктивність, безпеку та інноваційність.",
@@ -262,20 +251,16 @@
                         "middle": "[en-EN]1 year[uk-UA]1 рік"
                     },
                     {
+                        "feature": "google_cloud",
+                        "middle": "[en-EN]1 year[uk-UA]1 рік"
+                    },
+                    {
                         "feature": "azure",
                         "junior": "[en-EN]6 months[uk-UA]6 місяців"
                     },
                     {
-                        "feature": "aws_rds",
-                        "junior": "[en-EN]3 months[uk-UA]3 місяці"
-                    },
-                    {
                         "feature": "digital_ocean",
                         "junior": "[en-EN]2 months[uk-UA]2 місяці"
-                    },
-                    {
-                        "feature": "google_cloud",
-                        "junior": "[en-EN]6 months[uk-UA]6 місяців"
                     },
                     {
                         "feature": "hetzner",
@@ -313,11 +298,11 @@
                     },
                     {
                         "feature": "grafana",
-                        "junior": "[en-EN]6 months[uk-UA]6 місяців"
+                        "junior": "[en-EN]1 year[uk-UA]1 рік"
                     },
                     {
                         "feature": "proxmox",
-                        "junior": "[en-EN]6 months[uk-UA]6 місяців"
+                        "junior": "[en-EN]1 year[uk-UA]1 рік"
                     },
                     {
                         "feature": "terraform",
@@ -334,16 +319,10 @@
             "title": "[en-EN]Achievements and Certifications[uk-UA]Досягнення та сертифікації",
             "skills": [
                 {
-                    "image": "angular.svg",
+                    "image": "angular",
                     "title": "Angular Developer",
                     "text": "[en-EN]The certificate confirms proficiency in Angular, a popular framework for building dynamic web applications. Experience covers working with components, services, routing, RxJS, state management, and performance optimization.[uk-UA]Сертифікат підтверджує володіння Angular – популярним фреймворком для створення динамічних веб-додатків. Досвід охоплює роботу з компонентами, сервісами, маршрутизацією, RxJS, управлінням станом та оптимізацією продуктивності.",
                     "file": "TP77077799D.pdf"
-                },
-                {
-                    "image": "github.svg",
-                    "title": "Github Essentials",
-                    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.",
-                    "file": "#"
                 }
             ]
         },
@@ -352,130 +331,147 @@
             "text": "[en-EN]An additional information of technologies and services that I have worked with in the process of creating IT solutions.[uk-UA]Додаткова інформація про технології та сервісів з якими мені доводилося працювати в процесі створення ІТ рішень.",
             "else": [
                 {
-                    "image": "aws.svg",
-                    "title": "Amazon AWS",
-                    "subtitle": "UI Designer",
-                    "text": "Expert in crafting visually stunning and user-friendly interfaces."
+                    "image": "code",
+                    "title": "[en-EN]Full-Stack Development[uk-UA]Full-Stack Розробка",
+                    "subtitle": "[en-EN]Web applications and systems[uk-UA]Веб-додатки та системи",
+                    "text": "[en-EN]Design and development of scalable web systems, work with frontend (Angular, React) and backend (Node.js, .NET, PHP), integration with databases and APIs.[uk-UA]Проектування та розробка масштабованих веб-систем, робота з frontend (Angular, React) та backend (Node.js, .NET, PHP), інтеграція з базами даних та API."
                 },
                 {
-                    "image": "odoo.svg",
-                    "title": "Odoo ERP",
-                    "subtitle": "UI Designer",
-                    "text": "Expert in crafting visually stunning and user-friendly interfaces."
+                    "image": "mobile",
+                    "title": "[en-EN]Mobile applications[uk-UA]Мобільні додатки",
+                    "subtitle": "[en-EN]Cross-platform development[uk-UA]Кросплатформена розробка",
+                    "text": "[en-EN]Creating mobile applications on Ionic, Capacitor, Electron, integration with Push notifications, maps, API. Performance optimization.[uk-UA]Створення мобільних додатків на Ionic, Capacitor, Electron, інтеграція з Push-нотифікаціями, картами, API. Оптимізація продуктивності."
                 },
                 {
-                    "image": "azure.svg",
-                    "title": "Microsoft Azure",
-                    "subtitle": "UI Designer",
-                    "text": "Expert in crafting visually stunning and user-friendly interfaces."
+                    "image": "data_mapping",
+                    "title": "[en-EN]Business systems integration[uk-UA]Інтеграція бізнес-систем",
+                    "subtitle": "[en-EN]Business process automation[uk-UA]Автоматизація бізнес-процесів",
+                    "text": "[en-EN]Connection and customization of CRM (Odoo, Bitrix24), ERP, marketplaces, data synchronization between services, development of API gateways.[uk-UA]Підключення та кастомізація CRM (Odoo, Bitrix24), ERP, маркетплейсів, синхронізація даних між сервісами, розробка API-шлюзів."
                 },
                 {
-                    "image": "digital_ocean.svg",
-                    "title": "Digital Ocean",
-                    "subtitle": "UI Designer",
-                    "text": "Expert in crafting visually stunning and user-friendly interfaces."
+                    "image": "cloud",
+                    "title": "[en-EN]Cloud solutions and servers[uk-UA]Хмарні рішення та сервери",
+                    "subtitle": "[en-EN]Deployment and administration[uk-UA]Розгортання та адміністрування",
+                    "text": "[en-EN]Creating a reliable server infrastructure on AWS, Azure, Google Cloud, Digital Ocean, optimization of server resources, security.[uk-UA]Створення надійної серверної інфраструктури на AWS, Azure, Google Cloud, Digital Ocean, оптимізація серверних ресурсів, безпека."
                 },
                 {
-                    "image": "google_cloud.svg",
-                    "title": "Google Cloud",
-                    "subtitle": "UI Designer",
-                    "text": "Expert in crafting visually stunning and user-friendly interfaces."
+                    "image": "databases",
+                    "title": "[en-EN]Databases and Caching[uk-UA]Бази даних та кешування",
+                    "subtitle": "[en-EN]Optimization and Scaling[uk-UA]Оптимізація та масштабування",
+                    "text": "[en-EN]DB structure design, working with MySQL, PostgreSQL, MongoDB, Redis, ElasticSearch, improving performance.[uk-UA]Проектування структури БД, робота з MySQL, PostgreSQL, MongoDB, Redis, ElasticSearch, підвищення продуктивності."
                 },
                 {
-                    "image": "linux.svg",
-                    "title": "Linux",
-                    "subtitle": "UI Designer",
-                    "text": "Expert in crafting visually stunning and user-friendly interfaces."
+                    "image": "automation",
+                    "title": "[en-EN]CI/CD and Automation[uk-UA]CI/CD та автоматизація",
+                    "subtitle": "[en-EN]Rapid Releases and Testing[uk-UA]Швидкі релізи та тестування",
+                    "text": "[en-EN]Setting up Jenkins, GitHub Actions, Docker, Kubernetes, automating application deployment, testing and updates.[uk-UA]Налаштування Jenkins, GitHub Actions, Docker, Kubernetes, автоматизація розгортання, тестування та оновлень додатків."
                 },
                 {
-                    "image": "https://www.relume.io/__assets/624380709031623bfe4aee60/6243807090316203124aee66_placeholder-image.svg",
-                    "title": "Jane Smith",
-                    "subtitle": "UI Designer",
-                    "text": "Expert in crafting visually stunning and user-friendly interfaces."
+                    "image": "vpn",
+                    "title": "[en-EN]Security and VPN[uk-UA]Безпека та VPN",
+                    "subtitle": "[en-EN]Data and Server Protection[uk-UA]Захист даних та серверів",
+                    "text": "[en-EN]Setting up WireGuard VPN, SSL, access monitoring, API protection, preventing DDoS attacks, managing firewalls.[uk-UA]Налаштування WireGuard VPN, SSL, моніторинг доступу, захист API, запобігання DDoS-атакам, управління брандмауерами."
                 },
                 {
-                    "image": "https://www.relume.io/__assets/624380709031623bfe4aee60/6243807090316203124aee66_placeholder-image.svg",
-                    "title": "Jane Smith",
-                    "subtitle": "UI Designer",
-                    "text": "Expert in crafting visually stunning and user-friendly interfaces."
+                    "image": "game",
+                    "title": "[en-EN]Game Dev & 3D Technologies[uk-UA]Геймдев & 3D Технології",
+                    "subtitle": "[en-EN]Unity, Unreal Engine[uk-UA]Unity, Unreal Engine",
+                    "text": "[en-EN]Development of interactive scenes, integration of online services and APIs, working with 3D graphics, performance optimization.[uk-UA]Розробка інтерактивних сцен, інтеграція онлайн-сервісів та API, робота з 3D-графікою, оптимізація продуктивності."
                 }
             ]
         }
     },
     "about": {
-        "seo": {
-            "title": "[en-EN]XXX[uk-UA]XXX",
-            "desc": "[en-EN]XXX[uk-UA]XXX",
-            "keywords": "[en-EN]XXX[uk-UA]XXX"
-        },
         "ts": {
-            "title": "Showcase Your Skills with a Stunning Portfolio Website",
-            "text": "Elevate your online presence with a modern portfolio that highlights your web development expertise. Engage potential clients and employers with a visually appealing display of your projects and skills.",
-            "image": "https://www.relume.io/__assets/624380709031623bfe4aee60/6243807090316203124aee66_placeholder-image.svg",
+            "title": "[en-EN]A little about me[uk-UA]Трохи про мене",
+            "text": "[en-EN]I am a Full-Stack Software Engineer with experience in web application development, mobile solutions, backend infrastructure and business process automation. I have expertise in building scalable and productive solutions, API integration, server system optimization and working with cloud platforms.[uk-UA]Я — Full-Stack Software Engineer із досвідом у розробці веб-додатків, мобільних рішень, серверної інфраструктури та автоматизації бізнес-процесів. Маю експертизу у створенні масштабованих та продуктивних рішень, інтеграції API, оптимізації серверних систем і роботі з хмарними платформами.",
+            "image": "/assets/images/about.jpg",
             "infos": [
                 {
-                    "title": "Project Showcase",
-                    "text": "Present your work with detailed project descriptions and live demos for easy access."
+                    "title": "[en-EN]Experience in development[uk-UA]Досвід у розробці",
+                    "text": "[en-EN]I have experience working with a wide range of technologies: from frontend and backend to server infrastructure, DevOps, and cloud services.[uk-UA]Маю досвід роботи з широким спектром технологій: від frontend та backend до серверної інфраструктури, DevOps та хмарних сервісів.",
+                    "icon": "travel_explore"
                 },
                 {
-                    "title": "Project Showcase",
-                    "text": "Present your work with detailed project descriptions and live demos for easy access."
+                    "title": "[en-EN]Individual approach[uk-UA]Індивідуальний підхід",
+                    "text": "[en-EN]Each project is a unique solution built for specific needs. I guarantee quality, efficiency, and scalability.[uk-UA]Кожен проект — це унікальне рішення, побудоване під конкретні потреби. Гарантую якість, ефективність та масштабованість.",
+                    "icon": "psychology"
                 }
             ]
         },
         "es": {
-            "title": "Our Team",
-            "text": "Meet the talented individuals driving our success.",
+            "title": "[en-EN]Additional Skills and Сompetencies[uk-UA]Додаткові Навички та Компетенції",
             "else": [
                 {
-                    "image": "https://www.relume.io/__assets/624380709031623bfe4aee60/6243807090316203124aee66_placeholder-image.svg",
-                    "title": "Jane Smith",
-                    "subtitle": "UI Designer",
-                    "text": "Expert in crafting visually stunning and user-friendly interfaces."
+                    "image": "language",
+                    "title": "[en-EN]English language[uk-UA]Англійська мова",
+                    "text": "[en-EN]Level B2+ - fluent communication and technical documentation.[uk-UA]Level B2+ - вільне спілкування та ведення технічної документації."
                 },
                 {
-                    "image": "https://www.relume.io/__assets/624380709031623bfe4aee60/6243807090316203124aee66_placeholder-image.svg",
-                    "title": "Jane Smith",
-                    "subtitle": "UI Designer",
-                    "text": "Expert in crafting visually stunning and user-friendly interfaces."
+                    "image": "idea",
+                    "title": "[en-EN]Dev methods[uk-UA]Методи розробки",
+                    "text": "[en-EN]Agile, Scrum, Kanban – Experience working in flexible teams.[uk-UA]Agile, Scrum, Kanban – Досвід роботи у гнучких командах."
                 },
                 {
-                    "image": "https://www.relume.io/__assets/624380709031623bfe4aee60/6243807090316203124aee66_placeholder-image.svg",
-                    "title": "Jane Smith",
-                    "subtitle": "UI Designer",
-                    "text": "Expert in crafting visually stunning and user-friendly interfaces."
+                    "image": "security",
+                    "title": "[en-EN]IT security[uk-UA]IT-безпека",
+                    "text": "[en-EN]Server protection, encryption, VPN setup, firewalls.[uk-UA]Захист серверів, шифрування, налаштування VPN, брандмауери."
                 },
                 {
-                    "image": "https://www.relume.io/__assets/624380709031623bfe4aee60/6243807090316203124aee66_placeholder-image.svg",
-                    "title": "Jane Smith",
-                    "subtitle": "UI Designer",
-                    "text": "Expert in crafting visually stunning and user-friendly interfaces."
+                    "image": "subttasks",
+                    "title": "[en-EN]Project management[uk-UA]Управління проектами",
+                    "text": "[en-EN]Technical knowledge, working with Jira, Trello, ClickUp.[uk-UA]Технічний лід, робота з Jira, Trello, ClickUp."
                 }
             ]
         },
         "hs": {
-            "title": "Key Milestones in My Career Journey",
-            "text": "Explore the significant milestones that have shaped my professional path. Each step reflects my growth and dedication.",
+            "title": "[en-EN]My professional path[uk-UA]Мій професійний шлях",
+            "text": "[en-EN]From first projects to complex architectural solutions, my experience spans the development, integration, and optimization of IT solutions in various fields. In this section, you will find the main stages of my career development and key achievements.[uk-UA]Від перших проектів до складних архітектурних рішень — мій досвід охоплює розробку, інтеграцію та оптимізацію IT-рішень у різних сферах. У цьому розділі ви знайдете основні етапи розвитку моєї кар’єри та ключові досягнення.",
             "histories": [
                 {
-                    "title": "Latest Project Launch",
-                    "text": "I recently completed a cutting-edge web application that enhances user engagement. This project showcases my skills in modern frameworks.",
+                    "title": "[en-EN]Cybersecurity and adaptability[uk-UA]Кібер безпека та адаптивність",
+                    "text": "[en-EN]Advanced training in security, testing, and the latest software development methods.[uk-UA]Підвищення кваліфікації в галузі безпеки, тестування та новітніх методів розробки програмного забезпечення.",
                     "date": "2023"
                 },
                 {
-                    "title": "Latest Project Launch",
-                    "text": "I recently completed a cutting-edge web application that enhances user engagement. This project showcases my skills in modern frameworks.",
-                    "date": "2023"
+                    "title": "[en-EN]Lead Developer[uk-UA]Головний розробник",
+                    "text": "[en-EN]Organization and control of the development team.[uk-UA]Організація та контроль команди розробників.",
+                    "date": "2022"
                 },
                 {
-                    "title": "Latest Project Launch",
-                    "text": "I recently completed a cutting-edge web application that enhances user engagement. This project showcases my skills in modern frameworks.",
-                    "date": "2023"
+                    "title": "[en-EN]Notable integrations[uk-UA]Імениті інтеграції",
+                    "text": "[en-EN]Creating complex applications and integration systems for business processes of well-known companies.[uk-UA]Створення складних додатків та систем інтеграцій для бізнес процесів відомих компаній.",
+                    "date": "2021"
                 },
                 {
-                    "title": "Latest Project Launch",
-                    "text": "I recently completed a cutting-edge web application that enhances user engagement. This project showcases my skills in modern frameworks.",
-                    "date": "2023"
+                    "title": "[en-EN]Advanced training[uk-UA]Підвищення кваліфікації",
+                    "text": "[en-EN]Studying modern web application development technologies and obtaining first certificate of specialized developer.[uk-UA]Вивчення сучасних технологій розробки веб-додатків та отримання першого сертифікату по спеціальності розробника.",
+                    "date": "2020"
+                },
+                {
+                    "title": "[en-EN]System administrator and applications[uk-UA]Системний адміністратор і додатки",
+                    "text": "[en-EN]Raising the level of development to the creation of Full-Stack systems and their full connection and support at enterprises.[uk-UA]Підняття рівня розробки до створення Full-Stack систем та їх повноцінного підключення та підтримки на підприєвствах.",
+                    "date": "2018"
+                },
+                {
+                    "title": "[en-EN]Game development[uk-UA]Розробка ігор",
+                    "text": "[en-EN]First steps in computer game development and learning low-level programming languages.[uk-UA]Перші кроки в розробці комп'ютерних ігор та вивчення низькорівневих мов програмування.",
+                    "date": "2017"
+                },
+                {
+                    "title": "[en-EN]Higher education[uk-UA]Вища освіта",
+                    "text": "[en-EN]Graduation from a higher educational institution with a master's degree in the field of 'Foreign Economic Activity'.[uk-UA]Закінчення вищого навчального закладу на магістерську ступіть у сфері 'Зовнішньо Економічної діяльності'.",
+                    "date": "2016"
+                },
+                {
+                    "title": "[en-EN]New technologies and a full-fledged project[uk-UA]Нові технології та повноцінний проект",
+                    "text": "[en-EN]Studying modern frameworks and languages ​​for web projects along with creating a full-fledged project and supporting it.[uk-UA]Вивчення сучасних фреймворків та мов для веб проектів разом із створенням повноцінного проекту і його підтримкою.",
+                    "date": "2014"
+                },
+                {
+                    "title": "[en-EN]First website[uk-UA]Перший веб-сайт",
+                    "text": "[en-EN]My first steps and attempts at web development.[uk-UA]Мої перші кроки та проби себе у веб-розробці.",
+                    "date": "2012"
                 }
             ]
         }

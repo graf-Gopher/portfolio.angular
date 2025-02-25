@@ -87,8 +87,8 @@
                 gap: 3rem;
                 .lang-block {
                     position: relative;
-                    width: 2rem;
-                    height: 1.5rem;
+                    width: 3rem;
+                    height: 2.5rem;
                     .lang-list {
                         overflow: hidden;
                         border: none;
@@ -101,8 +101,11 @@
                         grid-template-rows: 0fr;
                         &.open {
                             grid-template-rows: 1fr;
-                            .lang.hide {
-                                max-height: 1.5rem;
+                            .lang {
+                                &.hide {
+                                    padding: 0.5rem 0;
+                                    max-height: 2.5rem;
+                                }
                             }
                         }
                         .lang {
@@ -118,8 +121,8 @@
                                 max-height: 0;
                             }
                             &:not(.hide) {
-                                min-height: 1.5rem;
-                                line-height: 1.5rem;
+                                min-height: 2.5rem;
+                                line-height: 2.5rem;
                             }
                             &:hover {
                                 cursor: pointer;

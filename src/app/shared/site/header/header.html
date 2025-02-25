@@ -19,7 +19,7 @@
         </div>
         <div class="control">
             <div class="theme-block">
-                <input type="checkbox" class="checkbox" id="checkbox" (change)="changeTheme()" />
+                <input type="checkbox" class="checkbox" id="checkbox" (change)="changeTheme()" [checked]="env.session.theme" />
                 <label for="checkbox" class="checkbox-label">
                     <mat-icon class="fas fa-sun">light_mode</mat-icon>
                     <mat-icon class="fas fa-moon">dark_mode</mat-icon>
@@ -27,11 +27,11 @@
                 </label>
             </div>
             <div class="lang-block">
-                <button class="lang-list" [ngClass]="{open: langOpen}" (click)="langOpen = !langOpen">
+                <div class="lang-list" [ngClass]="{open: langOpen}">
                     @for(lang of langsList; track lang){
                     <button class="lang" [ngClass]="{hide: lang.code !== currentLang}" (click)="changeLang(lang.code)">{{lang.name}}</button>
                     }
-                </button>
+                </div>
             </div>
         </div>
     </div>

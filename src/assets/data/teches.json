@@ -1,211 +1,206 @@
 [
     {
-        "image": "aws.svg",
+        "image": "aws",
         "name": "Amazon AWS",
         "code": "aws"
     },
     {
-        "image": "typescript.svg",
+        "image": "typescript",
         "name": "TypeScript",
         "code": "typescript"
     },
     {
-        "image": "aws_rds.svg",
-        "name": "AWS RDS",
-        "code": "aws_rds"
-    },
-    {
-        "image": "azure.svg",
+        "image": "azure",
         "name": "Microsoft Azure",
         "code": "azure"
     },
     {
-        "image": "digital_ocean.svg",
+        "image": "digital_ocean",
         "name": "Digital Ocean",
         "code": "digital_ocean"
     },
     {
-        "image": "docker.svg",
+        "image": "docker",
         "name": "Docker",
         "code": "docker"
     },
     {
-        "image": "dot_net.svg",
+        "image": "dot_net",
         "name": ".NET",
         "code": "dot_net"
     },
     {
-        "image": "elasticsearch.svg",
+        "image": "elasticsearch",
         "name": "ElasticSearch",
         "code": "elasticsearch"
     },
     {
-        "image": "google_cloud.svg",
+        "image": "google_cloud",
         "name": "Google Cloud",
         "code": "google_cloud"
     },
     {
-        "image": "hetzner.svg",
+        "image": "hetzner",
         "name": "Hetzner",
         "code": "hetzner"
     },
     {
-        "image": "kubernetes.svg",
+        "image": "kubernetes",
         "name": "Kubernetes",
         "code": "kubernetes"
     },
     {
-        "image": "mongodb.svg",
+        "image": "mongodb",
         "name": "MongoDB",
         "code": "mongodb"
     },
     {
-        "image": "mysql.svg",
+        "image": "mysql",
         "name": "MySQL",
         "code": "mysql"
     },
     {
-        "image": "nginx.svg",
+        "image": "nginx",
         "name": "Nginx",
         "code": "nginx"
     },
     {
-        "image": "node_js.svg",
+        "image": "node_js",
         "name": "Node.JS",
         "code": "node_js"
     },
     {
-        "image": "php.svg",
+        "image": "php",
         "name": "PHP",
         "code": "php"
     },
     {
-        "image": "postgresql.svg",
+        "image": "postgresql",
         "name": "PostgreSQL",
         "code": "postgresql"
     },
     {
-        "image": "angular.svg",
+        "image": "angular",
         "name": "Angular",
         "code": "angular"
     },
     {
-        "image": "wordpress.svg",
+        "image": "wordpress",
         "name": "Wordpress",
         "code": "wordpress"
     },
     {
-        "image": "ionic.svg",
+        "image": "ionic",
         "name": "Ionic",
         "code": "ionic"
     },
     {
-        "image": "electron.svg",
+        "image": "electron",
         "name": "Electron",
         "code": "electron"
     },
     {
-        "image": "unity.svg",
+        "image": "unity",
         "name": "Unity",
         "code": "unity"
     },
     {
-        "image": "ue.svg",
+        "image": "ue",
         "name": "Unreal Engine",
         "code": "ue"
     },
     {
-        "image": "jenkins.svg",
+        "image": "jenkins",
         "name": "Jenkins",
         "code": "jenkins"
     },
     {
-        "image": "sonarqube.svg",
+        "image": "sonarqube",
         "name": "Sonarqube",
         "code": "sonarqube"
     },
     {
-        "image": "bootstrap.svg",
+        "image": "bootstrap",
         "name": "Bootstrap",
         "code": "bootstrap"
     },
     {
-        "image": "grafana.svg",
+        "image": "grafana",
         "name": "Grafana",
         "code": "grafana"
     },
     {
-        "image": "html5.svg",
+        "image": "html5",
         "name": "HTML5",
         "code": "html5"
     },
     {
-        "image": "js.svg",
+        "image": "js",
         "name": "JavaScript",
         "code": "js"
     },
     {
-        "image": "sass.svg",
+        "image": "sass",
         "name": "Sass",
         "code": "sass"
     },
     {
-        "image": "traefik.svg",
+        "image": "traefik",
         "name": "Traefik",
         "code": "traefik"
     },
     {
-        "image": "opencart.svg",
+        "image": "opencart",
         "name": "OpenCart",
         "code": "opencart"
     },
     {
-        "image": "odoo.svg",
+        "image": "odoo",
         "name": "Odoo",
         "code": "odoo"
     },
     {
-        "image": "python.svg",
+        "image": "python",
         "name": "Python",
         "code": "python"
     },
     {
-        "image": "csharp.svg",
+        "image": "csharp",
         "name": "CSharp",
         "code": "csharp"
     },
     {
-        "image": "proxmox.svg",
+        "image": "proxmox",
         "name": "Proxmox",
         "code": "proxmox"
     },
     {
-        "image": "terraform.svg",
+        "image": "terraform",
         "name": "Terraform",
         "code": "terraform"
     },
     {
-        "image": "wireguard.svg",
+        "image": "wireguard",
         "name": "WireGuard",
         "code": "wireguard"
     },
     {
-        "image": "c_plus_plus.svg",
+        "image": "c_plus_plus",
         "name": "C++",
         "code": "c_plus_plus"
     },
     {
-        "image": "mssql.svg",
+        "image": "mssql",
         "name": "MsSql",
         "code": "mssql"
     },
     {
-        "image": "github.svg",
+        "image": "github",
         "name": "Github",
         "code": "github"
     },
     {
-        "image": "cloudflare.svg",
+        "image": "cloudflare",
         "name": "Cloudflare",
         "code": "cloudflare"
     },
