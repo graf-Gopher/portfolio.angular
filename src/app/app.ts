@@ -2,9 +2,9 @@
 import { Component } from "@angular/core";
 import { RouterOutlet } from "@angular/router";
 import { CoreService } from "ngx-ute-core";
-import { fadeInOutPage } from "./animations";
 
 // Project imports
+import { fadeInOutPage } from "./animations";
 
 @Component({
     selector: "app-root",

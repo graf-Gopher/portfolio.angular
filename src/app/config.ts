@@ -9,7 +9,6 @@ import { provideNgxUteCore } from "ngx-ute-core";
 // Project imports
 import { AppRoutes } from "./routes";
 import { environment } from "../environments/environment";
-import { PagesConst } from "../constantes/pages";
 
 export const appConfig: ApplicationConfig = {
     providers: [
@@ -17,9 +16,7 @@ export const appConfig: ApplicationConfig = {
         { provide: LocationStrategy, useClass: PathLocationStrategy },
         provideNgxUteCore({
             environment: environment,
-            pages: PagesConst,
         }),
-
         provideZoneChangeDetection({ eventCoalescing: true }),
         provideRouter(
             AppRoutes,

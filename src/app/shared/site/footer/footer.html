@@ -17,12 +17,12 @@
                     </a>
                 </div>
                 <div class="links-block">
-                    <a routerLink="/policy">Privacy Policy</a>
-                    <a routerLink="/terms">Terms of Service</a>
-                    <a routerLink="/cookie">Cookie Policy</a>
+                    <a routerLink="/docs/policy">{{ 'policy' | lang }}</a>
+                    <a routerLink="/docs/terms">{{ 'terms' | lang }}</a>
+                    <a routerLink="/docs/cookie">{{ 'cookie' | lang }}</a>
                 </div>
             </div>
-            <div class="copy-block">© 2010-{{year}} Sikora K. All rights reserved.</div>
+            <div class="copy-block">© {{year}} Sikora K. {{'copy_rights'|lang}}</div>
         </div>
     </div>
 </footer>

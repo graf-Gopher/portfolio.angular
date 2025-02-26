@@ -1,0 +1,46 @@
+@media screen and (min-width: 800px) {
+    .home-title-section {
+        max-width: 81.25rem;
+        margin: 0 auto;
+        color: var(--color-font-invert);
+        .padding-block {
+            padding: 5rem;
+            position: relative;
+            box-sizing: border-box;
+            ::ng-deep .content {
+                display: flex;
+                flex-direction: column;
+                gap: 2rem;
+                h1 {
+                    font-size: var(--font-56);
+                    text-align: center;
+                }
+                h2 {
+                    font-size: var(--font-40);
+                }
+                h3 {
+                    font-size: var(--font-24);
+                }
+                p {
+                    font-size: var(--font-16);
+                }
+                ul {
+                    margin-left: 2rem;
+                }
+                ol {
+                }
+                a {
+                    color: var(--color-font-gray);
+                    font-weight: bold;
+                    transition: var(--anim-2);
+                    &:hover {
+                        color: var(--color-button-blue-2);
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 800px) {
+}

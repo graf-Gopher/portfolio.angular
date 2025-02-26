@@ -12,7 +12,7 @@
     <div class="padding-block">
         <div class="project">
             <a routerLink="{{mainProject.code}}">
-                <img class="image" loading="lazy" alt="" src="{{mainProject.image}}" />
+                <img class="image" loading="lazy" alt="" src="/assets/images/projects/{{mainProject.code}}/{{mainProject.image}}" />
             </a>
             <div class="content-block">
                 <div class="tags">
@@ -46,17 +46,17 @@
             @for(project of listProjects; track project){
             <div class="project">
                 <a routerLink="{{project.code}}">
-                    <img class="image" loading="lazy" alt="" src="{{project.image}}" />
+                    <img class="image" loading="lazy" alt="" src="/assets/images/projects/{{project.code}}/{{project.image}}" />
                 </a>
                 <div class="content-block">
                     <div class="tags">
-                        @for(tag of project.tags; track tag){
+                        @for(tag of project.tags | slice:0:2; track tag){
                         <a class="category" routerLink="/projects" [queryParams]="{tag:tag.code}">{{tag.name | datalang}}</a>
                         }
                         <div class="time">{{project.date}}</div>
                     </div>
                     <h3 class="title">{{project.title | datalang}}</h3>
-                    <p class="text">{{project.text | datalang}}</p>
+                    <p class="text">{{(project.text | datalang).length > 100 ? ((project.text | datalang) | slice:0:100) + '...' : (project.text | datalang)}}</p>
                     <a routerLink="{{project.code}}" class="button solo">{{'read_more' | lang}}<mat-icon>chevron_right</mat-icon></a>
                 </div>
             </div>

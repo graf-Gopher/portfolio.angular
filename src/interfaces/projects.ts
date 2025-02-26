@@ -8,14 +8,15 @@ export interface ProjectData {
     title: string;
     text: string;
     image: string;
-    images?: string[];
+    images: string[];
     tags: ProjectTagData[];
     date: string;
-    time: string;
+    time: string[];
     client: string;
     role: string;
     tech: string[];
     devs: { title: string; text: string }[];
+    link?: string;
 }
 
 export interface ProjectTechData {

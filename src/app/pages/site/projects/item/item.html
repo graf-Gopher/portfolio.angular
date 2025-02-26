@@ -14,7 +14,7 @@
                 <div class="item">
                     <mat-icon>today</mat-icon>
                     <h3 class="title">{{ 'project_time' | lang }}</h3>
-                    <p class="text">{{ itemData.time | datalang }}</p>
+                    <p class="text">@for(tm of itemData.time; track tm){ <span> {{ tm | datalang }} </span> }</p>
                 </div>
                 <div class="item">
                     <mat-icon>local_offer</mat-icon>
@@ -26,7 +26,7 @@
                 <div class="sliders">
                     @for(image of itemData.images; track image){
                     <div class="slider">
-                        <img loading="lazy" alt="" class="image" src="{{image}}" />
+                        <img loading="lazy" alt="" class="image" src="/assets/images/projects/{{itemData.code}}/{{image}}" (click)="onOpen(image)" />
                     </div>
                     }
                 </div>
@@ -45,7 +45,7 @@
             </div>
         </div>
         <div class="buttons-block">
-            <a routerLink="/skills" class="button">{{ 'skills' | lang }}</a>
+            <a href="{{itemData.link}}" class="button" [ngClass]="{active: !itemData.link}">{{ 'view' | lang }}</a>
             <a routerLink="/contacts" class="button">
                 {{ 'contacts' | lang }}@if(!(coreService.isMobile() | async)){
                 <mat-icon>chevron_right</mat-icon>
@@ -61,7 +61,10 @@
         <div class="tech-list">
             @for(tech of teches; track tech){
             <div class="tech">
-                <img loading="lazy" alt="" class="image" src="{{tech.image}}" />
+                <svg class="image">
+                    <use [attr.xlink:href]="'/assets/images/teches/' + tech.image + '.svg#icon'" />
+                </svg>
+                <!-- <img loading="lazy" alt="" class="image" src="/assets/images/te{{tech.image}}" /> -->
                 <h4 class="text">{{tech.name}}</h4>
             </div>
             }

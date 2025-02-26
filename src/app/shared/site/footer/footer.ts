@@ -1,18 +1,17 @@
 // Module imports
 import { Component } from "@angular/core";
-import { MatIconModule } from "@angular/material/icon";
 import { RouterModule } from "@angular/router";
-import { CoreService, LangPipe } from "ngx-ute-core";
+import { LangPipe, LangRouter } from "ngx-ute-core";
 
 @Component({
     selector: "app-site-footer",
     templateUrl: "footer.html",
     styleUrls: ["footer.scss"],
     standalone: true,
-    imports: [LangPipe, MatIconModule, RouterModule],
+    imports: [LangPipe, RouterModule, LangRouter],
 })
 export class SiteFooter {
     public year: string = new Date().getFullYear().toString();
 
-    constructor(public readonly coreService: CoreService) {}
+    constructor() {}
 }

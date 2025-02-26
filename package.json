@@ -1,7 +1,7 @@
 {
   "name": "portfolio.angular",
   "title": "Developer Portfolio",
-  "version": "0.0.1-dev.9",
+  "version": "0.0.1-dev.10",
   "description": "Portfolio for developers",
   "author": {
     "name": "Under Tree Entertainment",
@@ -69,6 +69,7 @@
     "@angular/router": "^19.1.0",
     "@angular/ssr": "^19.1.6",
     "keen-slider": "^6.8.6",
+    "ngx-lightbox": "^3.0.0",
     "ngx-ute-core": "file:../../addons/ute-core.ngx/dist/ngx-ute-core",
     "npm-check-updates": "^17.1.14",
     "rxjs": "~7.8.0",

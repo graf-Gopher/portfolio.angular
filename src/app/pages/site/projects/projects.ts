@@ -1,8 +1,8 @@
 // Module imports
 import { Component } from "@angular/core";
 import { MatIconModule } from "@angular/material/icon";
-import { NgClass } from "@angular/common";
-import { CoreService, DataLangPipe, LangPipe } from "ngx-ute-core";
+import { NgClass, SlicePipe } from "@angular/common";
+import { DataLangPipe, LangPipe, LangRouter } from "ngx-ute-core";
 import { ActivatedRoute, RouterModule } from "@angular/router";
 import { Subscription } from "rxjs";
 
@@ -14,7 +14,7 @@ import { ProjectData, ProjectTagData } from "@interfaces/projects";
 @Component({
     selector: "app-projects",
     standalone: true,
-    imports: [SiteHeader, SiteFooter, MatIconModule, NgClass, LangPipe, DataLangPipe, RouterModule],
+    imports: [SiteHeader, SiteFooter, MatIconModule, NgClass, LangPipe, DataLangPipe, RouterModule, LangRouter, SlicePipe],
     templateUrl: "./projects.html",
     styleUrl: "./projects.scss",
 })
@@ -34,10 +34,9 @@ export class ProjectsPage {
      * Appelle la méthode init() pour initialiser les données de la page.
      * Abonne le composant aux changements de l'URL pour charger les projets correspondants au tag.
      *
-     * @param coreService Le service de base qui fournit des informations sur l'application.
      * @param activatedRoute Le route actif, utilis pour abonner au changement de l'URL.
      */
-    constructor(public readonly coreService: CoreService, private readonly activatedRoute: ActivatedRoute) {
+    constructor(private readonly activatedRoute: ActivatedRoute) {
         this.init();
 
         this.subscriptions.add(

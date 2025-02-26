@@ -1,8 +1,8 @@
 // Module imports
 import { Component } from "@angular/core";
 import { MatIconModule } from "@angular/material/icon";
-import { ActivatedRoute, RouterModule } from "@angular/router";
-import { CoreService, DataLangPipe, LangPipe } from "ngx-ute-core";
+import { ActivatedRoute } from "@angular/router";
+import { DataLangPipe, LangPipe } from "ngx-ute-core";
 
 // Project imports
 import { SiteHeader } from "@shared/site/header/header";
@@ -11,7 +11,7 @@ import { SiteFooter } from "@shared/site/footer/footer";
 @Component({
     selector: "app-contacts",
     standalone: true,
-    imports: [SiteHeader, SiteFooter, MatIconModule, LangPipe, DataLangPipe, RouterModule],
+    imports: [SiteHeader, SiteFooter, MatIconModule, LangPipe, DataLangPipe],
     templateUrl: "./contacts.html",
     styleUrl: "./contacts.scss",
 })
@@ -20,21 +20,14 @@ export class ContactsPage {
     public links: any[] = [];
 
     /**
-     * Constructeur de la classe HomePage.
-     * Appelle la méthode init() pour initialiser les données de la page.
+     * Constructor of the ContactsPage class.
+     * Initializes the component with the contacts page data.
+     * The page data is loaded from the route resolver.
+     * The links are filtered with the links that have a title.
      *
-     * @param coreService Le service de base qui fournit des informations sur l'application.
      * @param activatedRoute The activated route, used to get the data from the route resolver.
-     **/
-    constructor(public readonly coreService: CoreService, private activatedRoute: ActivatedRoute) {
-        this.init();
-    }
-
-    /**
-     * Initialize the component with the contact page data.
-     * The page data is loaded from the assets/data/pages.json file.
      */
-    private async init() {
+    constructor(private activatedRoute: ActivatedRoute) {
         const resolve = this.activatedRoute.snapshot.data["data"];
         const { pages } = resolve.data;
 

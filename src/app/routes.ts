@@ -49,6 +49,13 @@ export const AppRoutes: Routes = [
         loadComponent: () => import("./pages/site/contacts/contacts").then((m) => m.ContactsPage),
     },
     {
+        path: "docs/:page",
+        data: { jsons: ["docs"], animationState: "docs", reuseComponent: false },
+        resolve: { data: ResolveService },
+        canActivate: [CanActivatePage],
+        loadComponent: () => import("./pages/site/docs/docs").then((m) => m.DocsPage),
+    },
+    {
         path: "**",
         redirectTo: "/",
     },

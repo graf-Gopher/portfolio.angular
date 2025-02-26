@@ -31,6 +31,7 @@ export class CanActivatePage {
 
         const url: string = state.url.slice(1) || "home";
         let pageParam: string = route.queryParams["page"];
+
         let page: SeoPageData = {} as SeoPageData;
         if (!pageParam) {
             const seo: any = await this.httpService.httpLocal(`assets/data/seo.json`);

@@ -3,7 +3,7 @@ import { AsyncPipe, NgClass } from "@angular/common";
 import { Component } from "@angular/core";
 import { RouterModule } from "@angular/router";
 import { MatIconModule } from "@angular/material/icon";
-import { CookieService, CoreService, LangPipe, LangService } from "ngx-ute-core";
+import { CookieService, CoreService, LangPipe, LangRouter, LangService } from "ngx-ute-core";
 
 // Project imports
 import { environment } from "@environments/environment";
@@ -14,7 +14,7 @@ import { EnvironmentData } from "@interfaces/env";
     templateUrl: "./header.html",
     styleUrls: ["./header.scss"],
     standalone: true,
-    imports: [LangPipe, MatIconModule, RouterModule, NgClass, AsyncPipe],
+    imports: [LangPipe, MatIconModule, RouterModule, NgClass, AsyncPipe, LangRouter],
 })
 export class SiteHeader {
     public langsList: { name: string; code: string }[] = environment.localeList.map((lang) => ({ name: lang.split("-")[1], code: lang }));

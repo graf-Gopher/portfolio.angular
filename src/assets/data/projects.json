@@ -1,21 +1,69 @@
 [
     {
-        "code": "1",
-        "title": "[en-EN]Understanding Modern Web Development Trends",
-        "text": "[en-EN]Dive into the latest trends shaping the web development landscape.",
-        "image": "https://www.relume.io/__assets/624380709031623bfe4aee60/6243807090316203124aee66_placeholder-image.svg",
+        "code": "ewac",
+        "title": "[en-EN]Mobile and Web Solution \"EWAC\"[uk-UA]Мобільне та вебрішення \"EWAC\"",
+        "text": "[en-EN]To develop a solution that will simplify and optimize the process of a comprehensive vehicle inspection at the dealer network's service centers. The developed solution includes the ability to individually configure vehicle inspections, a form editor, the functionality of photo fixing the interior and exterior of the vehicle, the presence of an interactive map of the vehicle's external elements, automatic generation of inspection reports, report generation, and integration with the accounting system.[uk-UA]Розробити рішення, яке спростить та оптимізує процес кругового огляду автомобіля на сервісних центрах дилерської мережі. Розроблене рішення включає можливість індивідуального налаштування оглядів автомобіля, редактор форм, функціонал фотофіксації інтер'єра та екстер'єра автомобіля, наявність інтерактивної карти зовнішніх елементів автомобіля, автоматичне генерування актів огляду, формування звітів та інтеграція з обліковою системою.",
+        "image": "01.png",
+        "images": [
+            "01.png",
+            "02.png",
+            "03.png"
+        ],
         "tags": [
             {
-                "name": "[en-EN]Tech",
-                "code": "tech"
+                "name": "[en-EN]Site[uk-UA]Сайт",
+                "code": "site"
+            },
+            {
+                "name": "[en-EN]Mobile[uk-UA]Телефони",
+                "code": "mobile"
+            },
+            {
+                "name": "[en-EN]Server[uk-UA]Сервер",
+                "code": "server"
+            },
+            {
+                "name": "[en-EN]Integration[uk-UA]Інтеграція",
+                "code": "integr"
             }
         ],
         "date": "2024",
-        "time": "",
-        "client": "",
-        "role": "",
-        "tech": [],
-        "devs": []
+        "time": [
+            "[en-EN]Create: 05.2022 - 03.2023[uk-UA]XXX",
+            "[en-EN]Update: 09.2024 - 01.2025[uk-UA]XXX"
+        ],
+        "client": "Toyota-Ukraine LLC",
+        "role": "[en-EN]Lead Developer and Architect[uk-UA]Головний розробник та архітектор",
+        "tech": [
+            "angular",
+            "node_js",
+            "mssql",
+            "azure",
+            "sonarqube",
+            "ionic"
+        ],
+        "devs": [
+            {
+                "title": "[en-EN]Mobile app[uk-UA]Мобільний додаток",
+                "text": "[en-EN]Create an application for mobile phones and tablets with the ability to work offline without the Internet.[uk-UA]Створити додаток під мобільні телефони та планшети із можливістю автономної роботи без інтернету."
+            },
+            {
+                "title": "[en-EN]Dynamic forms[uk-UA]Динамічні форми",
+                "text": "[en-EN]Develop a server-side designer system and web interface to create individual form templates for each dealer's needs.[uk-UA]Розробити систему конструктора на стороні сервера та веб-інтерфейсу для створення індивідуальних шаблонів форм під потреби кожного із дилерів."
+            },
+            {
+                "title": "[en-EN]CRM integration[uk-UA]Інтеграція із CRM",
+                "text": "[en-EN]Develop an automatic and centralized server system that will automatically and in real time update and transfer data between each dealer's CRM system (1C) and the mobile application.[uk-UA]Розробити автоматичну та централізовану серверну систему, яка буде автоматично та в реальному часі оновлювати та передавати дані між CRM системою кожного дилера (1С) та мобільним додатком."
+            },
+            {
+                "title": "[en-EN]Analytics and Copywriting[uk-UA]Аналітика та Копіювання",
+                "text": "[en-EN]Develop a server-side backup storage system for documents generated in the application during a car inspection, and detailed analytics and documents on the web interface side to optimize further service.[uk-UA]Розробити на стороні сервера систему резервного зберігання актів, що формуються у додатку при проведенні огляду авто, та на стороні веб-інтерфейсу детальну аналітику та документи для оптимізації подальшого сервісного обслуговування."
+            },
+            {
+                "title": "[en-EN]Formation of acts and reports[uk-UA]Формування актів та звітів",
+                "text": "[en-EN]Develop the ability to automatically generate print-ready acts based on a review of the correspondingly constructed form in the designer and with the use of photo materials.[uk-UA]Розробити можливість автоматичного формування готових до друку актів по проведеному огляду відповідно побудованої форми в конструкторі та із залученням фото матеріалів."
+            }
+        ]
     },
     {
         "code": "2",
@@ -33,7 +81,32 @@
         "client": "",
         "role": "",
         "tech": [],
-        "devs": []
+        "devs": [
+            {
+                "title": "[en-EN]XXX[uk-UA]XXX",
+                "text": "[en-EN]XXX[uk-UA]XXX."
+            },
+            {
+                "title": "[en-EN]XXX[uk-UA]XXX",
+                "text": "[en-EN]XXX[uk-UA]XXX."
+            },
+            {
+                "title": "[en-EN]XXX[uk-UA]XXX",
+                "text": "[en-EN]XXX[uk-UA]XXX."
+            },
+            {
+                "title": "[en-EN]XXX[uk-UA]XXX",
+                "text": "[en-EN]XXX[uk-UA]XXX."
+            },
+            {
+                "title": "[en-EN]XXX[uk-UA]XXX",
+                "text": "[en-EN]XXX[uk-UA]XXX."
+            },
+            {
+                "title": "[en-EN]XXX[uk-UA]XXX",
+                "text": "[en-EN]XXX[uk-UA]XXX."
+            }
+        ]
     },
     {
         "code": "3",

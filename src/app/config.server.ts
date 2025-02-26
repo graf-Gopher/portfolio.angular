@@ -1,6 +1,9 @@
+// Module imports
 import { mergeApplicationConfig, ApplicationConfig } from "@angular/core";
 import { provideServerRendering } from "@angular/platform-server";
 import { provideServerRouting } from "@angular/ssr";
+
+// Project imports
 import { appConfig } from "./config";
 import { serverRoutes } from "./routes.server";
 

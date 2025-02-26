@@ -1,4 +1,5 @@
 @use "../../../../../styles/button/button.scss";
+@import url("../../../../../styles/_lightbox.scss");
 
 @media screen and (min-width: 800px) {
     .project-title-section {
@@ -13,13 +14,15 @@
             .title {
                 font-size: var(--font-56);
                 line-height: 1.25;
-                max-width: 30rem;
+                // max-width: 60rem;
                 margin: 0 auto 1.5rem;
                 text-align: center;
             }
             .text {
                 font-size: var(--font-18);
                 text-align: center;
+                // max-width: 50rem;
+                margin: 0 auto;
             }
         }
     }
@@ -56,6 +59,9 @@
                     .text {
                         font-size: var(--font-16);
                         text-align: center;
+                        span {
+                            display: block;
+                        }
                     }
                 }
                 .left-content,
@@ -70,9 +76,13 @@
                         overflow: hidden;
                         margin-bottom: 1rem;
                         .slider {
+                            height: 100%;
+                            aspect-ratio: 1;
                             .image {
                                 width: 100%;
                                 aspect-ratio: 1;
+                                object-fit: cover;
+                                cursor: pointer;
                             }
                         }
                     }
@@ -158,6 +168,8 @@
                     .image {
                         width: 2.5rem;
                         aspect-ratio: 1;
+                        // height: 2.5rem;
+                        --color-1: var(--color-font-white);
                     }
                     .text {
                         font-size: var(--font-20);
