@@ -65,7 +65,7 @@ export class ProjectsPage {
 
         this.page = pages.projects;
 
-        this.projects = projects;
+        this.projects = projects.filter((pd: ProjectData) => pd.date).sort((a: ProjectData, b: ProjectData) => a.date.localeCompare(b.date));
         this.tags = Array.from(new Set(this.projects.flatMap((project) => project.tags.map((tag) => tag.code)))).map(
             (code) => this.projects.flatMap((project) => project.tags).find((tag) => tag.code === code) as ProjectTagData
         );

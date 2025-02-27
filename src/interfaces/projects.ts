@@ -15,8 +15,12 @@ export interface ProjectData {
     client: string;
     role: string;
     tech: string[];
+    goal: string;
     devs: { title: string; text: string }[];
     link?: string;
+    seoTitle?: string;
+    seoDesk?: string;
+    seoKeywords?: string;
 }
 
 export interface ProjectTechData {

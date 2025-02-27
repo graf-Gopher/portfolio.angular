@@ -55,7 +55,7 @@
                         }
                         <div class="time">{{project.date}}</div>
                     </div>
-                    <h3 class="title">{{project.title | datalang}}</h3>
+                    <h3 class="title">{{(project.title | datalang).length > 50 ? ((project.title | datalang) | slice:0:50) + '...' : (project.title | datalang)}}</h3>
                     <p class="text">{{(project.text | datalang).length > 100 ? ((project.text | datalang) | slice:0:100) + '...' : (project.text | datalang)}}</p>
                     <a routerLink="{{project.code}}" class="button solo">{{'read_more' | lang}}<mat-icon>chevron_right</mat-icon></a>
                 </div>

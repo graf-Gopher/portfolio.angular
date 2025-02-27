@@ -45,7 +45,7 @@
             </div>
         </div>
         <div class="buttons-block">
-            <a href="{{itemData.link}}" class="button" [ngClass]="{active: !itemData.link}">{{ 'view' | lang }}</a>
+            <a href="{{itemData.link}}" class="button" rel="nofollow" target="_blank" [ngClass]="{active: !itemData.link}">{{ 'view' | lang }}</a>
             <a routerLink="/contacts" class="button">
                 {{ 'contacts' | lang }}@if(!(coreService.isMobile() | async)){
                 <mat-icon>chevron_right</mat-icon>
@@ -64,7 +64,6 @@
                 <svg class="image">
                     <use [attr.xlink:href]="'/assets/images/teches/' + tech.image + '.svg#icon'" />
                 </svg>
-                <!-- <img loading="lazy" alt="" class="image" src="/assets/images/te{{tech.image}}" /> -->
                 <h4 class="text">{{tech.name}}</h4>
             </div>
             }
@@ -75,7 +74,7 @@
 <section class="project-devs-section">
     <div class="padding-block">
         <h2 class="title">{{ page.ds.title | datalang }}</h2>
-        <p class="text">{{ page.ds.text | datalang }}</p>
+        <p class="text">{{ itemData.goal | datalang }}</p>
         <div class="devs-block">
             @for(dev of itemData.devs; track dev){
             <div class="dev">

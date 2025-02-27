@@ -191,7 +191,7 @@
     },
     {
         "image": "mssql",
-        "name": "MsSql",
+        "name": "Microsoft Sql",
         "code": "mssql"
     },
     {
@@ -203,6 +203,16 @@
         "image": "cloudflare",
         "name": "Cloudflare",
         "code": "cloudflare"
+    },
+    {
+        "image": "google_play",
+        "name": "Google Play",
+        "code": "google_play"
+    },
+    {
+        "image": "vue_js",
+        "name": "Vue.JS",
+        "code": "vue_js"
     },
     {
         "image": "XXX",

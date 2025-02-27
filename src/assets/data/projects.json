@@ -1,13 +1,17 @@
 [
     {
         "code": "ewac",
-        "title": "[en-EN]Mobile and Web Solution \"EWAC\"[uk-UA]Мобільне та вебрішення \"EWAC\"",
-        "text": "[en-EN]To develop a solution that will simplify and optimize the process of a comprehensive vehicle inspection at the dealer network's service centers. The developed solution includes the ability to individually configure vehicle inspections, a form editor, the functionality of photo fixing the interior and exterior of the vehicle, the presence of an interactive map of the vehicle's external elements, automatic generation of inspection reports, report generation, and integration with the accounting system.[uk-UA]Розробити рішення, яке спростить та оптимізує процес кругового огляду автомобіля на сервісних центрах дилерської мережі. Розроблене рішення включає можливість індивідуального налаштування оглядів автомобіля, редактор форм, функціонал фотофіксації інтер'єра та екстер'єра автомобіля, наявність інтерактивної карти зовнішніх елементів автомобіля, автоматичне генерування актів огляду, формування звітів та інтеграція з обліковою системою.",
+        "title": "[en-EN]EWAC – Innovative solution for vehicle inspection[uk-UA]EWAC – Інноваційне рішення для огляду автомобілів",
+        "text": "[en-EN]EWAC is a modern mobile and web solution for service centers of the Toyota and Lexus dealer network in Ukraine. It optimizes the process of vehicle inspection, provides photo capture, automatically generates reports, and integrates with dealer accounting systems.[uk-UA]EWAC – сучасне мобільне та веб-рішення для сервісних центрів дилерської мережі Toyota та Lexus в Україні. Оптимізує процес кругового огляду автомобілів, забезпечує фотофіксацію, автоматично генерує звіти та інтегрується з обліковими системами дилерів.",
+        "seoTitle": "[en-EN]EWAC – An innovative solution for a car all-round inspection | Toyota Ukraine[uk-UA]EWAC – Інноваційне рішення для кругового огляду авто | Toyota Україна",
+        "seoDesk": "[en-EN]Development of EWAC mobile and web application for Toyota Ukraine. Optimization of car inspection, photo fixation, analytics, integration with dealer accounting systems.[uk-UA]Розробка мобільного та веб-додатка EWAC для Toyota Україна. Оптимізація огляду авто, фотофіксація, аналітика, інтеграція з обліковими системами дилерів.",
+        "seoKeywords": "[en-EN]EWAC, car inspection, Toyota Ukraine, Lexus, service center, car inspection, accounting system, photo fixation, dealer network[uk-UA]EWAC, огляд автомобіля, Toyota Україна, Lexus, сервісний центр, автоінспекція, облікова система, фотофіксація, дилерська мережа",
         "image": "01.png",
         "images": [
             "01.png",
             "02.png",
-            "03.png"
+            "03.png",
+            "04.png"
         ],
         "tags": [
             {
@@ -27,12 +31,12 @@
                 "code": "integr"
             }
         ],
-        "date": "2024",
+        "date": "2022",
         "time": [
-            "[en-EN]Create: 05.2022 - 03.2023[uk-UA]XXX",
-            "[en-EN]Update: 09.2024 - 01.2025[uk-UA]XXX"
+            "[en-EN]Create: 06.2022 - 10.2022[uk-UA]Розробка: 06.2022 - 10.2022",
+            "[en-EN]Update: 04.2024 - 07.2024[uk-UA]Оновлення: 04.2024 - 07.2024"
         ],
-        "client": "Toyota-Ukraine LLC",
+        "client": "[en-EN]Toyota-Ukraine LLC - the official importer and distributor of Toyota and Lexus vehicles in Ukraine.[uk-UA]Toyota-Ukraine LLC - офіційний в Україні імпортер та дистриб’ютор автомобілів Toyota і Lexus.",
         "role": "[en-EN]Lead Developer and Architect[uk-UA]Головний розробник та архітектор",
         "tech": [
             "angular",
@@ -40,251 +44,774 @@
             "mssql",
             "azure",
             "sonarqube",
-            "ionic"
+            "ionic",
+            "google_play"
         ],
+        "goal": "[en-EN]To create a convenient and effective solution for automating vehicle inspections at service centers of the Toyota and Lexus dealer network in Ukraine.[uk-UA]Створити зручне та ефективне рішення для автоматизації кругового огляду автомобілів у сервісних центрах дилерської мережі Toyota та Lexus в Україні.",
         "devs": [
             {
-                "title": "[en-EN]Mobile app[uk-UA]Мобільний додаток",
-                "text": "[en-EN]Create an application for mobile phones and tablets with the ability to work offline without the Internet.[uk-UA]Створити додаток під мобільні телефони та планшети із можливістю автономної роботи без інтернету."
+                "title": "[en-EN]Optimized car review[uk-UA]Оптимізований огляд авто",
+                "text": "[en-EN]Convenient mobile and web interface for quick and high-quality vehicle inspection with the possibility of photo capture.[uk-UA]Зручний мобільний та веб-інтерфейс для швидкого та якісного огляду автомобіля з можливістю фотофіксації."
             },
             {
-                "title": "[en-EN]Dynamic forms[uk-UA]Динамічні форми",
-                "text": "[en-EN]Develop a server-side designer system and web interface to create individual form templates for each dealer's needs.[uk-UA]Розробити систему конструктора на стороні сервера та веб-інтерфейсу для створення індивідуальних шаблонів форм під потреби кожного із дилерів."
+                "title": "[en-EN]Automatic document generation[uk-UA]Автоматичне формування документів",
+                "text": "[en-EN]Generation of inspection reports, integration of reports into the dealer accounting system, and data synchronization.[uk-UA]Генерація актів огляду, інтеграція звітів у систему обліку дилерів та синхронізація даних."
             },
             {
-                "title": "[en-EN]CRM integration[uk-UA]Інтеграція із CRM",
-                "text": "[en-EN]Develop an automatic and centralized server system that will automatically and in real time update and transfer data between each dealer's CRM system (1C) and the mobile application.[uk-UA]Розробити автоматичну та централізовану серверну систему, яка буде автоматично та в реальному часі оновлювати та передавати дані між CRM системою кожного дилера (1С) та мобільним додатком."
+                "title": "[en-EN]Flexible process setup[uk-UA]Гнучке налаштування процесу",
+                "text": "[en-EN]Form editor, review block settings, role and access rights management via the administrative panel.[uk-UA]Редактор форм, налаштування блоків огляду, управління ролями та правами доступу через адміністративну панель."
             },
             {
-                "title": "[en-EN]Analytics and Copywriting[uk-UA]Аналітика та Копіювання",
-                "text": "[en-EN]Develop a server-side backup storage system for documents generated in the application during a car inspection, and detailed analytics and documents on the web interface side to optimize further service.[uk-UA]Розробити на стороні сервера систему резервного зберігання актів, що формуються у додатку при проведенні огляду авто, та на стороні веб-інтерфейсу детальну аналітику та документи для оптимізації подальшого сервісного обслуговування."
+                "title": "[en-EN]Interactive car map[uk-UA]Інтерактивна карта авто",
+                "text": "[en-EN]Ability to record damage on an interactive diagram of the car's exterior.[uk-UA]Можливість фіксації пошкоджень на інтерактивній схемі екстер’єру автомобіля."
             },
             {
-                "title": "[en-EN]Formation of acts and reports[uk-UA]Формування актів та звітів",
-                "text": "[en-EN]Develop the ability to automatically generate print-ready acts based on a review of the correspondingly constructed form in the designer and with the use of photo materials.[uk-UA]Розробити можливість автоматичного формування готових до друку актів по проведеному огляду відповідно побудованої форми в конструкторі та із залученням фото матеріалів."
+                "title": "[en-EN]Analytics and logging[uk-UA]Аналітика та логування",
+                "text": "[en-EN]Saving review history, monitoring user actions and analyzing completed reviews.[uk-UA]Збереження історії оглядів, моніторинг дій користувачів та аналіз проведених перевірок."
+            },
+            {
+                "title": "[en-EN]Data backup[uk-UA]Резервне копіювання даних",
+                "text": "[en-EN]Automatic saving of acts and reviews on the server to prevent information loss.[uk-UA]Автоматичне збереження актів та оглядів на сервері для запобігання втраті інформації."
             }
         ]
     },
     {
-        "code": "2",
-        "title": "[en-EN]Understanding Modern Web Development Trends",
-        "text": "[en-EN]Dive into the latest trends shaping the web development landscape.",
-        "image": "https://www.relume.io/__assets/624380709031623bfe4aee60/6243807090316203124aee66_placeholder-image.svg",
-        "tags": [
-            {
-                "name": "[en-EN]Tech",
-                "code": "tech"
-            }
-        ],
-        "date": "2024",
-        "time": "",
-        "client": "",
-        "role": "",
-        "tech": [],
-        "devs": [
-            {
-                "title": "[en-EN]XXX[uk-UA]XXX",
-                "text": "[en-EN]XXX[uk-UA]XXX."
-            },
-            {
-                "title": "[en-EN]XXX[uk-UA]XXX",
-                "text": "[en-EN]XXX[uk-UA]XXX."
-            },
-            {
-                "title": "[en-EN]XXX[uk-UA]XXX",
-                "text": "[en-EN]XXX[uk-UA]XXX."
-            },
-            {
-                "title": "[en-EN]XXX[uk-UA]XXX",
-                "text": "[en-EN]XXX[uk-UA]XXX."
-            },
-            {
-                "title": "[en-EN]XXX[uk-UA]XXX",
-                "text": "[en-EN]XXX[uk-UA]XXX."
-            },
-            {
-                "title": "[en-EN]XXX[uk-UA]XXX",
-                "text": "[en-EN]XXX[uk-UA]XXX."
-            }
-        ]
-    },
-    {
-        "code": "3",
-        "title": "[en-EN]Understanding Modern Web Development Trends",
-        "text": "[en-EN]Dive into the latest trends shaping the web development landscape.",
-        "image": "https://www.relume.io/__assets/624380709031623bfe4aee60/6243807090316203124aee66_placeholder-image.svg",
-        "tags": [
-            {
-                "name": "[en-EN]Tech",
-                "code": "tech"
-            }
-        ],
-        "date": "2024",
-        "time": "",
-        "client": "",
-        "role": "",
-        "tech": [],
-        "devs": []
-    },
-    {
-        "code": "4",
-        "title": "[en-EN]Understanding Modern Web Development Trends",
-        "text": "[en-EN]Dive into the latest trends shaping the web development landscape.",
-        "image": "https://www.relume.io/__assets/624380709031623bfe4aee60/6243807090316203124aee66_placeholder-image.svg",
-        "tags": [
-            {
-                "name": "[en-EN]Tech",
-                "code": "tech"
-            }
-        ],
-        "date": "2024",
-        "time": "",
-        "client": "",
-        "role": "",
-        "tech": [],
-        "devs": []
-    },
-    {
-        "code": "5",
-        "title": "[en-EN]Understanding Modern Web Development Trends",
-        "text": "[en-EN]Dive into the latest trends shaping the web development landscape.",
-        "image": "https://www.relume.io/__assets/624380709031623bfe4aee60/6243807090316203124aee66_placeholder-image.svg",
-        "tags": [
-            {
-                "name": "[en-EN]Test",
-                "code": "test"
-            }
-        ],
-        "date": "2024",
-        "time": "",
-        "client": "",
-        "role": "",
-        "tech": [],
-        "devs": []
-    },
-    {
-        "code": "6",
-        "title": "[en-EN]Understanding Modern Web Development Trends",
-        "text": "[en-EN]Dive into the latest trends shaping the web development landscape.",
-        "image": "https://www.relume.io/__assets/624380709031623bfe4aee60/6243807090316203124aee66_placeholder-image.svg",
-        "tags": [
-            {
-                "name": "[en-EN]Tech",
-                "code": "tech"
-            }
-        ],
-        "date": "2024",
-        "time": "",
-        "client": "",
-        "role": "",
-        "tech": [],
-        "devs": []
-    },
-    {
-        "code": "7",
-        "title": "[en-EN]Understanding Modern Web Development Trends",
-        "text": "[en-EN]Dive into the latest trends shaping the web development landscape.",
-        "image": "https://www.relume.io/__assets/624380709031623bfe4aee60/6243807090316203124aee66_placeholder-image.svg",
-        "tags": [
-            {
-                "name": "[en-EN]Tech",
-                "code": "tech"
-            }
-        ],
-        "date": "2024",
-        "time": "",
-        "client": "",
-        "role": "",
-        "tech": [],
-        "devs": []
-    },
-    {
-        "code": "8",
-        "title": "[en-EN]Understanding Modern Web Development Trends",
-        "text": "[en-EN]Dive into the latest trends shaping the web development landscape.",
-        "image": "https://www.relume.io/__assets/624380709031623bfe4aee60/6243807090316203124aee66_placeholder-image.svg",
-        "tags": [
-            {
-                "name": "[en-EN]Tech",
-                "code": "tech"
-            }
-        ],
-        "date": "2024",
-        "time": "",
-        "client": "",
-        "role": "",
-        "tech": [],
-        "devs": []
-    },
-    {
-        "code": "9",
-        "title": "[en-EN]Understanding Modern Web Development Trends",
-        "text": "[en-EN]Dive into the latest trends shaping the web development landscape.",
-        "image": "https://www.relume.io/__assets/624380709031623bfe4aee60/6243807090316203124aee66_placeholder-image.svg",
-        "tags": [
-            {
-                "name": "[en-EN]Tech",
-                "code": "tech"
-            }
-        ],
-        "date": "2024",
-        "time": "",
-        "client": "",
-        "role": "",
-        "tech": [],
-        "devs": []
-    },
-    {
-        "code": "10",
-        "title": "[en-EN]Understanding Modern Web Development Trends",
-        "text": "[en-EN]Dive into the latest trends shaping the web development landscape.",
-        "image": "https://www.relume.io/__assets/624380709031623bfe4aee60/6243807090316203124aee66_placeholder-image.svg",
+        "code": "usaid",
+        "title": "[en-EN]USAID - Web platform for automating legal applications[uk-UA]USAID - Вебплатформа для автоматизації юридичних заяв",
+        "text": "[en-EN]A functional web platform for automatic generation of legal documents and applications to government agencies. Intuitive interface, integration with Diia.Signature, support for many languages, and a form builder for quick adaptation to user needs.[uk-UA]Функціональна вебплатформа для автоматичного формування юридичних документів та звернень до державних органів. Інтуїтивно зрозумілий інтерфейс, інтеграція з Дія.Підпис, підтримка багатьох мов та конструктор форм для швидкої адаптації під потреби користувачів.",
+        "seoTitle": "[en-EN]Web platform for automating legal documents | USAID[uk-UA]Вебплатформа для автоматизації юридичних документів | USAID",
+        "seoDesk": "[en-EN]Web platform for submitting legal applications to government agencies. Automatic document generation, integration with Diia.Signature, form builder, and multilingual support.[uk-UA]Вебплатформа для подачі юридичних заяв в органи державної влади. Автоматичне формування документів, інтеграція з Дія.Підпис, конструктор форм та багатомовна підтримка.",
+        "seoKeywords": "[en-EN]USAID, Chemonics, automatic application creation, online application submission, electronic legal documents, Diia.Signature, web platform for documents, digital lawyer[uk-UA]USAID, Chemonics, автоматичне створення заяв, подання заяв онлайн, електронні юридичні документи, Дія.Підпис, вебплатформа для документів, цифровий юрист",
+        "image": "01.png",
         "images": [
-            "https://www.relume.io/__assets/624380709031623bfe4aee60/6243807090316203124aee66_placeholder-image.svg",
-            "https://www.relume.io/__assets/624380709031623bfe4aee60/6243807090316203124aee66_placeholder-image.svg"
+            "01.png",
+            "02.png",
+            "03.png",
+            "04.png"
         ],
+        "link": "https://solution-finder.court.gov.ua",
         "tags": [
             {
-                "name": "[en-EN]Tech",
-                "code": "tech"
+                "name": "[en-EN]Site[uk-UA]Сайт",
+                "code": "site"
+            },
+            {
+                "name": "[en-EN]Server[uk-UA]Сервер",
+                "code": "server"
+            },
+            {
+                "name": "[en-EN]Integration[uk-UA]Інтеграція",
+                "code": "integr"
             }
         ],
-        "date": "2024",
-        "time": "2024",
-        "client": "[en-EN]Discover the diverse range of web development projects I've completed over the years.",
-        "role": "[en-EN]Discover the diverse range of web development projects I've completed over the years.",
+        "date": "2021",
+        "time": [
+            "[en-EN]Create: 12.2020 - 06.2021[uk-UA]Розробка: 12.2020 - 06.2021",
+            "[en-EN]Update: 02.2024 - 06.2024[uk-UA]Оновлення: 02.2024 - 06.2024"
+        ],
+        "client": "[en-EN]Chemonics International Inc - a reputable international organization funded by the United States Agency for International Development (USAID).[uk-UA]Chemonics International Inc - авторитетна міжнародна організація, яка фінансується Агенством США з міжнародного розвитку (USAID).",
+        "role": "[en-EN]Front-End developer and integrator[uk-UA]Front-End розробник та інтегратор",
         "tech": [
             "angular",
-            "angular",
-            "angular",
-            "angular",
-            "angular"
+            "dot_net",
+            "mssql"
         ],
+        "goal": "[en-EN]To create an intuitive platform that allows users to easily generate legal documents and official applications, electronically sign them, and submit them to government agencies.[uk-UA]Створити інтуїтивно зрозумілу платформу, яка дозволяє користувачам легко генерувати юридичні документи та офіційні звернення, накладати електронний підпис і подавати їх у державні органи.",
         "devs": [
             {
-                "title": "Recent Achievement",
-                "text": "Successfully completed a major project that enhanced user experience. This achievement showcases my skills in web development."
+                "title": "[en-EN]Automatic document creation[uk-UA]Автоматичне створення документів",
+                "text": "[en-EN]Generation of legal statements through convenient online forms adapted to user needs.[uk-UA]Генерація юридичних заяв через зручні онлайн-форми, адаптовані під потреби користувачів."
             },
             {
-                "title": "Recent Achievement",
-                "text": "Successfully completed a major project that enhanced user experience. This achievement showcases my skills in web development."
+                "title": "[en-EN]Integration with Diia.Signature[uk-UA]Інтеграція з Дія.Підпис",
+                "text": "[en-EN]The ability to apply an electronic signature for official submission of documents to government agencies.[uk-UA]Можливість накладання електронного підпису для офіційного подання документів до державних органів."
             },
             {
-                "title": "Recent Achievement",
-                "text": "Successfully completed a major project that enhanced user experience. This achievement showcases my skills in web development."
+                "title": "[en-EN]Flexible form builder[uk-UA]Гнучкий конструктор форм",
+                "text": "[en-EN]System administrators can create and customize forms for different types of documents.[uk-UA]Системні адміністратори можуть створювати та налаштовувати форми для різних типів документів."
             },
             {
-                "title": "Recent Achievement",
-                "text": "Successfully completed a major project that enhanced user experience. This achievement showcases my skills in web development."
+                "title": "[en-EN]Multilingual support[uk-UA]Багатомовна підтримка",
+                "text": "[en-EN]Users can interact with the platform in their native language thanks to the multilingual interface.[uk-UA]Користувачі можуть взаємодіяти з платформою рідною мовою завдяки багатомовному інтерфейсу."
             },
             {
-                "title": "Recent Achievement",
-                "text": "Successfully completed a major project that enhanced user experience. This achievement showcases my skills in web development."
+                "title": "[en-EN]Dialog forms for users[uk-UA]Діалогові форми для користувачів",
+                "text": "[en-EN]Step-by-step approach with tips for correctly filling out documents.[uk-UA]Покроковий підхід із підказками для коректного заповнення документів."
             },
             {
-                "title": "Recent Achievement",
-                "text": "Successfully completed a major project that enhanced user experience. This achievement showcases my skills in web development."
+                "title": "[en-EN]Verification and feedback[uk-UA]Перевірка та зворотний зв'язок",
+                "text": "[en-EN]The system automatically checks the entered data and reports possible errors.[uk-UA]Система автоматично перевіряє введені дані та повідомляє про можливі помилки."
+            },
+            {
+                "title": "[en-EN]Forming and printing applications[uk-UA]Формування та друк заяв",
+                "text": "[en-EN]The user can save and print documents in the appropriate format.[uk-UA]Користувач може зберігати та друкувати документи у відповідному форматі."
+            }
+        ]
+    },
+    {
+        "code": "academy_dtek",
+        "title": "[en-EN]DTEK Academy – a modern information portal[uk-UA]Академії ДТЕК – сучасний інформаційний портал",
+        "text": "[en-EN]Development of an innovative web portal for DTEK Academy, which improves the company’s image, increases customer loyalty and helps increase sales of services. The platform includes a user-friendly interface, content management system, classroom booking and online ordering.[uk-UA]Розробка інноваційного вебпорталу для Академії ДТЕК, що покращує імідж компанії, підвищує лояльність клієнтів і сприяє збільшенню обсягу продажу послуг. Платформа включає зручний інтерфейс, систему керування контентом, бронювання аудиторій та онлайн-замовлення.",
+        "seoTitle": "[en-EN]Website for DTEK Academy – information portal, booking, order management[uk-UA]Вебсайт для Академії ДТЕК – інформаційний портал, бронювання, управління замовленнями",
+        "seoDesk": "[en-EN]Development of a modern web portal for DTEK Academy with convenient content management, classroom booking and order processing.[uk-UA]Розробка сучасного вебпорталу для Академії ДТЕК із зручним керуванням контентом, бронюванням аудиторій та обробкою замовлень.",
+        "seoKeywords": "[en-EN]web portal, DTEK Academy, content management, booking system, online ordering[uk-UA]вебпортал, Академія ДТЕК, управління контентом, система бронювання, онлайн-замовлення",
+        "image": "01.png",
+        "images": [
+            "01.png",
+            "02.png",
+            "03.png",
+            "04.png"
+        ],
+        "link": "https://www.academydtek.com",
+        "tags": [
+            {
+                "name": "[en-EN]Site[uk-UA]Сайт",
+                "code": "site"
+            },
+            {
+                "name": "[en-EN]Server[uk-UA]Сервер",
+                "code": "server"
+            },
+            {
+                "name": "[en-EN]Integration[uk-UA]Інтеграція",
+                "code": "integr"
+            }
+        ],
+        "date": "2022",
+        "time": [
+            "[en-EN]Create: 12.2021 - 08.2022[uk-UA]Розробка: 12.2021 - 08.2022"
+        ],
+        "client": "[en-EN]DTEK SERVICE LLC, (DTEK Academy — corporate university of the energy company DTEK)[uk-UA]ТОВ \"ДТЕК СЕРВІС\", (Академія ДТЕК — корпоративний університет енергетичної компанії ДТЕК)",
+        "role": "[en-EN]Front-End developer and integrator[uk-UA]Front-End розробник та інтегратор",
+        "tech": [
+            "angular",
+            "dot_net",
+            "mssql"
+        ],
+        "goal": "[en-EN]Creation of an innovative portal for DTEK Academy with extensive content management capabilities, classroom booking and orders.[uk-UA]Створення інноваційного порталу для Академії ДТЕК із широкими можливостями управління контентом, бронюванням аудиторій та замовленнями.",
+        "devs": [
+            {
+                "title": "[en-EN]Dynamic content management system[uk-UA]Динамічна система керування контентом",
+                "text": "[en-EN]Individually developed CMS for quick updating of the catalog, news and banners in real time.[uk-UA]Індивідуально розроблена CMS для швидкого оновлення каталогу, новин та банерів у режимі реального часу."
+            },
+            {
+                "title": "[en-EN]Flexible access system[uk-UA]Гнучка система доступу",
+                "text": "[en-EN]Role separation (administrator, sales department, client) for effective management of platform functionality.[uk-UA]Розмежування ролей (адміністратор, відділ продажів, клієнт) для ефективного управління функціоналом платформи."
+            },
+            {
+                "title": "[en-EN]Order management system[uk-UA]Система управління замовленнями",
+                "text": "[en-EN]Interactive cart, order confirmation, automatic notification of responsible employees.[uk-UA]Інтерактивний кошик, підтвердження замовлень, автоматичне інформування відповідальних працівників."
+            },
+            {
+                "title": "[en-EN]Auditorium booking tools[uk-UA]Інструменти бронювання аудиторій",
+                "text": "[en-EN]Convenient monitoring and booking system for halls with automatic notifications of successful booking.[uk-UA]Зручна система моніторингу та бронювання залів із автоматичними повідомленнями про успішне бронювання."
+            },
+            {
+                "title": "[en-EN]Powerful search and filtering system[uk-UA]Потужна система пошуку та фільтрації",
+                "text": "[en-EN]Advanced tools for quick search of information by categories, filters and keywords.[uk-UA]Розширені інструменти для швидкого пошуку інформації за категоріями, фільтрами та ключовими словами."
+            }
+        ]
+    },
+    {
+        "code": "online_summit",
+        "title": "[en-EN]City Plaza service - an interactive car booking system[uk-UA]Сіті Плаза – інтерактивна система запису на сервісне обслуговування",
+        "text": "[en-EN]Development of an online car maintenance booking system with the ability to book slots, manage dealership workflows and integrate with the accounting system.[uk-UA]Розробка онлайн-системи запису на сервісне обслуговування автомобілів із можливістю бронювання слотів, управління робочими процесами дилерських центрів та інтеграції з обліковою системою.  ",
+        "seoTitle": "[en-EN]Online booking for the City Plaza service - car maintenance booking[uk-UA]Онлайн-запис на сервіс «Сіті Плаза» – бронювання обслуговування авто  ",
+        "seoDesk": "[en-EN]Interactive online car maintenance booking system for Toyota and Lexus dealerships, integrated with the accounting system.[uk-UA]Інтерактивна система онлайн-запису на сервісне обслуговування автомобілів для дилерських центрів Toyota та Lexus, інтегрована з обліковою системою.  ",
+        "seoKeywords": "[en-EN]online booking, service, Toyota, Lexus, booking, workflow management[uk-UA]онлайн-запис, сервісне обслуговування, Toyota, Lexus, бронювання, управління робочим процесом  ",
+        "image": "01.png",
+        "images": [
+            "01.png",
+            "02.png",
+            "03.png",
+            "04.png"
+        ],
+        "link": "https://cityplaza.toyota.ua/toyota_service_online",
+        "tags": [
+            {
+                "name": "[en-EN]Site[uk-UA]Сайт",
+                "code": "site"
+            },
+            {
+                "name": "[en-EN]Integration[uk-UA]Інтеграція",
+                "code": "integr"
+            }
+        ],
+        "date": "2021",
+        "time": [
+            "[en-EN]Create: 01.2021 - 04.2021[uk-UA]Розробка: 01.2021 - 04.2021"
+        ],
+        "client": "[en-EN]\"SUMMIT MOTORS UKRAINE\" LLC belongs to the international corporation \"Sumitomo\", which is included in the list of the most influential companies by Forbes. It is an official Toyota dealer with 100% Japanese investments.[uk-UA]ТОВ \"САМІТ МОТОРЗ УКРАЇНА\" належить міжнародній корпорації \"Сумітомо\", яка входить в список найвпливовіших компаній Forbes. Є офіційним дилером Toyota зі 100% японськими інвестиціями.",
+        "role": "[en-EN]Front-End developer and integrator[uk-UA]Front-End розробник та інтегратор",
+        "tech": [
+            "angular",
+            "php",
+            "dot_net"
+        ],
+        "goal": "[en-EN]Automation of the customer service booking process, slot booking management and data synchronization with the dealer system.[uk-UA]Автоматизація процесу запису клієнтів на сервісне обслуговування, управління бронюванням слотів та синхронізація даних із системою дилера.  ",
+        "devs": [
+            {
+                "title": "[en-EN]Interactive online booking[uk-UA]Інтерактивний онлайн-запис",
+                "text": "[en-EN]Clients can independently book service slots, choose services and receive an estimated cost of work.[uk-UA]Клієнти можуть самостійно бронювати сервісні слоти, обирати послуги та отримувати орієнтовну вартість робіт.  "
+            },
+            {
+                "title": "[en-EN]Visual workflow management interface[uk-UA]Візуальний інтерфейс управління робочим процесом",
+                "text": "[en-EN]The system allows managers to control workload, plan work and distribute performers.[uk-UA]Система дозволяє менеджерам контролювати навантаження, планувати роботи та розподіляти виконавців.  "
+            },
+            {
+                "title": "[en-EN]Automatic update of work order data[uk-UA]Автоматичне оновлення даних наряд-замовлення",
+                "text": "[en-EN]Integration with the dealer system ensures that information about planned work and customer contact details is up-to-date.[uk-UA]Інтеграція із системою дилера забезпечує актуальність інформації про заплановані роботи та контактні дані клієнтів."
+            },
+            {
+                "title": "[en-EN]Slot reservation by manager[uk-UA]Резервування слотів менеджером",
+                "text": "[en-EN]Managers can independently book clients, reserve cars and control the work schedule.[uk-UA]Менеджери можуть самостійно записувати клієнтів, резервувати автомобілі та контролювати графік роботи.  "
+            },
+            {
+                "title": "[en-EN]Analytical system and reporting[uk-UA]Аналітична система та звітність",
+                "text": "[en-EN]Monitoring of service workload, analysis of workflow efficiency and generation of reports for business optimization.[uk-UA]Моніторинг завантаженості сервісу, аналіз ефективності робочих процесів та генерація звітів для оптимізації бізнесу."
+            },
+            {
+                "title": "[en-EN]Global Car Search[uk-UA]Глобальний пошук автомобіля",
+                "text": "[en-EN]Integration and search for a car in state car registration databases, with subsequent auto-filling of data about the car's characteristics.[uk-UA]Інтеграція та пошук автомобіля по державним базам реєстрації авто, із подальшим автоззаповненням даних про характеристики авто."
+            }
+        ]
+    },
+    {
+        "code": "car_rent",
+        "title": "[en-EN]Car Rent – SaaS car rental management system[uk-UA]Car Rent – SaaS-система управління автопарком",
+        "text": "[en-EN]Development of a comprehensive web and mobile solution for automating car rental business management: fleet control, booking, document management and analytics.[uk-UA]Розробка комплексного веб- та мобільного рішення для автоматизації управління бізнесом прокату автомобілів: контроль автопарку, бронювання, документообіг та аналітика.",
+        "seoTitle": "[en-EN]Car Rent – ​​SaaS-solution for automating car rental[uk-UA]Car Rent – SaaS-рішення для автоматизації прокату авто",
+        "seoDesk": "[en-EN]Web and mobile system for accounting, booking and management of car rental fleet, integrated with analytics and photo fixation of damages.[uk-UA]Веб- та мобільна система для обліку, бронювання та управління автопарком прокату авто, інтегрована з аналітикою та фотофіксацією пошкоджень.",
+        "seoKeywords": "[en-EN]car rental, fleet management, SaaS, car rental, automation[uk-UA]прокат авто, управління автопарком, SaaS, оренда автомобілів, автоматизація",
+        "image": "01.png",
+        "images": [
+            "01.png",
+            "02.png",
+            "03.png",
+            "04.png",
+            "05.png",
+            "06.png",
+            "07.png"
+        ],
+        "link": "https://car-rent.applic.com.ua",
+        "tags": [
+            {
+                "name": "[en-EN]Site[uk-UA]Сайт",
+                "code": "site"
+            },
+            {
+                "name": "[en-EN]Mobile[uk-UA]Телефони",
+                "code": "mobile"
+            },
+            {
+                "name": "[en-EN]Server[uk-UA]Сервер",
+                "code": "server"
+            },
+            {
+                "name": "[en-EN]Saas[uk-UA]Саас",
+                "code": "saas"
+            }
+        ],
+        "date": "2024",
+        "time": [
+            "[en-EN]Create: 02.2023 - 06.2024[uk-UA]Розробка: 02.2023 - 06.2024"
+        ],
+        "client": "[en-EN]ToDo LLC is a Ukrainian IT company engaged in the automation of business processes of enterprises based on the Odoo ERP system.[uk-UA]ТОВ \"ТуДу\" - українська  ІТ компанія, що займається автоматизацією бізнес-процесів підприємств на базі ERP системи Odoo.",
+        "role": "[en-EN]Lead Developer and Architect[uk-UA]Головний розробник та архітектор",
+        "tech": [
+            "angular",
+            "ionic",
+            "node_js",
+            "mssql",
+            "sonarqube",
+            "google_play"
+        ],
+        "goal": "[en-EN]Automation of car rental processes, fleet management, document management and monitoring of the technical condition of vehicles.[uk-UA]Автоматизація процесів прокату авто, управління автопарком, документообігом та моніторингом технічного стану транспортних засобів.",
+        "devs": [
+            {
+                "title": "[en-EN]WEB solution for centralized fleet management[uk-UA]WEB-рішення для централізованого управління автопарком",
+                "text": "[en-EN]Car accounting, technical condition control, monitoring of insurance policies, booking, contract generation and reporting.[uk-UA]Облік автомобілів, контроль технічного стану, моніторинг страхових полісів, бронювання, генерація договорів та звітність."
+            },
+            {
+                "title": "[en-EN]Mobile application for car pick-up and drop-off[uk-UA]Мобільний застосунок для прийому та видачі авто",
+                "text": "[en-EN]Car inspection, photo recording of damage, comparison of condition before and after rental, automatic generation of inspection reports.[uk-UA]Огляд автомобіля, фотофіксація пошкоджень, порівняння стану до та після оренди, автоматичне формування актів огляду."
+            },
+            {
+                "title": "[en-EN]Document workflow automation[uk-UA]Автоматизація документообігу",
+                "text": "[en-EN]Generation of contracts, acceptance and transfer reports, maintenance of a client base and management of car statuses.[uk-UA]Генерація договорів, актів прийому-передачі, ведення клієнтської бази та управління статусами автомобілів."
+            },
+            {
+                "title": "[en-EN]Interactive booking calendar[uk-UA]Інтерактивний календар бронювання",
+                "text": "[en-EN]Flexible management of fleet availability and car reservations by clients.[uk-UA]Гнучке керування доступністю автопарку та резервування авто клієнтами."
+            },
+            {
+                "title": "[en-EN]Analytics and reporting[uk-UA]Аналітика та звітність",
+                "text": "[en-EN]Monitoring of fleet usage, analysis of service efficiency and system push notifications.[uk-UA]Моніторинг використання автопарку, аналіз ефективності роботи сервісу та системні push-сповіщення."
+            }
+        ]
+    },
+    {
+        "code": "flagman",
+        "title": "[en-EN]Flagman - Online store of fishing tackle[uk-UA]Flagman - Інтернет-магазин рибальського приладдя",
+        "text": "[en-EN]Development of a convenient and functional online store for selling fishing equipment with the ability to filter products, a personal user account, order history, and integrated payment systems.[uk-UA]Розробка зручного та функціонального онлайн-магазину для продажу рибальського спорядження з можливістю фільтрації товарів, особистим кабінетом користувача, історією замовлень та інтегрованими платіжними системами.",
+        "seoTitle": "[en-EN]Flagman - Online store of fishing tackle[uk-UA]Flagman - Інтернет-магазин рибальського приладдя",
+        "seoDesk": "[en-EN]Buy fishing equipment in an online store with filters, quick search, personal account, and convenient payment methods.[uk-UA]Купуйте рибальське спорядження в онлайн-магазині з фільтрами, швидким пошуком, особистим кабінетом та зручними способами оплати.",
+        "seoKeywords": "[en-EN]fishing equipment, fisherman's online store, buy tackle, e-commerce[uk-UA]рибальське спорядження, інтернет-магазин рибалки, купити снасті, e-commerce",
+        "image": "01.png",
+        "images": [
+            "01.png",
+            "02.png",
+            "03.png",
+            "04.png"
+        ],
+        "link": "https://flagman.kiev.ua",
+        "tags": [
+            {
+                "name": "[en-EN]Market[uk-UA]Магазин",
+                "code": "market"
+            },
+            {
+                "name": "[en-EN]E-commerce[uk-UA]e-commerce",
+                "code": "ecommerce"
+            },
+            {
+                "name": "[en-EN]Site[uk-UA]Сайт",
+                "code": "site"
+            }
+        ],
+        "date": "2023",
+        "time": [
+            "[en-EN]Create: 04.2023 - 07.2023[uk-UA]Розробка: 04.2023 - 07.2023",
+            "[en-EN]Update: 03.2024 - 04.2024[uk-UA]Оновлення: 03.2024 - 04.2024"
+        ],
+        "client": "[en-EN]LLC \"Flagman\" is the largest chain of fishing supermarkets in Eastern Europe.[uk-UA]ТОВ \"Флагман\" - найбільша у Східній Європі мережа риболовних супермаркетів.",
+        "role": "[en-EN]Front-End developer[uk-UA]Front-End розробник",
+        "tech": [
+            "vue_js",
+            "node_js",
+            "postgresql"
+        ],
+        "goal": "[en-EN]Creating a modern online store with optimized UX/UI for convenient search, purchase, and order management.[uk-UA]Створення сучасного інтернет-магазину з оптимізованим UX/UI для зручного пошуку, покупки та управління замовленнями.",
+        "devs": [
+            {
+                "title": "[en-EN]Product catalog with filtering and search[uk-UA]Каталог товарів з фільтрацією та пошуком",
+                "text": "[en-EN]Category system, advanced filters and quick search for convenient product navigation.[uk-UA]Система категорій, розширені фільтри та швидкий пошук для зручної навігації по товарах."
+            },
+            {
+                "title": "[en-EN]Personal user account[uk-UA]Особистий кабінет користувача",
+                "text": "[en-EN]Saving order history, managing personal data and setting up an account.[uk-UA]Збереження історії замовлень, управління особистими даними та налаштування облікового запису."
+            },
+            {
+                "title": "[en-EN]Admin panel for content management[uk-UA]Адмін-панель для управління контентом",
+                "text": "[en-EN]Flexible product settings, order management and sales analytics.[uk-UA]Гнучке налаштування товарів, управління замовленнями та аналітика продажів."
+            },
+            {
+                "title": "[en-EN]Payment system integration[uk-UA]Інтеграція платіжних систем",
+                "text": "[en-EN]Connection of popular payment methods for customer convenience.[uk-UA]Підключення популярних способів оплати для зручності клієнтів."
+            },
+            {
+                "title": "[en-EN]Optimization for mobile devices[uk-UA]Оптимізація під мобільні пристрої",
+                "text": "[en-EN]Responsive design for comfortable use on all devices.[uk-UA]Адаптивний дизайн для комфортного користування на всіх пристроях."
+            }
+        ]
+    },
+    {
+        "code": "vlasova",
+        "title": "[en-EN]Victoria Vlasova - educational platform for learning English and French[uk-UA]Вікторія Власова - освітня платформа для навчання англійської та французької мов",
+        "text": "[en-EN]Development of a website on the WordPress platform for online learning of English and French with the functionality of purchasing courses, a blog and detailed pages of courses.[uk-UA]Розробка вебсайту на платформі WordPress для онлайн-навчання англійської та французької мов із функціоналом купівлі курсів, блогом та детальними сторінками курсів.",
+        "seoTitle": "[en-EN]English and French courses - online learning[uk-UA]Курси англійської та французької мов – онлайн навчання",
+        "seoDesk": "[en-EN]Learn English and French online. Buy courses, read useful articles on the blog, choose the program that suits you.[uk-UA]Вивчайте англійську та французьку мови онлайн. Купуйте курси, читайте корисні статті в блозі, обирайте програму, яка підходить саме вам.",
+        "seoKeywords": "[en-EN]English courses, French online, buy a foreign language course[uk-UA]курси англійської мови, французька онлайн, купити курс іноземної мови",
+        "image": "01.png",
+        "images": [
+            "01.png",
+            "02.png",
+            "03.png",
+            "04.png"
+        ],
+        "link": "https://victoria-vlasova-prof.com.ua",
+        "tags": [
+            {
+                "name": "[en-EN]Site[uk-UA]Сайт",
+                "code": "site"
+            },
+            {
+                "name": "[en-EN]CRM[uk-UA]СРМ",
+                "code": "crm"
+            },
+            {
+                "name": "[en-EN]Blog[uk-UA]Блог",
+                "code": "blog"
+            },
+            {
+                "name": "[en-EN]Payment system[uk-UA]Платіжна система",
+                "code": "payment"
+            }
+        ],
+        "date": "2023",
+        "time": [
+            "[en-EN]Create: 12.2022 - 03.2023[uk-UA]Розробка: 12.2022 - 03.2023"
+        ],
+        "client": "[en-EN]LLC Vlasova Viktoriya Pavlivna[uk-UA]ФОП Власова Вікторія Павлівна",
+        "role": "[en-EN]Lead Developer and Architect[uk-UA]Головний розробник та архітектор",
+        "tech": [
+            "wordpress",
+            "php",
+            "html5",
+            "sass",
+            "js",
+            "mysql"
+        ],
+        "goal": "[en-EN]Creating a convenient online educational platform for effective learning of foreign languages ​​with the ability to purchase courses.[uk-UA]Створення зручної освітньої онлайн-платформи для ефективного навчання іноземних мов із можливістю покупки курсів.",
+        "devs": [
+            {
+                "title": "[en-EN]Buying courses online[uk-UA]Купівля курсів онлайн",
+                "text": "[en-EN]Intuitive process of purchasing courses through the site with integration of payment systems.[uk-UA]Інтуїтивно зрозумілий процес придбання курсів через сайт із інтеграцією платіжних систем."
+            },
+            {
+                "title": "[en-EN]Detailed course pages[uk-UA]Детальні сторінки курсів",
+                "text": "[en-EN]Description of training programs, structure of classes, reviews and the ability to choose the optimal learning format.[uk-UA]Опис навчальних програм, структура занять, відгуки та можливість вибору оптимального формату навчання."
+            },
+            {
+                "title": "[en-EN]Educational blog[uk-UA]Освітній блог",
+                "text": "[en-EN]Useful articles, educational materials and tips for learning languages.[uk-UA]Корисні статті, навчальні матеріали та поради для вивчення мов."
+            },
+            {
+                "title": "[en-EN]CMS WordPress[uk-UA]CMS WordPress",
+                "text": "[en-EN]Flexible content management via WordPress with the ability to quickly update materials.[uk-UA]Гнучке управління контентом через WordPress із можливістю швидкого оновлення матеріалів."
+            },
+            {
+                "title": "[en-EN]Responsive design[uk-UA]Адаптивний дизайн",
+                "text": "[en-EN]Optimized version of the site for convenient viewing on mobile devices.[uk-UA]Оптимізована версія сайту для зручного перегляду з мобільних пристроїв."
+            }
+        ]
+    },
+    {
+        "code": "applic",
+        "title": "[en-EN]Applic - corporate website for IT company[uk-UA]Applic - корпоративний вебсайт для IT-компанії",
+        "text": "[en-EN]Development of a corporate website on WordPress for a company specializing in the development of web solutions. The site contains information about the company, its services, a portfolio of implemented projects and contact details.[uk-UA]Розробка корпоративного сайту на WordPress для компанії, що спеціалізується на розробці веб-рішень. Сайт містить інформацію про компанію, її послуги, портфоліо реалізованих проєктів та контактні дані.",
+        "seoTitle": "[en-EN]Applic - Development of web solutions for business[uk-UA]Applic – Розробка вебрішень для бізнесу",
+        "seoDesk": "[en-EN]IT company Applic - development of websites, mobile applications and CRM systems. Learn more about our services and projects![uk-UA]IT-компанія Applic – розробка вебсайтів, мобільних додатків та CRM-систем. Дізнайтеся більше про наші послуги та проєкти!",
+        "seoKeywords": "[en-EN]web solutions development, website creation, web design, IT services[uk-UA]розробка вебрішень, створення сайтів, вебдизайн, IT-послуги",
+        "image": "01.png",
+        "images": [
+            "01.png",
+            "02.png",
+            "03.png",
+            "04.png"
+        ],
+        "link": "https://applic.com.ua",
+        "tags": [
+            {
+                "name": "[en-EN]Site[uk-UA]Сайт",
+                "code": "site"
+            },
+            {
+                "name": "[en-EN]CRM[uk-UA]СРМ",
+                "code": "crm"
+            }
+        ],
+        "date": "2024",
+        "time": [
+            "[en-EN]Create: 07.2024 - 08.2024[uk-UA]Розробка: 07.2024 - 08.2024"
+        ],
+        "client": "[en-EN]Applic LLC[uk-UA]Applic LLC",
+        "role": "[en-EN]Lead Developer and Architect[uk-UA]Головний розробник та архітектор",
+        "tech": [
+            "wordpress",
+            "php",
+            "html5",
+            "sass",
+            "js",
+            "mysql"
+        ],
+        "goal": "[en-EN]To create a convenient corporate website to present the company, its services and portfolio, emphasizing expertise in the field of web solutions development.[uk-UA]Створити зручний корпоративний сайт для презентації компанії, її послуг та портфоліо, що підкреслює експертність у сфері розробки вебрішень.",
+        "devs": [
+            {
+                "title": "[en-EN]Section \"About the company\"[uk-UA]Розділ \"Про компанію\"",
+                "text": "[en-EN]Description of history, mission, areas of activity and approach to work.[uk-UA]Опис історії, місії, напрямків діяльності та підходу до роботи."
+            },
+            {
+                "title": "[en-EN]Catalog of services[uk-UA]Каталог послуг",
+                "text": "[en-EN]Detailed list of services with the possibility of ordering a consultation.[uk-UA]Детальний перелік послуг із можливістю замовлення консультації."
+            },
+            {
+                "title": "[en-EN]Project Portfolio[uk-UA]Портфоліо проєктів",
+                "text": "[en-EN]A showcase of implemented web solutions with descriptions that demonstrate the team's expertise.[uk-UA]Вітрина реалізованих вебрішень із описами, що демонструє експертизу команди."
+            },
+            {
+                "title": "[en-EN]Contact Form[uk-UA]Контактна форма",
+                "text": "[en-EN]The ability to quickly contact company representatives via the feedback form.[uk-UA]Можливість швидкого зв’язку з представниками компанії через форму зворотного зв’язку."
+            },
+            {
+                "title": "[en-EN]Chatbots and telephony[uk-UA]Чат-боти та телефонія",
+                "text": "[en-EN]The site has developed and integrated chatbots for convenient communication with customers, as well as a telephony system for handling calls.[uk-UA]На сайті розроблені та інтегровані чат-боти для зручного спілкування з клієнтами, а також система телефонії для обробки дзвінків."
+            },
+            {
+                "title": "[en-EN]CMS WordPress[uk-UA]CMS WordPress",
+                "text": "[en-EN]A convenient content management system for updating information about services and projects.[uk-UA]Зручна система керування контентом для оновлення інформації про послуги та проєкти."
+            },
+            {
+                "title": "[en-EN]Responsive Design[uk-UA]Адаптивний дизайн",
+                "text": "[en-EN]Optimization for viewing on mobile and tablet devices.[uk-UA]Оптимізація для перегляду на мобільних та планшетних пристроях."
+            }
+        ]
+    },
+    {
+        "code": "artel_ua",
+        "title": "[en-EN]IT.Artel - corporate website for an IT company[uk-UA]IT.Artel - корпоративний вебсайт для IT-компанії",
+        "text": "[en-EN]Development of a corporate website on WordPress for the IT-ARTEL company, which specializes in implementing software solutions for business. The website contains information about the company, its services, its own developments, a blog, integration with 1C and BAS, as well as a section with license prices (without the possibility of purchase).[uk-UA]Розробка корпоративного сайту на WordPress для компанії IT.Artel, що спеціалізується на впровадженні програмних рішень для бізнесу. Сайт містить інформацію про компанію, її послуги, власні розробки, блог, інтеграцію з 1С та БАС, а також розділ із цінами на ліцензії.",
+        "seoTitle": "[en-EN]IT-ARTEL - Business automation and implementation of IT solutions[uk-UA]IT-ARTEL – Автоматизація бізнесу та впровадження IT-рішень",
+        "seoDesk": "[en-EN]Corporate website IT-ARTEL: services, own developments, integration of 1C and BAS, blog, telephony, chatbots and details of licensed software.[uk-UA]Корпоративний сайт IT-ARTEL: послуги, власні розробки, інтеграція 1С та БАС, блог, телефонія, чат-боти та деталі ліцензійного програмного забезпечення.",
+        "seoKeywords": "[en-EN]corporate website, 1C integration, BAS implementation, chatbots, telephony, business automation[uk-UA]корпоративний сайт, інтеграція 1С, впровадження БАС, чат-боти, телефонія, автоматизація бізнесу",
+        "image": "01.png",
+        "images": [
+            "01.png",
+            "02.png",
+            "03.png",
+            "04.png"
+        ],
+        "link": "https://it-artel.ua",
+        "tags": [
+            {
+                "name": "[en-EN]Site[uk-UA]Сайт",
+                "code": "site"
+            },
+            {
+                "name": "[en-EN]CRM[uk-UA]СРМ",
+                "code": "crm"
+            }
+        ],
+        "date": "2022",
+        "time": [
+            "[en-EN]Create: 11.2021 - 01.2022[uk-UA]Розробка: 11.2021 - 01.2022"
+        ],
+        "client": "[en-EN]IT.Artel LTD[uk-UA]ТОВ ІТ.Артіль",
+        "role": "[en-EN]Lead Developer and Architect[uk-UA]Головний розробник та архітектор",
+        "tech": [
+            "wordpress",
+            "php",
+            "html5",
+            "sass",
+            "js",
+            "mysql"
+        ],
+        "goal": "[en-EN]To create a modern corporate website to present the company's services, a blog with useful materials, integration solutions and pricing policy.[uk-UA]Створити сучасний корпоративний сайт для презентації послуг компанії, блогу з корисними матеріалами, інтеграційних рішень та цінової політики.",
+        "devs": [
+            {
+                "title": "[en-EN]Home page[uk-UA]Головна сторінка",
+                "text": "[en-EN]Presentation of the main areas of the company's work, convenient navigation to key sections.[uk-UA]Презентація основних напрямків роботи компанії, зручна навігація до ключових розділів."
+            },
+            {
+                "title": "[en-EN]Blog[uk-UA]Блог",
+                "text": "[en-EN]A separate section for articles and news about the IT industry, business automation, BAS updates, etc.[uk-UA]Окремий розділ для статей та новин про IT-індустрію, автоматизацію бізнесу, оновлення БАС тощо."
+            },
+            {
+                "title": "[en-EN]Own developments[uk-UA]Власні розробки",
+                "text": "[en-EN]A page with information about the solutions developed by the company, including CRM integrations, process automation and other developments.[uk-UA]Сторінка з інформацією про розроблені компанією рішення, включаючи CRM-інтеграції, автоматизацію процесів та інші розробки."
+            },
+            {
+                "title": "[en-EN]1C and BAS integration[uk-UA]Інтеграція 1С та БАС",
+                "text": "[en-EN]A section with a detailed description of the possibilities of integrating and configuring software for automating business processes.[uk-UA]Розділ із детальним описом можливостей інтеграції та налаштування програмного забезпечення для автоматизації бізнес-процесів."
+            },
+            {
+                "title": "[en-EN]License prices[uk-UA]Ціни на ліцензії",
+                "text": "[en-EN]A page with a list of available software licenses (without the online purchase function).[uk-UA]Сторінка з переліком доступних ліцензій на програмне забезпечення (без функції онлайн-купівлі)."
+            },
+            {
+                "title": "[en-EN]Chatbots and telephony[uk-UA]Чат-боти та телефонія",
+                "text": "[en-EN]The site has developed and integrated chatbots for convenient communication with customers, as well as a telephony system for handling calls.[uk-UA]На сайті розроблені та інтегровані чат-боти для зручного спілкування з клієнтами, а також система телефонії для обробки дзвінків."
+            },
+            {
+                "title": "[en-EN]Contact information[uk-UA]Контактна інформація",
+                "text": "[en-EN]A convenient form of communication, contact details and integration with messengers.[uk-UA]Зручна форма зв’язку, контактні дані та інтеграція з месенджерами."
+            },
+            {
+                "title": "[en-EN]CMS WordPress[uk-UA]CMS WordPress",
+                "text": "[en-EN]Flexible content management for quick information updates.[uk-UA]Гнучке управління контентом для швидкого оновлення інформації."
+            },
+            {
+                "title": "[en-EN]Responsive design[uk-UA]Адаптивний дизайн",
+                "text": "[en-EN]The site is optimized for mobile devices and tablets.[uk-UA]Сайт оптимізований для мобільних пристроїв та планшетів."
+            }
+        ]
+    },
+    {
+        "code": "XXX",
+        "title": "[en-EN]XXX[uk-UA]XXX",
+        "text": "[en-EN]XXX[uk-UA]XXX",
+        "seoTitle": "[en-EN]XXX[uk-UA]XXX",
+        "seoDesk": "[en-EN]XXX[uk-UA]XXX",
+        "seoKeywords": "[en-EN]XXX[uk-UA]XXX",
+        "image": "XXX",
+        "images": [
+            "XXX"
+        ],
+        "link": "XXX",
+        "tags": [
+            {
+                "name": "[en-EN]XXX[uk-UA]XXX",
+                "code": "tech"
+            }
+        ],
+        "date": "XXX",
+        "time": [
+            "[en-EN]XXX[uk-UA]XXX",
+            "[en-EN]XXX[uk-UA]XXX"
+        ],
+        "client": "",
+        "role": "[en-EN]XXX[uk-UA]XXX",
+        "tech": [
+            "XXX"
+        ],
+        "goal": "[en-EN]XXX[uk-UA]XXX",
+        "devs": [
+            {
+                "title": "[en-EN]XXX[uk-UA]XXX",
+                "text": "[en-EN]XXX[uk-UA]XXX"
+            },
+            {
+                "title": "[en-EN]XXX[uk-UA]XXX",
+                "text": "[en-EN]XXX[uk-UA]XXX"
+            },
+            {
+                "title": "[en-EN]XXX[uk-UA]XXX",
+                "text": "[en-EN]XXX[uk-UA]XXX"
+            },
+            {
+                "title": "[en-EN]XXX[uk-UA]XXX",
+                "text": "[en-EN]XXX[uk-UA]XXX"
+            },
+            {
+                "title": "[en-EN]XXX[uk-UA]XXX",
+                "text": "[en-EN]XXX[uk-UA]XXX"
+            },
+            {
+                "title": "[en-EN]XXX[uk-UA]XXX",
+                "text": "[en-EN]XXX[uk-UA]XXX"
+            }
+        ]
+    },
+    {
+        "code": "XXX",
+        "title": "[en-EN]XXX[uk-UA]XXX",
+        "text": "[en-EN]XXX[uk-UA]XXX",
+        "seoTitle": "[en-EN]XXX[uk-UA]XXX",
+        "seoDesk": "[en-EN]XXX[uk-UA]XXX",
+        "seoKeywords": "[en-EN]XXX[uk-UA]XXX",
+        "image": "XXX",
+        "images": [
+            "XXX"
+        ],
+        "link": "XXX",
+        "tags": [
+            {
+                "name": "[en-EN]XXX[uk-UA]XXX",
+                "code": "tech"
+            }
+        ],
+        "date": "XXX",
+        "time": [
+            "[en-EN]XXX[uk-UA]XXX",
+            "[en-EN]XXX[uk-UA]XXX"
+        ],
+        "client": "",
+        "role": "[en-EN]XXX[uk-UA]XXX",
+        "tech": [
+            "XXX"
+        ],
+        "goal": "[en-EN]XXX[uk-UA]XXX",
+        "devs": [
+            {
+                "title": "[en-EN]XXX[uk-UA]XXX",
+                "text": "[en-EN]XXX[uk-UA]XXX"
+            },
+            {
+                "title": "[en-EN]XXX[uk-UA]XXX",
+                "text": "[en-EN]XXX[uk-UA]XXX"
+            },
+            {
+                "title": "[en-EN]XXX[uk-UA]XXX",
+                "text": "[en-EN]XXX[uk-UA]XXX"
+            },
+            {
+                "title": "[en-EN]XXX[uk-UA]XXX",
+                "text": "[en-EN]XXX[uk-UA]XXX"
+            },
+            {
+                "title": "[en-EN]XXX[uk-UA]XXX",
+                "text": "[en-EN]XXX[uk-UA]XXX"
+            },
+            {
+                "title": "[en-EN]XXX[uk-UA]XXX",
+                "text": "[en-EN]XXX[uk-UA]XXX"
+            }
+        ]
+    },
+    {
+        "code": "XXX",
+        "title": "[en-EN]XXX[uk-UA]XXX",
+        "text": "[en-EN]XXX[uk-UA]XXX",
+        "seoTitle": "[en-EN]XXX[uk-UA]XXX",
+        "seoDesk": "[en-EN]XXX[uk-UA]XXX",
+        "seoKeywords": "[en-EN]XXX[uk-UA]XXX",
+        "image": "XXX",
+        "images": [
+            "XXX"
+        ],
+        "link": "XXX",
+        "tags": [
+            {
+                "name": "[en-EN]XXX[uk-UA]XXX",
+                "code": "tech"
+            }
+        ],
+        "date": "XXX",
+        "time": [
+            "[en-EN]XXX[uk-UA]XXX",
+            "[en-EN]XXX[uk-UA]XXX"
+        ],
+        "client": "",
+        "role": "[en-EN]XXX[uk-UA]XXX",
+        "tech": [
+            "XXX"
+        ],
+        "goal": "[en-EN]XXX[uk-UA]XXX",
+        "devs": [
+            {
+                "title": "[en-EN]XXX[uk-UA]XXX",
+                "text": "[en-EN]XXX[uk-UA]XXX"
+            },
+            {
+                "title": "[en-EN]XXX[uk-UA]XXX",
+                "text": "[en-EN]XXX[uk-UA]XXX"
+            },
+            {
+                "title": "[en-EN]XXX[uk-UA]XXX",
+                "text": "[en-EN]XXX[uk-UA]XXX"
+            },
+            {
+                "title": "[en-EN]XXX[uk-UA]XXX",
+                "text": "[en-EN]XXX[uk-UA]XXX"
+            },
+            {
+                "title": "[en-EN]XXX[uk-UA]XXX",
+                "text": "[en-EN]XXX[uk-UA]XXX"
+            },
+            {
+                "title": "[en-EN]XXX[uk-UA]XXX",
+                "text": "[en-EN]XXX[uk-UA]XXX"
             }
         ]
     }
 ]
+
+Згенеруй мені дані по даній структурі:
+
+1. Назва проекту
+2. Опис проекту
+3. СЕО заголовок
+4. СЕО опис
+5. СЕО ключові слова
+6. Ціль проекту
+7. Реалізовані рішення (заголовок та опис)
