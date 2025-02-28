@@ -47,8 +47,7 @@
                     border-radius: var(--border-16);
                     transition: var(--anim-2);
                     &:hover {
-                        transform: scale(1.05) translateY(0.25rem);
-                        box-shadow: 0 -5px 0 0 var(--color-button-gray-2);
+                        transform: scale(1.05);
                     }
                 }
                 .content-block {
@@ -125,16 +124,16 @@
                 grid-column-gap: 1.5rem;
                 grid-row-gap: 3rem;
                 .project {
+                    &:hover {
+                        transform: scale(1.05);
+                    }
+                    transition: var(--anim-2);
                     .image {
                         width: 100%;
                         aspect-ratio: 1.5/1;
                         object-fit: cover;
                         border-radius: var(--border-16);
                         transition: var(--anim-2);
-                        &:hover {
-                            transform: scale(1.05) translateY(0.25rem);
-                            box-shadow: 0 -5px 0 0 var(--color-button-gray-2);
-                        }
                     }
                     .content-block {
                         margin-top: 1.5rem;

@@ -17,3 +17,13 @@ import { fadeInOutPage } from "./animations";
 export class AppComponent {
     constructor(public coreService: CoreService) {}
 }
+
+// Згенеруй мені дані по даній структурі:
+
+// 1. Назва проекту
+// 2. Опис проекту
+// 3. СЕО заголовок
+// 4. СЕО опис
+// 5. СЕО ключові слова
+// 6. Ціль проекту
+// 7. Реалізовані рішення (заголовок та опис)

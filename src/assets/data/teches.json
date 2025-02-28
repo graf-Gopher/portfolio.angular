@@ -215,6 +215,26 @@
         "code": "vue_js"
     },
     {
+        "image": "xamarin",
+        "name": "Xamarin",
+        "code": "xamarin"
+    },
+    {
+        "image": "rest_api",
+        "name": "Rest Api",
+        "code": "rest_api"
+    },
+    {
+        "image": "1c",
+        "name": "1C",
+        "code": "1c"
+    },
+    {
+        "image": "css3",
+        "name": "Css3",
+        "code": "css3"
+    },
+    {
         "image": "XXX",
         "name": "XXX",
         "code": "XXX"
