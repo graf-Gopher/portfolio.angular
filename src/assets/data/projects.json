@@ -1515,20 +1515,29 @@
     },
     {
         "code": "game_adventure",
-        "title": "[en-EN]XXX[uk-UA]XXX",
-        "text": "[en-EN]XXX[uk-UA]XXX",
-        "seoTitle": "[en-EN]XXX[uk-UA]XXX",
-        "seoDesk": "[en-EN]XXX[uk-UA]XXX",
-        "seoKeywords": "[en-EN]XXX[uk-UA]XXX",
-        "image": "XXX",
+        "title": "[en-EN]Game Adventure – a platform for game engine materials[uk-UA]Game Adventure – платформа матеріалів для ігрових двигунів",
+        "text": "[en-EN]Game Adventure is a web platform that collects materials for game engines, provides users with a convenient catalog with links to official stores, allows you to leave comments, rate content and automatically updates data from stores.[uk-UA]Game Adventure – це веб-платформа, що збирає матеріали для ігрових двигунів, надає користувачам зручний каталог із посиланнями на офіційні магазини, дозволяє залишати коментарі, оцінювати контент та здійснює автоматичне оновлення даних з магазинів.",
+        "seoTitle": "[en-EN]Game Adventure – a catalog of materials for game engines[uk-UA]Game Adventure – каталог матеріалів для ігрових двигунів",
+        "seoDesk": "[en-EN]Find the best materials for Unity, Unreal Engine and other game engines. Comments, ratings, convenient search and automatic catalog update.[uk-UA]Знайдіть кращі матеріали для Unity, Unreal Engine та інших ігрових двигунів. Коментарі, рейтинги, зручний пошук та автоматичне оновлення каталогу.",
+        "seoKeywords": "[en-EN]game materials, assets, resources for Unity, resources for Unreal Engine, catalog of game resources, buy materials for games, marketplace, store synchronization[uk-UA]ігрові матеріали, assets, ресурси для Unity, ресурси для Unreal Engine, каталог ігрових ресурсів, купити матеріали для ігор, marketplace, синхронізація магазинів",
+        "image": "01.png",
         "images": [
-            "XXX"
+            "01.png",
+            "02.png",
+            "03.png",
+            "04.png",
+            "05.png",
+            "06.png",
+            "07.png",
+            "08.png",
+            "09.png",
+            "10.png"
         ],
-        "link": "XXX",
+        "link": "https://game-adventure.com",
         "tags": [
             {
-                "name": "[en-EN]XXX[uk-UA]XXX",
-                "code": "tech"
+                "name": "[en-EN]Site[uk-UA]Сайт",
+                "code": "site"
             }
         ],
         "date": "2018",
@@ -1536,54 +1545,57 @@
             "[en-EN]Create: 01.2018 - 05.2018[uk-UA]Розробка: 01.2018 - 05.2018"
         ],
         "client": "[en-EN]XXX[uk-UA]XXX",
-        "role": "[en-EN]XXX[uk-UA]XXX",
+        "role": "[en-EN]Lead Developer and Architect[uk-UA]Головний розробник та архітектор",
         "tech": [
             "XXX"
         ],
-        "goal": "[en-EN]XXX[uk-UA]XXX",
+        "goal": "[en-EN]To create a convenient platform for searching and selecting materials for various game engines, with the ability to automatically synchronize with official stores and interactive elements for users.[uk-UA]Створити зручну платформу для пошуку та вибору матеріалів під різні ігрові двигуни, з можливістю автоматичної синхронізації з офіційними магазинами та інтерактивними елементами для користувачів.",
         "devs": [
             {
-                "title": "[en-EN]XXX[uk-UA]XXX",
-                "text": "[en-EN]XXX[uk-UA]XXX"
+                "title": "[en-EN]Game materials catalog[uk-UA]Каталог ігрових матеріалів",
+                "text": "[en-EN]A structured database with materials divided by game engines and categories has been developed.[uk-UA]Розроблено структуровану базу з матеріалами, розбитими за ігровими двигунами та категоріями."
             },
             {
-                "title": "[en-EN]XXX[uk-UA]XXX",
-                "text": "[en-EN]XXX[uk-UA]XXX"
+                "title": "[en-EN]Integration with official stores[uk-UA]Інтеграція з офіційними магазинами",
+                "text": "[en-EN]The system synchronizes information about materials, prices and availability from official marketplaces Unity Asset Store, Unreal Marketplace, etc.[uk-UA]Система синхронізує інформацію про матеріали, ціни та наявність з офіційних маркетплейсів Unity Asset Store, Unreal Marketplace тощо."
             },
             {
-                "title": "[en-EN]XXX[uk-UA]XXX",
-                "text": "[en-EN]XXX[uk-UA]XXX"
+                "title": "[en-EN]Comments and ratings system[uk-UA]Система коментарів та рейтингів",
+                "text": "[en-EN]Users can leave reviews, rate and discuss materials.[uk-UA]Користувачі можуть залишати відгуки, виставляти оцінки та обговорювати матеріали."
             },
             {
-                "title": "[en-EN]XXX[uk-UA]XXX",
-                "text": "[en-EN]XXX[uk-UA]XXX"
+                "title": "[en-EN]Convenient search and filtering[uk-UA]Зручний пошук та фільтрація",
+                "text": "[en-EN]Advanced search by game engines, categories, ratings and prices.[uk-UA]Розширений пошук за ігровими двигунами, категоріями, рейтингами та цінами."
             },
             {
-                "title": "[en-EN]XXX[uk-UA]XXX",
-                "text": "[en-EN]XXX[uk-UA]XXX"
+                "title": "[en-EN]Daily content synchronization[uk-UA]Щоденна синхронізація контенту",
+                "text": "[en-EN]Automatic system for scanning stores once a day, which allows you to maintain the relevance of the catalog.[uk-UA]Автоматична система сканування магазинів раз на добу, що дозволяє підтримувати актуальність каталогу."
             },
             {
-                "title": "[en-EN]XXX[uk-UA]XXX",
-                "text": "[en-EN]XXX[uk-UA]XXX"
+                "title": "[en-EN]SEO optimization[uk-UA]SEO-оптимізація",
+                "text": "[en-EN]The site structure, meta tags and loading speed have been optimized, which improves visibility in search engines.[uk-UA]Оптимізовано структуру сайту, мета-теги та швидкість завантаження, що покращує видимість у пошукових системах."
             }
         ]
     },
     {
         "code": "guepard",
-        "title": "[en-EN]XXX[uk-UA]XXX",
-        "text": "[en-EN]XXX[uk-UA]XXX",
-        "seoTitle": "[en-EN]XXX[uk-UA]XXX",
-        "seoDesk": "[en-EN]XXX[uk-UA]XXX",
-        "seoKeywords": "[en-EN]XXX[uk-UA]XXX",
-        "image": "XXX",
+        "title": "[en-EN]Guepard – computer maintenance services[uk-UA]Guepard – послуги з обслуговування комп’ютерів",
+        "text": "[en-EN]A single-page website was developed for the Guepard company, which specializes in computer maintenance. The website contains a list of services, information about the company, feedback forms and supports several languages ​​for user convenience.[uk-UA]Розроблено односторінковий сайт для компанії Guepard, що спеціалізується на обслуговуванні комп’ютерів. Сайт містить перелік послуг, інформацію про компанію, форми зворотного зв’язку та реалізує підтримку кількох мов для зручності користувачів.",
+        "seoTitle": "[en-EN]Guepard – computer maintenance, OS installation, repair and configuration[uk-UA]Guepard – обслуговування комп’ютерів, встановлення ОС, ремонт та налаштування",
+        "seoDesk": "[en-EN]Professional computer maintenance: OS installation, program configuration, PC recovery, antivirus protection, peripheral connection.[uk-UA]Професійне обслуговування комп’ютерів: встановлення ОС, налаштування програм, відновлення роботи ПК, антивірусний захист, підключення периферії.",
+        "seoKeywords": "[en-EN]computer maintenance, PC repair, Windows installation, antivirus protection, Internet setup, computer help, PC recovery[uk-UA]обслуговування комп’ютерів, ремонт ПК, встановлення Windows, антивірусний захист, налаштування інтернету, комп’ютерна допомога, відновлення ПК",
+        "image": "01.png",
         "images": [
-            "XXX"
+            "01.png",
+            "02.png",
+            "03.png",
+            "04.png"
         ],
-        "link": "XXX",
+        "link": "https://guepard.com.ua",
         "tags": [
             {
-                "name": "[en-EN]XXX[uk-UA]XXX",
-                "code": "tech"
+                "name": "[en-EN]Site[uk-UA]Сайт",
+                "code": "site"
             }
         ],
         "date": "2018",
@@ -1591,54 +1603,54 @@
             "[en-EN]Create: 02.2018 - 02.2018[uk-UA]Розробка: 02.2018 - 02.2018"
         ],
         "client": "[en-EN]XXX[uk-UA]XXX",
-        "role": "[en-EN]XXX[uk-UA]XXX",
+        "role": "[en-EN]Lead Developer and Architect[uk-UA]Головний розробник та архітектор",
         "tech": [
             "XXX"
         ],
-        "goal": "[en-EN]XXX[uk-UA]XXX",
+        "goal": "[en-EN]To develop a simple, clear and effective website that allows users to quickly find the necessary PC maintenance services and contact the company via a feedback form.[uk-UA]Розробити простий, зрозумілий та ефективний сайт, що дозволяє користувачам швидко знаходити необхідні послуги з обслуговування ПК та зв’язуватися з компанією через форму зворотного зв’язку.",
         "devs": [
             {
-                "title": "[en-EN]XXX[uk-UA]XXX",
-                "text": "[en-EN]XXX[uk-UA]XXX"
+                "title": "[en-EN]One-page adaptive site[uk-UA]Односторінковий адаптивний сайт",
+                "text": "[en-EN]An intuitive site has been developed that is convenient to view on both PCs and mobile devices.[uk-UA]Розроблено інтуїтивно зрозумілий сайт, який зручно переглядати як на ПК, так і на мобільних пристроях."
             },
             {
-                "title": "[en-EN]XXX[uk-UA]XXX",
-                "text": "[en-EN]XXX[uk-UA]XXX"
+                "title": "[en-EN]List of services with a detailed description[uk-UA]Список послуг з детальним описом",
+                "text": "[en-EN]Information about key services has been added, such as OS installation, virus treatment, Internet setup, etc.[uk-UA]Додано інформацію про ключові послуги, такі як встановлення ОС, лікування від вірусів, налаштування інтернету тощо."
             },
             {
-                "title": "[en-EN]XXX[uk-UA]XXX",
-                "text": "[en-EN]XXX[uk-UA]XXX"
+                "title": "[en-EN]Feedback form[uk-UA]Форма зворотного зв’язку",
+                "text": "[en-EN]A simple and quick form for leaving a service request has been implemented.[uk-UA]Реалізовано просту та швидку форму для залишення заявки на обслуговування."
             },
             {
-                "title": "[en-EN]XXX[uk-UA]XXX",
-                "text": "[en-EN]XXX[uk-UA]XXX"
+                "title": "[en-EN]Multi-language support[uk-UA]Підтримка кількох мов",
+                "text": "[en-EN]The site is available in several languages, which expands the customer audience.[uk-UA]Сайт доступний кількома мовами, що розширює аудиторію клієнтів."
             },
             {
-                "title": "[en-EN]XXX[uk-UA]XXX",
-                "text": "[en-EN]XXX[uk-UA]XXX"
-            },
-            {
-                "title": "[en-EN]XXX[uk-UA]XXX",
-                "text": "[en-EN]XXX[uk-UA]XXX"
+                "title": "[en-EN]SEO optimization[uk-UA]SEO-оптимізація",
+                "text": "[en-EN]The site has been optimized for fast loading and improved search visibility.[uk-UA]Оптимізовано сайт для швидкого завантаження та покращення пошукової видимості."
             }
         ]
     },
     {
         "code": "life_game_studios",
-        "title": "[en-EN]XXX[uk-UA]XXX",
-        "text": "[en-EN]XXX[uk-UA]XXX",
-        "seoTitle": "[en-EN]XXX[uk-UA]XXX",
-        "seoDesk": "[en-EN]XXX[uk-UA]XXX",
-        "seoKeywords": "[en-EN]XXX[uk-UA]XXX",
-        "image": "XXX",
+        "title": "[en-EN]Life Game Studios – the official website of an indie studio[uk-UA]Life Game Studios – офіційний сайт інді-студії",
+        "text": "[en-EN]A single-page website has been developed for the indie game studio Life Game Studios. The website contains information about the studio, its projects and team, as well as a feedback form. Multi-language support has been implemented, allowing the studio to interact with an international audience.[uk-UA]Розроблено односторінковий сайт для ігрової інді-студії Life Game Studios. Сайт містить інформацію про студію, її проєкти та команду, а також форму для зворотного зв’язку. Реалізована підтримка кількох мов, що дозволяє студії взаємодіяти з міжнародною аудиторією.",
+        "seoTitle": "[en-EN]Life Game Studios – an indie studio, game creation, our team and projects[uk-UA]Life Game Studios – інді-студія, створення ігор, наша команда та проєкти",
+        "seoDesk": "[en-EN]Life Game Studios – an independent game studio. Learn more about our games, team and contact us through the website.[uk-UA]Life Game Studios – незалежна ігрова студія. Дізнайтеся більше про наші ігри, команду та зв’яжіться з нами через сайт.",
+        "seoKeywords": "[en-EN]indie games, Life Game Studios, game development, indie studio, game creation, game dev, indie game dev[uk-UA]інді-ігри, Life Game Studios, розробка ігор, інді-студія, створення ігор, геймдев, інді-геймдев",
+        "image": "01.png",
         "images": [
-            "XXX"
+            "01.png",
+            "02.png",
+            "03.png",
+            "04.png",
+            "05.png"
         ],
-        "link": "XXX",
+        "link": "https://life-game-studios.com",
         "tags": [
             {
-                "name": "[en-EN]XXX[uk-UA]XXX",
-                "code": "tech"
+                "name": "[en-EN]Site[uk-UA]Сайт",
+                "code": "site"
             }
         ],
         "date": "2018",
@@ -1646,54 +1658,58 @@
             "[en-EN]Create: 09.2018 - 11.2018[uk-UA]Розробка: 09.2018 - 11.2018"
         ],
         "client": "[en-EN]XXX[uk-UA]XXX",
-        "role": "[en-EN]XXX[uk-UA]XXX",
+        "role": "[en-EN]Lead Developer and Architect[uk-UA]Головний розробник та архітектор",
         "tech": [
             "XXX"
         ],
-        "goal": "[en-EN]XXX[uk-UA]XXX",
+        "goal": "[en-EN]To create a simple and stylish website that will help the studio introduce itself, share its projects, talk about the team and provide contact information for communicating with players and partners.[uk-UA]Створити простий та стильний сайт, який допоможе студії представити себе, поділитися своїми проєктами, розповісти про команду та надати контактну інформацію для зв’язку з гравцями та партнерами.",
         "devs": [
             {
-                "title": "[en-EN]XXX[uk-UA]XXX",
-                "text": "[en-EN]XXX[uk-UA]XXX"
+                "title": "[en-EN]One-page adaptive website[uk-UA]Односторінковий адаптивний сайт",
+                "text": "[en-EN]A light and fast website has been developed that is correctly displayed on any device.[uk-UA]Розроблено легкий та швидкий сайт, що коректно відображається на будь-яких пристроях."
             },
             {
-                "title": "[en-EN]XXX[uk-UA]XXX",
-                "text": "[en-EN]XXX[uk-UA]XXX"
+                "title": "[en-EN]\"About us\" section[uk-UA]Розділ \"Про нас\"",
+                "text": "[en-EN]A block with a brief history of the studio, its mission and vision has been added.[uk-UA]Додано блок із короткою історією студії, її місією та баченням."
             },
             {
-                "title": "[en-EN]XXX[uk-UA]XXX",
-                "text": "[en-EN]XXX[uk-UA]XXX"
+                "title": "[en-EN]Game catalog[uk-UA]Каталог ігор",
+                "text": "[en-EN]The page contains information about the studio's games, their features and links to download pages.[uk-UA]Сторінка містить інформацію про ігри студії, їхні особливості та посилання на сторінки завантаження."
             },
             {
-                "title": "[en-EN]XXX[uk-UA]XXX",
-                "text": "[en-EN]XXX[uk-UA]XXX"
+                "title": "[en-EN]\"Our team\" section[uk-UA]Розділ \"Наша команда\"",
+                "text": "[en-EN]Key members of the studio, their roles and contributions to projects are presented.[uk-UA]Представлені ключові учасники студії, їхні ролі та внесок у проєкти."
             },
             {
-                "title": "[en-EN]XXX[uk-UA]XXX",
-                "text": "[en-EN]XXX[uk-UA]XXX"
+                "title": "[en-EN]Feedback Form[uk-UA]Форма зворотного зв’язку",
+                "text": "[en-EN]Users can contact the studio via an integrated contact form.[uk-UA]Користувачі можуть зв’язатися зі студією через інтегровану контактну форму."
             },
             {
-                "title": "[en-EN]XXX[uk-UA]XXX",
-                "text": "[en-EN]XXX[uk-UA]XXX"
+                "title": "[en-EN]Multi-language support[uk-UA]Підтримка кількох мов",
+                "text": "[en-EN]A multilingual interface has been implemented to expand audience reach.[uk-UA]Реалізовано мультимовний інтерфейс, щоб розширити охоплення аудиторії."
+            },
+            {
+                "title": "[en-EN]SEO optimization[uk-UA]SEO-оптимізація",
+                "text": "[en-EN]The site content has been optimized for search engines, which improves its visibility on the web.[uk-UA]Оптимізовано контент сайту для пошукових систем, що покращує його видимість у мережі."
             }
         ]
     },
     {
         "code": "hwtf_site",
-        "title": "[en-EN]XXX[uk-UA]XXX",
-        "text": "[en-EN]XXX[uk-UA]XXX",
-        "seoTitle": "[en-EN]XXX[uk-UA]XXX",
-        "seoDesk": "[en-EN]XXX[uk-UA]XXX",
-        "seoKeywords": "[en-EN]XXX[uk-UA]XXX",
+        "title": "[en-EN]Hero with a Thousand Faces – official game website[uk-UA]Hero with a Thousand Faces – офіційний сайт гри",
+        "text": "[en-EN]A subdomain site has been developed for the game Hero with a Thousand Faces by Life Game Studios. The site contains a main page with a short description, sections with a detailed description of the mechanics, a gallery, videos, information about the development status and current early access updates. Multilingualism and the ability to subscribe to game news are also implemented.[uk-UA]Розроблено субдоменний сайт для гри Hero with a Thousand Faces від Life Game Studios. Сайт містить головну сторінку з коротким описом, розділи з детальним описом механік, галереєю, відео, інформацією про статус розробки та поточні оновлення раннього доступу. Також реалізовано мультимовність та можливість підписки на новини гри.",
+        "seoTitle": "[en-EN]Hero with a Thousand Faces – official game website, description, mechanics, gallery[uk-UA]Hero with a Thousand Faces – офіційний сайт гри, опис, механіки, галерея",
+        "seoDesk": "[en-EN]Learn more about Hero with a Thousand Faces! Official game website – description of mechanics, gallery, videos, development status, updates and support.[uk-UA]Дізнайтеся більше про Hero with a Thousand Faces! Офіційний сайт гри – опис механік, галерея, відео, статус розробки, оновлення та підтримка.",
+        "seoKeywords": "[en-EN]Hero with a Thousand Faces, game, RPG, turn-based combat system, isometric game, world exploration, gameplay, early access, Life Game Studios[uk-UA]Hero with a Thousand Faces, гра, RPG, покрокова бойова система, ізометрична гра, дослідження світу, геймплей, ранній доступ, Life Game Studios",
         "image": "XXX",
         "images": [
             "XXX"
         ],
-        "link": "XXX",
+        "link": "https://hwtf.life-game-studios.com",
         "tags": [
             {
-                "name": "[en-EN]XXX[uk-UA]XXX",
-                "code": "tech"
+                "name": "[en-EN]Site[uk-UA]Сайт",
+                "code": "site"
             }
         ],
         "date": "2018",
@@ -1701,54 +1717,66 @@
             "[en-EN]Create: 11.2018 - 12.2018[uk-UA]Розробка: 11.2018 - 12.2018"
         ],
         "client": "[en-EN]XXX[uk-UA]XXX",
-        "role": "[en-EN]XXX[uk-UA]XXX",
+        "role": "[en-EN]Lead Developer and Architect[uk-UA]Головний розробник та архітектор",
         "tech": [
             "XXX"
         ],
-        "goal": "[en-EN]XXX[uk-UA]XXX",
+        "goal": "[en-EN]To create an informative website for the game that will help attract the audience, inform about the development status, updates and mechanics, and also allow players to follow the progress and support the project.[uk-UA]Створити інформативний сайт для гри, який допоможе залучити аудиторію, інформувати про статус розробки, оновлення та механіки, а також дозволить гравцям стежити за прогресом і підтримувати проєкт.",
         "devs": [
             {
-                "title": "[en-EN]XXX[uk-UA]XXX",
-                "text": "[en-EN]XXX[uk-UA]XXX"
+                "title": "[en-EN]Home page with a brief description of the game[uk-UA]Головна сторінка з коротким описом гри",
+                "text": "[en-EN]Displays key features, genre and general concept.[uk-UA]Відображає ключові особливості, жанр та загальну концепцію."
             },
             {
-                "title": "[en-EN]XXX[uk-UA]XXX",
-                "text": "[en-EN]XXX[uk-UA]XXX"
+                "title": "[en-EN]Game mechanics page[uk-UA]Сторінка механік гри",
+                "text": "[en-EN]Detailed description of the combat system, interaction with the surrounding world, puzzles.[uk-UA]Детальний опис бойової системи, взаємодії з навколишнім світом, головоломок."
             },
             {
-                "title": "[en-EN]XXX[uk-UA]XXX",
-                "text": "[en-EN]XXX[uk-UA]XXX"
+                "title": "[en-EN]Image and video gallery[uk-UA]Галерея зображень та відео",
+                "text": "[en-EN]Screenshots, art and official trailers added.[uk-UA]Додано скріншоти, арт та офіційні трейлери."
             },
             {
-                "title": "[en-EN]XXX[uk-UA]XXX",
-                "text": "[en-EN]XXX[uk-UA]XXX"
+                "title": "[en-EN]Development and update status[uk-UA]Статус розробки та оновлення",
+                "text": "[en-EN]A separate section where players can follow the progress and changes in the game.[uk-UA]Окремий розділ, де гравці можуть стежити за прогресом та змінами у грі."
             },
             {
-                "title": "[en-EN]XXX[uk-UA]XXX",
-                "text": "[en-EN]XXX[uk-UA]XXX"
+                "title": "[en-EN]Subscription to updates[uk-UA]Підписка на оновлення",
+                "text": "[en-EN]Users can leave an email to receive news and notifications about game updates.[uk-UA]Користувачі можуть залишити email для отримання новин та повідомлень про оновлення гри."
             },
             {
-                "title": "[en-EN]XXX[uk-UA]XXX",
-                "text": "[en-EN]XXX[uk-UA]XXX"
+                "title": "[en-EN]Support Links[uk-UA]Посилання на підтримку",
+                "text": "[en-EN]The ability to support developers through donations, crowdfunding platforms, or pre-orders has been implemented.[uk-UA]Реалізовано можливість підтримки розробників через донати, краудфандинг-платформи або передзамовлення."
+            },
+            {
+                "title": "[en-EN]Multilingualism[uk-UA]Мультимовність",
+                "text": "[en-EN]The site is available in multiple languages ​​to expand the audience.[uk-UA]Сайт доступний кількома мовами для розширення аудиторії."
+            },
+            {
+                "title": "[en-EN]SEO Optimization[uk-UA]SEO-оптимізація",
+                "text": "[en-EN]Search engine optimization has been implemented for better visibility in Google.[uk-UA]Реалізовано оптимізацію під пошукові системи для кращої видимості в Google."
             }
         ]
     },
     {
         "code": "white_imp",
-        "title": "[en-EN]XXX[uk-UA]XXX",
-        "text": "[en-EN]XXX[uk-UA]XXX",
-        "seoTitle": "[en-EN]XXX[uk-UA]XXX",
+        "title": "[en-EN]White Imp – a platform for website promotion[uk-UA]White Imp – платформа для просування сайтів",
+        "text": "[en-EN]A website and a program for promoting web resources have been developed, which are divided into two parts: User part - allows users to view the history of completed tasks, search for new tasks, withdraw funds for completed actions. Advertiser - creates tasks with links to sites, specifies the terms of execution and tracks statistics. The project includes flexible integration of payment systems, authorization via social networks and a convenient web interface.[uk-UA]Розроблено сайт та програму для просування веб-ресурсів, які поділяються на дві частини: Користувацька частина - дозволяє користувачам переглядати історію виконаних завдань, шукати нові завдання, виводити кошти за виконані дії. Рекламодавець - створює завдання з посиланнями на сайти, вказує умови виконання та відслідковує статистику. Проєкт містить гнучку інтеграцію платіжних систем, авторизацію через соцмережі та зручний веб-інтерфейс.",
+        "seoTitle": "[en-EN]White Imp – a platform for earning and promoting websites[uk-UA]White Imp – платформа для заробітку та просування сайтів",
         "seoDesk": "[en-EN]XXX[uk-UA]XXX",
         "seoKeywords": "[en-EN]XXX[uk-UA]XXX",
-        "image": "XXX",
+        "image": "01.png",
         "images": [
-            "XXX"
+            "01.png",
+            "02.png",
+            "03.png",
+            "04.png",
+            "05.png"
         ],
-        "link": "XXX",
+        "link": "https://white-imp.com",
         "tags": [
             {
-                "name": "[en-EN]XXX[uk-UA]XXX",
-                "code": "tech"
+                "name": "[en-EN]Site[uk-UA]Сайт",
+                "code": "site"
             }
         ],
         "date": "2016",
@@ -1756,7 +1784,7 @@
             "[en-EN]Create: 07.2016 - 12.2016[uk-UA]Розробка: 07.2016 - 12.2016"
         ],
         "client": "[en-EN]XXX[uk-UA]XXX",
-        "role": "[en-EN]XXX[uk-UA]XXX",
+        "role": "[en-EN]Lead Developer and Architect[uk-UA]Головний розробник та архітектор",
         "tech": [
             "XXX"
         ],
@@ -1795,15 +1823,15 @@
         "seoTitle": "[en-EN]XXX[uk-UA]XXX",
         "seoDesk": "[en-EN]XXX[uk-UA]XXX",
         "seoKeywords": "[en-EN]XXX[uk-UA]XXX",
-        "image": "XXX",
+        "image": "01.png",
         "images": [
             "XXX"
         ],
         "link": "XXX",
         "tags": [
             {
-                "name": "[en-EN]XXX[uk-UA]XXX",
-                "code": "tech"
+                "name": "[en-EN]Site[uk-UA]Сайт",
+                "code": "site"
             }
         ],
         "date": "2025",
@@ -1811,7 +1839,7 @@
             "[en-EN]Create: 02.2025 - 02.2025[uk-UA]Розробка: 02.2025 - 02.2025"
         ],
         "client": "[en-EN]XXX[uk-UA]XXX",
-        "role": "[en-EN]XXX[uk-UA]XXX",
+        "role": "[en-EN]Lead Developer and Architect[uk-UA]Головний розробник та архітектор",
         "tech": [
             "XXX"
         ],
@@ -1857,8 +1885,8 @@
         "link": "XXX",
         "tags": [
             {
-                "name": "[en-EN]XXX[uk-UA]XXX",
-                "code": "tech"
+                "name": "[en-EN]Server[uk-UA]Сервер",
+                "code": "server"
             }
         ],
         "date": "XXX",
