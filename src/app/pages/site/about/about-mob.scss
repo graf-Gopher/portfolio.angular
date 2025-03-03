@@ -1,0 +1,198 @@
+@use "../../../../styles/button/button.scss";
+
+@mixin about() {
+    .about-title-section {
+        max-width: 81.25rem;
+        margin: 0 auto;
+        color: var(--color-font-invert);
+        .padding-block {
+            padding: 2.5rem;
+            height: 100%;
+            position: relative;
+            box-sizing: border-box;
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 2.5rem;
+            align-items: center;
+            .content-block {
+                .title {
+                    font-size: var(--font-40);
+                    margin-bottom: 1.5rem;
+                }
+                .text {
+                    font-size: var(--font-18);
+                    margin-bottom: 2rem;
+                }
+                .data-block {
+                    display: grid;
+                    grid-template-columns: 1fr;
+                    gap: 1.5rem;
+                    .item {
+                        mat-icon {
+                            width: 2rem;
+                            height: 2rem;
+                            font-size: 2rem;
+                            margin-bottom: 1rem;
+                            color: var(--color-font-gray);
+                        }
+                        .title {
+                            font-size: var(--font-20);
+                            margin-bottom: 1rem;
+                            font-weight: bold;
+                        }
+                        .text {
+                            font-size: var(--font-16);
+                        }
+                    }
+                }
+            }
+            .image {
+                width: 100%;
+                aspect-ratio: 1;
+                object-fit: cover;
+            }
+        }
+    }
+
+    .about-else-section {
+        max-width: 81.25rem;
+        margin: 0 auto;
+        background-color: var(--color-back-blue-1);
+        color: var(--color-font-white);
+        .padding-block {
+            padding: 2.5rem;
+            height: 100%;
+            position: relative;
+            box-sizing: border-box;
+            > .title {
+                font-size: var(--font-40);
+                margin-bottom: 1.5rem;
+                text-align: center;
+            }
+            > .text {
+                font-size: var(--font-18);
+                text-align: center;
+                max-width: 30rem;
+                margin: 0 auto;
+            }
+            .content-block {
+                margin-top: 2.5rem;
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-column-gap: 2rem;
+                grid-row-gap: 4rem;
+                .item {
+                    text-align: center;
+                    .image {
+                        margin-bottom: 1.5rem;
+                        width: 2.75rem;
+                        height: 2.75rem;
+                        --color-1: var(--color-font-white);
+                    }
+                    .title {
+                        text-align: center;
+                        font-size: var(--font-20);
+                        font-weight: bold;
+                    }
+                    .sub-title {
+                        font-size: var(--font-18);
+                        margin-bottom: 1rem;
+                    }
+                    .text {
+                        font-size: var(--font-16);
+                    }
+                }
+            }
+            .buttons-block {
+                margin-top: 2.5rem;
+                display: flex;
+                gap: 1rem;
+                justify-content: center;
+                .button {
+                    &:first-of-type {
+                        @include button.button($solid: true);
+                    }
+                    &:last-of-type {
+                        @include button.button($arrow: true);
+                    }
+                }
+            }
+        }
+    }
+
+    .about-history-section {
+        max-width: 81.25rem;
+        margin: 0 auto;
+        color: var(--color-font-invert);
+        .padding-block {
+            padding: 2.5rem;
+            height: 100%;
+            position: relative;
+            box-sizing: border-box;
+            > .title {
+                font-size: var(--font-40);
+                margin-bottom: 1.5rem;
+                text-align: center;
+            }
+            > .text {
+                font-size: var(--font-18);
+                text-align: center;
+                max-width: 30rem;
+                margin: 0 auto;
+            }
+            .devs-block {
+                margin-top: 2.5rem;
+                display: grid;
+                grid-template-columns: 1fr;
+                margin-left: 2.5rem;
+                .dev {
+                    position: relative;
+                    height: fit-content;
+                    text-align: left;
+                    padding-bottom: 2.5rem;
+                    &:last-of-type {
+                        padding-bottom: 0;
+                    }
+                    .title {
+                        font-size: var(--font-20);
+                        font-weight: bold;
+                        margin-bottom: 1rem;
+                    }
+                    .text {
+                        font-size: var(--font-16);
+                    }
+                    .date {
+                        font-size: var(--font-24);
+                        font-weight: bold;
+                        margin-bottom: 1rem;
+                    }
+
+                    .diviner {
+                        left: 0;
+                        transform: translateX(-100%);
+                        position: absolute;
+                        width: 3rem;
+                        height: 100%;
+                        top: 0.5rem;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        .circle {
+                            z-index: 2;
+                            width: 1rem;
+                            height: 1rem;
+                            border-radius: var(--border-100);
+                            background-color: var(--color-button-blue-2);
+                            box-shadow: 0px 0px 0px 0.5rem var(--color-back-invert);
+                        }
+                        .line {
+                            height: 90%;
+                            width: 3px;
+                            background-color: var(--color-button-blue-2);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

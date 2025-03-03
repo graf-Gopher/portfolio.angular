@@ -1,59 +1,56 @@
-# PortfolioAngular
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.6.
+# Welcome to Developer Portfolio 👋
+![Prerequisite](https://img.shields.io/badge/version-0.0.1-green.svg)
+![Prerequisite](https://img.shields.io/badge/npm-%3E%3D10.8.1-blue.svg)
+![Prerequisite](https://img.shields.io/badge/node-%3E%3D%2020.16.0-blue.svg)
+[![Documentation](https://img.shields.io/badge/documentation-yes-brightgreen.svg)](https://github.com/graf-Gopher/portfolio.angular#readme)
 
-## Development server
+> Portfolio for developers
 
-To start a local development server, run:
+### 🏠 [Homepage](https://xxx)
 
-```bash
-ng serve
+### ✨ [Demo](https://xxx)
+
+## Prerequisites
+
+- npm &gt;=10.8.1
+- node &gt;=20.16.0
+
+## Install
+
+```sh
+npm install
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## Usage
 
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
+```sh
+npm run start
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## Author
 
-```bash
-ng generate --help
-```
+👤 **graf Gopher**
 
-## Building
+* Website: https://github.com/graf-Gopher
+* Twitter: [@undefined](#)
+* GitHub: [@graf-Gopher](https://github.com/graf-Gopher})
+* LinkedIn: [@undefined](#)
 
-To build the project run:
+## 🤝 Contributing
 
-```bash
-ng build
-```
+Contributions, issues and feature requests are welcome!
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+Feel free to check [issues page](https://github.com/graf-Gopher/portfolio.angular/issues). You can also take a look at the [contributing guide](https://github.com/graf-Gopher/portfolio.angular/blob/master/CONTRIBUTING.md).
 
-## Running unit tests
+[Under Tree Entertainment](https://under-tree-e.com)
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+## Show your support
 
-```bash
-ng test
-```
+Give a ⭐️ if this project helped you!
 
-## Running end-to-end tests
+## 📝 License
 
-For end-to-end (e2e) testing, run:
+Copyright © 2025 [graf Gopher](https://github.com/graf-Gopher).
 
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+This project is [Open-Source](https://github.com/graf-Gopher/portfolio.angular/blob/master/LICENSE) licensed.
