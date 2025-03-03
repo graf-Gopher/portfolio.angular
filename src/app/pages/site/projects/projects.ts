@@ -59,7 +59,7 @@ export class ProjectsPage {
      * Extracts unique tags from the projects data and assigns them to the tags property.
      * Calls the loadProjects method to load the projects.
      */
-    private async init() {
+    private init() {
         const resolve = this.activatedRoute.snapshot.data["data"];
         const { pages, projects } = resolve.data;
 

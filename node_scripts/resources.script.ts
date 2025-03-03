@@ -3,7 +3,7 @@ import fs from "fs";
 import { CanvasRenderingContext2D, Canvas, createCanvas } from "canvas";
 
 export default class ResourcesScript {
-    constructor(private path: string = "", private back: string = "", private folder: string = "", private command: any) {
+    constructor(private readonly path: string = "", private readonly back: string = "", private readonly folder: string = "", private readonly command: any) {
         fs.mkdirSync(`${process.cwd()}/${this.folder}`, { recursive: true });
     }
 

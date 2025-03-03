@@ -21,34 +21,35 @@ interface ReadmeData {
 }
 
 export default class ReadmeScript {
-    constructor(private command: any) {}
+    constructor(private readonly command: any) {}
 
     public init(): Promise<boolean> {
-        return new Promise(async (resolve, reject) => {
-            try {
-                const pr: ReadmeData = packageJson as any;
+        return new Promise((resolve, reject) => {
+            (async () => {
+                try {
+                    const pr: ReadmeData = packageJson as any;
 
-                let nodeVer: string = await this.command("node", [`-v`], true);
-                nodeVer = nodeVer.substring(1);
-                nodeVer = nodeVer.slice(0, -1);
-                let npmVer: string = await this.command("npm", [`-v`], true);
-                npmVer = npmVer.slice(0, -1);
-                const repo: string = pr.repository.url.replace("https://github.com/", "");
-                const git: string = pr.repository.url.replace(`/${pr.name}`, "");
-                const lis: string[] = (packageJson as any).license.split("/");
-                pr.license = {
-                    name: lis[0],
-                    year: lis[1] || new Date().getFullYear().toString(),
-                };
-                const contributors: string = pr.contributors
-                    ? pr.contributors
-                          .map((cn) => {
-                              return `[${cn.name}](${cn.url})`;
-                          })
-                          .join("\n")
-                    : "";
+                    let nodeVer: string = await this.command("node", [`-v`], true);
+                    nodeVer = nodeVer.substring(1);
+                    nodeVer = nodeVer.slice(0, -1);
+                    let npmVer: string = await this.command("npm", [`-v`], true);
+                    npmVer = npmVer.slice(0, -1);
+                    const repo: string = pr.repository.url.replace("https://github.com/", "");
+                    const git: string = pr.repository.url.replace(`/${pr.name}`, "");
+                    const lis: string[] = (packageJson as any).license.split("/");
+                    pr.license = {
+                        name: lis[0],
+                        year: lis[1] || new Date().getFullYear().toString(),
+                    };
+                    const contributors: string = pr.contributors
+                        ? pr.contributors
+                              .map((cn) => {
+                                  return `[${cn.name}](${cn.url})`;
+                              })
+                              .join("\n")
+                        : "";
 
-                const readmeString: string = `
+                    const readmeString: string = `
 # Welcome to ${pr.title} 👋
 ![Prerequisite](https://img.shields.io/badge/version-${pr.version.split("-")[0]}-green.svg)
 ![Prerequisite](https://img.shields.io/badge/npm-%3E%3D${npmVer}-blue.svg)
@@ -104,12 +105,13 @@ Copyright © ${pr.license.year} [${pr.author.name}](${pr.author.url}).
 
 This project is [${pr.license.name}](https://github.com/${repo}/blob/master/LICENSE) licensed.
 `;
-                fs.writeFileSync(`${process.cwd()}/README.md`, readmeString);
-                console.log("Readme Generated Success");
-                resolve(true);
-            } catch (error) {
-                reject(error);
-            }
+                    fs.writeFileSync(`${process.cwd()}/README.md`, readmeString);
+                    console.log("Readme Generated Success");
+                    resolve(true);
+                } catch (error) {
+                    reject(error as Error);
+                }
+            })();
         });
     }
 }

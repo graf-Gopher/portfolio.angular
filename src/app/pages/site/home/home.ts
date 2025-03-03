@@ -33,7 +33,7 @@ export class HomePage {
      * @param coreService The core service, used to get the language and other useful informations.
      * @param activatedRoute The activated route, used to get the data from the route resolver.
      */
-    constructor(public readonly coreService: CoreService, private activatedRoute: ActivatedRoute) {
+    constructor(public readonly coreService: CoreService, private readonly activatedRoute: ActivatedRoute) {
         const resolve = this.activatedRoute.snapshot.data["data"];
         const { pages, projects, teches } = resolve.data;
 
@@ -44,7 +44,7 @@ export class HomePage {
         this.images = projects
             .filter((pd: ProjectData) => pd.date)
             .map((pd: ProjectData) => `/assets/images/projects/${pd.code}/${pd.image}`)
-            .sort(() => 0.5 - Math.random())
+            .sort(() => 0.5 - this.coreService.random())
             .slice(0, 4);
     }
 }

@@ -4,7 +4,6 @@
 
 import PackScript from "./pack.script";
 import ResourcesScript from "./resources.script";
-import ScssScript from "./scss.script";
 import BuildScript from "./build.script";
 import ReadmeScript from "./readme.script";
 import MobileScript from "./mobile.script";
@@ -14,20 +13,19 @@ import { spawn } from "child_process";
 import ScanScript from "./scan.script";
 
 class NodeScripts {
-    private packScript: PackScript = new PackScript();
-    private resourcesScript: ResourcesScript = new ResourcesScript(config.resources.pathToLogo, config.resources.backColor, config.resources.pathToResources, this.command);
-    private scssScript: ScssScript = new ScssScript();
-    private buildScript: BuildScript = new BuildScript(config.build.pathNode, config.build.pathElectron, config.build.mobile, config.build.ssr, this.command);
-    private readmeScript: ReadmeScript = new ReadmeScript(this.command);
-    private mobileScript: MobileScript = new MobileScript(this.command);
-    private initScript: InitiatorService = new InitiatorService(this.command);
-    private scanScript: ScanScript = new ScanScript(this.command);
+    private readonly packScript: PackScript = new PackScript();
+    private readonly resourcesScript: ResourcesScript = new ResourcesScript(config.resources.pathToLogo, config.resources.backColor, config.resources.pathToResources, this.command);
+    private readonly buildScript: BuildScript = new BuildScript(config.build.pathNode, config.build.pathElectron, config.build.mobile, config.build.ssr, this.command);
+    private readonly readmeScript: ReadmeScript = new ReadmeScript(this.command);
+    private readonly mobileScript: MobileScript = new MobileScript(this.command);
+    private readonly initScript: InitiatorService = new InitiatorService(this.command);
+    private readonly scanScript: ScanScript = new ScanScript(this.command);
 
     constructor() {
         let noArg: boolean = true;
         process.argv
-            .filter((arg) => arg.includes("--") || arg.match(/^[-]\w{1}/g))
-            .map((arg) => {
+            .filter((arg) => arg.includes("--") || arg.match(/^-\w/g))
+            .forEach((arg) => {
                 noArg = false;
                 switch (arg) {
                     case "--pack":
@@ -95,7 +93,7 @@ class NodeScripts {
             p.stderr.on("data", (x) => {
                 process.stderr.write(x.toString());
                 if (returnString) {
-                    reject(x.toString());
+                    reject(x.toString() as Error);
                 }
             });
             p.on("close", () => {

@@ -33,7 +33,7 @@ export class ProjectsItemPage {
      * @param activatedRoute The activated route used to get the data from the route resolver.
      * @param dataLangPipe The data language pipe used for transforming tag names.
      */
-    constructor(public readonly coreService: CoreService, private activatedRoute: ActivatedRoute, private dataLangPipe: DataLangPipe, private lightbox: Lightbox) {
+    constructor(public readonly coreService: CoreService, private readonly activatedRoute: ActivatedRoute, private readonly dataLangPipe: DataLangPipe, private readonly lightbox: Lightbox) {
         const resolve = this.activatedRoute.snapshot.data["data"];
         this.itemData = resolve.item;
         const { pages, teches } = resolve.data;

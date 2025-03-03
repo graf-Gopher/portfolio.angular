@@ -1,15 +1,22 @@
 {
   "name": "portfolio.angular",
   "title": "Developer Portfolio",
-  "version": "0.0.1-dev.14",
+  "version": "0.0.1-dev.15",
   "description": "Portfolio for developers",
   "author": {
-    "name": "Under Tree Entertainment",
-    "url": "https://under-tree-e.com",
-    "email": "under-tree-e@outlook.com",
-    "twitter": "under_tree_e",
-    "linkedin": "under-tree-e"
+    "name": "graf Gopher",
+    "url": "https://github.com/graf-Gopher",
+    "email": "graf-gopher@outlook.com"
   },
+  "contributors": [
+    {
+      "name": "Under Tree Entertainment",
+      "url": "https://under-tree-e.com",
+      "email": "under-tree-e@outlook.com",
+      "twitter": "under_tree_e",
+      "linkedin": "under-tree-e"
+    }
+  ],
   "homepage": "https://xxx",
   "demopage": "https://xxx",
   "repository": {
@@ -89,6 +96,7 @@
     "clear-folder": "^5.1.0",
     "compressorjs": "^1.2.1",
     "crypto-ts": "^1.0.2",
+    "css-convert-json": "^1.1.0",
     "jasmine-core": "~5.5.0",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.2.0",

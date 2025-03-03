@@ -24,7 +24,7 @@ export class DocsPage {
      *
      * @param activatedRoute The activated route, used to get the data from the route resolver.
      */
-    constructor(private activatedRoute: ActivatedRoute) {
+    constructor(private readonly activatedRoute: ActivatedRoute) {
         this.activatedRoute.paramMap.subscribe(() => {
             const resolve = this.activatedRoute.snapshot.data["data"];
             this.content = resolve.item.text;

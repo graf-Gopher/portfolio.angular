@@ -25,9 +25,9 @@
             <div class="slider-block" uteSlider>
                 <div class="sliders">
                     @for(image of itemData.images; track image){
-                    <div class="slider">
-                        <img loading="lazy" alt="" class="image" src="/assets/images/projects/{{itemData.code}}/{{image}}" (click)="onOpen(image)" />
-                    </div>
+                    <button class="slider" (click)="onOpen(image)">
+                        <img loading="lazy" alt="" class="image" src="/assets/images/projects/{{itemData.code}}/{{image}}" />
+                    </button>
                     }
                 </div>
             </div>

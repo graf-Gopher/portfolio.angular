@@ -26,11 +26,9 @@
                     .title {
                         font-size: var(--font-56);
                         margin-bottom: 1.5rem;
-                        line-height: 1.25;
                     }
                     .text {
                         font-size: var(--font-18);
-                        line-height: 1.5;
                     }
                     .buttons-block {
                         margin-top: 2rem;
@@ -69,7 +67,6 @@
                     z-index: 2;
                     &.small {
                         left: 10rem;
-                        // filter: brightness(1.1);
                         box-shadow: 0px 0px 0px 6px var(--color-button-gray-1);
                         z-index: 1;
                     }
@@ -81,7 +78,6 @@
                         right: 10rem;
                     }
                     &.big {
-                        // filter: brightness(1.1);
                         box-shadow: 0px 0px 0px 6px var(--color-button-gray-1);
                         z-index: 1;
                     }
@@ -120,11 +116,9 @@
                     .title {
                         font-size: var(--font-48);
                         margin-bottom: 1.5rem;
-                        line-height: 1.25;
                     }
                     .text {
                         font-size: var(--font-18);
-                        line-height: 1.5;
                     }
                     .buttons-block {
                         margin-top: 2rem;
@@ -153,7 +147,6 @@
                     overflow: hidden;
                     width: 100%;
                     padding: 0.875rem 2rem;
-                    // justify-content: center;
                     align-items: center;
                     gap: 1rem;
                     background-color: var(--color-button-blue-2);
@@ -199,11 +192,9 @@
                     .title {
                         font-size: var(--font-48);
                         margin-bottom: 1.5rem;
-                        line-height: 1.25;
                     }
                     .text {
                         font-size: var(--font-18);
-                        line-height: 1.5;
                     }
                     .buttons-block {
                         margin-top: 2rem;
@@ -354,11 +345,9 @@
                     .title {
                         font-size: var(--font-40);
                         margin-bottom: 1.5rem;
-                        line-height: 1.25;
                     }
                     .text {
                         font-size: var(--font-16);
-                        line-height: 1.5;
                     }
                     .buttons-block {
                         margin-top: 2rem;
@@ -445,11 +434,9 @@
                     .title {
                         font-size: var(--font-36);
                         margin-bottom: 1.5rem;
-                        line-height: 1.25;
                     }
                     .text {
                         font-size: var(--font-16);
-                        line-height: 1.5;
                     }
                     .buttons-block {
                         margin-top: 2rem;
@@ -518,11 +505,9 @@
                     .title {
                         font-size: var(--font-36);
                         margin-bottom: 1.5rem;
-                        line-height: 1.25;
                     }
                     .text {
                         font-size: var(--font-16);
-                        line-height: 1.5;
                     }
                     .buttons-block {
                         margin-top: 2rem;

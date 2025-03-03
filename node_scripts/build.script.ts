@@ -5,9 +5,15 @@ import packageJson from "../package.json";
 import ReadmeScript from "./readme.script";
 
 export default class BuildScript {
-    private packScript: PackScript = new PackScript();
+    private readonly packScript: PackScript = new PackScript();
 
-    constructor(private node: string = "", private electron: string = "", private mobile: boolean = false, private ssr: boolean = false, private command: any) {}
+    constructor(
+        private readonly node: string = "",
+        private readonly electron: string = "",
+        private readonly mobile: boolean = false,
+        private readonly ssr: boolean = false,
+        private readonly command: any
+    ) {}
 
     /**
      * Initializes the build process for the application.
@@ -83,8 +89,6 @@ export default class BuildScript {
 
                 fs.rmSync(path.join(__dirname, `../../${this.electron}`), { recursive: true, force: true });
 
-                // fs.cpSync("./dist/app/", path.join(__dirname, `../../${this.electron}`), { recursive: true });
-
                 fs.cpSync(`./dist/${packageJson.name}`, path.join(__dirname, `../../${this.electron}`), { recursive: true });
                 fs.copyFileSync("./dist/app/VERSION", path.join(__dirname, `../../${this.electron}/VERSION`));
             }
@@ -152,7 +156,6 @@ export default class BuildScript {
             fs.writeFile(`dist/${packageJson.name}/index.html`, modifiedData, "utf8", (err) => {
                 if (err) {
                     console.error("Error writing file:", err);
-                    return;
                 }
             });
         });

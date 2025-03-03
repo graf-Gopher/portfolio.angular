@@ -32,7 +32,7 @@ export class CanActivatePage {
         const url: string = state.url.slice(1) || "home";
         let pageParam: string = route.params["id"];
 
-        let page: SeoPageData = {} as SeoPageData;
+        let page: SeoPageData;
         if (!pageParam) {
             const seo: any = await this.httpService.httpLocal(`assets/data/seo.json`);
             page = seo[url];

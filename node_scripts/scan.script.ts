@@ -13,6 +13,7 @@ export default class ScanScript {
     public async init() {
         try {
             const pr: ScanData = packageJson as any;
+
             const sonarToken = readFileSync(".sonarToken", "utf8").trim();
 
             await this.command("docker", [

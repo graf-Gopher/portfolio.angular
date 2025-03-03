@@ -4,7 +4,7 @@ import fs from "fs";
 import path from "path";
 
 export default class MobileScript {
-    constructor(private command: any) {}
+    constructor(private readonly command: any) {}
 
     public async init() {
         try {

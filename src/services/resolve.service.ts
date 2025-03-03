@@ -10,7 +10,7 @@ import { ProjectData } from "@interfaces/projects";
     providedIn: "root",
 })
 export class ResolveService {
-    constructor(private httpService: HttpService) {}
+    constructor(private readonly httpService: HttpService) {}
 
     /**
      * Resolves the route data and returns a promise with the resolved data.
@@ -24,33 +24,35 @@ export class ResolveService {
      * @returns a promise with the resolved data.
      */
     public resolve(route: ActivatedRouteSnapshot): Promise<any> {
-        return new Promise(async (resolve, reject) => {
-            try {
-                const jsons: any = route.data["jsons"];
-                const data: any = {};
+        return new Promise((resolve, reject) => {
+            (async () => {
+                try {
+                    const jsons: any = route.data["jsons"];
+                    const data: any = {};
 
-                for (const json of jsons) {
-                    data[json] = await this.httpService.httpLocal(`assets/data/${json}.json`);
+                    for (const json of jsons) {
+                        data[json] = await this.httpService.httpLocal(`assets/data/${json}.json`);
+                    }
+
+                    let result = {
+                        data: data,
+                        item: null,
+                    };
+
+                    const id = route.paramMap.get("id");
+                    const page = route.paramMap.get("page");
+
+                    if (id) {
+                        result.item = data.projects.find((project: ProjectData) => project.code === id);
+                    }
+                    if (page) {
+                        result.item = data.docs.find((doc: any) => doc.code === page);
+                    }
+                    resolve(result);
+                } catch (error: any) {
+                    reject(error as Error);
                 }
-
-                let result = {
-                    data: data,
-                    item: null,
-                };
-
-                const id = route.paramMap.get("id");
-                const page = route.paramMap.get("page");
-
-                if (id) {
-                    result.item = data.projects.find((project: ProjectData) => project.code === id);
-                }
-                if (page) {
-                    result.item = data.docs.find((doc: any) => doc.code === page);
-                }
-                resolve(result);
-            } catch (error) {
-                reject(error);
-            }
+            })();
         });
     }
 }

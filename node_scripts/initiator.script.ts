@@ -8,8 +8,6 @@ interface ConfigData {
         pathToResources: string;
     };
     build: {
-        // pathNode: string;
-        // pathElectron: string;
         desktop: boolean;
         mobile: boolean;
         ssr: boolean;
@@ -17,10 +15,10 @@ interface ConfigData {
 }
 
 export default class InitiatorService {
-    private configFilePath: string = path.join(__dirname, "config.json");
-    private packageFilePath: string = path.join(__dirname, "../", "package.json");
+    private readonly configFilePath: string = path.join(__dirname, "config.json");
+    private readonly packageFilePath: string = path.join(__dirname, "../", "package.json");
 
-    private demoConfig: ConfigData = {
+    private readonly demoConfig: ConfigData = {
         resources: {
             pathToLogo: "src/assets/images/logo.svg",
             backColor: "#000000",
@@ -34,7 +32,8 @@ export default class InitiatorService {
             ssr: false,
         },
     };
-    private demoPackage: string = `
+
+    private readonly demoPackage: string = `
         {
             "name": "${path.basename(path.resolve(__dirname, "../"))}",
             "title": "#",
@@ -102,56 +101,12 @@ export default class InitiatorService {
             "devDependencies": {}
         }
     `;
-    private requiredPackages: string[] = [
-        "@aws-sdk/client-ses",
-        "@electron/asar",
-        "axios",
-        "body-parser",
-        "crypto-js",
-        "date-and-time",
-        "dotenv",
-        "express",
-        "geoip-lite",
-        "get-current-line",
-        "google-auth-library",
-        "googleapis",
-        "hbs",
-        "image-thumbnail",
-        "mysql2",
-        "nodemailer",
-        "pg",
-        "pg-hstore",
-        "sequelize",
-        "sequelize-typescript",
-        "socket.io",
-        "tedious",
-        "uuid",
-        "@types/crypto-js",
-        "@types/express",
-        "@types/geoip-lite",
-        "@types/hbs",
-        "@types/image-thumbnail",
-        "@types/node",
-        "@types/nodemailer",
-        "@types/pg",
-        "@types/tedious",
-        "bestzip",
-        "clear-folder",
-        "copy-webpack-plugin",
-        "npm-check-updates",
-        "ts-loader",
-        "ts-node",
-        "ts-node-dev",
-        "tsconfig-paths",
-        "tsconfig-paths-webpack-plugin",
-        "tslib",
-        "typescript",
-        "webpack",
-        "webpack-cli",
-        "webpack-dev-server",
-    ];
 
-    constructor(private command: any) {}
+    private readonly requiredPackages: string[] = ["css-convert-json", "@electron/asar", "ngx-ute-core", "npm-check-updates", "@angular/material", "@angular/animations"];
+
+    private readonly requiredDevPackages: string[] = ["css-convert-json", "@electron/asar", "ngx-ute-core", "npm-check-updates", "@angular/material", "@angular/animations"];
+
+    constructor(private readonly command: any) {}
 
     public async init() {
         console.log("Prepare config file...");

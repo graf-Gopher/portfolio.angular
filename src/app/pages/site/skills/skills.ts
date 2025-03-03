@@ -33,7 +33,7 @@ export class SkillsPage {
      * @param coreService The core service, used to get the language and other useful informations.
      * @param activatedRoute The activated route, used to get the data from the route resolver.
      */
-    constructor(public readonly coreService: CoreService, private activatedRoute: ActivatedRoute) {
+    constructor(public readonly coreService: CoreService, private readonly activatedRoute: ActivatedRoute) {
         const resolve = this.activatedRoute.snapshot.data["data"];
         const { pages, teches } = resolve.data;
 

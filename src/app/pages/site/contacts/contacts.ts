@@ -27,7 +27,7 @@ export class ContactsPage {
      *
      * @param activatedRoute The activated route, used to get the data from the route resolver.
      */
-    constructor(private activatedRoute: ActivatedRoute) {
+    constructor(private readonly activatedRoute: ActivatedRoute) {
         const resolve = this.activatedRoute.snapshot.data["data"];
         const { pages } = resolve.data;
 
