@@ -54,12 +54,23 @@
                     position: absolute;
                     object-fit: cover;
                     border-radius: var(--border-16);
-                    box-shadow: 0px 0px 0px 6px var(--color-button-gray-2);
+                    box-shadow: 20px -20px 0px 0px var(--color-button-gray-2);
+                    transition: var(--anim-2);
                     &.big {
                         bottom: -6rem;
                     }
                     &.small {
                         bottom: -10rem;
+                    }
+                    &:hover {
+                        bottom: -2rem;
+                        &.left,
+                        &.right {
+                            &.small,
+                            &.big {
+                                box-shadow: 20px -20px 0px 0px var(--color-button-blue-2);
+                            }
+                        }
                     }
                 }
                 .left {
@@ -67,7 +78,7 @@
                     z-index: 2;
                     &.small {
                         left: 10rem;
-                        box-shadow: 0px 0px 0px 6px var(--color-button-gray-1);
+                        box-shadow: 20px -20px 0px 0px var(--color-button-gray-1);
                         z-index: 1;
                     }
                 }
@@ -78,7 +89,7 @@
                         right: 10rem;
                     }
                     &.big {
-                        box-shadow: 0px 0px 0px 6px var(--color-button-gray-1);
+                        box-shadow: 20px -20px 0px 0px var(--color-button-gray-1);
                         z-index: 1;
                     }
                 }
@@ -212,7 +223,8 @@
                 }
             }
             .timeline-block {
-                display: flex;
+                display: grid;
+                grid-template-columns: repeat(5, 1fr);
                 gap: 0.5rem;
                 margin-top: 5rem;
                 width: 100%;
@@ -252,6 +264,7 @@
                         align-items: end;
                         img {
                             order: 3;
+                            margin-bottom: auto;
                         }
                         .timeline {
                             order: 2;
@@ -269,6 +282,7 @@
                         object-fit: cover;
                         box-sizing: border-box;
                         border-radius: var(--border-12);
+                        margin-top: auto;
                     }
                     .timeline {
                         display: flex;
@@ -462,22 +476,25 @@
                 grid-template-columns: 1fr 1fr;
                 .skill-item {
                     display: flex;
+                    flex-direction: column;
                     overflow: hidden;
                     width: 100%;
                     padding: 0.875rem;
                     justify-content: center;
                     align-items: center;
-                    gap: 1rem;
+                    gap: 0.5rem;
                     background-color: var(--color-button-blue-2);
                     border-radius: var(--border-8);
                     transition: var(--anim-2);
-                    img {
-                        width: 2rem;
+                    .image {
+                        width: 2.5rem;
                         aspect-ratio: 1;
+                        --color-1: var(--color-font-white);
                     }
                     .skill-name {
                         font-size: var(--font-18);
                         font-weight: bold;
+                        text-align: center;
                     }
                 }
             }

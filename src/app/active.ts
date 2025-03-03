@@ -22,7 +22,9 @@ export class CanActivatePage {
      * @returns a boolean indicating if the route can be activated.
      */
     async canActivate(route: ActivatedRouteSnapshot, state: RouterStateSnapshot) {
-        if (environment.session.theme === undefined) {
+        console.log(environment);
+
+        if (environment.session?.theme === undefined) {
             environment.session = this.cookieService.get("SS");
             if (environment.session?.locale !== this.langService.urlToTag()) {
                 this.langService.setLocale(environment.session.locale);

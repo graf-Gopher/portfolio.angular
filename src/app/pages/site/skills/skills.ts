@@ -1,5 +1,5 @@
 // Module imports
-import { Component } from "@angular/core";
+import { Component, ViewChild } from "@angular/core";
 import { MatIconModule } from "@angular/material/icon";
 import { AsyncPipe, NgClass } from "@angular/common";
 import { ActivatedRoute, RouterModule } from "@angular/router";
@@ -22,6 +22,8 @@ export class SkillsPage {
     public page: any = {};
     public skills: any[] = [];
     public tags: string[] = ["main_dev", "dev_languages", "frameworks", "databases", "cloud_dev", "devops"];
+
+    @ViewChild("techTab") techTab: MatTabGroup | undefined;
 
     /**
      * Constructor of the SkillsPage class.
@@ -48,6 +50,12 @@ export class SkillsPage {
         });
     }
 
+    /**
+     * Changes the selected tab in the MatTabGroup to the specified index.
+     *
+     * @param event - The MatTabGroup instance whose selected tab index is to be changed.
+     * @param index - The index of the tab to be selected.
+     */
     public changeTab(event: MatTabGroup, index: number) {
         event.selectedIndex = index;
     }

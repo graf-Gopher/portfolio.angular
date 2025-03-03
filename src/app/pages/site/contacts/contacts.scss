@@ -231,7 +231,7 @@
             height: 100%;
             .main-links {
                 display: grid;
-                grid-template-columns: repeat(2, 1fr);
+                grid-template-columns: 1fr;
                 gap: 1rem;
                 width: 100%;
                 .item {
@@ -244,21 +244,17 @@
                     }
                     background-color: var(--color-button-gray-2);
                     border-radius: var(--border-16);
-                    &:hover {
-                        background-color: var(--color-button-blue-2);
-                        color: var(--color-font-white);
-                    }
                     transition: var(--anim-2);
-                    mat-icon {
-                        width: 1.25rem;
-                        height: 1.25rem;
-                        font-size: var(--font-20);
-                        margin-bottom: 1rem;
-                    }
                     .title {
                         margin-bottom: 0.25rem;
                         font-size: var(--font-18);
                         font-weight: bold;
+                        .image {
+                            min-width: 2.5rem;
+                            width: 2.5rem;
+                            height: 2.5rem;
+                            --color-1: var(--color-font-invert);
+                        }
                     }
                     .text {
                         font-size: var(--font-16);
@@ -296,13 +292,9 @@
                 background-color: var(--color-back-blue-1);
                 color: var(--color-font-white);
                 transition: var(--anim-2);
-                &:hover {
-                    cursor: pointer;
-                    transform: scale(1.05) translateY(0.25rem);
-                    box-shadow: 0 -5px 0 0 var(--color-button-gray-2);
-                }
                 mat-icon {
                     width: 1.25rem;
+                    min-width: 1.25rem;
                     height: 1.25rem;
                     font-size: var(--font-20);
                 }
@@ -324,6 +316,7 @@
                     .image {
                         width: 2rem;
                         aspect-ratio: 1;
+                        --color-1: var(--color-font-gray);
                     }
                 }
             }

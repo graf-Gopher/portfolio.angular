@@ -60,7 +60,7 @@
                 <h2 class="title">{{ page.ps.title | datalang }}</h2>
                 <p class="text">{{ page.ps.text | datalang }}</p>
                 <div class="buttons-block">
-                    <a routerLink="/projects" class="button">{{ 'learn_more' | lang }}</a>
+                    <a routerLink="/projects" class="button">{{ 'projects' | lang }}</a>
                     <a routerLink="/contacts" class="button">
                         {{ 'contacts' | lang }} @if(!(coreService.isMobile() | async)){
                         <mat-icon>chevron_right</mat-icon>
@@ -79,8 +79,8 @@
                     <div class="line"></div>
                 </div>
                 <div class="text-block">
-                    <h3>{{project.title | datalang}}</h3>
-                    <p>{{project.text | datalang}}</p>
+                    <h3>{{(project.title | datalang).length > 30 ? ((project.title | datalang) | slice:0:30) + '...' : (project.title | datalang)}}</h3>
+                    <p>{{(project.text | datalang).length > 100 ? ((project.text | datalang) | slice:0:100) + '...' : (project.text | datalang)}}</p>
                 </div>
             </a>
             }

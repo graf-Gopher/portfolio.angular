@@ -1,7 +1,7 @@
 // Module imports
 import { Component } from "@angular/core";
 import { MatIconModule } from "@angular/material/icon";
-import { AsyncPipe } from "@angular/common";
+import { AsyncPipe, SlicePipe } from "@angular/common";
 import { CoreService, DataLangPipe, LangPipe, LangRouter } from "ngx-ute-core";
 import { ActivatedRoute, RouterModule } from "@angular/router";
 
@@ -13,7 +13,7 @@ import { ProjectData, ProjectTechData } from "@interfaces/projects";
 @Component({
     selector: "app-home",
     standalone: true,
-    imports: [SiteHeader, SiteFooter, MatIconModule, AsyncPipe, LangPipe, DataLangPipe, RouterModule, LangRouter],
+    imports: [SiteHeader, SiteFooter, MatIconModule, AsyncPipe, LangPipe, DataLangPipe, RouterModule, LangRouter, SlicePipe],
     templateUrl: "./home.html",
     styleUrl: "./home.scss",
 })
@@ -42,9 +42,8 @@ export class HomePage {
         this.skills = teches.filter((td: ProjectTechData) => this.page.ss.skills.includes(td.code));
 
         this.images = projects
-            .filter((pd: ProjectData) => pd.date)
-            .map((pd: ProjectData) => `/assets/images/projects/${pd.code}/${pd.image}`)
-            .sort(() => 0.5 - this.coreService.random())
-            .slice(0, 4);
+            .filter((pd: ProjectData) => pd.date && this.page.ts.images.includes(pd.code))
+            .sort((a: any, b: any) => this.page.ts.images.indexOf(a.code) - this.page.ts.images.indexOf(b.code))
+            .map((pd: ProjectData) => `/assets/images/projects/${pd.code}/${pd.image}`);
     }
 }

@@ -2,7 +2,13 @@
     "home": {
         "ts": {
             "title": "[en-EN]Developing modern digital solutions[uk-UA]Розробка сучасних цифрових рішень",
-            "text": "[en-EN]I am a Full-Stack Software Engineer, building scalable, fast, and reliable digital solutions. I combine a deep understanding of software architecture, modern technologies, and an engineering approach to create efficient, secure, and scalable solutions.[uk-UA]Я – Full-Stack Software Engineer, що створює масштабовані, швидкі та надійні цифрові рішення. Я поєдную глибоке розуміння архітектури ПЗ, сучасні технології та інженерний підхід, щоб створювати ефективні, безпечні та масштабовані рішення."
+            "text": "[en-EN]I am a Full-Stack Software Engineer, building scalable, fast, and reliable digital solutions. I combine a deep understanding of software architecture, modern technologies, and an engineering approach to create efficient, secure, and scalable solutions.[uk-UA]Я – Full-Stack Software Engineer, що створює масштабовані, швидкі та надійні цифрові рішення. Я поєдную глибоке розуміння архітектури ПЗ, сучасні технології та інженерний підхід, щоб створювати ефективні, безпечні та масштабовані рішення.",
+            "images": [
+                "usaid",
+                "artel_io",
+                "nabilo",
+                "ute_material"
+            ]
         },
         "ss": {
             "title": "[en-EN]Advanced technology for you[uk-UA]Технології, з якими я працюю",
@@ -22,11 +28,11 @@
             "title": "[en-EN]Implemented projects and successful cases[uk-UA]Реалізовані проекти та успішні кейси",
             "text": "[en-EN]Web applications, mobile solutions, CRM integrations, and business process automation are just some of the projects I have implemented for well-known brands and companies. In my work, I combine innovative technologies, engineering approach, and productivity to create effective and scalable digital solutions.[uk-UA]Веб-додатки, мобільні рішення, CRM-інтеграції та автоматизація бізнес-процесів – ось лише частина проектів, які я реалізував для відомих брендів та компаній. У своїй роботі поєдную інноваційні технології, інженерний підхід та продуктивність, щоб створювати ефективні та масштабовані цифрові рішення.",
             "projects": [
-                "1",
-                "2",
-                "3",
-                "4",
-                "5"
+                "ewac",
+                "usaid",
+                "ute_server",
+                "car_rent",
+                "vlasova"
             ]
         }
     },

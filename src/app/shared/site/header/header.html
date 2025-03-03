@@ -19,7 +19,7 @@
         </div>
         <div class="control">
             <div class="theme-block">
-                <input type="checkbox" class="checkbox" id="checkbox" (change)="changeTheme()" [checked]="env.session.theme" />
+                <input type="checkbox" hidden class="checkbox" id="checkbox" (change)="changeTheme()" [checked]="env.session.theme" />
                 <label for="checkbox" class="checkbox-label">
                     <mat-icon class="fas fa-sun">light_mode</mat-icon>
                     <mat-icon class="fas fa-moon">dark_mode</mat-icon>
