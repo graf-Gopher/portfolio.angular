@@ -56,6 +56,7 @@
                     position: absolute;
                     object-fit: cover;
                     border-radius: var(--border-16);
+                    box-shadow: 0px 0px 0px 6px var(--color-button-gray-2);
                     &.big {
                         bottom: -6rem;
                     }
@@ -68,7 +69,8 @@
                     z-index: 2;
                     &.small {
                         left: 10rem;
-                        filter: brightness(1.1);
+                        // filter: brightness(1.1);
+                        box-shadow: 0px 0px 0px 6px var(--color-button-gray-1);
                         z-index: 1;
                     }
                 }
@@ -79,7 +81,8 @@
                         right: 10rem;
                     }
                     &.big {
-                        filter: brightness(1.1);
+                        // filter: brightness(1.1);
+                        box-shadow: 0px 0px 0px 6px var(--color-button-gray-1);
                         z-index: 1;
                     }
                 }

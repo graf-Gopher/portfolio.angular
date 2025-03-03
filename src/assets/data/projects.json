@@ -15,20 +15,20 @@
         ],
         "tags": [
             {
-                "name": "[en-EN]Site[uk-UA]Сайт",
-                "code": "site"
+                "name": "[en-EN]Web App[uk-UA]Веб. Додаток",
+                "code": "web_app"
             },
             {
-                "name": "[en-EN]Mobile[uk-UA]Телефони",
-                "code": "mobile"
-            },
-            {
-                "name": "[en-EN]Server[uk-UA]Сервер",
-                "code": "server"
+                "name": "[en-EN]Mobile App[uk-UA]Моб. Додаток",
+                "code": "mob_app"
             },
             {
                 "name": "[en-EN]Integration[uk-UA]Інтеграція",
-                "code": "integr"
+                "code": "integration"
+            },
+            {
+                "name": "[en-EN]Full-Stack[uk-UA]Full-Stack",
+                "code": "full"
             }
         ],
         "date": "2022",
@@ -45,7 +45,10 @@
             "azure",
             "sonarqube",
             "ionic",
-            "google_play"
+            "google_play",
+            "sass",
+            "html5",
+            "typescript"
         ],
         "goal": "[en-EN]To create a convenient and effective solution for automating vehicle inspections at service centers of the Toyota and Lexus dealer network in Ukraine.[uk-UA]Створити зручне та ефективне рішення для автоматизації кругового огляду автомобілів у сервісних центрах дилерської мережі Toyota та Lexus в Україні.",
         "devs": [
@@ -96,12 +99,12 @@
                 "code": "site"
             },
             {
-                "name": "[en-EN]Server[uk-UA]Сервер",
-                "code": "server"
+                "name": "[en-EN]Integration[uk-UA]Інтеграція",
+                "code": "integration"
             },
             {
-                "name": "[en-EN]Integration[uk-UA]Інтеграція",
-                "code": "integr"
+                "name": "[en-EN]Full-Stack[uk-UA]Full-Stack",
+                "code": "full"
             }
         ],
         "date": "2021",
@@ -114,7 +117,11 @@
         "tech": [
             "angular",
             "dot_net",
-            "mssql"
+            "mssql",
+            "sass",
+            "html5",
+            "typescript",
+            "sonarqube"
         ],
         "goal": "[en-EN]To create an intuitive platform that allows users to easily generate legal documents and official applications, electronically sign them, and submit them to government agencies.[uk-UA]Створити інтуїтивно зрозумілу платформу, яка дозволяє користувачам легко генерувати юридичні документи та офіційні звернення, накладати електронний підпис і подавати їх у державні органи.",
         "devs": [
@@ -169,12 +176,16 @@
                 "code": "site"
             },
             {
-                "name": "[en-EN]Server[uk-UA]Сервер",
-                "code": "server"
+                "name": "[en-EN]Integration[uk-UA]Інтеграція",
+                "code": "integration"
             },
             {
-                "name": "[en-EN]Integration[uk-UA]Інтеграція",
-                "code": "integr"
+                "name": "[en-EN]Front-End[uk-UA]Front-End",
+                "code": "front"
+            },
+            {
+                "name": "[en-EN]Payments[uk-UA]Оплати",
+                "code": "payments"
             }
         ],
         "date": "2022",
@@ -186,7 +197,11 @@
         "tech": [
             "angular",
             "dot_net",
-            "mssql"
+            "mssql",
+            "sass",
+            "typescript",
+            "html5",
+            "sonarqube"
         ],
         "goal": "[en-EN]Creation of an innovative portal for DTEK Academy with extensive content management capabilities, classroom booking and orders.[uk-UA]Створення інноваційного порталу для Академії ДТЕК із широкими можливостями управління контентом, бронюванням аудиторій та замовленнями.",
         "devs": [
@@ -229,12 +244,20 @@
         "link": "https://cityplaza.toyota.ua/toyota_service_online",
         "tags": [
             {
-                "name": "[en-EN]Site[uk-UA]Сайт",
-                "code": "site"
+                "name": "[en-EN]Web App[uk-UA]Веб. Додаток",
+                "code": "web_app"
+            },
+            {
+                "name": "[en-EN]DevOps[uk-UA]DevOps",
+                "code": "devops"
             },
             {
                 "name": "[en-EN]Integration[uk-UA]Інтеграція",
-                "code": "integr"
+                "code": "integration"
+            },
+            {
+                "name": "[en-EN]Full-Stack[uk-UA]Full-Stack",
+                "code": "full"
             }
         ],
         "date": "2021",
@@ -246,7 +269,12 @@
         "tech": [
             "angular",
             "php",
-            "dot_net"
+            "dot_net",
+            "1c",
+            "rest_api",
+            "sass",
+            "html5",
+            "nginx"
         ],
         "goal": "[en-EN]Automation of the customer service booking process, slot booking management and data synchronization with the dealer system.[uk-UA]Автоматизація процесу запису клієнтів на сервісне обслуговування, управління бронюванням слотів та синхронізація даних із системою дилера.  ",
         "devs": [
@@ -296,20 +324,24 @@
         "link": "https://car-rent.applic.com.ua",
         "tags": [
             {
-                "name": "[en-EN]Site[uk-UA]Сайт",
-                "code": "site"
+                "name": "[en-EN]Mobile App[uk-UA]Моб. Додаток",
+                "code": "mob_app"
             },
             {
-                "name": "[en-EN]Mobile[uk-UA]Телефони",
-                "code": "mobile"
+                "name": "[en-EN]Web App[uk-UA]Веб. Додаток",
+                "code": "web_app"
             },
             {
-                "name": "[en-EN]Server[uk-UA]Сервер",
-                "code": "server"
+                "name": "[en-EN]Integration[uk-UA]Інтеграція",
+                "code": "integration"
             },
             {
-                "name": "[en-EN]Saas[uk-UA]Саас",
-                "code": "saas"
+                "name": "[en-EN]DevOps[uk-UA]DevOps",
+                "code": "devops"
+            },
+            {
+                "name": "[en-EN]Full-Stack[uk-UA]Full-Stack",
+                "code": "full"
             }
         ],
         "date": "2024",
@@ -324,7 +356,11 @@
             "node_js",
             "mssql",
             "sonarqube",
-            "google_play"
+            "google_play",
+            "sass",
+            "html5",
+            "typescript",
+            "nginx"
         ],
         "goal": "[en-EN]Automation of car rental processes, fleet management, document management and monitoring of the technical condition of vehicles.[uk-UA]Автоматизація процесів прокату авто, управління автопарком, документообігом та моніторингом технічного стану транспортних засобів.",
         "devs": [
@@ -367,16 +403,12 @@
         "link": "https://flagman.kiev.ua",
         "tags": [
             {
-                "name": "[en-EN]Market[uk-UA]Магазин",
-                "code": "market"
-            },
-            {
-                "name": "[en-EN]E-commerce[uk-UA]e-commerce",
-                "code": "ecommerce"
-            },
-            {
                 "name": "[en-EN]Site[uk-UA]Сайт",
                 "code": "site"
+            },
+            {
+                "name": "[en-EN]Front-End[uk-UA]Front-End",
+                "code": "front"
             }
         ],
         "date": "2023",
@@ -389,7 +421,9 @@
         "tech": [
             "vue_js",
             "node_js",
-            "postgresql"
+            "postgresql",
+            "sass",
+            "html5"
         ],
         "goal": "[en-EN]Creating a modern online store with optimized UX/UI for convenient search, purchase, and order management.[uk-UA]Створення сучасного інтернет-магазину з оптимізованим UX/UI для зручного пошуку, покупки та управління замовленнями.",
         "devs": [
@@ -432,20 +466,32 @@
         "link": "https://victoria-vlasova-prof.com.ua",
         "tags": [
             {
+                "name": "[en-EN]Shop[uk-UA]Магазин",
+                "code": "shop"
+            },
+            {
+                "name": "[en-EN]DevOps[uk-UA]DevOps",
+                "code": "devops"
+            },
+            {
                 "name": "[en-EN]Site[uk-UA]Сайт",
                 "code": "site"
             },
             {
-                "name": "[en-EN]CRM[uk-UA]СРМ",
+                "name": "[en-EN]Integration[uk-UA]Інтеграція",
+                "code": "integration"
+            },
+            {
+                "name": "[en-EN]Full-Stack[uk-UA]Full-Stack",
+                "code": "full"
+            },
+            {
+                "name": "[en-EN]CRM[uk-UA]CRM",
                 "code": "crm"
             },
             {
-                "name": "[en-EN]Blog[uk-UA]Блог",
-                "code": "blog"
-            },
-            {
-                "name": "[en-EN]Payment system[uk-UA]Платіжна система",
-                "code": "payment"
+                "name": "[en-EN]Payments[uk-UA]Оплати",
+                "code": "payments"
             }
         ],
         "date": "2023",
@@ -460,7 +506,8 @@
             "html5",
             "sass",
             "js",
-            "mysql"
+            "mysql",
+            "nginx"
         ],
         "goal": "[en-EN]Creating a convenient online educational platform for effective learning of foreign languages ​​with the ability to purchase courses.[uk-UA]Створення зручної освітньої онлайн-платформи для ефективного навчання іноземних мов із можливістю покупки курсів.",
         "devs": [
@@ -507,8 +554,16 @@
                 "code": "site"
             },
             {
-                "name": "[en-EN]CRM[uk-UA]СРМ",
-                "code": "crm"
+                "name": "[en-EN]DevOps[uk-UA]DevOps",
+                "code": "devops"
+            },
+            {
+                "name": "[en-EN]Integration[uk-UA]Інтеграція",
+                "code": "integration"
+            },
+            {
+                "name": "[en-EN]Full-Stack[uk-UA]Full-Stack",
+                "code": "full"
             }
         ],
         "date": "2024",
@@ -523,7 +578,8 @@
             "html5",
             "sass",
             "js",
-            "mysql"
+            "mysql",
+            "nginx"
         ],
         "goal": "[en-EN]To create a convenient corporate website to present the company, its services and portfolio, emphasizing expertise in the field of web solutions development.[uk-UA]Створити зручний корпоративний сайт для презентації компанії, її послуг та портфоліо, що підкреслює експертність у сфері розробки вебрішень.",
         "devs": [
@@ -578,7 +634,11 @@
                 "code": "site"
             },
             {
-                "name": "[en-EN]CRM[uk-UA]СРМ",
+                "name": "[en-EN]Full-Stack[uk-UA]Full-Stack",
+                "code": "full"
+            },
+            {
+                "name": "[en-EN]CRM[uk-UA]CRM",
                 "code": "crm"
             }
         ],
@@ -653,16 +713,20 @@
         "link": "https://nabilo.com.ua",
         "tags": [
             {
+                "name": "[en-EN]Web App[uk-UA]Веб. Додаток",
+                "code": "web_app"
+            },
+            {
+                "name": "[en-EN]DevOps[uk-UA]DevOps",
+                "code": "devops"
+            },
+            {
                 "name": "[en-EN]Site[uk-UA]Сайт",
                 "code": "site"
             },
             {
-                "name": "[en-EN]Mobile[uk-UA]Телефони",
-                "code": "mobile"
-            },
-            {
-                "name": "[en-EN]Server[uk-UA]Сервер",
-                "code": "server"
+                "name": "[en-EN]Full-Stack[uk-UA]Full-Stack",
+                "code": "full"
             }
         ],
         "date": "2025",
@@ -676,7 +740,10 @@
             "nodejs",
             "postgresql",
             "nginx",
-            "sonarqube"
+            "sonarqube",
+            "html5",
+            "sass",
+            "typescript"
         ],
         "goal": "[en-EN]Create a modern website and web application for managing laundry services, automate the ordering, payment and delivery process, improve interaction between customers, couriers and administration.[uk-UA]Створити сучасний веб-сайт та веб-додаток для управління послугами пральні, автоматизувати процес замовлення, оплати та доставки, покращити взаємодію між клієнтами, кур'єрами та адміністрацією.",
         "devs": [
@@ -723,7 +790,11 @@
                 "code": "site"
             },
             {
-                "name": "[en-EN]CRM[uk-UA]СРМ",
+                "name": "[en-EN]Full-Stack[uk-UA]Full-Stack",
+                "code": "full"
+            },
+            {
+                "name": "[en-EN]CRM[uk-UA]CRM",
                 "code": "crm"
             }
         ],
@@ -736,7 +807,10 @@
         "tech": [
             "wordpress",
             "php",
-            "mysql"
+            "mysql",
+            "html5",
+            "sass",
+            "js"
         ],
         "goal": "[en-EN]To create a professional English-language website that effectively presents IT.Artel on the international market, demonstrates its competencies, experience and project portfolio.[uk-UA]Створити професійний англомовний сайт, що ефективно презентує компанію IT.Artel на міжнародному ринку, демонструє її компетенції, досвід та портфоліо проєктів.",
         "devs": [
@@ -787,8 +861,16 @@
         ],
         "tags": [
             {
-                "name": "[en-EN]Site[uk-UA]Сайт",
-                "code": "site"
+                "name": "[en-EN]Web App[uk-UA]Веб. Додаток",
+                "code": "web_app"
+            },
+            {
+                "name": "[en-EN]Integration[uk-UA]Інтеграція",
+                "code": "integration"
+            },
+            {
+                "name": "[en-EN]Full-Stack[uk-UA]Full-Stack",
+                "code": "full"
             }
         ],
         "date": "2023",
@@ -802,7 +884,6 @@
             "typescript",
             "sass",
             "html5",
-            "js",
             "mysql",
             "node_js"
         ],
@@ -851,12 +932,16 @@
         ],
         "tags": [
             {
-                "name": "[en-EN]Mobile[uk-UA]Телефони",
-                "code": "mobile"
+                "name": "[en-EN]Mobile App[uk-UA]Моб. Додаток",
+                "code": "mob_app"
             },
             {
                 "name": "[en-EN]Integration[uk-UA]Інтеграція",
-                "code": "integr"
+                "code": "integration"
+            },
+            {
+                "name": "[en-EN]Front-End[uk-UA]Front-End",
+                "code": "front"
             }
         ],
         "date": "2022",
@@ -920,7 +1005,11 @@
                 "code": "site"
             },
             {
-                "name": "[en-EN]CRM[uk-UA]СРМ",
+                "name": "[en-EN]Full-Stack[uk-UA]Full-Stack",
+                "code": "full"
+            },
+            {
+                "name": "[en-EN]CRM[uk-UA]CRM",
                 "code": "crm"
             }
         ],
@@ -936,7 +1025,8 @@
             "php",
             "mysql",
             "html5",
-            "sass"
+            "sass",
+            "js"
         ],
         "goal": "[en-EN]Creating a modern corporate website to present ToDo LTD services, familiarize customers with Odoo capabilities, demonstrate successful cases, and ensure convenient communication through integrated services.[uk-UA]Створення сучасного корпоративного сайту для представлення послуг ToDo LTD, ознайомлення клієнтів з можливостями Odoo, демонстрації успішних кейсів та забезпечення зручної комунікації через інтегровані сервіси.",
         "devs": [
@@ -981,16 +1071,16 @@
         ],
         "tags": [
             {
-                "name": "[en-EN]Web Solution[uk-UA]Веб-рішення",
-                "code": "web"
+                "name": "[en-EN]Web App[uk-UA]Веб. Додаток",
+                "code": "web_app"
             },
             {
                 "name": "[en-EN]Integration[uk-UA]Інтеграція",
-                "code": "integr"
+                "code": "integration"
             },
             {
-                "name": "[en-EN]Site[uk-UA]Сайт",
-                "code": "site"
+                "name": "[en-EN]Full-Stack[uk-UA]Full-Stack",
+                "code": "full"
             }
         ],
         "date": "2024",
@@ -1005,7 +1095,10 @@
             "sonarqube",
             "node_js",
             "odoo",
-            "nginx"
+            "nginx",
+            "html5",
+            "sass",
+            "typescript"
         ],
         "goal": "[en-EN]To create an effective and intuitive web interface for chefs and drivers, which will allow optimizing the processes of preparing and delivering orders, integrating the system with Odoo and ensuring real-time data exchange.[uk-UA]Створити ефективний та інтуїтивно зрозумілий веб-інтерфейс для кухарів і водіїв, що дозволить оптимізувати процеси приготування та доставки замовлень, інтегрувати систему з Odoo та забезпечити обмін даними в реальному часі.",
         "devs": [
@@ -1049,8 +1142,16 @@
         "link": "https://maystrinya.com",
         "tags": [
             {
-                "name": "[en-EN]Site[uk-UA]Сайт",
-                "code": "site"
+                "name": "[en-EN]DevOps[uk-UA]DevOps",
+                "code": "devops"
+            },
+            {
+                "name": "[en-EN]Full-Stack[uk-UA]Full-Stack",
+                "code": "full"
+            },
+            {
+                "name": "[en-EN]CRM[uk-UA]CRM",
+                "code": "crm"
             }
         ],
         "date": "2023",
@@ -1063,7 +1164,10 @@
             "wordpress",
             "php",
             "mysql",
-            "nginx"
+            "nginx",
+            "html5",
+            "sass",
+            "js"
         ],
         "goal": "[en-EN]To update the Maystrinya website, improve its visual component, increase its speed and add interactive calculators for the convenience of customers.[uk-UA]Оновити сайт Maystrinya, покращити його візуальну складову, підвищити швидкість роботи та додати інтерактивні калькулятори для зручності клієнтів.",
         "devs": [
@@ -1105,11 +1209,15 @@
         "tags": [
             {
                 "name": "[en-EN]Integration[uk-UA]Інтеграція",
-                "code": "integr"
+                "code": "integration"
             },
             {
-                "name": "[en-EN]Odoo[uk-UA]Odoo",
-                "code": "odoo"
+                "name": "[en-EN]Back-End[uk-UA]Back-End",
+                "code": "back"
+            },
+            {
+                "name": "[en-EN]CRM[uk-UA]CRM",
+                "code": "crm"
             }
         ],
         "date": "2024",
@@ -1124,7 +1232,9 @@
             "php",
             "postgresql",
             "js",
-            "rest_api"
+            "rest_api",
+            "html5",
+            "css3"
         ],
         "goal": "[en-EN]Automate the company's business processes by providing convenient integration between OpenCart, Odoo and Prom.ua for exchanging data about orders, products and customers.[uk-UA]Автоматизувати бізнес-процеси компанії, забезпечивши зручну інтеграцію між OpenCart, Odoo та Prom.ua для обміну даними про замовлення, товари та клієнтів.",
         "devs": [
@@ -1157,12 +1267,16 @@
         ],
         "tags": [
             {
-                "name": "[en-EN]Integration[uk-UA]Інтеграція",
-                "code": "integr"
+                "name": "[en-EN]Web App[uk-UA]Веб. Додаток",
+                "code": "web_app"
             },
             {
-                "name": "[en-EN]Web Solution[uk-UA]Веб-рішення",
-                "code": "web"
+                "name": "[en-EN]Integration[uk-UA]Інтеграція",
+                "code": "integration"
+            },
+            {
+                "name": "[en-EN]Full-Stack[uk-UA]Full-Stack",
+                "code": "full"
             }
         ],
         "date": "2024",
@@ -1174,7 +1288,9 @@
         "tech": [
             "angular",
             "node_js",
-            "1c"
+            "1c",
+            "html5",
+            "sass"
         ],
         "goal": "[en-EN]Automate the display of current work in the service center on TV screens to improve the efficiency of the workflow and communication between employees.[uk-UA]Автоматизувати відображення поточних робіт у сервісному центрі на телевізійних екранах для підвищення ефективності робочого процесу та комунікації між працівниками.",
         "devs": [
@@ -1211,8 +1327,16 @@
         ],
         "tags": [
             {
+                "name": "[en-EN]Web App[uk-UA]Веб. Додаток",
+                "code": "web_app"
+            },
+            {
                 "name": "[en-EN]Integration[uk-UA]Інтеграція",
-                "code": "integr"
+                "code": "integration"
+            },
+            {
+                "name": "[en-EN]Front-End[uk-UA]Front-End",
+                "code": "front"
             }
         ],
         "date": "2021",
@@ -1224,7 +1348,10 @@
         "role": "[en-EN]Lead Developer and Architect[uk-UA]Головний розробник та архітектор",
         "tech": [
             "vue_js",
-            "1c"
+            "1c",
+            "html5",
+            "css3",
+            "js"
         ],
         "goal": "[en-EN]Optimize the process of registering customers for service and monitoring work in the service center using an interactive scheduler synchronized with 1C.[uk-UA]Оптимізувати процес запису клієнтів на обслуговування та контроль виконання робіт у сервісному центрі за допомогою інтерактивного планувальника, синхронізованого з 1С.",
         "devs": [
@@ -1268,8 +1395,16 @@
         "link": "https://under-tree-e.github.io/ute-material.ngx",
         "tags": [
             {
+                "name": "[en-EN]Addon[uk-UA]Розширення",
+                "code": "addon"
+            },
+            {
+                "name": "[en-EN]Front-End[uk-UA]Front-End",
+                "code": "front"
+            },
+            {
                 "name": "[en-EN]Integration[uk-UA]Інтеграція",
-                "code": "integr"
+                "code": "integration"
             }
         ],
         "date": "2024",
@@ -1282,7 +1417,8 @@
             "angular",
             "sass",
             "typescript",
-            "html5"
+            "html5",
+            "github"
         ],
         "goal": "[en-EN]To extend the capabilities of Angular Material, in particular the material calendar, by adding the ability to select time, localization and styling, ensuring compatibility with many versions of the library without waiting for official updates.[uk-UA]Розширити можливості Angular Material, зокрема матеріального календаря, додавши можливість вибору часу, локалізації та стилізації, забезпечивши сумісність із багатьма версіями бібліотеки без очікування офіційних оновлень.",
         "devs": [
@@ -1327,6 +1463,10 @@
             {
                 "name": "[en-EN]Game[uk-UA]Гра",
                 "code": "game"
+            },
+            {
+                "name": "[en-EN]Back-End[uk-UA]Back-End",
+                "code": "back"
             }
         ],
         "date": "2020",
@@ -1390,8 +1530,16 @@
                 "code": "site"
             },
             {
-                "name": "[en-EN]No framework[uk-UA]Без фреймворків",
-                "code": "noframe"
+                "name": "[en-EN]No Frameworks[uk-UA]Без Фреймворків",
+                "code": "no_frame"
+            },
+            {
+                "name": "[en-EN]Full-Stack[uk-UA]Full-Stack",
+                "code": "full"
+            },
+            {
+                "name": "[en-EN]Integration[uk-UA]Інтеграція",
+                "code": "integration"
             }
         ],
         "date": "2013",
@@ -1404,7 +1552,8 @@
             "php",
             "mysql",
             "sass",
-            "html5"
+            "html5",
+            "js"
         ],
         "goal": "[en-EN]To develop an information website for car enthusiasts that will allow you to conveniently read news, technical articles and historical reviews, as well as actively interact with the content through comments, ratings and votes.[uk-UA]Розробити інформаційний веб-сайт для автомобільних ентузіастів, який дозволить зручно читати новини, технічні статті та історичні огляди, а також активно взаємодіяти з контентом через коментарі, рейтинги та голосування.",
         "devs": [
@@ -1464,8 +1613,20 @@
                 "code": "site"
             },
             {
-                "name": "[en-EN]Server[uk-UA]Сервер",
-                "code": "server"
+                "name": "[en-EN]No Frameworks[uk-UA]Без Фреймворків",
+                "code": "no_frame"
+            },
+            {
+                "name": "[en-EN]Integration[uk-UA]Інтеграція",
+                "code": "integration"
+            },
+            {
+                "name": "[en-EN]DevOps[uk-UA]DevOps",
+                "code": "devops"
+            },
+            {
+                "name": "[en-EN]Full-Stack[uk-UA]Full-Stack",
+                "code": "full"
             }
         ],
         "date": "2018",
@@ -1479,7 +1640,9 @@
             "aws",
             "mysql",
             "html5",
-            "css3"
+            "css3",
+            "js",
+            "nginx"
         ],
         "goal": "[en-EN]To create a platform for online radio that allows users to listen to epic music, vote for tracks, order music and interact with the playlist in real time.[uk-UA]Створити платформу для онлайн-радіо, яка дозволяє користувачам слухати епічну музику, голосувати за треки, замовляти музику та взаємодіяти з плейлистом у режимі реального часу.",
         "devs": [
@@ -1538,6 +1701,22 @@
             {
                 "name": "[en-EN]Site[uk-UA]Сайт",
                 "code": "site"
+            },
+            {
+                "name": "[en-EN]No Frameworks[uk-UA]Без Фреймворків",
+                "code": "no_frame"
+            },
+            {
+                "name": "[en-EN]Shop[uk-UA]Магазин",
+                "code": "shop"
+            },
+            {
+                "name": "[en-EN]Integration[uk-UA]Інтеграція",
+                "code": "integration"
+            },
+            {
+                "name": "[en-EN]Full-Stack[uk-UA]Full-Stack",
+                "code": "full"
             }
         ],
         "date": "2018",
@@ -1547,7 +1726,11 @@
         "client": "[en-EN]XXX[uk-UA]XXX",
         "role": "[en-EN]Lead Developer and Architect[uk-UA]Головний розробник та архітектор",
         "tech": [
-            "XXX"
+            "php",
+            "html5",
+            "css3",
+            "js",
+            "mysql"
         ],
         "goal": "[en-EN]To create a convenient platform for searching and selecting materials for various game engines, with the ability to automatically synchronize with official stores and interactive elements for users.[uk-UA]Створити зручну платформу для пошуку та вибору матеріалів під різні ігрові двигуни, з можливістю автоматичної синхронізації з офіційними магазинами та інтерактивними елементами для користувачів.",
         "devs": [
@@ -1596,6 +1779,18 @@
             {
                 "name": "[en-EN]Site[uk-UA]Сайт",
                 "code": "site"
+            },
+            {
+                "name": "[en-EN]No Frameworks[uk-UA]Без Фреймворків",
+                "code": "no_frame"
+            },
+            {
+                "name": "[en-EN]Integration[uk-UA]Інтеграція",
+                "code": "integration"
+            },
+            {
+                "name": "[en-EN]Full-Stack[uk-UA]Full-Stack",
+                "code": "full"
             }
         ],
         "date": "2018",
@@ -1605,7 +1800,10 @@
         "client": "[en-EN]XXX[uk-UA]XXX",
         "role": "[en-EN]Lead Developer and Architect[uk-UA]Головний розробник та архітектор",
         "tech": [
-            "XXX"
+            "php",
+            "css3",
+            "html5",
+            "js"
         ],
         "goal": "[en-EN]To develop a simple, clear and effective website that allows users to quickly find the necessary PC maintenance services and contact the company via a feedback form.[uk-UA]Розробити простий, зрозумілий та ефективний сайт, що дозволяє користувачам швидко знаходити необхідні послуги з обслуговування ПК та зв’язуватися з компанією через форму зворотного зв’язку.",
         "devs": [
@@ -1651,6 +1849,14 @@
             {
                 "name": "[en-EN]Site[uk-UA]Сайт",
                 "code": "site"
+            },
+            {
+                "name": "[en-EN]No Frameworks[uk-UA]Без Фреймворків",
+                "code": "no_frame"
+            },
+            {
+                "name": "[en-EN]Full-Stack[uk-UA]Full-Stack",
+                "code": "full"
             }
         ],
         "date": "2018",
@@ -1660,7 +1866,11 @@
         "client": "[en-EN]XXX[uk-UA]XXX",
         "role": "[en-EN]Lead Developer and Architect[uk-UA]Головний розробник та архітектор",
         "tech": [
-            "XXX"
+            "php",
+            "sass",
+            "js",
+            "html5",
+            "mysql"
         ],
         "goal": "[en-EN]To create a simple and stylish website that will help the studio introduce itself, share its projects, talk about the team and provide contact information for communicating with players and partners.[uk-UA]Створити простий та стильний сайт, який допоможе студії представити себе, поділитися своїми проєктами, розповісти про команду та надати контактну інформацію для зв’язку з гравцями та партнерами.",
         "devs": [
@@ -1701,15 +1911,26 @@
         "seoTitle": "[en-EN]Hero with a Thousand Faces – official game website, description, mechanics, gallery[uk-UA]Hero with a Thousand Faces – офіційний сайт гри, опис, механіки, галерея",
         "seoDesk": "[en-EN]Learn more about Hero with a Thousand Faces! Official game website – description of mechanics, gallery, videos, development status, updates and support.[uk-UA]Дізнайтеся більше про Hero with a Thousand Faces! Офіційний сайт гри – опис механік, галерея, відео, статус розробки, оновлення та підтримка.",
         "seoKeywords": "[en-EN]Hero with a Thousand Faces, game, RPG, turn-based combat system, isometric game, world exploration, gameplay, early access, Life Game Studios[uk-UA]Hero with a Thousand Faces, гра, RPG, покрокова бойова система, ізометрична гра, дослідження світу, геймплей, ранній доступ, Life Game Studios",
-        "image": "XXX",
+        "image": "01.png",
         "images": [
-            "XXX"
+            "01.png",
+            "02.png",
+            "03.png",
+            "04.png"
         ],
         "link": "https://hwtf.life-game-studios.com",
         "tags": [
             {
                 "name": "[en-EN]Site[uk-UA]Сайт",
                 "code": "site"
+            },
+            {
+                "name": "[en-EN]No Frameworks[uk-UA]Без Фреймворків",
+                "code": "no_frame"
+            },
+            {
+                "name": "[en-EN]Full-Stack[uk-UA]Full-Stack",
+                "code": "full"
             }
         ],
         "date": "2018",
@@ -1719,7 +1940,11 @@
         "client": "[en-EN]XXX[uk-UA]XXX",
         "role": "[en-EN]Lead Developer and Architect[uk-UA]Головний розробник та архітектор",
         "tech": [
-            "XXX"
+            "php",
+            "sass",
+            "html5",
+            "js",
+            "mysql"
         ],
         "goal": "[en-EN]To create an informative website for the game that will help attract the audience, inform about the development status, updates and mechanics, and also allow players to follow the progress and support the project.[uk-UA]Створити інформативний сайт для гри, який допоможе залучити аудиторію, інформувати про статус розробки, оновлення та механіки, а також дозволить гравцям стежити за прогресом і підтримувати проєкт.",
         "devs": [
@@ -1762,8 +1987,8 @@
         "title": "[en-EN]White Imp – a platform for website promotion[uk-UA]White Imp – платформа для просування сайтів",
         "text": "[en-EN]A website and a program for promoting web resources have been developed, which are divided into two parts: User part - allows users to view the history of completed tasks, search for new tasks, withdraw funds for completed actions. Advertiser - creates tasks with links to sites, specifies the terms of execution and tracks statistics. The project includes flexible integration of payment systems, authorization via social networks and a convenient web interface.[uk-UA]Розроблено сайт та програму для просування веб-ресурсів, які поділяються на дві частини: Користувацька частина - дозволяє користувачам переглядати історію виконаних завдань, шукати нові завдання, виводити кошти за виконані дії. Рекламодавець - створює завдання з посиланнями на сайти, вказує умови виконання та відслідковує статистику. Проєкт містить гнучку інтеграцію платіжних систем, авторизацію через соцмережі та зручний веб-інтерфейс.",
         "seoTitle": "[en-EN]White Imp – a platform for earning and promoting websites[uk-UA]White Imp – платформа для заробітку та просування сайтів",
-        "seoDesk": "[en-EN]XXX[uk-UA]XXX",
-        "seoKeywords": "[en-EN]XXX[uk-UA]XXX",
+        "seoDesk": "[en-EN]White Imp – a website for promoting websites and earning. Complete tasks, view websites and get money. Flexible conditions for advertisers![uk-UA]White Imp – сайт для просування сайтів та заробітку. Виконуйте завдання, переглядайте сайти та отримуйте гроші. Гнучкі умови для рекламодавців!",
+        "seoKeywords": "[en-EN]site promotion, site advertising, online earnings, viewing sites for money, advertising tasks, web advertising platform[uk-UA]просування сайтів, реклама сайтів, заробіток онлайн, перегляд сайтів за гроші, рекламні завдання, платформа для веб-реклами",
         "image": "01.png",
         "images": [
             "01.png",
@@ -1775,8 +2000,32 @@
         "link": "https://white-imp.com",
         "tags": [
             {
+                "name": "[en-EN]Program[uk-UA]Програма",
+                "code": "prog"
+            },
+            {
+                "name": "[en-EN]No Frameworks[uk-UA]Без Фреймворків",
+                "code": "no_frame"
+            },
+            {
                 "name": "[en-EN]Site[uk-UA]Сайт",
                 "code": "site"
+            },
+            {
+                "name": "[en-EN]Integration[uk-UA]Інтеграція",
+                "code": "integration"
+            },
+            {
+                "name": "[en-EN]DevOps[uk-UA]DevOps",
+                "code": "devops"
+            },
+            {
+                "name": "[en-EN]Full-Stack[uk-UA]Full-Stack",
+                "code": "full"
+            },
+            {
+                "name": "[en-EN]Payments[uk-UA]Оплати",
+                "code": "payments"
             }
         ],
         "date": "2016",
@@ -1786,475 +2035,613 @@
         "client": "[en-EN]XXX[uk-UA]XXX",
         "role": "[en-EN]Lead Developer and Architect[uk-UA]Головний розробник та архітектор",
         "tech": [
-            "XXX"
+            "php",
+            "dot_net",
+            "mysql",
+            "xamarin",
+            "sass",
+            "html5",
+            "js"
         ],
-        "goal": "[en-EN]XXX[uk-UA]XXX",
+        "goal": "[en-EN]To create a universal platform for promoting sites through the interaction of advertisers and users. To give the opportunity to earn money by viewing sites and completing tasks, and advertisers - to effectively attract traffic.[uk-UA]Створити універсальну платформу для просування сайтів через взаємодію рекламодавців та користувачів. Дати можливість заробляти на перегляді сайтів та виконанні завдань, а рекламодавцям – ефективно залучати трафік.",
         "devs": [
             {
-                "title": "[en-EN]XXX[uk-UA]XXX",
-                "text": "[en-EN]XXX[uk-UA]XXX"
+                "title": "[en-EN]Dual interface[uk-UA]Подвійний інтерфейс",
+                "text": "[en-EN]Two interfaces have been implemented: one for the user, one for the advertiser with a clear design for both types of users.[uk-UA]Реалізовано два інтерфейса: один для користувача, один та рекламодавця зі зрозумілим дизайном для обох типів користувачів."
             },
             {
-                "title": "[en-EN]XXX[uk-UA]XXX",
-                "text": "[en-EN]XXX[uk-UA]XXX"
+                "title": "[en-EN]Integration of payment systems[uk-UA]Інтеграція платіжних систем",
+                "text": "[en-EN]A flexible payment system has been connected for replenishing and withdrawing funds.[uk-UA]Підключено гнучку систему оплат для поповнення та виведення коштів."
             },
             {
-                "title": "[en-EN]XXX[uk-UA]XXX",
-                "text": "[en-EN]XXX[uk-UA]XXX"
+                "title": "[en-EN]Authorization via social networks[uk-UA]Авторизація через соцмережі",
+                "text": "[en-EN]The ability to log in via Google, Facebook and other services has been added.[uk-UA]Додано можливість входу через Google, Facebook та інші сервіси."
             },
             {
-                "title": "[en-EN]XXX[uk-UA]XXX",
-                "text": "[en-EN]XXX[uk-UA]XXX"
+                "title": "[en-EN]Web interface for browsing sites[uk-UA]Веб-інтерфейс для перегляду сайтів",
+                "text": "[en-EN]The user can browse sites directly in the built-in interface.[uk-UA]Користувач може переглядати сайти безпосередньо у вбудованому інтерфейсі."
             },
             {
-                "title": "[en-EN]XXX[uk-UA]XXX",
-                "text": "[en-EN]XXX[uk-UA]XXX"
+                "title": "[en-EN]A separate program for performing tasks[uk-UA]Окрема програма для виконання завдань",
+                "text": "[en-EN]Users can work without a site using a special application.[uk-UA]Користувачі можуть працювати без сайту, використовуючи спеціальний додаток."
             },
             {
-                "title": "[en-EN]XXX[uk-UA]XXX",
-                "text": "[en-EN]XXX[uk-UA]XXX"
+                "title": "[en-EN]A system of ratings and quality control of completed tasks[uk-UA]Система рейтингів та перевірки якості виконаних завдань",
+                "text": "[en-EN]Prevents fraud and increases the effectiveness of advertising.[uk-UA]Запобігає шахрайству та підвищує ефективність реклами."
+            },
+            {
+                "title": "[en-EN]SEO optimization[uk-UA]SEO-оптимізація",
+                "text": "[en-EN]Configured for improved visibility in search engines.[uk-UA]Налаштовано для покращеної видимості в пошукових системах."
             }
         ]
     },
     {
         "code": "portfolio",
-        "title": "[en-EN]XXX[uk-UA]XXX",
-        "text": "[en-EN]XXX[uk-UA]XXX",
-        "seoTitle": "[en-EN]XXX[uk-UA]XXX",
-        "seoDesk": "[en-EN]XXX[uk-UA]XXX",
-        "seoKeywords": "[en-EN]XXX[uk-UA]XXX",
+        "title": "[en-EN]Developer portfolio[uk-UA]Портфоліо розробника",
+        "text": "[en-EN]A portfolio website was developed on Angular without using a backend. The project supports SEO optimization, multilingualism, light/dark theme and dynamic content update via external documents without updating the site. Server-Side Rendering (SSR) is used for better performance and indexing.[uk-UA]Розроблено портфоліо-сайт на Angular без використання бекенду. Проєкт підтримує SEO-оптимізацію, мультимовність, світлу/темну тему та динамічне оновлення контенту через зовнішні документи без оновлення сайту. Використовується Server-Side Rendering (SSR) для кращої продуктивності та індексації.",
+        "seoTitle": "[en-EN]Developer portfolio - projects, experience, contacts[uk-UA]Портфоліо розробника – проєкти, досвід, контакти",
+        "seoDesk": "[en-EN]Check out the developer's portfolio: completed projects, professional history, skills and contacts. Optimized for search engines.[uk-UA]Ознайомтеся з портфоліо розробника: реалізовані проєкти, професійна історія, навички та контакти. Оптимізовано для пошукових систем.",
+        "seoKeywords": "[en-EN]developer portfolio, web development, Angular developer, IT portfolio, programmer projects, developer resume[uk-UA]портфоліо розробника, веб-розробка, Angular розробник, IT портфоліо, програміст проєкти, резюме розробника",
         "image": "01.png",
         "images": [
-            "XXX"
+            "01.png",
+            "02.png",
+            "03.png"
         ],
-        "link": "XXX",
+        "link": "/",
         "tags": [
             {
                 "name": "[en-EN]Site[uk-UA]Сайт",
                 "code": "site"
+            },
+            {
+                "name": "[en-EN]DevOps[uk-UA]DevOps",
+                "code": "devops"
+            },
+            {
+                "name": "[en-EN]Front-End[uk-UA]Front-End",
+                "code": "front"
             }
         ],
         "date": "2025",
         "time": [
             "[en-EN]Create: 02.2025 - 02.2025[uk-UA]Розробка: 02.2025 - 02.2025"
         ],
-        "client": "[en-EN]XXX[uk-UA]XXX",
+        "client": "[en-EN]FOP Kostiantyn Sikora[uk-UA]ФОП Костянтин Сікора",
         "role": "[en-EN]Lead Developer and Architect[uk-UA]Головний розробник та архітектор",
         "tech": [
-            "XXX"
+            "angular",
+            "ssr",
+            "sass",
+            "html5",
+            "sonarqube",
+            "github",
+            "typescript"
         ],
-        "goal": "[en-EN]XXX[uk-UA]XXX",
+        "goal": "[en-EN]Create a portfolio site to present the developer's professional skills, experience and projects, ensuring flexible content updates without the need to change the code.[uk-UA]Створити портфоліо-сайт для представлення професійних навичок, досвіду та проєктів розробника, забезпечуючи гнучке оновлення контенту без потреби змінювати код.",
         "devs": [
             {
-                "title": "[en-EN]XXX[uk-UA]XXX",
-                "text": "[en-EN]XXX[uk-UA]XXX"
+                "title": "[en-EN]Dynamic content updates[uk-UA]Динамічне оновлення контенту",
+                "text": "[en-EN]Content is edited without updating the site - through publicly available documents.[uk-UA]Контент редагується без оновлення сайту – через загальнодоступні документи."
             },
             {
-                "title": "[en-EN]XXX[uk-UA]XXX",
-                "text": "[en-EN]XXX[uk-UA]XXX"
+                "title": "[en-EN]Server-Side Rendering (SSR)[uk-UA]Server-Side Rendering (SSR)",
+                "text": "[en-EN]Improved loading speed and SEO indexing.[uk-UA]Покращена швидкість завантаження та SEO-індексація."
             },
             {
-                "title": "[en-EN]XXX[uk-UA]XXX",
-                "text": "[en-EN]XXX[uk-UA]XXX"
+                "title": "[en-EN]Multilingualism[uk-UA]Мультимовність",
+                "text": "[en-EN]Support for multiple languages ​​while preserving the user's choice.[uk-UA]Підтримка декількох мов із збереженням вибору користувача."
             },
             {
-                "title": "[en-EN]XXX[uk-UA]XXX",
-                "text": "[en-EN]XXX[uk-UA]XXX"
+                "title": "[en-EN]Dark/light theme[uk-UA]Темна/світла тема",
+                "text": "[en-EN]Theme switching for comfortable use.[uk-UA]Перемикання теми для комфортного користування."
             },
             {
-                "title": "[en-EN]XXX[uk-UA]XXX",
-                "text": "[en-EN]XXX[uk-UA]XXX"
+                "title": "[en-EN]SEO optimization[uk-UA]SEO-оптимізація",
+                "text": "[en-EN]Correct content structuring to improve search visibility.[uk-UA]Коректне структурування контенту для покращення пошукової видимості."
             },
             {
-                "title": "[en-EN]XXX[uk-UA]XXX",
-                "text": "[en-EN]XXX[uk-UA]XXX"
+                "title": "[en-EN]Responsive design[uk-UA]Адаптивний дизайн",
+                "text": "[en-EN]Optimized for mobile and desktop devices.[uk-UA]Оптимізовано для мобільних та настільних пристроїв."
+            },
+            {
+                "title": "[en-EN]Convenient navigation[uk-UA]Зручна навігація",
+                "text": "[en-EN]Easy switching between pages without unnecessary reloading.[uk-UA]Просте перемикання між сторінками без зайвого перезавантаження."
             }
         ]
     },
     {
         "code": "maystrinya_server",
-        "title": "[en-EN]XXX[uk-UA]XXX",
-        "text": "[en-EN]XXX[uk-UA]XXX",
-        "seoTitle": "[en-EN]XXX[uk-UA]XXX",
-        "seoDesk": "[en-EN]XXX[uk-UA]XXX",
-        "seoKeywords": "[en-EN]XXX[uk-UA]XXX",
-        "image": "XXX",
+        "title": "[en-EN]Maystrinya DevOps - automation of a dry cleaning network[uk-UA]Майстриня DevOps - автоматзація мережі хімчисток",
+        "text": "[en-EN]Deployment of a central server directly at the production site with backup and installation of the necessary production programs. The server is synchronized with receiving points throughout the city. At each receiving point, workstations are configured with printers, barcode scanners and other peripheral devices connected. The system provides stable data exchange between receiving points and the central server, ensuring real-time synchronization.[uk-UA]Розгортання центрального сервера безпосередньо на виробництві з резервним копіюванням та встановленням необхідних виробничих програм. Сервер синхронізується з прийомними пунктами по всьому місту. На кожному прийомному пункті налаштовані робочі станції з підключенням принтерів, сканерів штрих-кодів та інших периферійних пристроїв.Система забезпечує стабільний обмін даними між пунктами прийому та центральним сервером, забезпечуючи синхронізацію в реальному часі.",
+        "seoTitle": "[en-EN]Central production server with backup and synchronization[uk-UA]Центральний сервер виробництва з резервним копіюванням та синхронізацією",
+        "seoDesk": "[en-EN]Deployment of server infrastructure for production: central server configuration, synchronization of receiving points, peripheral connection and backup.[uk-UA]Розгортання серверної інфраструктури для виробництва: налаштування центрального сервера, синхронізація пунктів прийому, підключення периферії та резервне копіювання.",
+        "seoKeywords": "[en-EN]production server, backup, synchronization of receiving points, printer connection, barcodes, production software settings[uk-UA]сервер для виробництва, резервне копіювання, синхронізація пунктів прийому, підключення принтерів, штрих-коди, налаштування виробничих програм",
+        "image": "01.png",
         "images": [
-            "XXX"
+            "01.png"
         ],
-        "link": "XXX",
         "tags": [
             {
-                "name": "[en-EN]Server[uk-UA]Сервер",
-                "code": "server"
+                "name": "[en-EN]DevOps[uk-UA]DevOps",
+                "code": "devops"
             }
         ],
-        "date": "XXX",
+        "date": "2019",
         "time": [
-            "[en-EN]XXX[uk-UA]XXX",
-            "[en-EN]XXX[uk-UA]XXX"
+            "[en-EN]Create: 07.2019 - 08.2019[uk-UA]Розробка: 07.2019 - 08.2019"
         ],
-        "client": "[en-EN]XXX[uk-UA]XXX",
-        "role": "[en-EN]XXX[uk-UA]XXX",
+        "client": "[en-EN]FOP RADCHENKO IRYNA SERGIIVNA[uk-UA]ФОП РАДЧЕНКО ІРИНА СЕРГІЇВНА",
+        "role": "[en-EN]DevOps engineer[uk-UA]DevOps інженер",
         "tech": [
-            "XXX"
+            "1c"
         ],
-        "goal": "[en-EN]XXX[uk-UA]XXX",
+        "goal": "[en-EN]To provide a reliable server infrastructure for production, including data synchronization between receiving points and the central server, as well as backup for uninterrupted operation.[uk-UA]Забезпечити надійну серверну інфраструктуру для виробництва, що включає синхронізацію даних між пунктами прийому та центральним сервером, а також резервне копіювання для безперебійної роботи.",
         "devs": [
             {
-                "title": "[en-EN]XXX[uk-UA]XXX",
-                "text": "[en-EN]XXX[uk-UA]XXX"
+                "title": "[en-EN]Central server deployment[uk-UA]Розгортання центрального сервера",
+                "text": "[en-EN]A server was installed in production with optimized load parameters.[uk-UA]Встановлено сервер на виробництві з оптимізованими параметрами для навантаження."
             },
             {
-                "title": "[en-EN]XXX[uk-UA]XXX",
-                "text": "[en-EN]XXX[uk-UA]XXX"
+                "title": "[en-EN]Backup system[uk-UA]Система резервного копіювання",
+                "text": "[en-EN]Automatic data backup and storage to prevent information loss.[uk-UA]Автоматичне копіювання та збереження даних для запобігання втраті інформації."
             },
             {
-                "title": "[en-EN]XXX[uk-UA]XXX",
-                "text": "[en-EN]XXX[uk-UA]XXX"
+                "title": "[en-EN]Synchronization of receiving points[uk-UA]Синхронізація прийомних пунктів",
+                "text": "[en-EN]A connection was established between receiving points and the central server for real-time data updates.[uk-UA]Встановлено зв’язок між пунктами прийому та центральним сервером для оновлення даних у реальному часі."
             },
             {
-                "title": "[en-EN]XXX[uk-UA]XXX",
-                "text": "[en-EN]XXX[uk-UA]XXX"
+                "title": "[en-EN]Production software settings[uk-UA]Налаштування виробничого ПЗ",
+                "text": "[en-EN]Software for production and receiving points was installed and optimized.[uk-UA]Встановлено та оптимізовано програмне забезпечення для роботи виробництва та пунктів прийому."
             },
             {
-                "title": "[en-EN]XXX[uk-UA]XXX",
-                "text": "[en-EN]XXX[uk-UA]XXX"
+                "title": "[en-EN]Peripheral connection[uk-UA]Підключення периферії",
+                "text": "[en-EN]Integration and configuration of printers, barcode scanners and other devices.[uk-UA]Інтеграція та налаштування принтерів, сканерів штрих-кодів та інших пристроїв."
             },
             {
-                "title": "[en-EN]XXX[uk-UA]XXX",
-                "text": "[en-EN]XXX[uk-UA]XXX"
+                "title": "[en-EN]Ensuring security and stability[uk-UA]Забезпечення безпеки та стабільності",
+                "text": "[en-EN]Optimized network settings and data protection from unauthorized access.[uk-UA]Оптимізовано мережеві налаштування та захист даних від несанкціонованого доступу."
             }
         ]
     },
     {
         "code": "applic_server",
-        "title": "[en-EN]XXX[uk-UA]XXX",
-        "text": "[en-EN]XXX[uk-UA]XXX",
-        "seoTitle": "[en-EN]XXX[uk-UA]XXX",
-        "seoDesk": "[en-EN]XXX[uk-UA]XXX",
-        "seoKeywords": "[en-EN]XXX[uk-UA]XXX",
-        "image": "XXX",
+        "title": "[en-EN]Applic Server - updating the company's server infrastructure[uk-UA]Applic Server - оновлення серверної інфрастуктури компанії",
+        "text": "[en-EN]Deployment of a new server on the Hetzner platform to migrate all company sites and systems. Reorganization of domain names, division of systems into subdomains, change of access to individual sites, backup configuration, connection of FTP access and installation of SSL certificates for all domains.[uk-UA]Розгортання нового сервера на платформі Hetzner для міграції всіх сайтів та систем компанії. Реорганізація доменних імен, розподіл систем на субдомени, зміна доступів до окремих сайтів, налаштування резервного копіювання, підключення FTP-доступів та встановлення SSL-сертифікатів для всіх доменів.",
+        "seoTitle": "[en-EN]Migration of servers to Hetzner, configuration of subdomains and backup[uk-UA]Міграція серверів на Hetzner, налаштування субдоменів та резервного копіювання",
+        "seoDesk": "[en-EN]Deployment of a server on Hetzner, transfer of sites and systems, change of domain names, unbundling of systems, configuration of backup, FTP access and SSL certificates.[uk-UA]Розгортання сервера на Hetzner, перенесення сайтів та систем, зміна доменних імен, розгрупування систем, налаштування резервного копіювання, FTP-доступів та SSL-сертифікатів.",
+        "seoKeywords": "[en-EN]server migration, Hetzner server, site transfer, domain change, backup, FTP access, SSL certificates, subdomain settings[uk-UA]міграція серверів, Hetzner сервер, перенесення сайтів, зміна доменів, резервне копіювання, FTP-доступ, SSL-сертифікати, налаштування субдоменів",
+        "image": "01.png",
         "images": [
-            "XXX"
+            "01.png"
         ],
-        "link": "XXX",
         "tags": [
             {
-                "name": "[en-EN]XXX[uk-UA]XXX",
-                "code": "tech"
+                "name": "[en-EN]DevOps[uk-UA]DevOps",
+                "code": "devops"
             }
         ],
         "date": "2024",
         "time": [
             "[en-EN]Create: 12.2024 - 12.2024[uk-UA]Розробка: 12.2024 - 12.2024"
         ],
-        "client": "[en-EN]XXX[uk-UA]XXX",
-        "role": "[en-EN]XXX[uk-UA]XXX",
+        "client": "[en-EN]Applic LLC[uk-UA]Applic LLC",
+        "role": "[en-EN]DevOps engineer[uk-UA]DevOps інженер",
         "tech": [
-            "XXX"
+            "hetzner",
+            "nginx",
+            "postgresql",
+            "mysql"
         ],
-        "goal": "[en-EN]XXX[uk-UA]XXX",
+        "goal": "[en-EN]To provide a stable and secure server infrastructure for all company sites and systems with flexible access management, backups and an increased level of security.[uk-UA]Забезпечити стабільну та безпечну серверну інфраструктуру для всіх сайтів та систем компанії з гнучким управлінням доступами, резервними копіями та підвищеним рівнем безпеки.",
         "devs": [
             {
-                "title": "[en-EN]XXX[uk-UA]XXX",
-                "text": "[en-EN]XXX[uk-UA]XXX"
+                "title": "[en-EN]Server deployment on Hetzner[uk-UA]Розгортання сервера на Hetzner",
+                "text": "[en-EN]A new server was installed with the optimal configuration for all systems.[uk-UA]Встановлено новий сервер із налаштуванням оптимальної конфігурації для роботи всіх систем."
             },
             {
-                "title": "[en-EN]XXX[uk-UA]XXX",
-                "text": "[en-EN]XXX[uk-UA]XXX"
+                "title": "[en-EN]Site and system migration[uk-UA]Міграція сайтів та систем",
+                "text": "[en-EN]All sites and applications were migrated without losing data and functionality.[uk-UA]Виконано перенесення всіх сайтів та додатків без втрати даних та функціоналу."
             },
             {
-                "title": "[en-EN]XXX[uk-UA]XXX",
-                "text": "[en-EN]XXX[uk-UA]XXX"
+                "title": "[en-EN]Changing domain names and dividing into subdomains[uk-UA]Зміна доменних імен та розподіл на субдомени",
+                "text": "[en-EN]The domain structure was optimized and the systems were divided into subdomains.[uk-UA]Оптимізовано структуру доменів та організовано розгрупування систем на субдомени."
             },
             {
-                "title": "[en-EN]XXX[uk-UA]XXX",
-                "text": "[en-EN]XXX[uk-UA]XXX"
+                "title": "[en-EN]Backup settings[uk-UA]Налаштування резервного копіювання",
+                "text": "[en-EN]Automatic backup of all data was implemented to ensure security.[uk-UA]Реалізовано автоматичне резервне копіювання всіх даних для забезпечення безпеки."
             },
             {
-                "title": "[en-EN]XXX[uk-UA]XXX",
-                "text": "[en-EN]XXX[uk-UA]XXX"
+                "title": "[en-EN]Connecting FTP access[uk-UA]Підключення FTP-доступів",
+                "text": "[en-EN]Convenient FTP access has been configured for managing sites and files.[uk-UA]Налаштовано зручний FTP-доступ для управління сайтами та файлами."
             },
             {
-                "title": "[en-EN]XXX[uk-UA]XXX",
-                "text": "[en-EN]XXX[uk-UA]XXX"
+                "title": "[en-EN]SSL certificates for domains[uk-UA]SSL-сертифікати для доменів",
+                "text": "[en-EN]Free and paid SSL certificates have been installed for all domains to protect traffic and encrypt connections.[uk-UA]Встановлено безкоштовні та платні SSL-сертифікати для всіх доменів для захисту трафіку та шифрування з'єднань."
+            },
+            {
+                "title": "[en-EN]Access and security optimization[uk-UA]Оптимізація доступів та безпеки",
+                "text": "[en-EN]Limited access to individual sites and systems has been configured, which increases the level of security.[uk-UA]Налаштовано обмежений доступ до окремих сайтів та систем, що підвищує рівень безпеки."
             }
         ]
     },
     {
         "code": "ute_server",
-        "title": "[en-EN]XXX[uk-UA]XXX",
-        "text": "[en-EN]XXX[uk-UA]XXX",
-        "seoTitle": "[en-EN]XXX[uk-UA]XXX",
-        "seoDesk": "[en-EN]XXX[uk-UA]XXX",
-        "seoKeywords": "[en-EN]XXX[uk-UA]XXX",
-        "image": "XXX",
+        "title": "[en-EN]Server Under Tree Entertainment - creation of the company's server infrastructure[uk-UA]Server Under Tree Entertainment - створення серверної інфрастуктури компанії",
+        "text": "[en-EN]Deployment of server infrastructure for the company Under Tree Entertainment based on Docker containers. Setting up detailed analytics, automatic backup of databases and containers. Implementation of a system for automatic publication of projects and protection of user data. Implementation of real-time data synchronization with a secure server storage. Building a local network with Wi-Fi coverage, setting up load balancing and deploying additional servers for scaling.[uk-UA]Розгортання серверної інфраструктури для компанії Under Tree Entertainment на базі Docker-контейнерів. Налаштування детальної аналітики, автоматичного резервного копіювання баз даних та контейнерів. Впровадження системи автоматичної публікації проєктів та захисту користувацьких даних. Реалізація синхронізації даних у реальному часі із захищеним серверним сховищем. Побудова локальної мережі з Wi-Fi покриттям, налаштування балансування навантаження та розгортання додаткових серверів для масштабування.",
+        "seoTitle": "[en-EN]Configuring server infrastructure on Docker for Under Tree Entertainment[uk-UA]Налаштування серверної інфраструктури на Docker для Under Tree Entertainment",
+        "seoDesk": "[en-EN]Development of a server system on Docker for the company Under Tree Entertainment, automatic backup, user data security, real-time synchronization, load balancing.[uk-UA]Розробка серверної системи на Docker для компанії Under Tree Entertainment, автоматичне резервне копіювання, безпека користувацьких даних, синхронізація в реальному часі, балансування навантаження.",
+        "seoKeywords": "[en-EN]Docker server, server for the company, publishing automation, data protection, real-time synchronization, backup, load balancing, Wi-Fi network[uk-UA]сервер Docker, сервер для компанії, автоматизація публікації, захист даних, синхронізація в реальному часі, резервне копіювання, балансування навантаження, Wi-Fi мережа",
+        "image": "01.png",
         "images": [
-            "XXX"
+            "01.png"
         ],
-        "link": "XXX",
         "tags": [
             {
-                "name": "[en-EN]XXX[uk-UA]XXX",
-                "code": "tech"
+                "name": "[en-EN]DevOps[uk-UA]DevOps",
+                "code": "devops"
+            },
+            {
+                "name": "[en-EN]Containers[uk-UA]Контейнери",
+                "code": "containers"
             }
         ],
         "date": "2024",
         "time": [
-            "[en-EN]Create: XX.2024 - XX.2024[uk-UA]Розробка: XX.2024 - XX.2024"
+            "[en-EN]Create: 04.2024 - 06.2024[uk-UA]Розробка: 04.2024 - 06.2024"
         ],
-        "client": "[en-EN]XXX[uk-UA]XXX",
-        "role": "[en-EN]XXX[uk-UA]XXX",
+        "client": "[en-EN]Under Tree Entertainment LTD[uk-UA]Under Tree Entertainment LTD",
+        "role": "[en-EN]DevOps engineer[uk-UA]DevOps інженер",
         "tech": [
-            "XXX"
+            "aws",
+            "docker",
+            "elasticsearch",
+            "kubernetes",
+            "mysql",
+            "jenkins",
+            "grafana",
+            "traefik",
+            "terraform",
+            "wireguard"
         ],
-        "goal": "[en-EN]XXX[uk-UA]XXX",
+        "goal": "[en-EN]To provide a stable, secure and automated server infrastructure for Under Tree Entertainment, supporting uninterrupted project operation, rapid scaling and reliable data protection.[uk-UA]Забезпечити стабільну, безпечну та автоматизовану серверну інфраструктуру для Under Tree Entertainment, що підтримує безперебійну роботу проєктів, швидке масштабування та надійний захист даних.",
         "devs": [
             {
-                "title": "[en-EN]XXX[uk-UA]XXX",
-                "text": "[en-EN]XXX[uk-UA]XXX"
+                "title": "[en-EN]Deployment of server infrastructure on Docker[uk-UA]Розгортання серверної інфраструктури на Docker",
+                "text": "[en-EN]A server system was configured using Docker containers for effective service management.[uk-UA]Налаштовано серверну систему з використанням Docker-контейнерів для ефективного керування сервісами."
             },
             {
-                "title": "[en-EN]XXX[uk-UA]XXX",
-                "text": "[en-EN]XXX[uk-UA]XXX"
+                "title": "[en-EN]Automated backup[uk-UA]Автоматизоване резервне копіювання",
+                "text": "[en-EN]Daily backup of databases and containers was implemented to protect against information loss.[uk-UA]Реалізовано щоденне резервне копіювання баз даних та контейнерів для захисту від втрати інформації."
             },
             {
-                "title": "[en-EN]XXX[uk-UA]XXX",
-                "text": "[en-EN]XXX[uk-UA]XXX"
+                "title": "[en-EN]Server performance analytics[uk-UA]Аналітика роботи сервера",
+                "text": "[en-EN]Detailed analytics and monitoring were connected to control the load and efficiency of servers.[uk-UA]Підключено детальну аналітику та моніторинг для контролю навантаження та ефективності роботи серверів."
             },
             {
-                "title": "[en-EN]XXX[uk-UA]XXX",
-                "text": "[en-EN]XXX[uk-UA]XXX"
+                "title": "[en-EN]Automatic project publishing system[uk-UA]Система автоматичної публікації проєктів",
+                "text": "[en-EN]CI/CD processes were implemented to automatically deploy project updates.[uk-UA]Впроваджено CI/CD процеси, що дозволяють автоматично розгортати оновлення проєктів."
             },
             {
-                "title": "[en-EN]XXX[uk-UA]XXX",
-                "text": "[en-EN]XXX[uk-UA]XXX"
+                "title": "[en-EN]User data protection and synchronization[uk-UA]Захист користувацьких даних та синхронізація",
+                "text": "[en-EN]A secure server storage with real-time synchronization capability has been implemented.[uk-UA]Реалізовано захищене серверне сховище з можливістю синхронізації в реальному часі."
             },
             {
-                "title": "[en-EN]XXX[uk-UA]XXX",
-                "text": "[en-EN]XXX[uk-UA]XXX"
+                "title": "[en-EN]Local network and Wi-Fi coverage setup[uk-UA]Налаштування локальної мережі та Wi-Fi покриття",
+                "text": "[en-EN]A local network with reliable Wi-Fi coverage has been built for comfortable employee work.[uk-UA]Побудовано локальну мережу з надійним Wi-Fi покриттям для комфортної роботи співробітників."
+            },
+            {
+                "title": "[en-EN]Deployment of additional servers and load balancing[uk-UA]Розгортання додаткових серверів та балансування навантаження",
+                "text": "[en-EN]A load distribution system has been implemented, allowing for the effective use of additional servers for scaling projects.[uk-UA]Впроваджено систему розподілу навантаження, що дозволяє ефективно використовувати додаткові сервери для масштабування проєктів."
             }
         ]
     },
     {
         "code": "harmony_wave",
-        "title": "[en-EN]XXX[uk-UA]XXX",
-        "text": "[en-EN]XXX[uk-UA]XXX",
-        "seoTitle": "[en-EN]XXX[uk-UA]XXX",
-        "seoDesk": "[en-EN]XXX[uk-UA]XXX",
-        "seoKeywords": "[en-EN]XXX[uk-UA]XXX",
-        "image": "XXX",
+        "title": "[en-EN]Harmony Wave - Financial manager for home use[uk-UA]Harmony Wave - Фінансовий менеджер для побутового використання",
+        "text": "[en-EN]Development of a convenient cross-platform application for tracking financial assets in everyday life. The application allows you to manage currencies, accounts, control expenses and income, analyze finances using adaptive analytics and a visual calendar. Available as a mobile application (with offline mode), desktop and web version with offline access and synchronization between devices.[uk-UA]Розробка зручного кросплатформного додатку для відслідковування фінансових активів у побуті. Додаток дозволяє керувати валютами, рахунками, контролювати витрати та доходи, аналізувати фінанси за допомогою адаптивної аналітики та візуального календаря. Доступний у вигляді мобільного додатку (з офлайн-режимом), десктопної та веб-версії з можливістю офлайн-доступу та синхронізації між пристроями.",
+        "seoTitle": "[en-EN]Convenient financial manager for controlling expenses and income[uk-UA]Зручний фінансовий менеджер для контролю витрат і доходів",
+        "seoDesk": "[en-EN]Cross-platform financial manager for home use. Control of expenses, income, multi-currency accounts, adaptive analytics and synchronization between devices.[uk-UA]Кросплатформний фінансовий менеджер для побутового використання. Контроль витрат, доходів, багатовалютні рахунки, адаптивна аналітика та синхронізація між пристроями.",
+        "seoKeywords": "[en-EN]financial manager, expense tracking, income management, home accounting, financial control, cross-platform application, offline access, expense analytics[uk-UA]фінансовий менеджер, облік витрат, управління доходами, домашня бухгалтерія, контроль фінансів, кросплатформний додаток, офлайн доступ, аналітика витрат",
+        "image": "01.png",
         "images": [
-            "XXX"
+            "01.png"
         ],
-        "link": "XXX",
+        "link": "https://hw.under-tree-e.com",
         "tags": [
             {
-                "name": "[en-EN]XXX[uk-UA]XXX",
-                "code": "tech"
+                "name": "[en-EN]Mobile App[uk-UA]Моб. Додаток",
+                "code": "mob_app"
+            },
+            {
+                "name": "[en-EN]Program[uk-UA]Програма",
+                "code": "prog"
+            },
+            {
+                "name": "[en-EN]Web App[uk-UA]Веб. Додаток",
+                "code": "web_app"
+            },
+            {
+                "name": "[en-EN]Integration[uk-UA]Інтеграція",
+                "code": "integration"
+            },
+            {
+                "name": "[en-EN]Full-Stack[uk-UA]Full-Stack",
+                "code": "full"
+            },
+            {
+                "name": "[en-EN]Payments[uk-UA]Оплати",
+                "code": "payments"
             }
         ],
-        "date": "2025",
+        "date": "",
         "time": [
             "[en-EN]Create: XX.XXXX - XX.XXXX[uk-UA]Розробка: XX.XXXX - XX.XXXX",
             "[en-EN]Update: XX.XXXX - XX.XXXX[uk-UA]Оновлення: XX.XXXX - XX.XXXX"
         ],
-        "client": "[en-EN]XXX[uk-UA]XXX",
+        "client": "",
         "role": "[en-EN]XXX[uk-UA]XXX",
         "tech": [
-            "XXX"
+            "angular",
+            "ionic",
+            "electron",
+            "html5",
+            "sass",
+            "typescript",
+            "node_js",
+            "sqlite",
+            "sonarqube"
         ],
-        "goal": "[en-EN]XXX[uk-UA]XXX",
+        "goal": "[en-EN]To create a convenient financial manager that will allow users to effectively manage their finances, regardless of device or Internet connection.[uk-UA]Створити зручний фінансовий менеджер, який дозволить користувачам ефективно керувати своїми фінансами, незалежно від пристрою чи підключення до інтернету.",
         "devs": [
             {
-                "title": "[en-EN]XXX[uk-UA]XXX",
-                "text": "[en-EN]XXX[uk-UA]XXX"
+                "title": "[en-EN]Manage finances anywhere[uk-UA]Керування фінансами в будь-якому місці",
+                "text": "[en-EN]Support for multiple currencies and accounts. Detailed history of changes in financial records.[uk-UA]Підтримка кількох валют та рахунків. Детальна історія змін у фінансових записах."
             },
             {
-                "title": "[en-EN]XXX[uk-UA]XXX",
-                "text": "[en-EN]XXX[uk-UA]XXX"
+                "title": "[en-EN]Expense and income analysis[uk-UA]Аналіз витрат та доходів",
+                "text": "[en-EN]Adaptive analytics that display expenses and income in a clear form. Detailed configuration of expense categories.[uk-UA]Адаптивна аналітика, яка відображає витрати та доходи у зрозумілій формі. Детальне налаштування категорій витрат"
             },
             {
-                "title": "[en-EN]XXX[uk-UA]XXX",
-                "text": "[en-EN]XXX[uk-UA]XXX"
+                "title": "[en-EN]Convenient interface and visual calendar[uk-UA]Зручний інтерфейс та візуальний календар",
+                "text": "[en-EN]Simple interface, understandable to any user. Expense and income calendar with the ability to search for records.[uk-UA]Простий інтерфейс, зрозумілий будь-якому користувачу. Календар витрат та доходів із можливістю пошуку записів"
             },
             {
-                "title": "[en-EN]XXX[uk-UA]XXX",
-                "text": "[en-EN]XXX[uk-UA]XXX"
+                "title": "[en-EN]Cross-platform and offline mode[uk-UA]Кросплатформність та офлайн-режим",
+                "text": "[en-EN]Mobile application (Android, iOS) with offline mode. Desktop version for Windows, macOS, Linux. Web version with the ability to work without the Internet.[uk-UA]Мобільний додаток (Android, iOS) з офлайн-режимом. Десктопна версія для Windows, macOS, Linux. Веб-версія з можливістю роботи без інтернету."
             },
             {
-                "title": "[en-EN]XXX[uk-UA]XXX",
-                "text": "[en-EN]XXX[uk-UA]XXX"
+                "title": "[en-EN]Synchronization and security[uk-UA]Синхронізація та безпека",
+                "text": "[en-EN]Cross-platform synchronization of financial data. Data protection and backup.[uk-UA]Кросплатформна синхронізація фінансових даних. Захист даних та резервне копіювання"
             },
             {
-                "title": "[en-EN]XXX[uk-UA]XXX",
-                "text": "[en-EN]XXX[uk-UA]XXX"
+                "title": "[en-EN]Built-in payments[uk-UA]Вбудовані платежі",
+                "text": "[en-EN]Possibility of internal payments in the application for additional functions.[uk-UA]Можливість внутрішніх оплат у додатку для додаткових функцій"
             }
         ]
     },
     {
         "code": "under_tree",
-        "title": "[en-EN]XXX[uk-UA]XXX",
-        "text": "[en-EN]XXX[uk-UA]XXX",
-        "seoTitle": "[en-EN]XXX[uk-UA]XXX",
-        "seoDesk": "[en-EN]XXX[uk-UA]XXX",
-        "seoKeywords": "[en-EN]XXX[uk-UA]XXX",
-        "image": "XXX",
+        "title": "[en-EN]Under Tree Entertainment - official website of the company[uk-UA]Under Tree Entertainment - офіційний сайт компанії",
+        "text": "[en-EN]Development of an official website for the company Under Tree Entertainment with a product catalog (games and programs), a personal user account where you can buy products, view licenses and purchase history. A full-fledged CRM system for managing the site's content, multilingualism, SEO optimization and a license server are provided.[uk-UA]Розробка офіційного сайту для компанії Under Tree Entertainment із каталогом продуктів (ігри та програми), особистим кабінетом користувача, де можна купувати продукти, переглядати ліцензії та історію покупок. Передбачено повноцінну CRM систему для керування контентом сайту, мультимовність, SEO-оптимізацію та сервер ліцензій.",
+        "seoTitle": "[en-EN]Official website of Under Tree Entertainment - games, programs, licenses[uk-UA]Офіційний сайт Under Tree Entertainment – ігри, програми, ліцензії",
+        "seoDesk": "[en-EN]Catalog of games and programs from Under Tree Entertainment. Personal account, purchase history, licenses, CRM system for content management, analytics and SEO optimization.[uk-UA]Каталог ігор та програм від Under Tree Entertainment. Особистий кабінет, історія покупок, ліцензії, CRM-система для керування контентом, аналітика та SEO-оптимізація.",
+        "seoKeywords": "[en-EN]Under Tree Entertainment, official website, game catalog, programs, licenses, personal account, CRM, game purchase, analytics[uk-UA]Under Tree Entertainment, офіційний сайт, каталог ігор, програми, ліцензії, особистий кабінет, CRM, покупка ігор, аналітика",
+        "image": "01.png",
         "images": [
-            "XXX"
+            "01.png"
         ],
-        "link": "XXX",
+        "link": "https://under-tree-e.com",
         "tags": [
             {
-                "name": "[en-EN]XXX[uk-UA]XXX",
-                "code": "tech"
+                "name": "[en-EN]Site[uk-UA]Сайт",
+                "code": "site"
+            },
+            {
+                "name": "[en-EN]Web App[uk-UA]Веб. Додаток",
+                "code": "web_app"
+            },
+            {
+                "name": "[en-EN]Full-Stack[uk-UA]Full-Stack",
+                "code": "full"
             }
         ],
-        "date": "2025",
+        "date": "",
         "time": [
             "[en-EN]Create: XX.2024 - XX.2025[uk-UA]Розробка: XX.2024 - XX.2025"
         ],
         "client": "[en-EN]XXX[uk-UA]XXX",
         "role": "[en-EN]XXX[uk-UA]XXX",
         "tech": [
-            "XXX"
+            "angular",
+            "sass",
+            "html5",
+            "typescript",
+            "node_js",
+            "mysql",
+            "docker",
+            "sonarqube"
         ],
-        "goal": "[en-EN]XXX[uk-UA]XXX",
+        "goal": "[en-EN]To create a convenient and functional company website that will allow users to purchase and manage game and program licenses, and administrators to fully customize content via the CRM panel.[uk-UA]Створити зручний та функціональний сайт компанії, що дозволить користувачам купувати та керувати ліцензіями ігор та програм, а адміністраторам – повноцінно налаштовувати контент через CRM-панель.",
         "devs": [
             {
-                "title": "[en-EN]XXX[uk-UA]XXX",
-                "text": "[en-EN]XXX[uk-UA]XXX"
+                "title": "[en-EN]Home page with product catalog[uk-UA]Головна сторінка з каталогом продуктів",
+                "text": "[en-EN]Display of all company games and programs. Filters and search for quickly finding the desired product.[uk-UA]Відображення всіх ігор та програм компанії. Фільтри та пошук для швидкого знаходження потрібного продукту."
             },
             {
-                "title": "[en-EN]XXX[uk-UA]XXX",
-                "text": "[en-EN]XXX[uk-UA]XXX"
+                "title": "[en-EN]Product pages[uk-UA]Сторінки продуктів",
+                "text": "[en-EN]Detailed description of the game or program. Image and video gallery. License purchase or activation button.[uk-UA]Детальний опис гри чи програми. Галерея зображень і відео. Кнопка покупки або активації ліцензії."
             },
             {
-                "title": "[en-EN]XXX[uk-UA]XXX",
-                "text": "[en-EN]XXX[uk-UA]XXX"
+                "title": "[en-EN]User personal account[uk-UA]Особистий кабінет користувача",
+                "text": "[en-EN]Purchase history. View and manage licenses. Payments and subscriptions.[uk-UA]Історія покупок. Перегляд та керування ліцензіями. Оплати та підписки."
             },
             {
-                "title": "[en-EN]XXX[uk-UA]XXX",
-                "text": "[en-EN]XXX[uk-UA]XXX"
+                "title": "[en-EN]Full-fledged CRM system[uk-UA]Повноцінна CRM система",
+                "text": "[en-EN]Admin panel for content management. Visual page builder. Flexible multilingual settings.[uk-UA]Адмін-панель для керування контентом. Візуальний конструктор сторінок. Гнучке налаштування мультимовності."
             },
             {
-                "title": "[en-EN]XXX[uk-UA]XXX",
-                "text": "[en-EN]XXX[uk-UA]XXX"
+                "title": "[en-EN]License server[uk-UA]Сервер ліцензій",
+                "text": "[en-EN]Generation and verification of licenses. Binding licenses to user accounts.[uk-UA]Генерація та перевірка ліцензій. Прив’язка ліцензій до акаунтів користувачів."
             },
             {
-                "title": "[en-EN]XXX[uk-UA]XXX",
-                "text": "[en-EN]XXX[uk-UA]XXX"
+                "title": "[en-EN]SEO optimization and analytics[uk-UA]SEO-оптимізація та аналітика",
+                "text": "[en-EN]Indexing products in search engines. Detailed analytics of visits and purchases.[uk-UA]Індексація продуктів у пошукових системах. Детальна аналітика відвідувань та покупок."
+            },
+            {
+                "title": "[en-EN]Security and backup[uk-UA]Безпека та резервне копіювання",
+                "text": "[en-EN]Protection of user accounts. Backup of site and CRM data.[uk-UA]Захист акаунтів користувачів. Резервне копіювання даних сайту та CRM."
             }
         ]
     },
     {
         "code": "ute_cook",
-        "title": "[en-EN]XXX[uk-UA]XXX",
-        "text": "[en-EN]XXX[uk-UA]XXX",
-        "seoTitle": "[en-EN]XXX[uk-UA]XXX",
-        "seoDesk": "[en-EN]XXX[uk-UA]XXX",
-        "seoKeywords": "[en-EN]XXX[uk-UA]XXX",
-        "image": "XXX",
+        "title": "[en-EN]XXX - culinary application for creating and managing recipes[uk-UA]XXX - кулінарний додаток для створення та управління рецептами",
+        "text": "[en-EN]Development of a cross-platform application for creating, managing and saving culinary recipes. The application will have a user-friendly interface, category support, automatic generation of recipes with links, a photo gallery, as well as a detailed description of the nutritional value of dishes.[uk-UA]Розробка кросплатформеного додатку для створення, управління та збереження кулінарних рецептів. Додаток матиме зрозумілий інтерфейс, підтримку категорій, автоматичне формування рецептів із посиланнями, фото-галерею, а також детальний опис поживної цінності страв.",
+        "seoTitle": "[en-EN]Culinary application - convenient creation and management of recipes[uk-UA]Кулінарний додаток – зручне створення та управління рецептами",
+        "seoDesk": "[en-EN]Culinary application for creating and saving recipes. Automatic generation, photo addition, detailed nutritional value, offline mode, synchronization between platforms.[uk-UA]Кулінарний додаток для створення та збереження рецептів. Автоматичне формування, фото-доповнення, детальна поживна цінність, офлайн-режим, синхронізація між платформами.",
+        "seoKeywords": "[en-EN]cooking, recipes, cooking app, recipes, recipe management, offline cooking, nutritional value, cooking categories[uk-UA]кулінарія, рецепти, кулінарний додаток, рецепти страв, управління рецептами, офлайн кулінарія, поживна цінність, кулінарні категорії",
+        "image": "01.png",
         "images": [
-            "XXX"
+            "01.png"
         ],
-        "link": "XXX",
+        "link": "https://XX.under-tree-e.com",
         "tags": [
             {
-                "name": "[en-EN]XXX[uk-UA]XXX",
-                "code": "tech"
+                "name": "[en-EN]Mobile App[uk-UA]Моб. Додаток",
+                "code": "mob_app"
+            },
+            {
+                "name": "[en-EN]Program[uk-UA]Програма",
+                "code": "prog"
+            },
+            {
+                "name": "[en-EN]Web App[uk-UA]Веб. Додаток",
+                "code": "web_app"
+            },
+            {
+                "name": "[en-EN]Integration[uk-UA]Інтеграція",
+                "code": "integration"
+            },
+            {
+                "name": "[en-EN]Full-Stack[uk-UA]Full-Stack",
+                "code": "full"
             }
         ],
-        "date": "XXX",
+        "date": "",
         "time": [
             "[en-EN]Create: XX.XXXX - XX.XXXX[uk-UA]Розробка: XX.XXXX - XX.XXXX"
         ],
         "client": "[en-EN]XXX[uk-UA]XXX",
         "role": "[en-EN]XXX[uk-UA]XXX",
         "tech": [
-            "XXX"
+            "angular",
+            "sass",
+            "html5",
+            "typescript",
+            "ionic",
+            "electron",
+            "sqlite",
+            "sonarqube"
         ],
-        "goal": "[en-EN]XXX[uk-UA]XXX",
+        "goal": "[en-EN]To create a convenient and multifunctional application for saving, editing and viewing recipes with the ability to automatically generate content, add photos, work offline and synchronize between devices.[uk-UA]Створити зручний та багатофункціональний додаток для збереження, редагування та перегляду рецептів із можливістю автоматичного формування контенту, додавання фото, офлайн-роботи та синхронізації між пристроями.",
         "devs": [
             {
-                "title": "[en-EN]XXX[uk-UA]XXX",
-                "text": "[en-EN]XXX[uk-UA]XXX"
+                "title": "[en-EN]Clear interface[uk-UA]Зрозумілий інтерфейс",
+                "text": "[en-EN]Simple and intuitive design. Quick addition of recipes in a few clicks.[uk-UA]Простий та інтуїтивний дизайн. Швидке додавання рецептів у кілька кліків."
             },
             {
-                "title": "[en-EN]XXX[uk-UA]XXX",
-                "text": "[en-EN]XXX[uk-UA]XXX"
+                "title": "[en-EN]Recipe management[uk-UA]Керування рецептами",
+                "text": "[en-EN]Adding and editing ingredients, instructions, categories. Automatic formation of a structured recipe. Link to the site for a more detailed view.[uk-UA]Додавання та редагування інгредієнтів, інструкцій, категорій. Автоматичне формування структурованого рецепту. Посилання на сайт для детальнішого перегляду."
             },
             {
-                "title": "[en-EN]XXX[uk-UA]XXX",
-                "text": "[en-EN]XXX[uk-UA]XXX"
+                "title": "[en-EN]Detailed nutritional value[uk-UA]Детальна поживна цінність",
+                "text": "[en-EN]Automatic calculation of calories, proteins, fats, carbohydrates. Nutritional value tables.[uk-UA]Автоматичний розрахунок калорій, білків, жирів, вуглеводів. Таблиці харчової цінності."
             },
             {
-                "title": "[en-EN]XXX[uk-UA]XXX",
-                "text": "[en-EN]XXX[uk-UA]XXX"
+                "title": "[en-EN]Cross-platform and offline mode[uk-UA]Кросплатформеність та офлайн-режим",
+                "text": "[en-EN]Mobile application (Android, iOS). Desktop version (Windows, Mac, Linux). Web version with offline support. Automatic synchronization between devices.[uk-UA]Мобільний додаток (Android, iOS). Десктопна версія (Windows, Mac, Linux). Веб-версія із підтримкою офлайн-роботи. Автоматична синхронізація між пристроями."
             },
             {
-                "title": "[en-EN]XXX[uk-UA]XXX",
-                "text": "[en-EN]XXX[uk-UA]XXX"
+                "title": "[en-EN]Photo gallery for recipes[uk-UA]Фото-галерея для рецептів",
+                "text": "[en-EN]Upload your own photos. Ability to add step-by-step images.[uk-UA]Завантаження власних фото. Можливість додавати покрокові зображення."
             },
             {
-                "title": "[en-EN]XXX[uk-UA]XXX",
-                "text": "[en-EN]XXX[uk-UA]XXX"
+                "title": "[en-EN]Internal payments[uk-UA]Внутрішні оплати",
+                "text": "[en-EN]Purchase of advanced features and additional content.[uk-UA]Покупка розширених функцій та додаткового контенту."
+            },
+            {
+                "title": "[en-EN]Category system[uk-UA]Система категорій",
+                "text": "[en-EN]Grouping recipes by types of dishes. Filtering by main ingredients.[uk-UA]Групування рецептів за видами страв. Фільтрація за основними інгредієнтами."
+            },
+            {
+                "title": "[en-EN]Security and backup[uk-UA]Безпека та резервне копіювання",
+                "text": "[en-EN]Cloud storage for saving recipes. Account protection and secure backup.[uk-UA]Хмарне сховище для збереження рецептів. Захист акаунту та безпечне резервне копіювання."
             }
         ]
     },
     {
         "code": "ute_server_work",
-        "title": "[en-EN]XXX[uk-UA]XXX",
-        "text": "[en-EN]XXX[uk-UA]XXX",
-        "seoTitle": "[en-EN]XXX[uk-UA]XXX",
-        "seoDesk": "[en-EN]XXX[uk-UA]XXX",
-        "seoKeywords": "[en-EN]XXX[uk-UA]XXX",
-        "image": "XXX",
+        "title": "[en-EN]Development Server Under Tree Entertainment - creation of server infrastructure for company development[uk-UA]Development Server Under Tree Entertainment - створення серверної інфрастуктури для розробок компанії",
+        "text": "[en-EN]Deployment of server infrastructure for development based on Proxmox. Preparation of virtual servers for development and testing of applications with the possibility of remote access via a secure connection. Implementation of backup, synchronization, automatic publication of projects and logging of changes with detailed analytics of updates.[uk-UA]Розгортання серверної інфраструктури для розробки на базі Proxmox. Підготовка віртуальних серверів для розробки та тестування додатків з можливістю віддаленого доступу через захищене з'єднання. Впровадження резервного копіювання, синхронізації, автоматичного публікування проєктів та логування змін із детальною аналітикою оновлень.",
+        "seoTitle": "[en-EN]Development and testing server on Proxmox for Under Tree Entertainment[uk-UA]Сервер для розробки та тестування на Proxmox для Under Tree Entertainment",
+        "seoDesk": "[en-EN]Development of server infrastructure for the company Under Tree Entertainment based on Proxmox, test and development environments, automation of publications, secure remote access and analytics of updates.[uk-UA]Розробка серверної інфраструктури для компанії Under Tree Entertainment на базі Proxmox, тестові та розробницькі середовища, автоматизація публікацій, безпечний віддалений доступ та аналітика оновлень.",
+        "seoKeywords": "[en-EN]Proxmox server, development server, application testing, secure remote access, automatic publishing, change logging, update analytics, backup[uk-UA]Proxmox сервер, сервер для розробки, тестування додатків, безпечний віддалений доступ, автоматичне публікування, логування змін, аналітика оновлень, резервне копіювання",
+        "image": "01.png",
         "images": [
-            "XXX"
+            "01.png"
         ],
-        "link": "XXX",
         "tags": [
             {
-                "name": "[en-EN]XXX[uk-UA]XXX",
-                "code": "tech"
+                "name": "[en-EN]DevOps[uk-UA]DevOps",
+                "code": "devops"
+            },
+            {
+                "name": "[en-EN]Containers[uk-UA]Контейнери",
+                "code": "containers"
             }
         ],
-        "date": "2024",
+        "date": "",
         "time": [
             "[en-EN]Create: XX.2024 - XX.2024[uk-UA]Розробка: XX.2024 - XX.2024"
         ],
-        "client": "",
+        "client": "[en-EN]XXX[uk-UA]XXX",
         "role": "[en-EN]XXX[uk-UA]XXX",
         "tech": [
-            "XXX"
+            "proxmox",
+            "docker",
+            "aws",
+            "wireguard",
+            "terraform",
+            "jenkins",
+            "grafana",
+            "traefik"
         ],
-        "goal": "[en-EN]XXX[uk-UA]XXX",
+        "goal": "[en-EN]To provide a stable, flexible and secure server environment for development and testing of Under Tree Entertainment projects with the ability to automatically deploy, analyze changes and synchronize.[uk-UA]Забезпечити стабільне, гнучке та безпечне серверне середовище для розробки та тестування проєктів компанії Under Tree Entertainment з можливістю автоматичного розгортання, аналізу змін та синхронізації.",
         "devs": [
             {
-                "title": "[en-EN]XXX[uk-UA]XXX",
-                "text": "[en-EN]XXX[uk-UA]XXX"
+                "title": "[en-EN]Server infrastructure based on Proxmox[uk-UA]Серверна інфраструктура на базі Proxmox",
+                "text": "[en-EN]Proxmox was deployed for effective management of virtual servers.[uk-UA]Розгорнуто Proxmox для ефективного керування віртуальними серверами."
             },
             {
-                "title": "[en-EN]XXX[uk-UA]XXX",
-                "text": "[en-EN]XXX[uk-UA]XXX"
+                "title": "[en-EN]Separate environments for development and testing[uk-UA]Окремі середовища для розробки та тестування",
+                "text": "[en-EN]Servers for development and testing were configured with the ability to access remotely via VPN and a secure connection.[uk-UA]Налаштовані сервери для розробки та тестування із можливістю віддаленого доступу через VPN та захищене з'єднання."
             },
             {
-                "title": "[en-EN]XXX[uk-UA]XXX",
-                "text": "[en-EN]XXX[uk-UA]XXX"
+                "title": "[en-EN]Publication automation[uk-UA]Автоматизація публікацій",
+                "text": "[en-EN]CI/CD processes were implemented for automatic deployment of updates and their testing.[uk-UA]Впроваджено CI/CD процеси для автоматичного розгортання оновлень та їх тестування."
             },
             {
-                "title": "[en-EN]XXX[uk-UA]XXX",
-                "text": "[en-EN]XXX[uk-UA]XXX"
+                "title": "[en-EN]Backup and synchronization[uk-UA]Резервне копіювання та синхронізація",
+                "text": "[en-EN]Daily backup of all servers with the ability to recover in case of failure was organized.[uk-UA]Організовано щоденне резервне копіювання всіх серверів з можливістю відновлення у разі збою."
             },
             {
-                "title": "[en-EN]XXX[uk-UA]XXX",
-                "text": "[en-EN]XXX[uk-UA]XXX"
+                "title": "[en-EN]Change logging and update analytics[uk-UA]Логування змін та аналітика оновлень",
+                "text": "[en-EN]A logging and update analytics system has been installed to monitor changes in projects.[uk-UA]Встановлено систему логування та аналітики оновлень для моніторингу змін у проєктах."
             },
             {
-                "title": "[en-EN]XXX[uk-UA]XXX",
-                "text": "[en-EN]XXX[uk-UA]XXX"
+                "title": "[en-EN]Secure access to servers[uk-UA]Захищений доступ до серверів",
+                "text": "[en-EN]Encryption and VPN connections have been used to securely connect developers.[uk-UA]Використано шифрування та VPN-з'єднання для безпечного підключення розробників."
             }
         ]
     },

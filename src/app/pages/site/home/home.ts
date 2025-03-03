@@ -21,6 +21,7 @@ export class HomePage {
     public page: any = {};
     public skills: ProjectTechData[] = [];
     public projects: ProjectData[] = [];
+    public images: string[] = [];
 
     /**
      * Constructor of the HomePage class.
@@ -39,5 +40,11 @@ export class HomePage {
         this.page = pages.home;
         this.projects = projects.filter((pd: ProjectData) => this.page.ps.projects.includes(pd.code));
         this.skills = teches.filter((td: ProjectTechData) => this.page.ss.skills.includes(td.code));
+
+        this.images = projects
+            .filter((pd: ProjectData) => pd.date)
+            .map((pd: ProjectData) => `/assets/images/projects/${pd.code}/${pd.image}`)
+            .sort(() => 0.5 - Math.random())
+            .slice(0, 4);
     }
 }

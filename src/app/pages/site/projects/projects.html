@@ -16,7 +16,7 @@
             </a>
             <div class="content-block">
                 <div class="tags">
-                    @for(tag of mainProject.tags; track tag){
+                    @for(tag of mainProject.tags | slice:0:3; track tag){
                     <a class="category" routerLink="/projects" [queryParams]="{tag:tag.code}">{{tag.name | datalang}}</a>
                     }
                     <div class="time">{{mainProject.date}}</div>

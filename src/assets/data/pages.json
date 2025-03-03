@@ -2,13 +2,7 @@
     "home": {
         "ts": {
             "title": "[en-EN]Developing modern digital solutions[uk-UA]Розробка сучасних цифрових рішень",
-            "text": "[en-EN]I am a Full-Stack Software Engineer, building scalable, fast, and reliable digital solutions. I combine a deep understanding of software architecture, modern technologies, and an engineering approach to create efficient, secure, and scalable solutions.[uk-UA]Я – Full-Stack Software Engineer, що створює масштабовані, швидкі та надійні цифрові рішення. Я поєдную глибоке розуміння архітектури ПЗ, сучасні технології та інженерний підхід, щоб створювати ефективні, безпечні та масштабовані рішення.",
-            "images": [
-                "https://www.relume.io/__assets/624380709031623bfe4aee60/6243807090316203124aee66_placeholder-image.svg",
-                "https://www.relume.io/__assets/624380709031623bfe4aee60/6243807090316203124aee66_placeholder-image.svg",
-                "https://www.relume.io/__assets/624380709031623bfe4aee60/6243807090316203124aee66_placeholder-image.svg",
-                "https://www.relume.io/__assets/624380709031623bfe4aee60/6243807090316203124aee66_placeholder-image.svg"
-            ]
+            "text": "[en-EN]I am a Full-Stack Software Engineer, building scalable, fast, and reliable digital solutions. I combine a deep understanding of software architecture, modern technologies, and an engineering approach to create efficient, secure, and scalable solutions.[uk-UA]Я – Full-Stack Software Engineer, що створює масштабовані, швидкі та надійні цифрові рішення. Я поєдную глибоке розуміння архітектури ПЗ, сучасні технології та інженерний підхід, щоб створювати ефективні, безпечні та масштабовані рішення."
         },
         "ss": {
             "title": "[en-EN]Advanced technology for you[uk-UA]Технології, з якими я працюю",
