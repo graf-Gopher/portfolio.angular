@@ -6,12 +6,12 @@
         "seoTitle": "[en-EN]EWAC – An innovative solution for a car all-round inspection | Toyota Ukraine[uk-UA]EWAC – Інноваційне рішення для кругового огляду авто | Toyota Україна",
         "seoDesk": "[en-EN]Development of EWAC mobile and web application for Toyota Ukraine. Optimization of car inspection, photo fixation, analytics, integration with dealer accounting systems.[uk-UA]Розробка мобільного та веб-додатка EWAC для Toyota Україна. Оптимізація огляду авто, фотофіксація, аналітика, інтеграція з обліковими системами дилерів.",
         "seoKeywords": "[en-EN]EWAC, car inspection, Toyota Ukraine, Lexus, service center, car inspection, accounting system, photo fixation, dealer network[uk-UA]EWAC, огляд автомобіля, Toyota Україна, Lexus, сервісний центр, автоінспекція, облікова система, фотофіксація, дилерська мережа",
-        "image": "01.png",
+        "image": "01_min.webp",
         "images": [
-            "01.png",
-            "02.png",
-            "03.png",
-            "04.png"
+            "01_min.webp",
+            "02_min.webp",
+            "03_min.webp",
+            "04_min.webp"
         ],
         "tags": [
             {
@@ -85,12 +85,12 @@
         "seoTitle": "[en-EN]Web platform for automating legal documents | USAID[uk-UA]Вебплатформа для автоматизації юридичних документів | USAID",
         "seoDesk": "[en-EN]Web platform for submitting legal applications to government agencies. Automatic document generation, integration with Diia.Signature, form builder, and multilingual support.[uk-UA]Вебплатформа для подачі юридичних заяв в органи державної влади. Автоматичне формування документів, інтеграція з Дія.Підпис, конструктор форм та багатомовна підтримка.",
         "seoKeywords": "[en-EN]USAID, Chemonics, automatic application creation, online application submission, electronic legal documents, Diia.Signature, web platform for documents, digital lawyer[uk-UA]USAID, Chemonics, автоматичне створення заяв, подання заяв онлайн, електронні юридичні документи, Дія.Підпис, вебплатформа для документів, цифровий юрист",
-        "image": "01.png",
+        "image": "01_min.webp",
         "images": [
-            "01.png",
-            "02.png",
-            "03.png",
-            "04.png"
+            "01_min.webp",
+            "02_min.webp",
+            "03_min.webp",
+            "04_min.webp"
         ],
         "link": "https://solution-finder.court.gov.ua",
         "tags": [
@@ -162,12 +162,12 @@
         "seoTitle": "[en-EN]Website for DTEK Academy – information portal, booking, order management[uk-UA]Вебсайт для Академії ДТЕК – інформаційний портал, бронювання, управління замовленнями",
         "seoDesk": "[en-EN]Development of a modern web portal for DTEK Academy with convenient content management, classroom booking and order processing.[uk-UA]Розробка сучасного вебпорталу для Академії ДТЕК із зручним керуванням контентом, бронюванням аудиторій та обробкою замовлень.",
         "seoKeywords": "[en-EN]web portal, DTEK Academy, content management, booking system, online ordering[uk-UA]вебпортал, Академія ДТЕК, управління контентом, система бронювання, онлайн-замовлення",
-        "image": "01.png",
+        "image": "01_min.webp",
         "images": [
-            "01.png",
-            "02.png",
-            "03.png",
-            "04.png"
+            "01_min.webp",
+            "02_min.webp",
+            "03_min.webp",
+            "04_min.webp"
         ],
         "link": "https://www.academydtek.com",
         "tags": [
@@ -234,12 +234,12 @@
         "seoTitle": "[en-EN]Online booking for the City Plaza service - car maintenance booking[uk-UA]Онлайн-запис на сервіс «Сіті Плаза» – бронювання обслуговування авто  ",
         "seoDesk": "[en-EN]Interactive online car maintenance booking system for Toyota and Lexus dealerships, integrated with the accounting system.[uk-UA]Інтерактивна система онлайн-запису на сервісне обслуговування автомобілів для дилерських центрів Toyota та Lexus, інтегрована з обліковою системою.  ",
         "seoKeywords": "[en-EN]online booking, service, Toyota, Lexus, booking, workflow management[uk-UA]онлайн-запис, сервісне обслуговування, Toyota, Lexus, бронювання, управління робочим процесом  ",
-        "image": "01.png",
+        "image": "01_min.webp",
         "images": [
-            "01.png",
-            "02.png",
-            "03.png",
-            "04.png"
+            "01_min.webp",
+            "02_min.webp",
+            "03_min.webp",
+            "04_min.webp"
         ],
         "link": "https://cityplaza.toyota.ua/toyota_service_online",
         "tags": [
@@ -311,15 +311,15 @@
         "seoTitle": "[en-EN]Car Rent – ​​SaaS-solution for automating car rental[uk-UA]Car Rent – SaaS-рішення для автоматизації прокату авто",
         "seoDesk": "[en-EN]Web and mobile system for accounting, booking and management of car rental fleet, integrated with analytics and photo fixation of damages.[uk-UA]Веб- та мобільна система для обліку, бронювання та управління автопарком прокату авто, інтегрована з аналітикою та фотофіксацією пошкоджень.",
         "seoKeywords": "[en-EN]car rental, fleet management, SaaS, car rental, automation[uk-UA]прокат авто, управління автопарком, SaaS, оренда автомобілів, автоматизація",
-        "image": "01.png",
+        "image": "01_min.webp",
         "images": [
-            "01.png",
-            "02.png",
-            "03.png",
-            "04.png",
-            "05.png",
-            "06.png",
-            "07.png"
+            "01_min.webp",
+            "02_min.webp",
+            "03_min.webp",
+            "04_min.webp",
+            "05_min.webp",
+            "06_min.webp",
+            "07_min.webp"
         ],
         "link": "https://car-rent.applic.com.ua",
         "tags": [
@@ -393,12 +393,12 @@
         "seoTitle": "[en-EN]Flagman - Online store of fishing tackle[uk-UA]Flagman - Інтернет-магазин рибальського приладдя",
         "seoDesk": "[en-EN]Buy fishing equipment in an online store with filters, quick search, personal account, and convenient payment methods.[uk-UA]Купуйте рибальське спорядження в онлайн-магазині з фільтрами, швидким пошуком, особистим кабінетом та зручними способами оплати.",
         "seoKeywords": "[en-EN]fishing equipment, fisherman's online store, buy tackle, e-commerce[uk-UA]рибальське спорядження, інтернет-магазин рибалки, купити снасті, e-commerce",
-        "image": "01.png",
+        "image": "01_min.webp",
         "images": [
-            "01.png",
-            "02.png",
-            "03.png",
-            "04.png"
+            "01_min.webp",
+            "02_min.webp",
+            "03_min.webp",
+            "04_min.webp"
         ],
         "link": "https://flagman.kiev.ua",
         "tags": [
@@ -456,12 +456,12 @@
         "seoTitle": "[en-EN]English and French courses - online learning[uk-UA]Курси англійської та французької мов – онлайн навчання",
         "seoDesk": "[en-EN]Learn English and French online. Buy courses, read useful articles on the blog, choose the program that suits you.[uk-UA]Вивчайте англійську та французьку мови онлайн. Купуйте курси, читайте корисні статті в блозі, обирайте програму, яка підходить саме вам.",
         "seoKeywords": "[en-EN]English courses, French online, buy a foreign language course[uk-UA]курси англійської мови, французька онлайн, купити курс іноземної мови",
-        "image": "01.png",
+        "image": "01_min.webp",
         "images": [
-            "01.png",
-            "02.png",
-            "03.png",
-            "04.png"
+            "01_min.webp",
+            "02_min.webp",
+            "03_min.webp",
+            "04_min.webp"
         ],
         "link": "https://victoria-vlasova-prof.com.ua",
         "tags": [
@@ -540,12 +540,12 @@
         "seoTitle": "[en-EN]Applic - Development of web solutions for business[uk-UA]Applic – Розробка вебрішень для бізнесу",
         "seoDesk": "[en-EN]IT company Applic - development of websites, mobile applications and CRM systems. Learn more about our services and projects![uk-UA]IT-компанія Applic – розробка вебсайтів, мобільних додатків та CRM-систем. Дізнайтеся більше про наші послуги та проєкти!",
         "seoKeywords": "[en-EN]web solutions development, website creation, web design, IT services[uk-UA]розробка вебрішень, створення сайтів, вебдизайн, IT-послуги",
-        "image": "01.png",
+        "image": "01_min.webp",
         "images": [
-            "01.png",
-            "02.png",
-            "03.png",
-            "04.png"
+            "01_min.webp",
+            "02_min.webp",
+            "03_min.webp",
+            "04_min.webp"
         ],
         "link": "https://applic.com.ua",
         "tags": [
@@ -620,12 +620,12 @@
         "seoTitle": "[en-EN]IT-ARTEL - Business automation and implementation of IT solutions[uk-UA]IT-ARTEL – Автоматизація бізнесу та впровадження IT-рішень",
         "seoDesk": "[en-EN]Corporate website IT-ARTEL: services, own developments, integration of 1C and BAS, blog, telephony, chatbots and details of licensed software.[uk-UA]Корпоративний сайт IT-ARTEL: послуги, власні розробки, інтеграція 1С та БАС, блог, телефонія, чат-боти та деталі ліцензійного програмного забезпечення.",
         "seoKeywords": "[en-EN]corporate website, 1C integration, BAS implementation, chatbots, telephony, business automation[uk-UA]корпоративний сайт, інтеграція 1С, впровадження БАС, чат-боти, телефонія, автоматизація бізнесу",
-        "image": "01.png",
+        "image": "01_min.webp",
         "images": [
-            "01.png",
-            "02.png",
-            "03.png",
-            "04.png"
+            "01_min.webp",
+            "02_min.webp",
+            "03_min.webp",
+            "04_min.webp"
         ],
         "link": "https://it-artel.ua",
         "tags": [
@@ -703,12 +703,12 @@
         "seoTitle": "[en-EN]Laundry with online ordering and delivery tracking - a modern solution for your business[uk-UA]Пральня з онлайн-замовленням та відстеженням доставки – сучасне рішення для вашого бізнесу",
         "seoDesk": "[en-EN]Order laundry services online: a convenient website, personal account, delivery tracking, mobile application for couriers. Process automation for business.[uk-UA]Замовляйте послуги пральні онлайн: зручний сайт, особистий кабінет, відстеження доставки, мобільний додаток для кур'єрів. Автоматизація процесів для бізнесу.",
         "seoKeywords": "[en-EN]online laundry, laundry order, laundry for business, laundry web solutions, laundry automation, laundry with delivery, laundry service[uk-UA]онлайн-пральня, замовлення пральні, пральня для бізнесу, веб-рішення для пральні, автоматизація пральні, пральня з доставкою, сервіс прання",
-        "image": "01.png",
+        "image": "01_min.webp",
         "images": [
-            "01.png",
-            "02.png",
-            "03.png",
-            "04.png"
+            "01_min.webp",
+            "02_min.webp",
+            "03_min.webp",
+            "04_min.webp"
         ],
         "link": "https://nabilo.com.ua",
         "tags": [
@@ -776,12 +776,12 @@
         "seoTitle": "[en-EN]IT.Artel - a leading IT company: services, technologies, cases[uk-UA]IT.Artel – провідна ІТ-компанія: послуги, технології, кейси",
         "seoDesk": "[en-EN]IT.Artel - innovative IT solutions, software development, the latest technologies, successful projects and a strong team of experts.[uk-UA]IT.Artel – інноваційні IT-рішення, розробка програмного забезпечення, новітні технології, успішні проєкти та сильна команда експертів.",
         "seoKeywords": "[en-EN]IT.Artel, IT company, software development, technological solutions, WordPress website, IT services[uk-UA]IT.Artel, IT компанія, розробка програмного забезпечення, технологічні рішення, WordPress сайт, ІТ послуги",
-        "image": "01.png",
+        "image": "01_min.webp",
         "images": [
-            "01.png",
-            "02.png",
-            "03.png",
-            "04.png"
+            "01_min.webp",
+            "02_min.webp",
+            "03_min.webp",
+            "04_min.webp"
         ],
         "link": "https://it-artel.io",
         "tags": [
@@ -851,13 +851,13 @@
         "seoTitle": "[en-EN]E-Zayava – digital document workflow: creating, approving and managing documents[uk-UA]E-Zayava – цифровий документообіг: створення, погодження та управління документами",
         "seoDesk": "[en-EN]E-Zayava – an effective solution for organizing electronic document workflow. Process automation, document templates, approval, notifications and data transfer.[uk-UA]E-Zayava – ефективне рішення для організації електронного документообігу. Автоматизація процесів, шаблони документів, погодження, сповіщення та передача даних.",
         "seoKeywords": "[en-EN]electronic document flow, document automation, business processes, document management, document approval, document templates, digital document flow[uk-UA]електронний документообіг, автоматизація документів, бізнес-процеси, управління документами, погодження документів, шаблони документів, цифровий документообіг",
-        "image": "01.png",
+        "image": "01_min.webp",
         "images": [
-            "01.png",
-            "02.png",
-            "03.png",
-            "04.png",
-            "05.png"
+            "01_min.webp",
+            "02_min.webp",
+            "03_min.webp",
+            "04_min.webp",
+            "05_min.webp"
         ],
         "tags": [
             {
@@ -922,13 +922,13 @@
         "seoTitle": "[en-EN]Mobile application for managing production processes and work shifts[uk-UA]Мобільний додаток для управління виробничими процесами та робочими змінами",
         "seoDesk": "[en-EN]Innovative application for production: organization of work shifts, selection of personnel for tasks, control of planned production and viewing tasks in real time.[uk-UA]Інноваційний додаток для виробництва: організація робочих змін, підбір персоналу на завдання, контроль планового виробітку та перегляд задач у реальному часі.",
         "seoKeywords": "[en-EN]mobile application for production, work shift management, planned production, personnel selection, work process organization, production control, Microsoft authorization[uk-UA]мобільний додаток для виробництва, управління робочими змінами, плановий виробіток, підбір персоналу, організація робочих процесів, виробничий контроль, Microsoft авторизація",
-        "image": "02.png",
+        "image": "02_min.webp",
         "images": [
-            "01.png",
-            "02.png",
-            "03.png",
-            "04.png",
-            "05.png"
+            "01_min.webp",
+            "02_min.webp",
+            "03_min.webp",
+            "04_min.webp",
+            "05_min.webp"
         ],
         "tags": [
             {
@@ -991,12 +991,12 @@
         "seoTitle": "[en-EN]ToDo LTD website - implementation of Odoo ERP solutions, business automation[uk-UA]Сайт ToDo LTD – впровадження ERP-рішень Odoo, автоматизація бізнесу",
         "seoDesk": "[en-EN]Official website of ToDo LTD - implementation of Odoo ERP, business process automation, Odoo modules and capabilities, news, blog, telephony and chatbots.[uk-UA]Офіційний сайт компанії ToDo LTD – впровадження ERP Odoo, автоматизація бізнес-процесів, модулі та можливості Odoo, новини, блог, телефонія та чат-боти.",
         "seoKeywords": "[en-EN]Odoo, Odoo implementation, ERP systems, business automation, Odoo modules, CRM, telephony, chatbots, WordPress site, ToDo LTD[uk-UA]Odoo, впровадження Odoo, ERP-системи, автоматизація бізнесу, модулі Odoo, CRM, телефонія, чат-боти, WordPress сайт, ToDo LTD",
-        "image": "01.png",
+        "image": "01_min.webp",
         "images": [
-            "01.png",
-            "02.png",
-            "03.png",
-            "04.png"
+            "01_min.webp",
+            "02_min.webp",
+            "03_min.webp",
+            "04_min.webp"
         ],
         "link": "https://todo.ltd",
         "tags": [
@@ -1059,15 +1059,15 @@
         "seoTitle": "[en-EN]Web interface for Box-Catering - order and delivery management with Odoo integration[uk-UA]Веб-інтерфейс для Box-Catering – управління замовленнями та доставкою з інтеграцією Odoo",
         "seoDesk": "[en-EN]Solution for Box-Catering: interfaces for chefs and drivers, order display, delivery routes on Google Maps, integration with Odoo and authorization through ERP.[uk-UA]Рішення для Box-Catering: інтерфейси для кухарів і водіїв, відображення замовлень, маршрути доставки на Google Maps, інтеграція з Odoo та авторизація через ERP.",
         "seoKeywords": "[en-EN]BoxCatering, web interface, order management, delivery system, Odoo integration, Google Maps, chef, driver, restaurant business automation[uk-UA]Box-Catering, веб-інтерфейс, управління замовленнями, система доставки, інтеграція Odoo, Google Maps, кухар, водій, автоматизація ресторанного бізнесу",
-        "image": "01.png",
+        "image": "01_min.webp",
         "images": [
-            "01.png",
-            "02.png",
-            "03.png",
-            "04.png",
-            "05.png",
-            "06.png",
-            "07.png"
+            "01_min.webp",
+            "02_min.webp",
+            "03_min.webp",
+            "04_min.webp",
+            "05_min.webp",
+            "06_min.webp",
+            "07_min.webp"
         ],
         "tags": [
             {
@@ -1131,13 +1131,13 @@
         "seoTitle": "[en-EN]Updating the Maystrinya website - redesign, optimization and service calculators[uk-UA]Оновлення сайту Maystrinya – редизайн, оптимізація та калькулятори послуг",
         "seoDesk": "[en-EN]Redesigning the Maystrinya website, optimizing performance, creating service calculators, transferring to a new hosting.[uk-UA]Зміна дизайну сайту Maystrinya, оптимізація швидкості роботи, створення калькуляторів послуг, перенесення на новий хостинг.",
         "seoKeywords": "[en-EN]Maystrinya, website redesign, WordPress, website optimization, service calculator, hosting transfer, website performance[uk-UA]Maystrinya, редизайн сайту, WordPress, оптимізація сайту, калькулятор послуг, перенесення хостингу, швидкодія сайту",
-        "image": "01.png",
+        "image": "01_min.webp",
         "images": [
-            "01.png",
-            "02.png",
-            "03.png",
-            "04.png",
-            "05.png"
+            "01_min.webp",
+            "02_min.webp",
+            "03_min.webp",
+            "04_min.webp",
+            "05_min.webp"
         ],
         "link": "https://maystrinya.com",
         "tags": [
@@ -1196,14 +1196,14 @@
         "seoTitle": "[en-EN]Integration of Metalshop (OpenCart) with Odoo and Prom.ua - business process automation[uk-UA]Інтеграція Metalshop (OpenCart) з Odoo та Prom.ua – автоматизація бізнес-процесів",
         "seoDesk": "[en-EN]Synchronization of the Metalshop (OpenCart) website with Odoo and Prom.ua: transferring data about orders, users, subscriptions and product balances.[uk-UA]Синхронізація сайту Metalshop (OpenCart) з Odoo та Prom.ua: передача даних про замовлення, користувачів, підписки та товарні залишки.",
         "seoKeywords": "[en-EN]Metalshop, OpenCart, Odoo integration, product synchronization, business automation, Prom.ua, order accounting, warehouse management[uk-UA]Metalshop, OpenCart, Odoo інтеграція, синхронізація товарів, автоматизація бізнесу, Prom.ua, облік замовлень, управління складом",
-        "image": "01.png",
+        "image": "01_min.webp",
         "images": [
-            "01.png",
-            "02.png",
-            "03.png",
-            "04.png",
-            "05.png",
-            "06.png"
+            "01_min.webp",
+            "02_min.webp",
+            "03_min.webp",
+            "04_min.webp",
+            "05_min.webp",
+            "06_min.webp"
         ],
         "link": "https://www.metalshop.com.ua",
         "tags": [
@@ -1259,11 +1259,11 @@
         "seoTitle": "[en-EN]Interactive board for service center - integration with 1C, display of work and statuses[uk-UA]Інтерактивна дошка для сервісного центру – інтеграція з 1С, відображення робіт та статусів",
         "seoDesk": "[en-EN]Web solution for monitoring service center work: integration with 1C, visualization of processes, work statuses, performers, task completion time.[uk-UA]Веб-рішення для моніторингу роботи сервісного центру: інтеграція з 1С, візуалізація процесів, статуси робіт, виконавці, час завершення завдань.",
         "seoKeywords": "[en-EN]interactive board, 1C integration, work status, service center monitoring, performer management, percentage of completion[uk-UA]інтерактивна дошка, 1С інтеграція, статус робіт, моніторинг сервісного центру, управління виконавцями, відсоток виконання",
-        "image": "01.png",
+        "image": "01_min.webp",
         "images": [
-            "01.png",
-            "02.png",
-            "03.png"
+            "01_min.webp",
+            "02_min.webp",
+            "03_min.webp"
         ],
         "tags": [
             {
@@ -1319,11 +1319,11 @@
         "seoTitle": "[en-EN]Service center scheduler - integration with 1C, work booking, load monitoring[uk-UA]Планувальник сервісного центру – інтеграція з 1С, бронювання робіт, моніторинг завантаження",
         "seoDesk": "[en-EN]Web solution for scheduling work in a service center: integration with 1C, execution schedule, time reservation, statistics of masters' load.[uk-UA]Веб-рішення для планування робіт у сервісному центрі: інтеграція з 1С, графік виконання, резервування часу, статистика завантаження майстрів.",
         "seoKeywords": "[en-EN]service center scheduler, 1C integration, time reservation, planning table, work schedule, load management[uk-UA]планувальник сервісного центру, інтеграція 1С, резервування часу, таблиця планування, розклад робіт, керування завантаженням",
-        "image": "01.png",
+        "image": "01_min.webp",
         "images": [
-            "01.png",
-            "02.png",
-            "03.png"
+            "01_min.webp",
+            "02_min.webp",
+            "03_min.webp"
         ],
         "tags": [
             {
@@ -1384,13 +1384,13 @@
         "seoTitle": "[en-EN]UTE Material NGX – Angular Material extension for calendar and date[uk-UA]UTE Material NGX – розширення Angular Material для календаря та дати",
         "seoDesk": "[en-EN]A set of modules for Angular Material that adds time selection, localization, styling, and flexible calendar settings without interfering with the main library.[uk-UA]Набір модулів для Angular Material, що додає вибір часу, локалізацію, стилізацію та гнучкі налаштування календаря без втручання в основну бібліотеку.",
         "seoKeywords": "[en-EN]Angular Material, Angular Material extension, Angular time selection, calendar localization, Angular Material extension, calendar customization[uk-UA]Angular Material, розширення Angular Material, вибір часу Angular, локалізація календаря, Angular Material розширення, кастомізація календаря",
-        "image": "01.png",
+        "image": "01_min.webp",
         "images": [
-            "01.png",
-            "02.png",
-            "03.png",
-            "04.png",
-            "05.png"
+            "01_min.webp",
+            "02_min.webp",
+            "03_min.webp",
+            "04_min.webp",
+            "05_min.webp"
         ],
         "link": "https://under-tree-e.github.io/ute-material.ngx",
         "tags": [
@@ -1451,12 +1451,12 @@
         "seoTitle": "[en-EN]Hero with a Thousand Faces is an isometric game with puzzles and turn-based battles[uk-UA]Hero with a Thousand Faces – ізометрична гра з головоломками та покроковими битвами",
         "seoDesk": "[en-EN]A stylized isometric game that combines world exploration, puzzle solving, and a turn-based combat system. Developed on Unity.[uk-UA]Ізометрична гра в стилізованому стилі, що поєднує дослідження світу, вирішення головоломок і покрокову бойову систему. Розробка на Unity.",
         "seoKeywords": "[en-EN]isometric game, Unity game, turn-based combat, puzzles, world exploration, stylish game, tactical RPG[uk-UA]ізометрична гра, Unity гра, покрокові бої, головоломки, дослідження світу, стильна гра, тактична RPG",
-        "image": "01.png",
+        "image": "01_min.webp",
         "images": [
-            "01.png",
-            "02.png",
-            "03.png",
-            "04.png"
+            "01_min.webp",
+            "02_min.webp",
+            "03_min.webp",
+            "04_min.webp"
         ],
         "link": "https://hwtf.life-game-studios.com",
         "tags": [
@@ -1514,14 +1514,14 @@
         "seoTitle": "[en-EN]Car Nanotech – automotive news, technical articles, car history[uk-UA]Car Nanotech – автомобільні новини, технічні статті, історія авто",
         "seoDesk": "[en-EN]A site with automotive news, technical articles and historical reviews. The ability to comment, rating, photo gallery, voting, email newsletters.[uk-UA]Сайт з автомобільними новинами, технічними статтями та історичними оглядами. Можливість коментування, рейтингування, фото галерея, голосування, email-розсилки.",
         "seoKeywords": "[en-EN]automotive news, technical articles, car history, auto blog, car review, auto technology, car news, car rating, car repair, SEO optimization[uk-UA]автомобільні новини, технічні статті, історія авто, авто блог, огляд автомобілів, авто технології, новинки авто, рейтинг авто, ремонт авто, SEO оптимізація",
-        "image": "01.png",
+        "image": "01_min.webp",
         "images": [
-            "01.png",
-            "02.png",
-            "03.png",
-            "04.png",
-            "05.png",
-            "06.png"
+            "01_min.webp",
+            "02_min.webp",
+            "03_min.webp",
+            "04_min.webp",
+            "05_min.webp",
+            "06_min.webp"
         ],
         "link": "https://carnanotech.com.ua",
         "tags": [
@@ -1602,9 +1602,9 @@
         "seoTitle": "[en-EN]Epic Music Radio – an online radio station of epic music[uk-UA]Epic Music Radio – онлайн-радіо епічної музики",
         "seoDesk": "[en-EN]Listen to epic instrumental music online on Epic Music Radio. Order tracks, rate music and enjoy streaming non-stop![uk-UA]Слухайте епічну інструментальну музику онлайн на Epic Music Radio. Замовляйте треки, оцінюйте музику та насолоджуйтесь потоковим відтворенням безперервно!",
         "seoKeywords": "[en-EN]online radio, epic music, instrumental music, streaming, track ordering, track rating, listen to music online[uk-UA]онлайн-радіо, епічна музика, інструментальна музика, стрімінг, замовлення треків, рейтинг треків, слухати музику онлайн",
-        "image": "01.png",
+        "image": "01_min.webp",
         "images": [
-            "01.png"
+            "01_min.webp"
         ],
         "link": "https://epic-music-radio.com",
         "tags": [
@@ -1683,18 +1683,18 @@
         "seoTitle": "[en-EN]Game Adventure – a catalog of materials for game engines[uk-UA]Game Adventure – каталог матеріалів для ігрових двигунів",
         "seoDesk": "[en-EN]Find the best materials for Unity, Unreal Engine and other game engines. Comments, ratings, convenient search and automatic catalog update.[uk-UA]Знайдіть кращі матеріали для Unity, Unreal Engine та інших ігрових двигунів. Коментарі, рейтинги, зручний пошук та автоматичне оновлення каталогу.",
         "seoKeywords": "[en-EN]game materials, assets, resources for Unity, resources for Unreal Engine, catalog of game resources, buy materials for games, marketplace, store synchronization[uk-UA]ігрові матеріали, assets, ресурси для Unity, ресурси для Unreal Engine, каталог ігрових ресурсів, купити матеріали для ігор, marketplace, синхронізація магазинів",
-        "image": "01.png",
+        "image": "01_min.webp",
         "images": [
-            "01.png",
-            "02.png",
-            "03.png",
-            "04.png",
-            "05.png",
-            "06.png",
-            "07.png",
-            "08.png",
-            "09.png",
-            "10.png"
+            "01_min.webp",
+            "02_min.webp",
+            "03_min.webp",
+            "04_min.webp",
+            "05_min.webp",
+            "06_min.webp",
+            "07_min.webp",
+            "08_min.webp",
+            "09_min.webp",
+            "10_min.webp"
         ],
         "link": "https://game-adventure.com",
         "tags": [
@@ -1767,12 +1767,12 @@
         "seoTitle": "[en-EN]Guepard – computer maintenance, OS installation, repair and configuration[uk-UA]Guepard – обслуговування комп’ютерів, встановлення ОС, ремонт та налаштування",
         "seoDesk": "[en-EN]Professional computer maintenance: OS installation, program configuration, PC recovery, antivirus protection, peripheral connection.[uk-UA]Професійне обслуговування комп’ютерів: встановлення ОС, налаштування програм, відновлення роботи ПК, антивірусний захист, підключення периферії.",
         "seoKeywords": "[en-EN]computer maintenance, PC repair, Windows installation, antivirus protection, Internet setup, computer help, PC recovery[uk-UA]обслуговування комп’ютерів, ремонт ПК, встановлення Windows, антивірусний захист, налаштування інтернету, комп’ютерна допомога, відновлення ПК",
-        "image": "01.png",
+        "image": "01_min.webp",
         "images": [
-            "01.png",
-            "02.png",
-            "03.png",
-            "04.png"
+            "01_min.webp",
+            "02_min.webp",
+            "03_min.webp",
+            "04_min.webp"
         ],
         "link": "https://guepard.com.ua",
         "tags": [
@@ -1836,13 +1836,13 @@
         "seoTitle": "[en-EN]Life Game Studios – an indie studio, game creation, our team and projects[uk-UA]Life Game Studios – інді-студія, створення ігор, наша команда та проєкти",
         "seoDesk": "[en-EN]Life Game Studios – an independent game studio. Learn more about our games, team and contact us through the website.[uk-UA]Life Game Studios – незалежна ігрова студія. Дізнайтеся більше про наші ігри, команду та зв’яжіться з нами через сайт.",
         "seoKeywords": "[en-EN]indie games, Life Game Studios, game development, indie studio, game creation, game dev, indie game dev[uk-UA]інді-ігри, Life Game Studios, розробка ігор, інді-студія, створення ігор, геймдев, інді-геймдев",
-        "image": "01.png",
+        "image": "01_min.webp",
         "images": [
-            "01.png",
-            "02.png",
-            "03.png",
-            "04.png",
-            "05.png"
+            "01_min.webp",
+            "02_min.webp",
+            "03_min.webp",
+            "04_min.webp",
+            "05_min.webp"
         ],
         "link": "https://life-game-studios.com",
         "tags": [
@@ -1911,12 +1911,12 @@
         "seoTitle": "[en-EN]Hero with a Thousand Faces – official game website, description, mechanics, gallery[uk-UA]Hero with a Thousand Faces – офіційний сайт гри, опис, механіки, галерея",
         "seoDesk": "[en-EN]Learn more about Hero with a Thousand Faces! Official game website – description of mechanics, gallery, videos, development status, updates and support.[uk-UA]Дізнайтеся більше про Hero with a Thousand Faces! Офіційний сайт гри – опис механік, галерея, відео, статус розробки, оновлення та підтримка.",
         "seoKeywords": "[en-EN]Hero with a Thousand Faces, game, RPG, turn-based combat system, isometric game, world exploration, gameplay, early access, Life Game Studios[uk-UA]Hero with a Thousand Faces, гра, RPG, покрокова бойова система, ізометрична гра, дослідження світу, геймплей, ранній доступ, Life Game Studios",
-        "image": "01.png",
+        "image": "01_min.webp",
         "images": [
-            "01.png",
-            "02.png",
-            "03.png",
-            "04.png"
+            "01_min.webp",
+            "02_min.webp",
+            "03_min.webp",
+            "04_min.webp"
         ],
         "link": "https://hwtf.life-game-studios.com",
         "tags": [
@@ -1989,13 +1989,13 @@
         "seoTitle": "[en-EN]White Imp – a platform for earning and promoting websites[uk-UA]White Imp – платформа для заробітку та просування сайтів",
         "seoDesk": "[en-EN]White Imp – a website for promoting websites and earning. Complete tasks, view websites and get money. Flexible conditions for advertisers![uk-UA]White Imp – сайт для просування сайтів та заробітку. Виконуйте завдання, переглядайте сайти та отримуйте гроші. Гнучкі умови для рекламодавців!",
         "seoKeywords": "[en-EN]site promotion, site advertising, online earnings, viewing sites for money, advertising tasks, web advertising platform[uk-UA]просування сайтів, реклама сайтів, заробіток онлайн, перегляд сайтів за гроші, рекламні завдання, платформа для веб-реклами",
-        "image": "01.png",
+        "image": "01_min.webp",
         "images": [
-            "01.png",
-            "02.png",
-            "03.png",
-            "04.png",
-            "05.png"
+            "01_min.webp",
+            "02_min.webp",
+            "03_min.webp",
+            "04_min.webp",
+            "05_min.webp"
         ],
         "link": "https://white-imp.com",
         "tags": [
@@ -2082,11 +2082,11 @@
         "seoTitle": "[en-EN]Developer portfolio - projects, experience, contacts[uk-UA]Портфоліо розробника – проєкти, досвід, контакти",
         "seoDesk": "[en-EN]Check out the developer's portfolio: completed projects, professional history, skills and contacts. Optimized for search engines.[uk-UA]Ознайомтеся з портфоліо розробника: реалізовані проєкти, професійна історія, навички та контакти. Оптимізовано для пошукових систем.",
         "seoKeywords": "[en-EN]developer portfolio, web development, Angular developer, IT portfolio, programmer projects, developer resume[uk-UA]портфоліо розробника, веб-розробка, Angular розробник, IT портфоліо, програміст проєкти, резюме розробника",
-        "image": "01.png",
+        "image": "01_min.webp",
         "images": [
-            "01.png",
-            "02.png",
-            "03.png"
+            "01_min.webp",
+            "02_min.webp",
+            "03_min.webp"
         ],
         "link": "/",
         "tags": [
@@ -2157,9 +2157,9 @@
         "seoTitle": "[en-EN]Central production server with backup and synchronization[uk-UA]Центральний сервер виробництва з резервним копіюванням та синхронізацією",
         "seoDesk": "[en-EN]Deployment of server infrastructure for production: central server configuration, synchronization of receiving points, peripheral connection and backup.[uk-UA]Розгортання серверної інфраструктури для виробництва: налаштування центрального сервера, синхронізація пунктів прийому, підключення периферії та резервне копіювання.",
         "seoKeywords": "[en-EN]production server, backup, synchronization of receiving points, printer connection, barcodes, production software settings[uk-UA]сервер для виробництва, резервне копіювання, синхронізація пунктів прийому, підключення принтерів, штрих-коди, налаштування виробничих програм",
-        "image": "01.png",
+        "image": "01_min.webp",
         "images": [
-            "01.png"
+            "01_min.webp"
         ],
         "tags": [
             {
@@ -2211,9 +2211,9 @@
         "seoTitle": "[en-EN]Migration of servers to Hetzner, configuration of subdomains and backup[uk-UA]Міграція серверів на Hetzner, налаштування субдоменів та резервного копіювання",
         "seoDesk": "[en-EN]Deployment of a server on Hetzner, transfer of sites and systems, change of domain names, unbundling of systems, configuration of backup, FTP access and SSL certificates.[uk-UA]Розгортання сервера на Hetzner, перенесення сайтів та систем, зміна доменних імен, розгрупування систем, налаштування резервного копіювання, FTP-доступів та SSL-сертифікатів.",
         "seoKeywords": "[en-EN]server migration, Hetzner server, site transfer, domain change, backup, FTP access, SSL certificates, subdomain settings[uk-UA]міграція серверів, Hetzner сервер, перенесення сайтів, зміна доменів, резервне копіювання, FTP-доступ, SSL-сертифікати, налаштування субдоменів",
-        "image": "01.png",
+        "image": "01_min.webp",
         "images": [
-            "01.png"
+            "01_min.webp"
         ],
         "tags": [
             {
@@ -2272,9 +2272,9 @@
         "seoTitle": "[en-EN]Configuring server infrastructure on Docker for Under Tree Entertainment[uk-UA]Налаштування серверної інфраструктури на Docker для Under Tree Entertainment",
         "seoDesk": "[en-EN]Development of a server system on Docker for the company Under Tree Entertainment, automatic backup, user data security, real-time synchronization, load balancing.[uk-UA]Розробка серверної системи на Docker для компанії Under Tree Entertainment, автоматичне резервне копіювання, безпека користувацьких даних, синхронізація в реальному часі, балансування навантаження.",
         "seoKeywords": "[en-EN]Docker server, server for the company, publishing automation, data protection, real-time synchronization, backup, load balancing, Wi-Fi network[uk-UA]сервер Docker, сервер для компанії, автоматизація публікації, захист даних, синхронізація в реальному часі, резервне копіювання, балансування навантаження, Wi-Fi мережа",
-        "image": "01.png",
+        "image": "01_min.webp",
         "images": [
-            "01.png"
+            "01_min.webp"
         ],
         "tags": [
             {
@@ -2343,9 +2343,9 @@
         "seoTitle": "[en-EN]Convenient financial manager for controlling expenses and income[uk-UA]Зручний фінансовий менеджер для контролю витрат і доходів",
         "seoDesk": "[en-EN]Cross-platform financial manager for home use. Control of expenses, income, multi-currency accounts, adaptive analytics and synchronization between devices.[uk-UA]Кросплатформний фінансовий менеджер для побутового використання. Контроль витрат, доходів, багатовалютні рахунки, адаптивна аналітика та синхронізація між пристроями.",
         "seoKeywords": "[en-EN]financial manager, expense tracking, income management, home accounting, financial control, cross-platform application, offline access, expense analytics[uk-UA]фінансовий менеджер, облік витрат, управління доходами, домашня бухгалтерія, контроль фінансів, кросплатформний додаток, офлайн доступ, аналітика витрат",
-        "image": "01.png",
+        "image": "01_min.webp",
         "images": [
-            "01.png"
+            "01_min.webp"
         ],
         "link": "https://hw.under-tree-e.com",
         "tags": [
@@ -2427,9 +2427,9 @@
         "seoTitle": "[en-EN]Official website of Under Tree Entertainment - games, programs, licenses[uk-UA]Офіційний сайт Under Tree Entertainment – ігри, програми, ліцензії",
         "seoDesk": "[en-EN]Catalog of games and programs from Under Tree Entertainment. Personal account, purchase history, licenses, CRM system for content management, analytics and SEO optimization.[uk-UA]Каталог ігор та програм від Under Tree Entertainment. Особистий кабінет, історія покупок, ліцензії, CRM-система для керування контентом, аналітика та SEO-оптимізація.",
         "seoKeywords": "[en-EN]Under Tree Entertainment, official website, game catalog, programs, licenses, personal account, CRM, game purchase, analytics[uk-UA]Under Tree Entertainment, офіційний сайт, каталог ігор, програми, ліцензії, особистий кабінет, CRM, покупка ігор, аналітика",
-        "image": "01.png",
+        "image": "01_min.webp",
         "images": [
-            "01.png"
+            "01_min.webp"
         ],
         "link": "https://under-tree-e.com",
         "tags": [
@@ -2501,9 +2501,9 @@
         "seoTitle": "[en-EN]Culinary application - convenient creation and management of recipes[uk-UA]Кулінарний додаток – зручне створення та управління рецептами",
         "seoDesk": "[en-EN]Culinary application for creating and saving recipes. Automatic generation, photo addition, detailed nutritional value, offline mode, synchronization between platforms.[uk-UA]Кулінарний додаток для створення та збереження рецептів. Автоматичне формування, фото-доповнення, детальна поживна цінність, офлайн-режим, синхронізація між платформами.",
         "seoKeywords": "[en-EN]cooking, recipes, cooking app, recipes, recipe management, offline cooking, nutritional value, cooking categories[uk-UA]кулінарія, рецепти, кулінарний додаток, рецепти страв, управління рецептами, офлайн кулінарія, поживна цінність, кулінарні категорії",
-        "image": "01.png",
+        "image": "01_min.webp",
         "images": [
-            "01.png"
+            "01_min.webp"
         ],
         "link": "https://XX.under-tree-e.com",
         "tags": [
@@ -2587,9 +2587,9 @@
         "seoTitle": "[en-EN]Development and testing server on Proxmox for Under Tree Entertainment[uk-UA]Сервер для розробки та тестування на Proxmox для Under Tree Entertainment",
         "seoDesk": "[en-EN]Development of server infrastructure for the company Under Tree Entertainment based on Proxmox, test and development environments, automation of publications, secure remote access and analytics of updates.[uk-UA]Розробка серверної інфраструктури для компанії Under Tree Entertainment на базі Proxmox, тестові та розробницькі середовища, автоматизація публікацій, безпечний віддалений доступ та аналітика оновлень.",
         "seoKeywords": "[en-EN]Proxmox server, development server, application testing, secure remote access, automatic publishing, change logging, update analytics, backup[uk-UA]Proxmox сервер, сервер для розробки, тестування додатків, безпечний віддалений доступ, автоматичне публікування, логування змін, аналітика оновлень, резервне копіювання",
-        "image": "01.png",
+        "image": "01_min.webp",
         "images": [
-            "01.png"
+            "01_min.webp"
         ],
         "tags": [
             {
