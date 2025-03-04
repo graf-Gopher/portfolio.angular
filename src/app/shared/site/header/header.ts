@@ -33,7 +33,7 @@ export class SiteHeader {
      */
     constructor(private readonly langService: LangService, public readonly coreService: CoreService, private readonly cookieService: CookieService) {
         if (environment.session.theme) {
-            document.body.classList.toggle("dark");
+            document.body.classList.add("dark");
         }
     }
 
