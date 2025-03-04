@@ -4,14 +4,8 @@
     .home-title-section {
         height: calc(100dvh - 4.5rem);
         max-height: 54rem;
-        max-width: 81.25rem;
-        margin: 0 auto;
-        color: var(--color-font-invert);
         .padding-block {
-            padding: 0 5rem;
-            height: 100%;
-            position: relative;
-            box-sizing: border-box;
+            margin-bottom: 0;
             overflow: hidden;
             .content-block {
                 position: relative;
@@ -98,16 +92,13 @@
     }
 
     .home-skills-section {
-        max-width: 81.25rem;
-        margin: 0 auto;
         background-color: var(--color-back-blue-1);
         border-radius: var(--border-16);
-        color: var(--color-font-white);
+        * {
+            color: var(--color-font-white);
+        }
         .padding-block {
             padding: 5rem;
-            height: 100%;
-            position: relative;
-            box-sizing: border-box;
             overflow: hidden;
             display: grid;
             align-items: center;
@@ -116,6 +107,7 @@
             grid-row-gap: 4rem;
             grid-template-columns: 1fr 1fr;
             grid-template-rows: auto;
+            margin-top: 0;
             .content-block {
                 position: relative;
                 display: flex;
@@ -183,14 +175,7 @@
     }
 
     .home-projects-section {
-        max-width: 81.25rem;
-        margin: 0 auto;
-        color: var(--color-font-invert);
         .padding-block {
-            padding: 5rem;
-            height: 100%;
-            position: relative;
-            box-sizing: border-box;
             overflow: hidden;
             .content-block {
                 position: relative;
@@ -335,14 +320,8 @@
     .home-title-section {
         height: calc(100dvh - 4.5rem);
         max-height: 54rem;
-        max-width: 81.25rem;
-        margin: 0 auto;
-        color: var(--color-font-invert);
         .padding-block {
-            padding: 0 2.5rem;
-            height: 100%;
-            position: relative;
-            box-sizing: border-box;
+            margin-bottom: 0;
             overflow: hidden;
             .content-block {
                 position: relative;
@@ -423,20 +402,18 @@
     }
 
     .home-skills-section {
-        max-width: 81.25rem;
-        margin: 0 auto;
         background-color: var(--color-back-blue-1);
-        color: var(--color-font-white);
+        * {
+            color: var(--color-font-white);
+        }
         .padding-block {
             padding: 2.5rem;
-            height: 100%;
-            position: relative;
-            box-sizing: border-box;
             overflow: hidden;
             display: grid;
             grid-auto-columns: 1fr;
             grid-row-gap: 4rem;
             grid-template-rows: auto;
+            margin-top: 0;
             .content-block {
                 position: relative;
                 display: flex;
@@ -502,14 +479,7 @@
     }
 
     .home-projects-section {
-        max-width: 81.25rem;
-        margin: 0 auto;
-        color: var(--color-font-invert);
         .padding-block {
-            padding: 2.5rem;
-            height: 100%;
-            position: relative;
-            box-sizing: border-box;
             overflow: hidden;
             .content-block {
                 position: relative;

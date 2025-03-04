@@ -1,12 +1,6 @@
 @media screen and (min-width: 800px) {
     .home-title-section {
-        max-width: 81.25rem;
-        margin: 0 auto;
-        color: var(--color-font-invert);
         .padding-block {
-            padding: 5rem;
-            position: relative;
-            box-sizing: border-box;
             ::ng-deep .content {
                 display: flex;
                 flex-direction: column;
@@ -42,13 +36,7 @@
 
 @media screen and (max-width: 800px) {
     .home-title-section {
-        max-width: 81.25rem;
-        margin: 0 auto;
-        color: var(--color-font-invert);
         .padding-block {
-            padding: 2.5rem;
-            position: relative;
-            box-sizing: border-box;
             ::ng-deep .content {
                 display: flex;
                 flex-direction: column;

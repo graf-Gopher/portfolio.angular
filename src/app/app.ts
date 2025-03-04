@@ -1,5 +1,5 @@
 // Module imports
-import { Component } from "@angular/core";
+import { Component, ViewEncapsulation } from "@angular/core";
 import { RouterOutlet } from "@angular/router";
 import { CoreService } from "ngx-ute-core";
 
@@ -13,6 +13,7 @@ import { fadeInOutPage } from "./animations";
     styleUrl: "./app.scss",
     standalone: true,
     animations: [fadeInOutPage],
+    encapsulation: ViewEncapsulation.None,
 })
 export class AppComponent {
     constructor(public coreService: CoreService) {}

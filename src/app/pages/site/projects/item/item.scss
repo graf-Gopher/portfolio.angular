@@ -3,14 +3,7 @@
 
 @media screen and (min-width: 800px) {
     .project-title-section {
-        max-width: 81.25rem;
-        margin: 0 auto;
-        color: var(--color-font-invert);
         .padding-block {
-            padding: 5rem;
-            height: 100%;
-            position: relative;
-            box-sizing: border-box;
             .title {
                 font-size: var(--font-56);
                 margin: 0 auto 1.5rem;
@@ -25,14 +18,7 @@
     }
 
     .project-main-section {
-        max-width: 81.25rem;
-        margin: 0 auto;
-        color: var(--color-font-invert);
         .padding-block {
-            padding: 0 5rem;
-            height: 100%;
-            position: relative;
-            box-sizing: border-box;
             .content-block {
                 display: grid;
                 grid-template-columns: 1fr 1.5fr 1fr;
@@ -127,16 +113,13 @@
     }
 
     .project-tech-section {
-        max-width: 81.25rem;
-        margin: 5rem auto 0;
         background-color: var(--color-back-blue-1);
         border-radius: var(--border-16);
-        color: var(--color-font-white);
+        * {
+            color: var(--color-font-white);
+        }
         .padding-block {
             padding: 5rem;
-            height: 100%;
-            position: relative;
-            box-sizing: border-box;
             > .title {
                 font-size: var(--font-20);
                 margin-bottom: 2rem;
@@ -181,14 +164,7 @@
     }
 
     .project-devs-section {
-        max-width: 81.25rem;
-        margin: 0 auto;
-        color: var(--color-font-invert);
         .padding-block {
-            padding: 5rem;
-            height: 100%;
-            position: relative;
-            box-sizing: border-box;
             > .title {
                 font-size: var(--font-40);
                 margin-bottom: 1.5rem;
@@ -275,14 +251,7 @@
 }
 @media screen and (max-width: 800px) {
     .project-title-section {
-        max-width: 81.25rem;
-        margin: 0 auto;
-        color: var(--color-font-invert);
         .padding-block {
-            padding: 2.5rem;
-            height: 100%;
-            position: relative;
-            box-sizing: border-box;
             .title {
                 font-size: var(--font-40);
                 max-width: 30rem;
@@ -297,14 +266,7 @@
     }
 
     .project-main-section {
-        max-width: 81.25rem;
-        margin: 0 auto;
-        color: var(--color-font-invert);
         .padding-block {
-            padding: 0 2.5rem;
-            height: 100%;
-            position: relative;
-            box-sizing: border-box;
             .content-block {
                 display: grid;
                 grid-template-columns: 1fr;
@@ -389,15 +351,12 @@
     }
 
     .project-tech-section {
-        max-width: 81.25rem;
-        margin: 2.5rem auto 0;
         background-color: var(--color-back-blue-1);
-        color: var(--color-font-white);
+        * {
+            color: var(--color-font-white);
+        }
         .padding-block {
             padding: 2.5rem;
-            height: 100%;
-            position: relative;
-            box-sizing: border-box;
             > .title {
                 font-size: var(--font-20);
                 margin-bottom: 2rem;
@@ -438,14 +397,7 @@
     }
 
     .project-devs-section {
-        max-width: 81.25rem;
-        margin: 0 auto;
-        color: var(--color-font-invert);
         .padding-block {
-            padding: 2.5rem;
-            height: 100%;
-            position: relative;
-            box-sizing: border-box;
             > .title {
                 font-size: var(--font-36);
                 margin-bottom: 1.5rem;

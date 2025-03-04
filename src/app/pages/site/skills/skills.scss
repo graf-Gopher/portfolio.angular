@@ -2,14 +2,7 @@
 
 @media screen and (min-width: 800px) {
     .skills-main-section {
-        max-width: 81.25rem;
-        margin: 0 auto;
-        color: var(--color-font-invert);
         .padding-block {
-            padding: 5rem;
-            height: 100%;
-            position: relative;
-            box-sizing: border-box;
             > .title {
                 font-size: var(--font-56);
                 margin-bottom: 1.5rem;
@@ -70,8 +63,10 @@
                         grid-template-columns: 1.5fr 1fr 1fr 1fr;
                         &:nth-child(odd) {
                             background-color: var(--color-back-blue-1);
-                            color: var(--color-font-white);
                             border-radius: var(--border-8);
+                            * {
+                                color: var(--color-font-white);
+                            }
                             .feature {
                                 .image {
                                     --color-1: var(--color-font-white);
@@ -126,16 +121,13 @@
     }
 
     .skills-sub-section {
-        max-width: 81.25rem;
-        margin: 0 auto;
         background-color: var(--color-back-blue-1);
         border-radius: var(--border-16);
-        color: var(--color-font-white);
+        * {
+            color: var(--color-font-white);
+        }
         .padding-block {
             padding: 5rem;
-            height: 100%;
-            position: relative;
-            box-sizing: border-box;
             .title {
                 font-size: var(--font-48);
                 text-align: center;
@@ -180,14 +172,7 @@
     }
 
     .skills-else-section {
-        max-width: 81.25rem;
-        margin: 0 auto;
-        color: var(--color-font-invert);
         .padding-block {
-            padding: 5rem;
-            height: 100%;
-            position: relative;
-            box-sizing: border-box;
             > .title {
                 font-size: var(--font-48);
                 margin-bottom: 1.5rem;
@@ -247,14 +232,7 @@
 
 @media screen and (max-width: 800px) {
     .skills-main-section {
-        max-width: 81.25rem;
-        margin: 0 auto;
-        color: var(--color-font-invert);
         .padding-block {
-            padding: 2.5rem;
-            height: 100%;
-            position: relative;
-            box-sizing: border-box;
             > .title {
                 font-size: var(--font-40);
                 margin-bottom: 1.5rem;
@@ -318,8 +296,10 @@
                         position: relative;
                         &:nth-child(odd) {
                             background-color: var(--color-back-blue-1);
-                            color: var(--color-font-white);
                             border-radius: var(--border-8);
+                            * {
+                                color: var(--color-font-white);
+                            }
                             .feature {
                                 .image {
                                     --color-1: var(--color-font-white);
@@ -369,15 +349,12 @@
     }
 
     .skills-sub-section {
-        max-width: 81.25rem;
-        margin: 0 auto;
         background-color: var(--color-back-blue-1);
-        color: var(--color-font-white);
+        * {
+            color: var(--color-font-white);
+        }
         .padding-block {
             padding: 2.5rem;
-            height: 100%;
-            position: relative;
-            box-sizing: border-box;
             .title {
                 font-size: var(--font-36);
                 text-align: center;
@@ -409,14 +386,7 @@
     }
 
     .skills-else-section {
-        max-width: 81.25rem;
-        margin: 0 auto;
-        color: var(--color-font-invert);
         .padding-block {
-            padding: 2.5rem;
-            height: 100%;
-            position: relative;
-            box-sizing: border-box;
             > .title {
                 font-size: var(--font-36);
                 margin-bottom: 1.5rem;

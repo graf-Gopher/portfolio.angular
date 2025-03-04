@@ -1,6 +1,39 @@
-.router-container {
-    router-outlet {
-        margin: 0;
-        padding: 0;
+@media screen and (min-width: 860px) {
+    .router-container {
+        router-outlet {
+            margin: 0;
+            padding: 0;
+        }
+    }
+
+    section {
+        max-width: 81.25rem;
+        margin: 0 auto;
+        .padding-block {
+            padding: 0rem 5rem;
+            margin: 5rem auto;
+            position: relative;
+            height: 100%;
+        }
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .router-container {
+        router-outlet {
+            margin: 0;
+            padding: 0;
+        }
+    }
+
+    section {
+        max-width: 81.25rem;
+        margin: 0 auto;
+        .padding-block {
+            position: relative;
+            height: 100%;
+            padding: 0rem 2.5rem;
+            margin: 2.5rem auto;
+        }
     }
 }
