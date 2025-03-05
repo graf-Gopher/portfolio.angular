@@ -54,7 +54,7 @@
     },
     "contacts": {
         "ts": {
-            "image": "/assets/images/avatar.png",
+            "image": "/assets/images/avatar.webp",
             "title": "[en-EN]Kostiantyn Sikora[uk-UA]Сікора Костянтин",
             "text": "[en-EN]Write to me and I will help you bring your idea to life. We will discuss the details, find optimal solutions, and launch an effective product.[uk-UA]Напишіть мені, і я допоможу втілити ваші ідеї в життя. Обговоримо деталі, знайдемо оптимальні рішення та запустимо ефективний продукт.",
             "location": "[en-EN]Ukraine[uk-UA]Україна"
@@ -385,7 +385,7 @@
         "ts": {
             "title": "[en-EN]A little about me[uk-UA]Трохи про мене",
             "text": "[en-EN]I am a Full-Stack Software Engineer with experience in web application development, mobile solutions, backend infrastructure and business process automation. I have expertise in building scalable and productive solutions, API integration, server system optimization and working with cloud platforms.[uk-UA]Я — Full-Stack Software Engineer із досвідом у розробці веб-додатків, мобільних рішень, серверної інфраструктури та автоматизації бізнес-процесів. Маю експертизу у створенні масштабованих та продуктивних рішень, інтеграції API, оптимізації серверних систем і роботі з хмарними платформами.",
-            "image": "/assets/images/about.jpg",
+            "image": "/assets/images/about.webp",
             "infos": [
                 {
                     "title": "[en-EN]Experience in development[uk-UA]Досвід у розробці",

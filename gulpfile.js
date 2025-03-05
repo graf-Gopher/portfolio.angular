@@ -9,7 +9,6 @@ function findDuplicateAttributes(data) {
         objArray.forEach((obj) => {
             for (const key in obj) {
                 if (!result[key]) {
-                    if (key === "&:hover") return;
                     result[key] = JSON.parse(JSON.stringify(obj[key]));
                 } else {
                     result[key].attributes = getCommonAttributes(result[key].attributes, obj[key].attributes);
@@ -30,7 +29,46 @@ function findDuplicateAttributes(data) {
         }, {});
     }
 
-    return mergeObjects(data);
+    function extractGlobalStyles(data) {
+        const globalStyles = {};
+
+        for (const key in data) {
+            const allMediaAttributes = data[key].children || {};
+            const mediaKeys = Object.keys(allMediaAttributes);
+
+            if (mediaKeys.length > 0) {
+                const attributeLists = mediaKeys.map((media) => allMediaAttributes[media].attributes || {});
+                const commonAttributes = findCommonAttributes(attributeLists);
+
+                globalStyles[key] = {
+                    attributes: commonAttributes,
+                    children: extractGlobalStyles(allMediaAttributes),
+                };
+            } else {
+                globalStyles[key] = JSON.parse(JSON.stringify(data[key]));
+            }
+        }
+        return globalStyles;
+    }
+
+    function findCommonAttributes(attributeLists) {
+        if (attributeLists.length === 0) return {};
+
+        return attributeLists.reduce(
+            (common, attributes) => {
+                for (const key in common) {
+                    if (!(key in attributes) || common[key] !== attributes[key]) {
+                        delete common[key];
+                    }
+                }
+                return common;
+            },
+            { ...attributeLists[0] }
+        );
+    }
+
+    const mergedData = mergeObjects(data);
+    return extractGlobalStyles(mergedData);
 }
 
 function removeDuplicateAttributes(data, commonAttrs) {
@@ -188,6 +226,20 @@ gulp.task("restore", async () => {
     });
 });
 
-const filePath = "src/app/pages/site/contacts/contacts.scss";
+gulp.task("backup", async () => {
+    await fs.copyFile("./" + filePath + ".backup", "./" + filePath, (err) => {
+        if (err) {
+            console.error(err);
+        }
+    });
+    await fs.unlink("./" + filePath + ".backup", (err) => {
+        if (err) {
+            console.error(err);
+        }
+    });
+});
+
+const filePath = "src/app/shared/site/header/header.scss";
 gulp.task("default", gulp.series("minify"));
 // gulp.task("default", gulp.series("restore"));
+// gulp.task("default", gulp.series("backup"));

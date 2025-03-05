@@ -1,0 +1,300 @@
+@use "../../../../styles/button/button.scss";
+
+@media screen and (min-width: 800px) {
+    .projects-title-section {
+        .padding-block {
+            .sub-title {
+                font-size: var(--font-16);
+                margin-bottom: 1rem;
+                font-weight: bold;
+            }
+            .title {
+                font-size: var(--font-56);
+                margin-bottom: 1rem;
+            }
+            .text {
+                font-size: var(--font-18);
+            }
+        }
+    }
+
+    .projects-main-section {
+        .padding-block {
+            .project {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 3rem;
+                .image {
+                    width: 100%;
+                    aspect-ratio: 1.5/1;
+                    object-fit: cover;
+                    border-radius: var(--border-16);
+                    transition: var(--anim-2);
+                    &:hover {
+                        transform: scale(1.05);
+                    }
+                }
+                .content-block {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    gap: 1.5rem;
+                    .tags {
+                        display: flex;
+                        gap: 1rem;
+                        align-items: center;
+                        .category {
+                            border-radius: var(--border-8);
+                            font-size: var(--font-14);
+                            padding: 0.25rem 0.75rem;
+                            background-color: var(--color-button-gray-2);
+                            font-weight: bold;
+                            &:hover {
+                                cursor: pointer;
+                            }
+                        }
+                        .time {
+                            font-size: var(--font-14);
+                            font-weight: bold;
+                        }
+                    }
+                    .title {
+                        font-size: var(--font-32);
+                        font-weight: bold;
+                    }
+                    .text {
+                        font-size: var(--font-16);
+                    }
+                    .button {
+                        @include button.button($arrow: true);
+                    }
+                }
+            }
+        }
+    }
+
+    .projects-tag-section {
+        .padding-block {
+            .tags-list {
+                display: flex;
+                align-items: center;
+                gap: 1rem;
+                flex-wrap: wrap;
+                .tag {
+                    @include button.button($solid: true);
+                }
+            }
+        }
+    }
+
+    .projects-list-section {
+        .padding-block {
+            .project-list {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-column-gap: 1.5rem;
+                grid-row-gap: 3rem;
+                .project {
+                    &:hover {
+                        transform: scale(1.05);
+                    }
+                    transition: var(--anim-2);
+                    .image {
+                        width: 100%;
+                        aspect-ratio: 1.5/1;
+                        object-fit: cover;
+                        border-radius: var(--border-16);
+                        transition: var(--anim-2);
+                    }
+                    .content-block {
+                        margin-top: 1.5rem;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        gap: 1.5rem;
+                        .tags {
+                            display: flex;
+                            gap: 1rem;
+                            align-items: center;
+                            .category {
+                                font-size: var(--font-14);
+                                padding: 0.25rem 0.75rem;
+                                background-color: var(--color-button-gray-2);
+                                font-weight: bold;
+                                border-radius: var(--border-8);
+                                &:hover {
+                                    cursor: pointer;
+                                }
+                            }
+                            .time {
+                                font-size: var(--font-14);
+                                font-weight: bold;
+                            }
+                        }
+                        .title {
+                            font-size: var(--font-24);
+                            font-weight: bold;
+                            display: block;
+                        }
+                        .text {
+                            font-size: var(--font-16);
+                        }
+                        .button {
+                            @include button.button($arrow: true);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 800px) {
+    .projects-title-section {
+        .padding-block {
+            .sub-title {
+                font-size: var(--font-16);
+                margin-bottom: 1rem;
+                font-weight: bold;
+            }
+            .title {
+                font-size: var(--font-40);
+                margin-bottom: 1rem;
+            }
+            .text {
+                font-size: var(--font-16);
+            }
+        }
+    }
+
+    .projects-main-section {
+        .padding-block {
+            .project {
+                display: grid;
+                grid-template-columns: 1fr;
+                gap: 3rem;
+                .image {
+                    width: 100%;
+                    aspect-ratio: 1.5/1;
+                    object-fit: cover;
+                    border-radius: var(--border-16);
+                    transition: var(--anim-2);
+                    &:hover {
+                        transform: scale(1.05) translateY(0.25rem);
+                        box-shadow: 0 -5px 0 0 var(--color-button-gray-2);
+                    }
+                }
+                .content-block {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    gap: 1.5rem;
+                    .tags {
+                        display: flex;
+                        gap: 1rem;
+                        align-items: center;
+                        .category {
+                            border-radius: var(--border-8);
+                            font-size: var(--font-14);
+                            padding: 0.25rem 0.75rem;
+                            background-color: var(--color-button-gray-2);
+                            font-weight: bold;
+                            &:hover {
+                                cursor: pointer;
+                            }
+                        }
+                        .time {
+                            font-size: var(--font-14);
+                            font-weight: bold;
+                        }
+                    }
+                    .title {
+                        font-size: var(--font-24);
+                        font-weight: bold;
+                    }
+                    .text {
+                        font-size: var(--font-16);
+                    }
+                    .button {
+                        @include button.button($arrow: true);
+                    }
+                }
+            }
+        }
+    }
+
+    .projects-tag-section {
+        .padding-block {
+            .tags-list {
+                display: flex;
+                align-items: center;
+                gap: 1rem;
+                width: 100%;
+                overflow-x: auto;
+                padding-bottom: 0.5rem;
+                .tag {
+                    @include button.button($solid: true);
+                }
+            }
+        }
+    }
+
+    .projects-list-section {
+        .padding-block {
+            .project-list {
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-row-gap: 3rem;
+                .project {
+                    .image {
+                        width: 100%;
+                        aspect-ratio: 1.5/1;
+                        object-fit: cover;
+                        border-radius: var(--border-16);
+                        transition: var(--anim-2);
+                        &:hover {
+                            transform: scale(1.05) translateY(0.25rem);
+                            box-shadow: 0 -5px 0 0 var(--color-button-gray-2);
+                        }
+                    }
+                    .content-block {
+                        margin-top: 1.5rem;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        gap: 1.5rem;
+                        .tags {
+                            display: flex;
+                            gap: 1rem;
+                            align-items: center;
+                            .category {
+                                font-size: var(--font-14);
+                                padding: 0.25rem 0.75rem;
+                                background-color: var(--color-button-gray-2);
+                                font-weight: bold;
+                                border-radius: var(--border-8);
+                                &:hover {
+                                    cursor: pointer;
+                                }
+                            }
+                            .time {
+                                font-size: var(--font-14);
+                                font-weight: bold;
+                            }
+                        }
+                        .title {
+                            font-size: var(--font-20);
+                            font-weight: bold;
+                            display: block;
+                        }
+                        .text {
+                            font-size: var(--font-16);
+                        }
+                        .button {
+                            @include button.button($arrow: true);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
