@@ -48,7 +48,7 @@ export default class BuildScript {
 
             if (this.ssr) {
                 console.log("Building SSR version...");
-                await this.command("ng", ["run", "under_tree.angular:ssr"]);
+                await this.command("ng", ["run", "portfolio.angular:ssr"]);
             }
 
             console.log("Packing app...");
