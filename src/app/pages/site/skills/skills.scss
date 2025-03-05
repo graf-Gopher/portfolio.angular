@@ -24,8 +24,6 @@
           display: grid;
           .item {
             text-align: center;
-            &:first-of-type {
-            }
             mat-icon {
               width: 2rem;
               height: 2rem;
@@ -37,8 +35,6 @@
               margin-bottom: 0.5rem;
               font-size: var(--font-20);
               font-weight: bold;
-            }
-            .text {
             }
           }
         }
@@ -77,13 +73,6 @@
               text-align: center;
               padding: 0.75rem 1rem;
             }
-          }
-          .diviner {
-            font-size: var(--font-20);
-            font-weight: bold;
-            margin: 1rem 0;
-            text-align: center;
-            width: 100%;
           }
         }
       }
@@ -130,17 +119,6 @@
           }
           .text {
             font-size: var(--font-16);
-          }
-          .buttons-block {
-            margin-top: 2rem;
-            display: flex;
-            gap: 1rem;
-            justify-content: center;
-            .button {
-              &:first-of-type {
-                @include button.button($solid: true);
-              }
-            }
           }
         }
       }
@@ -238,6 +216,13 @@
                 }
               }
             }
+            .diviner {
+              font-size: var(--font-20);
+              font-weight: bold;
+              margin: 1rem 0;
+              text-align: center;
+              width: 100%;
+            }
           }
         }
         .buttons-block {
@@ -257,6 +242,25 @@
           justify-items: center;
           .item {
             max-width: 22rem;
+            &:hover {
+              .image {
+                transform: scale(1.1);
+              }
+            }
+            .image {
+              transition: var(--anim-2);
+            }
+            .buttons-block {
+              margin-top: 2rem;
+              display: flex;
+              gap: 1rem;
+              justify-content: center;
+              .button {
+                &:first-of-type {
+                  @include button.button($solid: true);
+                }
+              }
+            }
           }
         }
       }
@@ -269,6 +273,17 @@
         .content-block {
           margin-top: 5rem;
           grid-template-columns: 1fr 1fr 1fr 1fr;
+          .item {
+            &:hover {
+              .image {
+                transform: scale(1.1);
+                --color-1: var(--color-font-invert);
+              }
+            }
+            .image {
+              transition: var(--anim-2);
+            }
+          }
         }
         .buttons-block {
           margin-top: 5rem;

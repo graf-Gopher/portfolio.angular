@@ -7,10 +7,6 @@
         h1 {
           text-align: center;
         }
-        h2 {
-        }
-        h3 {
-        }
         p {
           font-size: var(--font-16);
         }
@@ -59,11 +55,6 @@
           }
           h3 {
             font-size: var(--font-20);
-          }
-          a {
-            &:hover {
-              color: var(--color-button-blue-2);
-            }
           }
         }
       }

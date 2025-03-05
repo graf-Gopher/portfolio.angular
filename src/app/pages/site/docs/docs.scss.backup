@@ -61,9 +61,6 @@
                     color: var(--color-font-gray);
                     font-weight: bold;
                     transition: var(--anim-2);
-                    &:hover {
-                        color: var(--color-button-blue-2);
-                    }
                 }
             }
         }

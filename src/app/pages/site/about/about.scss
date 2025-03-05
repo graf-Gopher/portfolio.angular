@@ -37,6 +37,7 @@
         width: 100%;
         aspect-ratio: 1;
         object-fit: cover;
+        border-radius: var(--border-16);
       }
     }
   }
@@ -49,12 +50,6 @@
       > .title {
         margin-bottom: 1.5rem;
         text-align: center;
-      }
-      > .text {
-        font-size: var(--font-18);
-        text-align: center;
-        max-width: 30rem;
-        margin: 0 auto;
       }
       .content-block {
         display: grid;
@@ -73,10 +68,6 @@
             font-size: var(--font-20);
             font-weight: bold;
           }
-          .sub-title {
-            font-size: var(--font-18);
-            margin-bottom: 1rem;
-          }
           .text {
             font-size: var(--font-16);
           }
@@ -89,8 +80,6 @@
         .button {
           &:first-of-type {
             @include button.button($solid: true);
-          }
-          &:last-of-type {
           }
         }
       }
@@ -112,9 +101,6 @@
         .dev {
           position: relative;
           height: fit-content;
-          &:last-of-type {
-            padding-bottom: 0;
-          }
           .title {
             font-weight: bold;
             margin-bottom: 1rem;
@@ -147,20 +133,6 @@
               background-color: var(--color-button-blue-2);
             }
           }
-          &:nth-child(even) {
-            margin-top: 6rem;
-            text-align: left;
-            .diviner {
-              right: auto;
-              left: 0;
-              transform: translateX(-100%);
-            }
-            .title,
-                        .text {
-              margin-left: 0;
-              margin-right: auto;
-            }
-          }
         }
       }
     }
@@ -186,9 +158,21 @@
         > .title {
           font-size: var(--font-40);
         }
+        > .text {
+          font-size: var(--font-18);
+          text-align: center;
+          max-width: 30rem;
+          margin: 0 auto;
+        }
         .content-block {
           margin-top: 2.5rem;
           grid-template-columns: 1fr;
+          .item {
+            .sub-title {
+              font-size: var(--font-18);
+              margin-bottom: 1rem;
+            }
+          }
         }
         .buttons-block {
           margin-top: 2.5rem;
@@ -215,6 +199,9 @@
           .dev {
             text-align: left;
             padding-bottom: 2.5rem;
+            &:last-of-type {
+              padding-bottom: 0;
+            }
             .title {
               font-size: var(--font-20);
             }
@@ -245,7 +232,10 @@
           }
         }
         .image {
-          border-radius: var(--border-16);
+          transition: var(--anim-2);
+          &:hover {
+            transform: scale(1.05);
+          }
         }
       }
     }
@@ -260,6 +250,14 @@
           margin-top: 5rem;
           grid-template-columns: 1fr 1fr 1fr 1fr;
           .item {
+            &:hover {
+              .image {
+                transform: scale(1.1);
+              }
+            }
+            .image {
+              transition: var(--anim-2);
+            }
             .title {
               margin-bottom: 1rem;
             }
@@ -289,6 +287,37 @@
           column-gap: 5rem;
           .dev {
             text-align: right;
+            &:hover {
+              .diviner {
+                .line {
+                  background: linear-gradient(0deg, var(--color-back-blue-2) 25%, var(--color-back-invert) 50%, var(--color-back-blue-2) 75%);
+                  background-size: 300% 300%;
+                  animation: gradient 1s ease infinite;
+                  @keyframes gradient {
+                    0% {
+                      background-position: 50% 100%;
+                    }
+                    100% {
+                      background-position: 50% 0%;
+                    }
+                  }
+                }
+              }
+            }
+            &:nth-child(even) {
+              margin-top: 6rem;
+              text-align: left;
+              .diviner {
+                right: auto;
+                left: 0;
+                transform: translateX(-100%);
+              }
+              .title,
+                        .text {
+                margin-left: 0;
+                margin-right: auto;
+              }
+            }
             .title {
               font-size: var(--font-24);
               max-width: 20rem;

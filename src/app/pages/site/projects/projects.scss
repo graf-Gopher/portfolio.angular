@@ -9,8 +9,6 @@
       .title {
         margin-bottom: 1rem;
       }
-      .text {
-      }
     }
   }
   .projects-main-section {
@@ -40,6 +38,9 @@
               padding: 0.25rem 0.75rem;
               background-color: var(--color-button-gray-2);
               font-weight: bold;
+              &:hover {
+                cursor: pointer;
+              }
             }
             .time {
               font-size: var(--font-14);
@@ -83,10 +84,6 @@
             object-fit: cover;
             border-radius: var(--border-16);
             transition: var(--anim-2);
-            &:hover {
-              transform: scale(1.05) translateY(0.25rem);
-              box-shadow: 0 -5px 0 0 var(--color-button-gray-2);
-            }
           }
           .content-block {
             margin-top: 1.5rem;
@@ -114,7 +111,6 @@
               }
             }
             .title {
-              font-size: var(--font-20);
               font-weight: bold;
               display: block;
             }
@@ -150,13 +146,6 @@
             }
           }
           .content-block {
-            .tags {
-              .category {
-                &:hover {
-                  cursor: pointer;
-                }
-              }
-            }
             .title {
               font-size: var(--font-32);
             }
@@ -180,6 +169,11 @@
             transition: var(--anim-2);
             &:hover {
               transform: scale(1.05);
+            }
+            .content-block {
+              .title {
+                font-size: var(--font-24);
+              }
             }
           }
         }
@@ -208,13 +202,6 @@
             }
           }
           .content-block {
-            .tags {
-              .category {
-                &:hover {
-                  cursor: pointer;
-                }
-              }
-            }
             .title {
               font-size: var(--font-24);
             }
@@ -235,6 +222,19 @@
       .padding-block {
         .project-list {
           grid-template-columns: 1fr;
+          .project {
+            .image {
+              &:hover {
+                transform: scale(1.05) translateY(0.25rem);
+                box-shadow: 0 -5px 0 0 var(--color-button-gray-2);
+              }
+            }
+            .content-block {
+              .title {
+                font-size: var(--font-20);
+              }
+            }
+          }
         }
       }
     }

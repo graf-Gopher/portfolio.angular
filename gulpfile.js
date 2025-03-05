@@ -19,6 +19,24 @@ function findDuplicateAttributes(data) {
         return result;
     }
 
+    function clearObjects(base, objArray) {
+        objArray.forEach((obj) => {
+            for (const key in base) {
+                if (base[key] && !obj[key]) {
+                    delete base[key];
+                } else if (base[key]) {
+                    base[key].attributes = getCommonAttributes(base[key].attributes, obj[key].attributes);
+                    base[key].children = clearObjects(base[key].children, [obj[key].children]);
+                }
+
+                if (base[key] && !Object.keys(base[key].children).length && !Object.keys(base[key].attributes).length) {
+                    delete base[key];
+                }
+            }
+        });
+        return base;
+    }
+
     function getCommonAttributes(attr1, attr2) {
         if (!attr1 || !attr2) return {};
         return Object.keys(attr1).reduce((common, key) => {
@@ -29,46 +47,9 @@ function findDuplicateAttributes(data) {
         }, {});
     }
 
-    function extractGlobalStyles(data) {
-        const globalStyles = {};
+    const base = mergeObjects(data);
 
-        for (const key in data) {
-            const allMediaAttributes = data[key].children || {};
-            const mediaKeys = Object.keys(allMediaAttributes);
-
-            if (mediaKeys.length > 0) {
-                const attributeLists = mediaKeys.map((media) => allMediaAttributes[media].attributes || {});
-                const commonAttributes = findCommonAttributes(attributeLists);
-
-                globalStyles[key] = {
-                    attributes: commonAttributes,
-                    children: extractGlobalStyles(allMediaAttributes),
-                };
-            } else {
-                globalStyles[key] = JSON.parse(JSON.stringify(data[key]));
-            }
-        }
-        return globalStyles;
-    }
-
-    function findCommonAttributes(attributeLists) {
-        if (attributeLists.length === 0) return {};
-
-        return attributeLists.reduce(
-            (common, attributes) => {
-                for (const key in common) {
-                    if (!(key in attributes) || common[key] !== attributes[key]) {
-                        delete common[key];
-                    }
-                }
-                return common;
-            },
-            { ...attributeLists[0] }
-        );
-    }
-
-    const mergedData = mergeObjects(data);
-    return extractGlobalStyles(mergedData);
+    return clearObjects(base, data);
 }
 
 function removeDuplicateAttributes(data, commonAttrs) {
@@ -140,6 +121,7 @@ gulp.task("minify", async () => {
                     mediaArray.push(Object.values(json.children)[ik].children);
                 }
             });
+
             Object.keys(json).map((key) => {
                 if (!key.includes("children")) {
                     elser[key] = json[key];
@@ -154,7 +136,7 @@ gulp.task("minify", async () => {
             const commonAttributes = findDuplicateAttributes(mediaArray);
             const cleanedData = removeDuplicateAttributes(mediaArray, commonAttributes);
 
-            const newJson = {
+            let newJson = {
                 children: {
                     ...commonAttributes,
                     ...Object.fromEntries(keys.map((key, ik) => [key, { children: cleanedData[ik], attributes: {} }])),
@@ -166,6 +148,10 @@ gulp.task("minify", async () => {
             Object.entries(elser).forEach(([key, value]) => {
                 scss = `${value}\n${scss}`;
             });
+            const lines = scss.split("\n");
+            const useLines = lines.filter((line) => line.includes("@use")).sort();
+            const otherLines = lines.filter((line) => !line.includes("@use"));
+            scss = [...useLines, ...otherLines].join("\n");
             // scss = scss.replace(/\n+/g, "");
             // scss = scss.replace(/\s+/g, " ");
             fs.writeFileSync("./" + filePath, scss);
@@ -239,7 +225,7 @@ gulp.task("backup", async () => {
     });
 });
 
-const filePath = "src/app/shared/site/header/header.scss";
+const filePath = "src/app/app.scss";
 gulp.task("default", gulp.series("minify"));
 // gulp.task("default", gulp.series("restore"));
 // gulp.task("default", gulp.series("backup"));

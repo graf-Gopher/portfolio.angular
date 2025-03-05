@@ -43,6 +43,7 @@
                 width: 100%;
                 aspect-ratio: 1;
                 object-fit: cover;
+                border-radius: var(--border-16);
             }
         }
     }
@@ -223,6 +224,10 @@
                 aspect-ratio: 1;
                 object-fit: cover;
                 border-radius: var(--border-16);
+                transition: var(--anim-2);
+                &:hover {
+                    transform: scale(1.05);
+                }
             }
         }
     }
@@ -248,11 +253,17 @@
                 grid-row-gap: 4rem;
                 .item {
                     text-align: center;
+                    &:hover {
+                        .image {
+                            transform: scale(1.1);
+                        }
+                    }
                     .image {
                         margin-bottom: 1.5rem;
                         width: 2.75rem;
                         height: 2.75rem;
                         --color-1: var(--color-font-white);
+                        transition: var(--anim-2);
                     }
                     .title {
                         text-align: center;
@@ -304,6 +315,23 @@
                     position: relative;
                     height: fit-content;
                     text-align: right;
+                    &:hover {
+                        .diviner {
+                            .line {
+                                background: linear-gradient(0deg, var(--color-back-blue-2) 25%, var(--color-back-invert) 50%, var(--color-back-blue-2) 75%);
+                                background-size: 300% 300%;
+                                animation: gradient 1s ease infinite;
+                                @keyframes gradient {
+                                    0% {
+                                        background-position: 50% 100%;
+                                    }
+                                    100% {
+                                        background-position: 50% 0%;
+                                    }
+                                }
+                            }
+                        }
+                    }
                     &:nth-child(even) {
                         margin-top: 6rem;
                         text-align: left;

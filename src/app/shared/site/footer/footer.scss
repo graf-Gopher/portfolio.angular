@@ -36,40 +36,26 @@
             display: flex;
             a {
               position: relative;
+              &:last-of-type {
+                &:before {
+                  display: none;
+                }
+              }
               .item {
                 font-size: var(--font-16);
                 font-weight: bold;
                 color: var(--color-font-white);
                 transition: var(--anim-2);
                 position: relative;
-                &:before {
-                  content: "";
-                  bottom: 0;
-                  right: -0.75rem;
-                  position: absolute;
-                  width: 3px;
-                  height: 150%;
-                  aspect-ratio: 1;
-                  background-color: var(--color-back-blue-1);
-                  border-radius: var(--border-100);
-                  transform: translate(50%, 25%);
-                }
               }
               &:before {
                 content: "";
-                bottom: -2rem;
                 right: 0;
                 position: absolute;
                 width: 0.75rem;
                 aspect-ratio: 1;
                 background-color: var(--color-back-blue-1);
                 border-radius: var(--border-100);
-                transform: translate(150%, -75%);
-              }
-              &:last-of-type {
-                &:before {
-                  display: none;
-                }
               }
             }
           }
@@ -117,6 +103,10 @@
                   min-width: 6rem;
                   text-align: center;
                 }
+                &:before {
+                  bottom: 0;
+                  transform: translate(50%, 40%);
+                }
               }
             }
             .links-block {
@@ -158,6 +148,26 @@
               justify-content: center;
               flex-direction: column;
               gap: 2rem;
+              a {
+                .item {
+                  &:before {
+                    content: "";
+                    bottom: 0;
+                    right: -0.75rem;
+                    position: absolute;
+                    width: 3px;
+                    height: 150%;
+                    aspect-ratio: 1;
+                    background-color: var(--color-back-blue-1);
+                    border-radius: var(--border-100);
+                    transform: translate(50%, 25%);
+                  }
+                }
+                &:before {
+                  bottom: -2rem;
+                  transform: translate(150%, -75%);
+                }
+              }
             }
             .links-block {
               flex-direction: column;

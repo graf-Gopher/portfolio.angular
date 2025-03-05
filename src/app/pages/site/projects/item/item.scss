@@ -1,5 +1,5 @@
-@import url("../../../../../styles/_lightbox.scss");
 @use "../../../../../styles/button/button.scss";
+@import url("../../../../../styles/_lightbox.scss");
   .project-title-section {
     .padding-block {
       .title {
@@ -34,9 +34,6 @@
           .text {
             font-size: var(--font-16);
             text-align: center;
-            span {
-              display: block;
-            }
           }
         }
         .left-content,
@@ -153,20 +150,7 @@
         .dev {
           position: relative;
           height: fit-content;
-          &:nth-child(even) {
-            margin-top: 5rem;
-            text-align: left;
-            .diviner {
-              right: auto;
-              left: 0;
-              transform: translateX(-100%);
-            }
-          }
-          &:last-of-type {
-            padding-bottom: 0;
-          }
           .title {
-            font-size: var(--font-20);
             font-weight: bold;
             margin-bottom: 1rem;
           }
@@ -174,10 +158,7 @@
             font-size: var(--font-16);
           }
           .diviner {
-            left: 0;
-            transform: translateX(-100%);
             position: absolute;
-            width: 3rem;
             height: 100%;
             top: 0.5rem;
             display: flex;
@@ -220,6 +201,11 @@
           .item {
             .title {
               font-size: var(--font-24);
+            }
+            .text {
+              span {
+                display: block;
+              }
             }
           }
           .slider-block {
@@ -275,6 +261,15 @@
           column-gap: 5rem;
           .dev {
             text-align: right;
+            &:nth-child(even) {
+              margin-top: 5rem;
+              text-align: left;
+              .diviner {
+                right: auto;
+                left: 0;
+                transform: translateX(-100%);
+              }
+            }
             &:hover {
               .diviner {
                 .line {
@@ -292,8 +287,13 @@
                 }
               }
             }
+            .title {
+              font-size: var(--font-24);
+            }
             .diviner {
               right: 0;
+              transform: translateX(100%);
+              width: 5rem;
             }
           }
         }
@@ -356,6 +356,17 @@
           .dev {
             text-align: left;
             padding-bottom: 2.5rem;
+            &:last-of-type {
+              padding-bottom: 0;
+            }
+            .title {
+              font-size: var(--font-20);
+            }
+            .diviner {
+              left: 0;
+              transform: translateX(-100%);
+              width: 3rem;
+            }
           }
         }
       }
