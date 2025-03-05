@@ -1,0 +1,1 @@
+import"./chunk-2R6CW7ES.js";var u=[[["yarim tun","tush payti","ertalab","kunduzi","kechqurun","kechasi"],void 0,void 0],void 0,["00:00","12:00",["06:00","11:00"],["11:00","18:00"],["18:00","22:00"],["22:00","06:00"]]];export{u as default};

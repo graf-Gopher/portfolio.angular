@@ -1,0 +1,1 @@
+import"./chunk-2R6CW7ES.js";var a=[[["miezul nop\u021Bii","amiaz\u0103","diminea\u021B\u0103","dup\u0103-amiaz\u0103","sear\u0103","noapte"],["miezul nop\u021Bii","amiaz\u0103","diminea\u021Ba","dup\u0103-amiaza","seara","noaptea"],void 0],void 0,["00:00","12:00",["05:00","12:00"],["12:00","18:00"],["18:00","22:00"],["22:00","05:00"]]];export{a as default};

@@ -1,0 +1,1 @@
+import"./chunk-2R6CW7ES.js";var n=[[["midnight","midday","morning","afternoon","evening","night"],void 0,["midnight","midday","in the morning","in the afternoon","in the evening","at night"]],[["midnight","midday","morning","afternoon","evening","night"],void 0,void 0],["00:00","12:00",["06:00","12:00"],["12:00","18:00"],["18:00","21:00"],["21:00","06:00"]]];export{n as default};

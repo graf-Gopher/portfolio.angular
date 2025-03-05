@@ -1,0 +1,1 @@
+import"./chunk-2R6CW7ES.js";var u=[[["kesk\xF6\xF6l","keskp\xE4eval","hommikul","p\xE4rastl\xF5unal","\xF5htul","\xF6\xF6sel"],void 0,void 0],[["kesk\xF6\xF6","keskp\xE4ev","hommik","p\xE4rastl\xF5una","\xF5htu","\xF6\xF6"],void 0,void 0],["00:00","12:00",["05:00","12:00"],["12:00","18:00"],["18:00","23:00"],["23:00","05:00"]]];export{u as default};

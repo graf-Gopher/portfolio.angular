@@ -1,0 +1,1 @@
+import"./chunk-2R6CW7ES.js";var a=[[["meia-noite","meio-dia","da manh\xE3","da tarde","da noite","da madrugada"],void 0,void 0],[["meia-noite","meio-dia","manh\xE3","tarde","noite","madrugada"],void 0,void 0],["00:00","12:00",["06:00","12:00"],["12:00","19:00"],["19:00","24:00"],["00:00","06:00"]]];export{a as default};

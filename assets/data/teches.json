@@ -1,0 +1,242 @@
+[
+    {
+        "image": "aws",
+        "name": "Amazon AWS",
+        "code": "aws"
+    },
+    {
+        "image": "typescript",
+        "name": "TypeScript",
+        "code": "typescript"
+    },
+    {
+        "image": "azure",
+        "name": "Microsoft Azure",
+        "code": "azure"
+    },
+    {
+        "image": "digital_ocean",
+        "name": "Digital Ocean",
+        "code": "digital_ocean"
+    },
+    {
+        "image": "docker",
+        "name": "Docker",
+        "code": "docker"
+    },
+    {
+        "image": "dot_net",
+        "name": ".NET",
+        "code": "dot_net"
+    },
+    {
+        "image": "elasticsearch",
+        "name": "ElasticSearch",
+        "code": "elasticsearch"
+    },
+    {
+        "image": "google_cloud",
+        "name": "Google Cloud",
+        "code": "google_cloud"
+    },
+    {
+        "image": "hetzner",
+        "name": "Hetzner",
+        "code": "hetzner"
+    },
+    {
+        "image": "kubernetes",
+        "name": "Kubernetes",
+        "code": "kubernetes"
+    },
+    {
+        "image": "mongodb",
+        "name": "MongoDB",
+        "code": "mongodb"
+    },
+    {
+        "image": "mysql",
+        "name": "MySQL",
+        "code": "mysql"
+    },
+    {
+        "image": "nginx",
+        "name": "Nginx",
+        "code": "nginx"
+    },
+    {
+        "image": "node_js",
+        "name": "Node.JS",
+        "code": "node_js"
+    },
+    {
+        "image": "php",
+        "name": "PHP",
+        "code": "php"
+    },
+    {
+        "image": "postgresql",
+        "name": "PostgreSQL",
+        "code": "postgresql"
+    },
+    {
+        "image": "angular",
+        "name": "Angular",
+        "code": "angular"
+    },
+    {
+        "image": "wordpress",
+        "name": "Wordpress",
+        "code": "wordpress"
+    },
+    {
+        "image": "ionic",
+        "name": "Ionic",
+        "code": "ionic"
+    },
+    {
+        "image": "electron",
+        "name": "Electron",
+        "code": "electron"
+    },
+    {
+        "image": "unity",
+        "name": "Unity",
+        "code": "unity"
+    },
+    {
+        "image": "ue",
+        "name": "Unreal Engine",
+        "code": "ue"
+    },
+    {
+        "image": "jenkins",
+        "name": "Jenkins",
+        "code": "jenkins"
+    },
+    {
+        "image": "sonarqube",
+        "name": "Sonarqube",
+        "code": "sonarqube"
+    },
+    {
+        "image": "bootstrap",
+        "name": "Bootstrap",
+        "code": "bootstrap"
+    },
+    {
+        "image": "grafana",
+        "name": "Grafana",
+        "code": "grafana"
+    },
+    {
+        "image": "html5",
+        "name": "HTML5",
+        "code": "html5"
+    },
+    {
+        "image": "js",
+        "name": "JavaScript",
+        "code": "js"
+    },
+    {
+        "image": "sass",
+        "name": "Sass",
+        "code": "sass"
+    },
+    {
+        "image": "traefik",
+        "name": "Traefik",
+        "code": "traefik"
+    },
+    {
+        "image": "opencart",
+        "name": "OpenCart",
+        "code": "opencart"
+    },
+    {
+        "image": "odoo",
+        "name": "Odoo",
+        "code": "odoo"
+    },
+    {
+        "image": "python",
+        "name": "Python",
+        "code": "python"
+    },
+    {
+        "image": "csharp",
+        "name": "CSharp",
+        "code": "csharp"
+    },
+    {
+        "image": "proxmox",
+        "name": "Proxmox",
+        "code": "proxmox"
+    },
+    {
+        "image": "terraform",
+        "name": "Terraform",
+        "code": "terraform"
+    },
+    {
+        "image": "wireguard",
+        "name": "WireGuard",
+        "code": "wireguard"
+    },
+    {
+        "image": "c_plus_plus",
+        "name": "C++",
+        "code": "c_plus_plus"
+    },
+    {
+        "image": "mssql",
+        "name": "Microsoft Sql",
+        "code": "mssql"
+    },
+    {
+        "image": "github",
+        "name": "Github",
+        "code": "github"
+    },
+    {
+        "image": "cloudflare",
+        "name": "Cloudflare",
+        "code": "cloudflare"
+    },
+    {
+        "image": "google_play",
+        "name": "Google Play",
+        "code": "google_play"
+    },
+    {
+        "image": "vue_js",
+        "name": "Vue.JS",
+        "code": "vue_js"
+    },
+    {
+        "image": "xamarin",
+        "name": "Xamarin",
+        "code": "xamarin"
+    },
+    {
+        "image": "rest_api",
+        "name": "Rest Api",
+        "code": "rest_api"
+    },
+    {
+        "image": "1c",
+        "name": "1C",
+        "code": "1c"
+    },
+    {
+        "image": "css3",
+        "name": "Css3",
+        "code": "css3"
+    },
+    {
+        "image": "XXX",
+        "name": "XXX",
+        "code": "XXX"
+    }
+]

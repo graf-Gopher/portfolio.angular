@@ -1,0 +1,1 @@
+import"./chunk-2R6CW7ES.js";var e=[[["midnat","om morgenen","om formiddagen","om eftermiddagen","om aftenen","om natten"],void 0,void 0],[["midnat","morgen","formiddag","eftermiddag","aften","nat"],void 0,void 0],["00:00",["05:00","10:00"],["10:00","12:00"],["12:00","18:00"],["18:00","24:00"],["00:00","05:00"]]];export{e as default};

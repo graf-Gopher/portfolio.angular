@@ -1,0 +1,1 @@
+import"./chunk-2R6CW7ES.js";var u=[[["entathakusa","ekuseni","emini","ntambama","ebusuku"],void 0,void 0],void 0,[["00:00","06:00"],["06:00","10:00"],["10:00","13:00"],["13:00","19:00"],["19:00","24:00"]]];export{u as default};

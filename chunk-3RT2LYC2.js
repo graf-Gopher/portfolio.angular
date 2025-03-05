@@ -1,0 +1,1 @@
+import"./chunk-2R6CW7ES.js";var a=[[["vidurnaktis","perpiet","rytas","popiet\u0117","vakaras","naktis"],void 0,void 0],[["vidurnaktis","vidurdienis","rytas","diena","vakaras","naktis"],void 0,void 0],["00:00","12:00",["06:00","12:00"],["12:00","18:00"],["18:00","24:00"],["00:00","06:00"]]];export{a as default};

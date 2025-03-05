@@ -1,0 +1,1 @@
+import"./chunk-2R6CW7ES.js";var a=[[["pagi","pagi","tengah hari","petang","malam"],void 0,["tengah malam","pagi","tengah hari","petang","malam"]],[["pagi","pagi","tengah hari","petang","malam"],["tengah malam","pagi","tengah hari","petang","malam"],void 0],[["00:00","01:00"],["01:00","12:00"],["12:00","14:00"],["14:00","19:00"],["19:00","24:00"]]];export{a as default};

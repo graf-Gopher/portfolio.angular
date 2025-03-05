@@ -1,0 +1,1 @@
+import"./chunk-2R6CW7ES.js";var d=[[["mn","o","m","a","n"],["middernag","die oggend","die middag","die aand","die nag"],void 0],[["mn","o","m","a","n"],["middernag","oggend","middag","aand","nag"],void 0],["00:00",["05:00","12:00"],["12:00","18:00"],["18:00","24:00"],["00:00","05:00"]]];export{d as default};

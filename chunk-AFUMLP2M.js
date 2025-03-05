@@ -1,0 +1,1 @@
+import"./chunk-2R6CW7ES.js";var d=[[["middernacht","\u2019s ochtends","\u2019s middags","\u2019s avonds","\u2019s nachts"],void 0,void 0],[["middernacht","ochtend","middag","avond","nacht"],void 0,void 0],["00:00",["06:00","12:00"],["12:00","18:00"],["18:00","24:00"],["00:00","06:00"]]];export{d as default};

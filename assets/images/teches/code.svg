@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="icon" viewBox="0 0 24 24" fill="none">
+        <defs>
+            <style>
+                .cls-1 {
+                    stroke: var(--color-1);
+                    transition: all 0.2s ease-in-out;
+                }
+            </style>
+        </defs>
+        <path class="cls-1" d="M7 8L3 12L7 16" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        <path class="cls-1" d="M17 8L21 12L17 16" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        <path class="cls-1" d="M14 4L9.8589 19.4548" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    </symbol>
+
+</svg>

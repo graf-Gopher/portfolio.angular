@@ -1,0 +1,1 @@
+import"./chunk-2R6CW7ES.js";var t=[[["Mitternacht","am Morge","zmittag","am Namittag","zaabig","znacht"],void 0,void 0],[["Mitternacht","am Morge","zmittag","am Namittag","zaabig","znacht"],void 0,["Mitternacht","Morge","Mittag","Namittag","Aabig","Nacht"]],["00:00",["05:00","12:00"],["12:00","14:00"],["14:00","18:00"],["18:00","24:00"],["00:00","05:00"]]];export{t as default};

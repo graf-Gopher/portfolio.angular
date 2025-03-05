@@ -1,0 +1,47 @@
+{
+    "home": {
+        "seoTitle": "[en-EN]Full-Stack Software Engineer - Development of websites, applications, server solutions[uk-UA]Full-Stack Software Engineer - Розробка сайтів, додатків, серверних рішень",
+        "seoDesk": "[en-EN]Full-Stack Software Engineer. I create websites, mobile and desktop applications, integrate CRM, manage servers. I will help implement any digital solution![uk-UA]Full-Stack Software Engineer. Створюю веб-сайти, мобільні та десктопні додатки, інтегрую CRM, керую серверами. Допоможу реалізувати будь-яке цифрове рішення!",
+        "seoKeywords": "[en-EN]Full-Stack Software Engineer, website development, web applications, mobile applications, server management, CRM integration, business automation[uk-UA]Full-Stack Software Engineer, розробка сайтів, веб-додатки, мобільні додатки, управління серверами, CRM інтеграція, автоматизація бізнесу"
+    },
+    "projects": {
+        "seoTitle": "[en-EN]All implemented projects - Web applications, mobile solutions, CRM integrations[uk-UA]Усі реалізовані проекти - Веб-додатки, мобільні рішення, CRM-інтеграції",
+        "seoDesk": "[en-EN]View all projects: web development, mobile applications, CRM integrations, business automation. High-quality IT solutions for well-known brands.[uk-UA]Перегляньте всі проекти: веб-розробка, мобільні додатки, CRM-інтеграції, автоматизація бізнесу. Якісні IT-рішення для відомих брендів.",
+        "seoKeywords": "[en-EN]all projects, developer portfolio, web applications, CRM integrations, mobile applications, business development[uk-UA]усі проекти, портфоліо розробника, веб-додатки, CRM-інтеграції, мобільні додатки, розробка для бізнесу"
+    },
+    "contacts": {
+        "seoTitle": "[en-EN]Contact Full-Stack Software Engineer[uk-UA]Зв'язатися з Full-Stack Software Engineer",
+        "seoDesk": "[en-EN]Contact me for web and mobile application development, business systems integration, DevOps, server tuning, and process automation. Let's create effective solutions together![uk-UA]Зв’яжіться зі мною для розробки веб та мобільних додатків, інтеграції бізнес-систем, DevOps, налаштування серверів і автоматизації процесів. Давайте створювати ефективні рішення разом!",
+        "seoKeywords": "[en-EN]developer contacts, contact a programmer, Full-Stack Software Engineer, website development, mobile applications, web applications, CRM integration, DevOps, server infrastructure, automation, backend, frontend, AWS, Docker, Kubernetes[uk-UA]контакти розробника, зв’язатися з програмістом, Full-Stack Software Engineer, розробка сайтів, мобільні додатки, веб-додатки, CRM інтеграція, DevOps, серверна інфраструктура, автоматизація, бекенд, фронтенд, AWS, Docker, Kubernetes"
+    },
+    "skills": {
+        "seoTitle": "[en-EN]Skills, Technologies, and Certifications - Full-Stack Software Engineer[uk-UA]Навички, технології та сертифікати - Full-Stack Software Engineer",
+        "seoDesk": "[en-EN]List of technologies, skills, and certifications of a Full-Stack Software Engineer. Experience in web development, mobile solutions, CRM integrations, and DevOps.[uk-UA]Перелік технологій, навичок та сертифікатів Full-Stack Software Engineer. Досвід у веб-розробці, мобільних рішеннях, CRM-інтеграціях та DevOps.",
+        "seoKeywords": "[en-EN]developer skills, web development technologies, programmer certifications, Full-Stack developer experience, DevOps, CRM, mobile applications[uk-UA]навички розробника, технології веб-розробки, сертифікати програміста, досвід Full-Stack розробника, DevOps, CRM, мобільні додатки"
+    },
+    "about": {
+        "seoTitle": "[en-EN]About me - Full-Stack Software Engineer[uk-UA]Про мене - Full-Stack Software Engineer",
+        "seoDesk": "[en-EN]Experienced Full-Stack Software Engineer with expertise in web development, mobile applications, DevOps, process automation, and cloud infrastructures. Learn more about my career, skills, and achievements.[uk-UA]Досвідчений Full-Stack Software Engineer з експертизою у веб-розробці, мобільних додатках, DevOps, автоматизації процесів та хмарних інфраструктурах. Дізнайтеся більше про мою кар’єру, навички та досягнення.",
+        "seoKeywords": "[en-EN]Full-Stack developer, Software Engineer, web development, backend, frontend, mobile development, DevOps, server infrastructure, cloud services, API integration, about me, professional experience, IT expertise, programmer, IT specialist, developer skills[uk-UA]Full-Stack розробник, Software Engineer, веб-розробка, бекенд, фронтенд, мобільна розробка, DevOps, серверна інфраструктура, хмарні сервіси, API інтеграція, про мене, професійний досвід, IT-експертиза, програміст, IT-фахівець, навички розробника"
+    },
+    "docs/policy": {
+        "seoTitle": "[en-EN]Privacy Policy[uk-UA]Політика конфіденційності",
+        "seoDesk": "[en-EN]Find out how we process and protect your personal data in accordance with modern security standards. Read our privacy policy.[uk-UA]Дізнайтеся, як ми обробляємо та захищаємо ваші персональні дані відповідно до сучасних стандартів безпеки. Ознайомтеся з нашою політикою конфіденційності.",
+        "seoKeywords": "[en-EN]privacy policy, data protection, personal data processing, GDPR, confidentiality, information security, user data, personal data[uk-UA]політика конфіденційності, захист даних, обробка персональних даних, GDPR, конфіденційність, безпека інформації, користувацькі дані, персональні дані"
+    },
+    "docs/terms": {
+        "seoTitle": "[en-EN]Terms of Service[uk-UA]Умови обслуговування",
+        "seoDesk": "[en-EN]Read our website terms of use. Learn about user rights and responsibilities, content usage rules, and other important aspects.[uk-UA]Ознайомтеся з умовами використання нашого сайту. Дізнайтеся про права та обов’язки користувачів, правила використання контенту та інші важливі аспекти.",
+        "seoKeywords": "[en-EN]terms of service, rules of use, user rights, disclaimer, use of the site[uk-UA]умови обслуговування, правила користування, права користувача, відмова від відповідальності, використання сайту"
+    },
+    "docs/cookies": {
+        "seoTitle": "[en-EN]Cookie Policy[uk-UA]Політика файлів cookie",
+        "seoDesk": "[en-EN]Learn how we use cookies to improve site performance, analytics, and content personalization. Manage cookie settings in your browser.[uk-UA]Дізнайтеся, як ми використовуємо файли cookie для покращення роботи сайту, аналітики та персоналізації контенту. Управління налаштуваннями cookie у вашому браузері.",
+        "seoKeywords": "[en-EN]cookie policy, cookies, cookie use, cookie management, analytical cookies, marketing cookies[uk-UA]політика cookie, файли cookie, використання cookie, управління cookie, аналітичні cookie, маркетингові cookie"
+    },
+    "XXX": {
+        "seoTitle": "[en-EN]XXX[uk-UA]XXX",
+        "seoDesk": "[en-EN]XXX[uk-UA]XXX",
+        "seoKeywords": "[en-EN]XXX[uk-UA]XXX"
+    }
+}

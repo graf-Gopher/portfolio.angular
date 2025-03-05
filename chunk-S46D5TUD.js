@@ -1,0 +1,1 @@
+import"./chunk-2R6CW7ES.js";var u=[[["kuty-si","kur\xE3-kuju","kus\xE3g ki","r\xE3k\xE3nh k\u1EF9","kuty k\u1EF9","kur\xE3 ge"],void 0,void 0],void 0,["00:00","12:00",["06:00","12:00"],["12:00","19:00"],["19:00","24:00"],["00:00","06:00"]]];export{u as default};

@@ -1,0 +1,1 @@
+import"./chunk-2R6CW7ES.js";var e=[[["\xE9jf\xE9l","d\xE9l","reggel","de.","du.","este","\xE9jjel","hajnal"],void 0,["\xE9jf\xE9l","d\xE9l","reggel","d\xE9lel\u0151tt","d\xE9lut\xE1n","este","\xE9jjel","hajnal"]],void 0,["00:00","12:00",["06:00","09:00"],["09:00","12:00"],["12:00","18:00"],["18:00","21:00"],["21:00","04:00"],["04:00","06:00"]]];export{e as default};
