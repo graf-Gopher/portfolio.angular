@@ -1,62 +1,62 @@
-  .home-title-section {
+.home-title-section {
     .padding-block {
-      ::ng-deep .content {
-        display: flex;
-        flex-direction: column;
-        gap: 2rem;
-        h1 {
-          text-align: center;
-        }
-        p {
-          font-size: var(--font-16);
-        }
-        ul {
-          margin-left: 2rem;
-        }
-        a {
-          color: var(--color-font-gray);
-          font-weight: bold;
-          transition: var(--anim-2);
-        }
-      }
-    }
-  }
-  @media screen and (min-width: 800px) {
-    .home-title-section {
-      .padding-block {
         ::ng-deep .content {
-          h1 {
-            font-size: var(--font-56);
-          }
-          h2 {
-            font-size: var(--font-40);
-          }
-          h3 {
-            font-size: var(--font-24);
-          }
-          a {
-            &:hover {
-              color: var(--color-button-blue-2);
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            h1 {
+                text-align: center;
             }
-          }
+            p {
+                font-size: var(--font-16);
+            }
+            ul {
+                margin-left: 2rem;
+            }
+            a {
+                color: var(--color-font-invert);
+                font-weight: bold;
+                transition: var(--anim-2);
+            }
         }
-      }
     }
-  }
-  @media screen and (max-width: 800px) {
+}
+@media screen and (min-width: 800px) {
     .home-title-section {
-      .padding-block {
-        ::ng-deep .content {
-          h1 {
-            font-size: var(--font-48);
-          }
-          h2 {
-            font-size: var(--font-36);
-          }
-          h3 {
-            font-size: var(--font-20);
-          }
+        .padding-block {
+            ::ng-deep .content {
+                h1 {
+                    font-size: var(--font-56);
+                }
+                h2 {
+                    font-size: var(--font-40);
+                }
+                h3 {
+                    font-size: var(--font-24);
+                }
+                a {
+                    &:hover {
+                        color: var(--color-button-blue-2);
+                    }
+                }
+            }
         }
-      }
     }
-  }
+}
+@media screen and (max-width: 800px) {
+    .home-title-section {
+        .padding-block {
+            ::ng-deep .content {
+                h1 {
+                    font-size: var(--font-48);
+                }
+                h2 {
+                    font-size: var(--font-36);
+                }
+                h3 {
+                    font-size: var(--font-20);
+                }
+            }
+        }
+    }
+}

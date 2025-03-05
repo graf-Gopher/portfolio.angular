@@ -12,21 +12,21 @@
         <div class="content-block">
             <div class="title">
                 <div class="item">
-                    <h4 class="label">{{'tech_overview' | lang }}</h4>
+                    <h2 class="label">{{'tech_overview' | lang }}</h2>
                 </div>
                 <div class="item">
                     <mat-icon>thumbs_up_down</mat-icon>
-                    <h4 class="label">{{'junior_stage' | lang }}</h4>
+                    <h2 class="label">{{'junior_stage' | lang }}</h2>
                     <p class="text">{{'junior_text' | lang }}</p>
                 </div>
                 <div class="item">
                     <mat-icon>extension</mat-icon>
-                    <h4 class="label">{{'middle_stage' | lang }}</h4>
+                    <h2 class="label">{{'middle_stage' | lang }}</h2>
                     <p class="text">{{'middle_text' | lang }}</p>
                 </div>
                 <div class="item">
                     <mat-icon>rocket_launch</mat-icon>
-                    <h4 class="label">{{'senior_stage' | lang }}</h4>
+                    <h2 class="label">{{'senior_stage' | lang }}</h2>
                     <p class="text">{{'senior_text' | lang }}</p>
                 </div>
             </div>
@@ -91,7 +91,7 @@
                 <svg class="image">
                     <use [attr.xlink:href]="'/assets/images/teches/' + content.image + '.svg#icon'" />
                 </svg>
-                <h4 class="title">{{ content.title | datalang }}</h4>
+                <h3 class="title">{{ content.title | datalang }}</h3>
                 <div class="sub-title">{{ content.subtitle | datalang }}</div>
                 <p class="text">{{ content.text | datalang }}</p>
             </div>

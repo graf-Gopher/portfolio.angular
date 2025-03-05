@@ -11,7 +11,7 @@
 <section class="projects-main-section">
     <div class="padding-block">
         <div class="project">
-            <a routerLink="{{mainProject.code}}">
+            <a routerLink="{{mainProject.code}}" title="{{mainProject.title}}">
                 <img class="image" loading="lazy" alt="" src="/assets/images/projects/{{mainProject.code}}/{{mainProject.image}}" />
             </a>
             <div class="content-block">
@@ -45,7 +45,7 @@
         <div class="project-list">
             @for(project of listProjects; track project){
             <div class="project">
-                <a routerLink="{{project.code}}">
+                <a routerLink="{{project.code}}" title="{{project.title}}">
                     <img class="image" loading="lazy" alt="" src="/assets/images/projects/{{project.code}}/{{project.image}}" />
                 </a>
                 <div class="content-block">

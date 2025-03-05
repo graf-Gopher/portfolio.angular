@@ -16,21 +16,21 @@
     <div class="padding-block">
         <div class="main-links">
             <a class="item" href="{{page.ls.github.link}}" rel="nofollow" target="_blank">
-                <h4 class="title">
+                <h2 class="title">
                     <svg class="image">
                         <use [attr.xlink:href]="'/assets/images/pages/' + page.ls.github.image + '.svg#icon'" />
                     </svg>
                     {{ 'github_title' | lang }}
-                </h4>
+                </h2>
                 <p class="text">{{ 'github_text' | lang }}</p>
             </a>
             <a class="item" href="{{page.ls.linkedin.link}}" rel="nofollow" target="_blank">
-                <h4 class="title">
+                <h2 class="title">
                     <svg class="image">
                         <use [attr.xlink:href]="'/assets/images/pages/' + page.ls.linkedin.image + '.svg#icon'" />
                     </svg>
                     {{ 'linkedin_title' | lang }}
-                </h4>
+                </h2>
                 <p class="text">{{ 'linkedin_text' | lang }}</p>
             </a>
         </div>
@@ -43,13 +43,13 @@
         <a href="mailto:{{page.ls.email}}" class="email" rel="nofollow">
             <mat-icon>email</mat-icon>
             <div class="content">
-                <h4 class="title">{{'email_join'|lang}}</h4>
+                <h2 class="title">{{'email_join'|lang}}</h2>
                 <p class="text">{{'email_text'|lang}}</p>
             </div>
         </a>
         <div class="short-socials">
             @for(link of page.ls.links; track link){
-            <a href="{{link.link}}" rel="nofollow" target="_blank" class="link">
+            <a href="{{link.link}}" rel="nofollow" target="_blank" class="link" title="{{link.image}}">
                 <svg class="image">
                     <use [attr.xlink:href]="'/assets/images/pages/' + link.image + '.svg#icon'" />
                 </svg>

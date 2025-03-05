@@ -13,19 +13,19 @@
             <div class="left-content">
                 <div class="item">
                     <mat-icon>today</mat-icon>
-                    <h3 class="title">{{ 'project_time' | lang }}</h3>
+                    <h2 class="title">{{ 'project_time' | lang }}</h2>
                     <p class="text">@for(tm of itemData.time; track tm){ <span> {{ tm | datalang }} </span> }</p>
                 </div>
                 <div class="item">
                     <mat-icon>local_offer</mat-icon>
-                    <h3 class="title">{{ 'project_tags' | lang }}</h3>
+                    <h2 class="title">{{ 'project_tags' | lang }}</h2>
                     <p class="text">{{ tags }}</p>
                 </div>
             </div>
             <div class="slider-block" uteSlider>
                 <div class="sliders">
                     @for(image of itemData.images; track image){
-                    <button class="slider" (click)="onOpen(image)">
+                    <button class="slider" (click)="onOpen(image)" title="image">
                         <img loading="lazy" alt="" class="image" src="/assets/images/projects/{{itemData.code}}/{{image}}" />
                     </button>
                     }
@@ -34,12 +34,12 @@
             <div class="right-content">
                 <div class="item">
                     <mat-icon>support_agent</mat-icon>
-                    <h3 class="title">{{ 'project_client' | lang }}</h3>
+                    <h2 class="title">{{ 'project_client' | lang }}</h2>
                     <p class="text">{{ itemData.client | datalang }}</p>
                 </div>
                 <div class="item">
                     <mat-icon>engineering</mat-icon>
-                    <h3 class="title">{{ 'project_pose' | lang }}</h3>
+                    <h2 class="title">{{ 'project_pose' | lang }}</h2>
                     <p class="text">{{ itemData.role | datalang }}</p>
                 </div>
             </div>
@@ -64,7 +64,7 @@
                 <svg class="image">
                     <use [attr.xlink:href]="'/assets/images/teches/' + tech.image + '.svg#icon'" />
                 </svg>
-                <h4 class="text">{{tech.name}}</h4>
+                <h3 class="text">{{tech.name}}</h3>
             </div>
             }
         </div>

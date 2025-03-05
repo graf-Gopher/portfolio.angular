@@ -1,7 +1,7 @@
 <header id="header" class="header">
     <div class="header-container">
         @if(coreService.isMobile() | async){
-        <button class="burger" (click)="menuOpen = !menuOpen"><mat-icon>menu</mat-icon></button>
+        <button class="burger" title="menu" (click)="menuOpen = !menuOpen"><mat-icon>menu</mat-icon></button>
         }
         <div class="menu" [ngClass]="{open: menuOpen}">
             <a routerLink="/">
