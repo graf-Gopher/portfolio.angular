@@ -9,11 +9,12 @@ import { ActivatedRoute, RouterModule } from "@angular/router";
 import { SiteHeader } from "@shared/site/header/header";
 import { SiteFooter } from "@shared/site/footer/footer";
 import { ProjectData, ProjectTechData } from "@interfaces/projects";
+import { TimelinePage } from "./timeline/timeline";
 
 @Component({
     selector: "app-home",
     standalone: true,
-    imports: [SiteHeader, SiteFooter, MatIconModule, AsyncPipe, LangPipe, DataLangPipe, RouterModule, LangRouter, SlicePipe],
+    imports: [SiteHeader, SiteFooter, MatIconModule, AsyncPipe, LangPipe, DataLangPipe, RouterModule, LangRouter, SlicePipe, TimelinePage],
     templateUrl: "./home.html",
     styleUrl: "./home.scss",
 })

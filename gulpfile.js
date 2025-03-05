@@ -225,7 +225,7 @@ gulp.task("backup", async () => {
     });
 });
 
-const filePath = "src/app/app.scss";
+const filePath = "src/app/pages/site/home/timeline/timeline.scss";
 gulp.task("default", gulp.series("minify"));
 // gulp.task("default", gulp.series("restore"));
 // gulp.task("default", gulp.series("backup"));

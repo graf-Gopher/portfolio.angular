@@ -1,0 +1,34 @@
+<section class="home-projects-section">
+    <div class="padding-block">
+        <div class="content-block">
+            <div class="content">
+                <h2 class="title">{{ page.ps.title | datalang }}</h2>
+                <p class="text">{{ page.ps.text | datalang }}</p>
+                <div class="buttons-block">
+                    <a routerLink="/projects" class="button">{{ 'projects' | lang }}</a>
+                    <a routerLink="/contacts" class="button">
+                        {{ 'contacts' | lang }} @if(!(coreService.isMobile() | async)){
+                        <mat-icon>chevron_right</mat-icon>
+                        }
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="timeline-block">
+            @for(project of projects; track project){
+            <a routerLink="/projects/{{project.code}}" class="timeline-item">
+                <img src="/assets/images/projects/{{project.code}}/{{project.image}}" alt="" loading="lazy" />
+                <div class="timeline">
+                    <div class="circle"></div>
+                    <div class="date">{{project.date}}</div>
+                    <div class="line"></div>
+                </div>
+                <div class="text-block">
+                    <h3>{{(project.title | datalang).length > 30 ? ((project.title | datalang) | slice:0:30) + '...' : (project.title | datalang)}}</h3>
+                    <p>{{(project.text | datalang).length > 100 ? ((project.text | datalang) | slice:0:100) + '...' : (project.text | datalang)}}</p>
+                </div>
+            </a>
+            }
+        </div>
+    </div>
+</section>

@@ -16,7 +16,6 @@
         }
         .footer-container {
             height: 100%;
-            box-sizing: border-box;
             overflow: hidden;
             position: relative;
             z-index: 5;
@@ -128,7 +127,6 @@
         }
         .footer-container {
             height: 100%;
-            box-sizing: border-box;
             overflow: hidden;
             position: relative;
             z-index: 5;
