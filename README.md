@@ -1,6 +1,6 @@
 
 # Welcome to Developer Portfolio 👋
-![Prerequisite](https://img.shields.io/badge/version-0.0.1-green.svg)
+![Prerequisite](https://img.shields.io/badge/version-1.0.0-green.svg)
 ![Prerequisite](https://img.shields.io/badge/npm-%3E%3D10.8.1-blue.svg)
 ![Prerequisite](https://img.shields.io/badge/node-%3E%3D%2020.16.0-blue.svg)
 [![Documentation](https://img.shields.io/badge/documentation-yes-brightgreen.svg)](https://github.com/graf-Gopher/portfolio.angular#readme)
