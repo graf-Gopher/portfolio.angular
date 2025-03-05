@@ -11,8 +11,8 @@
 <section class="projects-main-section">
     <div class="padding-block">
         <div class="project">
-            <a routerLink="{{mainProject.code}}" title="{{mainProject.title}}">
-                <img class="image" loading="lazy" alt="" src="/assets/images/projects/{{mainProject.code}}/{{mainProject.image}}" />
+            <a routerLink="/projects/{{mainProject.code}}" title="{{mainProject.code}}">
+                <img class="image" loading="lazy" alt="" src="assets/images/projects/{{mainProject.code}}/{{mainProject.image}}" />
             </a>
             <div class="content-block">
                 <div class="tags">
@@ -23,7 +23,7 @@
                 </div>
                 <h2 class="title">{{mainProject.title | datalang}}</h2>
                 <p class="text">{{mainProject.text | datalang}}</p>
-                <a routerLink="{{mainProject.code}}" class="button solo">{{'read_more' | lang}}<mat-icon>chevron_right</mat-icon></a>
+                <a routerLink="/projects/{{mainProject.code}}" class="button solo">{{'read_more' | lang}}<mat-icon>chevron_right</mat-icon></a>
             </div>
         </div>
     </div>
@@ -45,8 +45,8 @@
         <div class="project-list">
             @for(project of listProjects; track project){
             <div class="project">
-                <a routerLink="{{project.code}}" title="{{project.title}}">
-                    <img class="image" loading="lazy" alt="" src="/assets/images/projects/{{project.code}}/{{project.image}}" />
+                <a routerLink="/projects/{{project.code}}" title="{{project.code}}">
+                    <img class="image" loading="lazy" alt="" src="assets/images/projects/{{project.code}}/{{project.image}}" />
                 </a>
                 <div class="content-block">
                     <div class="tags">
@@ -57,7 +57,7 @@
                     </div>
                     <h3 class="title">{{(project.title | datalang).length > 45 ? ((project.title | datalang) | slice:0:45) + '...' : (project.title | datalang)}}</h3>
                     <p class="text">{{(project.text | datalang).length > 120 ? ((project.text | datalang) | slice:0:120) + '...' : (project.text | datalang)}}</p>
-                    <a routerLink="{{project.code}}" class="button solo">{{'read_more' | lang}}<mat-icon>chevron_right</mat-icon></a>
+                    <a routerLink="/projects/{{project.code}}" class="button solo">{{'read_more' | lang}}<mat-icon>chevron_right</mat-icon></a>
                 </div>
             </div>
 

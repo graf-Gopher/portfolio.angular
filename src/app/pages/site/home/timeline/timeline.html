@@ -17,7 +17,7 @@
         <div class="timeline-block">
             @for(project of projects; track project){
             <a routerLink="/projects/{{project.code}}" class="timeline-item">
-                <img src="/assets/images/projects/{{project.code}}/{{project.image}}" alt="" loading="lazy" />
+                <img src="assets/images/projects/{{project.code}}/{{project.image}}" alt="" loading="lazy" />
                 <div class="timeline">
                     <div class="circle"></div>
                     <div class="date">{{project.date}}</div>

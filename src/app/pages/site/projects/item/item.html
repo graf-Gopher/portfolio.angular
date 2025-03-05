@@ -26,7 +26,7 @@
                 <div class="sliders">
                     @for(image of itemData.images; track image){
                     <button class="slider" (click)="onOpen(image)" title="image">
-                        <img loading="lazy" alt="" class="image" src="/assets/images/projects/{{itemData.code}}/{{image}}" />
+                        <img loading="lazy" alt="" class="image" src="assets/images/projects/{{itemData.code}}/{{image}}" />
                     </button>
                     }
                 </div>
@@ -62,7 +62,7 @@
             @for(tech of teches; track tech){
             <div class="tech">
                 <svg class="image">
-                    <use [attr.xlink:href]="'/assets/images/teches/' + tech.image + '.svg#icon'" />
+                    <use [attr.xlink:href]="'assets/images/teches/' + tech.image + '.svg#icon'" />
                 </svg>
                 <h3 class="text">{{tech.name}}</h3>
             </div>

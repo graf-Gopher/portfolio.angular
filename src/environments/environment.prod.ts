@@ -7,6 +7,6 @@ export const environment: EnvironmentData = {
     defLocale: "en-EN",
 
     session: {} as any,
-    ssr: true,
-    gtag: "G-YH14BJDS30",
+    ssr: false,
+    gtag: "G-62HB5SG50B",
 };

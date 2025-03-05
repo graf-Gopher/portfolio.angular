@@ -37,7 +37,7 @@
                     <div class="item">
                         <div class="feature">
                             <svg class="image">
-                                <use [attr.xlink:href]="'/assets/images/teches/' + content.image + '.svg#icon'" />
+                                <use [attr.xlink:href]="'assets/images/teches/' + content.image + '.svg#icon'" />
                             </svg>
                             {{content.name | datalang}}
                         </div>
@@ -68,7 +68,7 @@
             @for(skill of page.ss.skills; track skill){
             <div class="item">
                 <svg class="image">
-                    <use [attr.xlink:href]="'/assets/images/teches/' + skill.image + '.svg#icon'" />
+                    <use [attr.xlink:href]="'assets/images/teches/' + skill.image + '.svg#icon'" />
                 </svg>
                 <h3 class="label">{{skill.title | datalang}}</h3>
                 <p class="text">{{skill.text | datalang}}</p>
@@ -89,7 +89,7 @@
             @for(content of page.es.else; track content){
             <div class="item">
                 <svg class="image">
-                    <use [attr.xlink:href]="'/assets/images/teches/' + content.image + '.svg#icon'" />
+                    <use [attr.xlink:href]="'assets/images/teches/' + content.image + '.svg#icon'" />
                 </svg>
                 <h3 class="title">{{ content.title | datalang }}</h3>
                 <div class="sub-title">{{ content.subtitle | datalang }}</div>

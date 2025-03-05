@@ -18,7 +18,7 @@
             <a class="item" href="{{page.ls.github.link}}" rel="nofollow" target="_blank">
                 <h2 class="title">
                     <svg class="image">
-                        <use [attr.xlink:href]="'/assets/images/pages/' + page.ls.github.image + '.svg#icon'" />
+                        <use [attr.xlink:href]="'assets/images/pages/' + page.ls.github.image + '.svg#icon'" />
                     </svg>
                     {{ 'github_title' | lang }}
                 </h2>
@@ -27,7 +27,7 @@
             <a class="item" href="{{page.ls.linkedin.link}}" rel="nofollow" target="_blank">
                 <h2 class="title">
                     <svg class="image">
-                        <use [attr.xlink:href]="'/assets/images/pages/' + page.ls.linkedin.image + '.svg#icon'" />
+                        <use [attr.xlink:href]="'assets/images/pages/' + page.ls.linkedin.image + '.svg#icon'" />
                     </svg>
                     {{ 'linkedin_title' | lang }}
                 </h2>
@@ -51,7 +51,7 @@
             @for(link of page.ls.links; track link){
             <a href="{{link.link}}" rel="nofollow" target="_blank" class="link" title="{{link.image}}">
                 <svg class="image">
-                    <use [attr.xlink:href]="'/assets/images/pages/' + link.image + '.svg#icon'" />
+                    <use [attr.xlink:href]="'assets/images/pages/' + link.image + '.svg#icon'" />
                 </svg>
             </a>
             }

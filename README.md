@@ -7,9 +7,9 @@
 
 > Portfolio for developers
 
-### 🏠 [Homepage](https://xxx)
+### 🏠 [Homepage](https://graf-gopher.github.io/portfolio.angular/)
 
-### ✨ [Demo](https://xxx)
+### ✨ [Demo](https://graf-gopher.github.io/portfolio.angular/)
 
 ## Prerequisites
 

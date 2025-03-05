@@ -26,7 +26,7 @@
             @for(content of page.es.else; track content){
             <div class="item">
                 <svg class="image">
-                    <use [attr.xlink:href]="'/assets/images/pages/' + content.image + '.svg#icon'" />
+                    <use [attr.xlink:href]="'assets/images/pages/' + content.image + '.svg#icon'" />
                 </svg>
                 <h3 class="title">{{ content.title | datalang }}</h3>
                 <p class="text">{{ content.text | datalang }}</p>

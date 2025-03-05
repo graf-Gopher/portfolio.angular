@@ -1,15 +1,16 @@
 // Module imports
 import { Injectable } from "@angular/core";
 import { ActivatedRouteSnapshot, RouterStateSnapshot } from "@angular/router";
-import { CookieService, HttpService, LangService, SEOService } from "ngx-ute-core";
+import { CookieService, HttpService, SEOService } from "ngx-ute-core";
 
 // Project imports
 import { environment } from "@environments/environment";
 import { SeoPageData } from "@interfaces/page";
+import { SessionData } from "../interfaces/env";
 
 @Injectable({ providedIn: "root" })
 export class CanActivatePage {
-    constructor(private readonly seoService: SEOService, private readonly httpService: HttpService, private readonly cookieService: CookieService, private readonly langService: LangService) {}
+    constructor(private readonly seoService: SEOService, private readonly httpService: HttpService, private readonly cookieService: CookieService) {}
 
     /**
      * Guards the route to verify if the session has a theme.
@@ -22,10 +23,16 @@ export class CanActivatePage {
      * @returns a boolean indicating if the route can be activated.
      */
     async canActivate(route: ActivatedRouteSnapshot, state: RouterStateSnapshot) {
-        if (environment.session?.theme === undefined) {
-            environment.session = this.cookieService.get("SS");
-            if (environment.session?.locale !== this.langService.urlToTag()) {
-                this.langService.setLocale(environment.session.locale);
+        if (!environment.session?.theme) {
+            const session = this.cookieService.get("SS");
+            if (session) {
+                environment.session = session;
+            } else {
+                environment.session = {
+                    locale: environment.defLocale,
+                    theme: false,
+                } as SessionData;
+                this.cookieService.set("SS", environment.session);
             }
         }
 

@@ -45,6 +45,6 @@ export class HomePage {
         this.images = projects
             .filter((pd: ProjectData) => pd.date && this.page.ts.images.includes(pd.code))
             .sort((a: any, b: any) => this.page.ts.images.indexOf(a.code) - this.page.ts.images.indexOf(b.code))
-            .map((pd: ProjectData) => `/assets/images/projects/${pd.code}/${pd.image}`);
+            .map((pd: ProjectData) => `assets/images/projects/${pd.code}/${pd.image}`);
     }
 }

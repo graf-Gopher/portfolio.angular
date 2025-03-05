@@ -1,4 +1,4 @@
-import { EnvironmentData } from "@interfaces/env";
+import { EnvironmentData, SessionData } from "@interfaces/env";
 
 export const environment: EnvironmentData = {
     production: false,
@@ -6,7 +6,6 @@ export const environment: EnvironmentData = {
     localeList: ["en-EN", "uk-UA"],
     defLocale: "en-EN",
 
-    session: {} as any,
+    session: {} as SessionData,
     ssr: false,
-    gtag: "G-YH14BJDS30",
 };

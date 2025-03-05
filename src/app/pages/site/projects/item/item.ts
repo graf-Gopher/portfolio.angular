@@ -49,8 +49,8 @@ export class ProjectsItemPage {
         const lightboxGallery: any[] = this.itemData.images.map((md: string) => {
             return {
                 code: md,
-                src: `/assets/images/projects/${this.itemData.code}/${md.replace("_min", "")}`,
-                thumb: `/assets/images/projects/${this.itemData.code}/${md}`,
+                src: `assets/images/projects/${this.itemData.code}/${md.replace("_min", "")}`,
+                thumb: `assets/images/projects/${this.itemData.code}/${md}`,
             };
         });
         const index: number = lightboxGallery.map((md: any) => md.code).indexOf(image);

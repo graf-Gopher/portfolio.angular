@@ -1,7 +1,7 @@
 {
   "name": "portfolio.angular",
   "title": "Developer Portfolio",
-  "version": "0.0.1-dev.28",
+  "version": "1.0.0",
   "description": "Portfolio for developers",
   "author": {
     "name": "graf Gopher",
@@ -17,8 +17,8 @@
       "linkedin": "under-tree-e"
     }
   ],
-  "homepage": "https://xxx",
-  "demopage": "https://xxx",
+  "homepage": "https://graf-gopher.github.io/portfolio.angular/",
+  "demopage": "https://graf-gopher.github.io/portfolio.angular/",
   "repository": {
     "type": "git",
     "url": "https://github.com/graf-Gopher/portfolio.angular"
@@ -40,10 +40,10 @@
     "start": "ng serve",
     "watch": "ng build --watch --configuration development",
     "build": "ng build",
+    "git-build": "ng build --base-href=/portfolio.angular/",
     "ssr": "ng run portfolio.angular:ssr",
     "server": "node dist/portfolio.angular/server/main.js",
     "sonar:scan": "docker run -it --network=databases_default --rm -v $(pwd):/usr/src sonarsource/sonar-scanner-cli",
-    "extract:styles": "node gulpfile.js",
     "---": "INSTALL",
     "init": "npm install ts-node --save-dev && npx ts-node node_scripts --init",
     "load": "npm i --force",
@@ -51,10 +51,11 @@
     "rebuild": "npm rebuild",
     "----": "NODE SCRIPTS",
     "ns-scan": "npx ts-node node_scripts --scan",
+    "ns-readme": "npx ts-node node_scripts --readme",
     "ns-help": "npx ts-node node_scripts --help",
     "ns-build": "npx ts-node node_scripts --build",
     "ns-publish": "npx ts-node node_scripts --publish",
-    "git-publish": "angular-cli-ghpages --repo=https://github.com/graf-Gopher/portfolio.angular.git --dir=dist/portfolio.angular/browser --no-silent --base-href=/portfolio.angular/",
+    "git-publish": "angular-cli-ghpages --repo=https://github.com/graf-Gopher/portfolio.angular.git --dir=dist/portfolio.angular/browser --no-silent",
     "-----": "VERSIONS",
     "major-update": "npm version major --no-git-tag-version",
     "minor-update": "npm version minor --no-git-tag-version",

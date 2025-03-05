@@ -1,0 +1,3 @@
+Sitemap: https://graf-gopher.github.io/portfolio.angular/sitemap.xml
+User-agent: *
+Disallow:
