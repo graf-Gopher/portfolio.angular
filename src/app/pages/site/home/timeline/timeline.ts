@@ -6,14 +6,12 @@ import { CoreService, DataLangPipe, LangPipe, LangRouter } from "ngx-ute-core";
 import { RouterModule } from "@angular/router";
 
 // Project imports
-import { SiteHeader } from "@shared/site/header/header";
-import { SiteFooter } from "@shared/site/footer/footer";
 import { ProjectData } from "@interfaces/projects";
 
 @Component({
     selector: "app-home-timeline",
     standalone: true,
-    imports: [SiteHeader, SiteFooter, MatIconModule, AsyncPipe, LangPipe, DataLangPipe, RouterModule, LangRouter, SlicePipe],
+    imports: [MatIconModule, AsyncPipe, LangPipe, DataLangPipe, RouterModule, LangRouter, SlicePipe],
     templateUrl: "./timeline.html",
     styleUrl: "./timeline.scss",
 })

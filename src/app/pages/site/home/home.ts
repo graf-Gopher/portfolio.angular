@@ -1,7 +1,7 @@
 // Module imports
 import { Component } from "@angular/core";
 import { MatIconModule } from "@angular/material/icon";
-import { AsyncPipe, SlicePipe } from "@angular/common";
+import { AsyncPipe } from "@angular/common";
 import { CoreService, DataLangPipe, LangPipe, LangRouter } from "ngx-ute-core";
 import { ActivatedRoute, RouterModule } from "@angular/router";
 
@@ -14,7 +14,7 @@ import { TimelinePage } from "./timeline/timeline";
 @Component({
     selector: "app-home",
     standalone: true,
-    imports: [SiteHeader, SiteFooter, MatIconModule, AsyncPipe, LangPipe, DataLangPipe, RouterModule, LangRouter, SlicePipe, TimelinePage],
+    imports: [SiteHeader, SiteFooter, MatIconModule, AsyncPipe, LangPipe, DataLangPipe, RouterModule, LangRouter, TimelinePage],
     templateUrl: "./home.html",
     styleUrl: "./home.scss",
 })

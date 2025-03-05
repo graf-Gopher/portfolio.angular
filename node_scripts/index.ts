@@ -11,7 +11,6 @@ import InitiatorService from "./initiator.script";
 import config from "./config.json";
 import { spawn } from "child_process";
 import ScanScript from "./scan.script";
-import ScssScript from "scss.script";
 
 class NodeScripts {
     private readonly packScript: PackScript = new PackScript();
@@ -21,7 +20,6 @@ class NodeScripts {
     private readonly mobileScript: MobileScript = new MobileScript(this.command);
     private readonly initScript: InitiatorService = new InitiatorService(this.command);
     private readonly scanScript: ScanScript = new ScanScript(this.command);
-    private readonly scssScript: ScssScript = new ScssScript();
 
     constructor() {
         let noArg: boolean = true;

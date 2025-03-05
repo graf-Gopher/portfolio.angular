@@ -1,7 +1,7 @@
 {
   "name": "portfolio.angular",
   "title": "Developer Portfolio",
-  "version": "0.0.1-dev.25",
+  "version": "0.0.1-dev.26",
   "description": "Portfolio for developers",
   "author": {
     "name": "graf Gopher",
@@ -40,8 +40,8 @@
     "start": "ng serve",
     "watch": "ng build --watch --configuration development",
     "build": "ng build",
-    "ssr": "ng run under_tree.angular:ssr",
-    "server": "node dist/under_tree.angular/server/main.js",
+    "ssr": "ng run portfolio.angular:ssr",
+    "server": "node dist/portfolio.angular/server/main.js",
     "sonar:scan": "docker run -it --network=databases_default --rm -v $(pwd):/usr/src sonarsource/sonar-scanner-cli",
     "extract:styles": "node gulpfile.js",
     "---": "INSTALL",
