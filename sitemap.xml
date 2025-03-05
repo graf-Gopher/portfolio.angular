@@ -1,12 +1,247 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-
-  <url>
-    <loc>https://graf-gopher.github.io/portfolio.angular/</loc>
-    <changefreq>yearly</changefreq>
-    <priority>1.0</priority>
-  </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<!--
+Created with IncludeHelp XML Sitemap Generator
+https://www.includehelp.com/tools/xml-sitemap-generator.aspx
+ -->
+<url>
+	<loc>https://graf-gopher.github.io/portfolio.angular/</loc>
+	<lastmod>2025-03-05</lastmod>
+	<changefreq>weekly</changefreq>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://graf-gopher.github.io/portfolio.angular/projects</loc>
+	<lastmod>2025-03-05</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.9</priority>
+</url>
+<url>
+	<loc>https://graf-gopher.github.io/portfolio.angular/skills</loc>
+	<lastmod>2025-03-05</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.9</priority>
+</url>
+<url>
+	<loc>https://graf-gopher.github.io/portfolio.angular/contacts</loc>
+	<lastmod>2025-03-05</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.9</priority>
+</url>
+<url>
+	<loc>https://graf-gopher.github.io/portfolio.angular/about</loc>
+	<lastmod>2025-03-05</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.9</priority>
+</url>
+<url>
+	<loc>https://graf-gopher.github.io/portfolio.angular/docs/policy</loc>
+	<lastmod>2025-03-05</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://graf-gopher.github.io/portfolio.angular/docs/terms</loc>
+	<lastmod>2025-03-05</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://graf-gopher.github.io/portfolio.angular/docs/cookie</loc>
+	<lastmod>2025-03-05</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://graf-gopher.github.io/portfolio.angular/projects/ewac</loc>
+	<lastmod>2025-03-05</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://graf-gopher.github.io/portfolio.angular/projects/usaid</loc>
+	<lastmod>2025-03-05</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://graf-gopher.github.io/portfolio.angular/projects/car_rent</loc>
+	<lastmod>2025-03-05</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://graf-gopher.github.io/portfolio.angular/projects/vlasova</loc>
+	<lastmod>2025-03-05</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://graf-gopher.github.io/portfolio.angular/projects/ute_server</loc>
+	<lastmod>2025-03-05</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://graf-gopher.github.io/portfolio.angular/projects/portfolio</loc>
+	<lastmod>2025-03-05</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://graf-gopher.github.io/portfolio.angular/projects/nabilo</loc>
+	<lastmod>2025-03-05</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://graf-gopher.github.io/portfolio.angular/projects/applic_server</loc>
+	<lastmod>2025-03-05</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://graf-gopher.github.io/portfolio.angular/projects/ute_material</loc>
+	<lastmod>2025-03-05</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://graf-gopher.github.io/portfolio.angular/projects/commun_board</loc>
+	<lastmod>2025-03-05</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://graf-gopher.github.io/portfolio.angular/projects/metal_shop</loc>
+	<lastmod>2025-03-05</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://graf-gopher.github.io/portfolio.angular/projects/box_catering</loc>
+	<lastmod>2025-03-05</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://graf-gopher.github.io/portfolio.angular/projects/applic</loc>
+	<lastmod>2025-03-05</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://graf-gopher.github.io/portfolio.angular/projects/maystrinya</loc>
+	<lastmod>2025-03-05</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://graf-gopher.github.io/portfolio.angular/projects/todo</loc>
+	<lastmod>2025-03-05</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://graf-gopher.github.io/portfolio.angular/projects/e_zayava</loc>
+	<lastmod>2025-03-05</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://graf-gopher.github.io/portfolio.angular/projects/flagman</loc>
+	<lastmod>2025-03-05</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://graf-gopher.github.io/portfolio.angular/projects/shift_tasks</loc>
+	<lastmod>2025-03-05</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://graf-gopher.github.io/portfolio.angular/projects/artel_io</loc>
+	<lastmod>2025-03-05</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://graf-gopher.github.io/portfolio.angular/projects/artel_ua</loc>
+	<lastmod>2025-03-05</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://graf-gopher.github.io/portfolio.angular/projects/academy_dtek</loc>
+	<lastmod>2025-03-05</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://graf-gopher.github.io/portfolio.angular/projects/garage_scheduler</loc>
+	<lastmod>2025-03-05</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://graf-gopher.github.io/portfolio.angular/projects/online_summit</loc>
+	<lastmod>2025-03-05</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://graf-gopher.github.io/portfolio.angular/projects/hwtf</loc>
+	<lastmod>2025-03-05</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://graf-gopher.github.io/portfolio.angular/projects/maystrinya_server</loc>
+	<lastmod>2025-03-05</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://graf-gopher.github.io/portfolio.angular/projects/hwtf_site</loc>
+	<lastmod>2025-03-05</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://graf-gopher.github.io/portfolio.angular/projects/life_game_studios</loc>
+	<lastmod>2025-03-05</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://graf-gopher.github.io/portfolio.angular/projects/guepard</loc>
+	<lastmod>2025-03-05</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://graf-gopher.github.io/portfolio.angular/projects/game_adventure</loc>
+	<lastmod>2025-03-05</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://graf-gopher.github.io/portfolio.angular/projects/epic_radio</loc>
+	<lastmod>2025-03-05</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://graf-gopher.github.io/portfolio.angular/projects/white_imp</loc>
+	<lastmod>2025-03-05</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://graf-gopher.github.io/portfolio.angular/projects/cnt</loc>
+	<lastmod>2025-03-05</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.6</priority>
+</url>
 </urlset>
